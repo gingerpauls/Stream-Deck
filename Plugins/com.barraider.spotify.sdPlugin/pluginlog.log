@@ -858,3 +858,27 @@
 2023-02-05 13:15:01.3699|INFO|com.barraider.spotify|18|Fetched song info: I Got A Skateboard
 2023-02-05 13:15:02.3528|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
 2023-02-05 13:15:02.4525|INFO|com.barraider.spotify|8|IsUserTrack is False for spotify:track:3p6Bl5E76sqGuaO058Mpif
+2023-02-05 13:17:08.5635|INFO|com.barraider.spotify|7|Fetched song info: I Never Want Stop
+2023-02-05 13:17:09.5160|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 13:17:09.6088|INFO|com.barraider.spotify|6|IsUserTrack is True for spotify:track:4zsRaJIEQgnAeXwln3txEV
+2023-02-05 13:19:52.7676|INFO|com.barraider.spotify|8|Fetched song info: Jazzy Rhapsody
+2023-02-05 13:19:52.8194|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 13:19:52.9291|INFO|com.barraider.spotify|16|IsUserTrack is False for spotify:track:4fUsjHbjkSHP1wD8Z79ZmU
+2023-02-05 13:21:46.7656|DEBUG|com.barraider.spotify|16|[16] SpotifyQuery: Total Playback Requests: 13200
+2023-02-05 13:21:46.9819|INFO|com.barraider.spotify|16|Fetched song info: French Groove
+2023-02-05 13:21:47.7607|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 13:21:47.8599|INFO|com.barraider.spotify|16|IsUserTrack is False for spotify:track:6szTs9ZUPrsLZ6WLwEP6eg
+2023-02-05 13:22:26.9246|WARN|com.barraider.spotify|16|[16] SpotifyQueryInternal returned with StatusCode: Unauthorized. Token: [BQCaAPG]
+2023-02-05 13:22:26.9246|INFO|com.barraider.spotify|16|[16] RefreshTokens Called
+2023-02-05 13:22:27.0792|INFO|com.barraider.spotify|18|[18] GetSpotifyToken Succeeded!
+2023-02-05 13:22:27.0792|INFO|com.barraider.spotify|18|[18] Initializing Tokens
+2023-02-05 13:22:27.0792|INFO|com.barraider.spotify|18|GlobalSettingsManager::SetGlobalSettings called
+2023-02-05 13:22:27.0792|INFO|com.barraider.spotify|18|[18] New token saved [BQDXjKY]. Last refresh date was: Token: 2023-02-05 1:22:27 PM Auth: 0001-01-01 12:00:00 AM
+2023-02-05 13:22:27.0792|INFO|com.barraider.spotify|18|BarRaider.Spotify.OAuthTokenListener Listener stopped
+2023-02-05 13:22:27.3899|INFO|com.barraider.spotify|5|GlobalSettingsManager::GetGlobalSettingsAsync triggered
+2023-02-05 13:22:27.3899|INFO|com.barraider.spotify|18|[18] LoadAuth called
+2023-02-05 13:22:27.3899|INFO|com.barraider.spotify|18|In SetAPIAuth
+2023-02-05 13:22:27.3899|INFO|com.barraider.spotify|18|[18] Token initialized [BQDXjKY]. Last refresh date was: 2023-02-05 1:22:27 PM
+2023-02-05 13:22:27.3899|INFO|com.barraider.spotify|18|[18] Initializing Tokens
+2023-02-05 13:22:27.3899|INFO|com.barraider.spotify|18|BarRaider.Spotify.OAuthTokenListener Listener stopped
+2023-02-05 13:22:32.0915|INFO|com.barraider.spotify|10|BarRaider.Spotify.TokenManager CheckVersion in cooldown.
