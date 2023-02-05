@@ -1,0 +1,148 @@
+{
+  "Description": "Contrôlez le tableau de bord Streamlabs.", 
+  "Name": "Streamlabs", 
+  "com.elgato.streamlabs.alert": {
+    "Name": "Tester l’alerte", 
+    "Tooltip": "Tester l’alerte"
+  }, 
+  "com.elgato.streamlabs.alert.mute": {
+    "Name": "Désactiver les alertes", 
+    "Tooltip": "Désactiver les alertes",
+    "States": [
+        {
+		  "Name": "Couper le son"
+        }, 
+        {
+		  "Name": "Activer le son"
+        }
+      ]
+  }, 
+  "com.elgato.streamlabs.alert.pause": {
+    "Name": "Suspendre les alertes", 
+    "Tooltip": "Suspendre les alertes",
+    "States": [
+        {
+		  "Name": "Pause"
+        }, 
+        {
+		  "Name": "Reprendre"
+        }
+      ]
+  }, 
+  "com.elgato.streamlabs.alert.skip": {
+    "Name": "Ignorer l’alerte", 
+    "Tooltip": "Ignorer l’alerte"
+  }, 
+  "com.elgato.streamlabs.changeprofile": {
+    "Name": "Changer de profil", 
+    "Tooltip": "Changer de profil"
+  }, 
+  "com.elgato.streamlabs.emptyjar": {
+    "Name": "Vider le pot", 
+    "Tooltip": "Videz votre pot pour pouvoir recevoir d’autres dons"
+  }, 
+  "com.elgato.streamlabs.playcredits": {
+    "Name": "Afficher les crédits", 
+    "Tooltip": "Afficher les crédits"
+  }, 
+  "com.elgato.streamlabs.spinwheel": {
+    "Name": "Tourner la roue", 
+    "Tooltip": "Faites tourne la roue de la chance"
+  },
+  "com.elgato.streamlabs.media.skip": {
+    "Name": "Ignorer le média", 
+    "Tooltip": "Passer au média suivant"
+  },
+  "com.elgato.streamlabs.media.playback": {
+    "Name": "Média précédent", 
+    "Tooltip": "Revenir au média précédent"
+  },
+  "com.elgato.streamlabs.media.volume": {
+    "Name": "Modifier le volume", 
+    "Tooltip": "Modifier le volume du média"
+  },
+  "com.elgato.streamlabs.media.pause": {
+    "Name": "Mettre en pause le média", 
+    "Tooltip": "Suspendre/Lancer la lecture du média actuel",
+    "States": [
+        {
+		  "Name": "Pause"
+        }, 
+        {
+		  "Name": "Reprendre"
+        }
+      ]
+  }, 
+  "com.elgato.streamlabs.media.request": {
+    "Name": "Activer/Désactiver les demandes", 
+    "Tooltip": "Activer/Désactiver les nouvelles demandes de médias",
+    "States": [
+        {
+		  "Name": "Activer"
+        }, 
+        {
+		  "Name": "Désactiver"
+        }
+      ]
+  }, 
+  "com.elgato.streamlabs.media.autoplay": {
+    "Name": "Activer/Désactiver la lecture automatique", 
+    "Tooltip": "Activer/Désactiver la lecture automatique des médias successifs",
+    "States": [
+        {
+		  "Name": "Activer"
+        }, 
+        {
+		  "Name": "Désactiver"
+        }
+      ]
+  }, 
+  "com.elgato.streamlabs.media.autoshow": {
+    "Name": "Activer/Désactiver l’affichage automatique", 
+    "Tooltip": "Afficher/Masquer le média actuel",
+    "States": [
+        {
+		  "Name": "Activer"
+        }, 
+        {
+		  "Name": "Désactiver"
+        }
+      ]
+  }, 
+  "com.elgato.streamlabs.media.moderation": {
+    "Name": "Activer/Désactiver la modération", 
+    "Tooltip": "Activer/Désactiver la modération sur le média demandé",
+    "States": [
+        {
+		  "Name": "Activer"
+        }, 
+        {
+		  "Name": "Désactiver"
+        }
+      ]
+  }, 
+  "com.elgato.streamlabs.media.backuplist": {
+    "Name": "Activer/Désactiver la liste de sauvegarde", 
+    "Tooltip": "Activer/Désactiver l’utilisation de la playlist de sauvegarde lorsque la file d’attente est vide",
+    "States": [
+        {
+		  "Name": "Activer"
+        }, 
+        {
+		  "Name": "Désactiver"
+        }
+      ]
+  }, 
+  "Localization": {
+    "PI": {
+      "Account": "Compte",
+      "NoAccounts": "Aucun compte",
+      "AddAccount": "Ajouter",
+      "Profile": "Profil",
+      "Action": "Action",
+      "VolumeUp": "Augmenter",
+      "VolumeDown": "Réduire",
+      "LiveWarning": "Fonctionnement uniquement lorsque vous êtes en direct"
+    }
+  }
+}

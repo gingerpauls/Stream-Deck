@@ -1,0 +1,79 @@
+2023-02-03 08:31:29.5545|DEBUG|com.barraider.twitchtools|1|Logger Initialized
+2023-02-03 08:31:29.6373|INFO|com.barraider.twitchtools|1|Plugin [com.barraider.twitchtools] Loading - 16 Actions Found
+2023-02-03 08:31:30.1590|DEBUG|com.barraider.twitchtools|1|Plugin Loaded: UUID: 984491A1FA1EC28B0098B287EF55F2A9 Device Info: Devices:
+[Id: 689AA4D1892962FC46356E9F4E6954E2 Type: StreamDeckMobile Size: Rows: 3 Columns: 5]
+ApplicationInfo: Language: en Platform: windows Version: 6.0.2.17735
+PluginInfo: Version: 3.1
+
+2023-02-03 08:31:30.1590|INFO|com.barraider.twitchtools|1|Plugin version: 3.1
+2023-02-03 08:31:30.1590|INFO|com.barraider.twitchtools|1|Connecting to Stream Deck...
+2023-02-03 08:31:32.2923|INFO|com.barraider.twitchtools|1|Connected to Stream Deck
+2023-02-03 08:31:32.2923|INFO|com.barraider.twitchtools|1|GlobalSettingsManager initialized
+2023-02-03 18:06:28.5855|DEBUG|com.barraider.twitchtools|1|Logger Initialized
+2023-02-03 18:06:28.6363|INFO|com.barraider.twitchtools|1|Plugin [com.barraider.twitchtools] Loading - 16 Actions Found
+2023-02-03 18:06:29.1500|DEBUG|com.barraider.twitchtools|1|Plugin Loaded: UUID: 6BE5264797AD88E2441D3DCD8CF21248 Device Info: Devices:
+[Id: 689AA4D1892962FC46356E9F4E6954E2 Type: StreamDeckMobile Size: Rows: 3 Columns: 5]
+ApplicationInfo: Language: en Platform: windows Version: 6.0.2.17735
+PluginInfo: Version: 3.1
+
+2023-02-03 18:06:29.1500|INFO|com.barraider.twitchtools|1|Plugin version: 3.1
+2023-02-03 18:06:29.1500|INFO|com.barraider.twitchtools|1|Connecting to Stream Deck...
+2023-02-03 18:06:31.2065|INFO|com.barraider.twitchtools|1|Connected to Stream Deck
+2023-02-03 18:06:31.2065|INFO|com.barraider.twitchtools|1|GlobalSettingsManager initialized
+2023-02-03 18:57:41.3877|DEBUG|com.barraider.twitchtools|34|[34] FullScreenAlertAction loading
+2023-02-03 18:57:41.3917|INFO|com.barraider.twitchtools|34|GlobalSettingsManager::RequestGlobalSettings called
+2023-02-03 18:57:41.3917|INFO|com.barraider.twitchtools|34|GlobalSettingsManager::RequestGlobalSettings called
+2023-02-03 18:57:41.4196|DEBUG|com.barraider.twitchtools|34|[34] FullScreenAlertAction loading
+2023-02-03 18:57:41.4196|DEBUG|com.barraider.twitchtools|34|[34] FullScreenAlertAction loading
+2023-02-03 18:57:41.4196|DEBUG|com.barraider.twitchtools|34|[34] FullScreenAlertAction loading
+2023-02-03 18:57:41.4196|DEBUG|com.barraider.twitchtools|34|[34] FullScreenAlertAction loading
+2023-02-03 18:57:41.4196|DEBUG|com.barraider.twitchtools|34|[34] FullScreenAlertAction loading
+2023-02-03 18:57:41.4196|DEBUG|com.barraider.twitchtools|34|[34] FullScreenAlertAction loading
+2023-02-03 18:57:41.4196|DEBUG|com.barraider.twitchtools|34|[34] FullScreenAlertAction loading
+2023-02-03 18:57:41.4196|DEBUG|com.barraider.twitchtools|34|[34] FullScreenAlertAction loading
+2023-02-03 18:57:41.4196|DEBUG|com.barraider.twitchtools|34|[34] FullScreenAlertAction loading
+2023-02-03 18:57:41.4196|DEBUG|com.barraider.twitchtools|34|[34] FullScreenAlertAction loading
+2023-02-03 18:57:41.4196|DEBUG|com.barraider.twitchtools|34|[34] FullScreenAlertAction loading
+2023-02-03 18:57:41.4196|DEBUG|com.barraider.twitchtools|34|[34] FullScreenAlertAction loading
+2023-02-03 18:57:41.4196|DEBUG|com.barraider.twitchtools|34|[34] FullScreenAlertAction loading
+2023-02-03 18:57:41.4196|DEBUG|com.barraider.twitchtools|34|[34] FullScreenAlertAction loading
+2023-02-03 18:57:41.4455|ERROR|com.barraider.twitchtools|32|Invalid AutoStopPage value: 
+2023-02-03 18:57:41.4455|INFO|com.barraider.twitchtools|32|Token initialized. Last refresh date was: 2022-12-17 11:05:25 AM Token Size: 30
+2023-02-03 18:57:41.4455|INFO|com.barraider.twitchtools|32|TwitchTokenManager raising new token change. Token Size: 30
+2023-02-03 18:57:41.4455|INFO|com.barraider.twitchtools|32|Tokens changed, reconnecting
+2023-02-03 18:57:41.4455|INFO|com.barraider.twitchtools|32|TwitchChat: Connect called
+2023-02-03 18:57:41.4455|INFO|com.barraider.twitchtools|32|TwitchChat: Attempting to disconnect
+2023-02-03 18:57:41.5328|INFO|com.barraider.twitchtools|32|TwitchChat: Attempting to connect
+2023-02-03 18:57:41.6330|INFO|com.barraider.twitchtools|32|ChatPager.Backend.OAuthTokenListener Listener stopped
+2023-02-03 18:57:41.6330|ERROR|com.barraider.twitchtools|33|Invalid AutoStopPage value: 
+2023-02-03 18:57:41.6330|INFO|com.barraider.twitchtools|33|LoadToken called for EXISTING token. Token Size: 30
+2023-02-03 18:57:41.6330|ERROR|com.barraider.twitchtools|33|Invalid AutoStopPage value: 
+2023-02-03 18:57:41.6330|INFO|com.barraider.twitchtools|33|LoadToken called for EXISTING token. Token Size: 30
+2023-02-03 18:57:41.6330|ERROR|com.barraider.twitchtools|33|Invalid AutoStopPage value: 
+2023-02-03 18:57:41.6330|INFO|com.barraider.twitchtools|33|LoadToken called for EXISTING token. Token Size: 30
+2023-02-03 18:57:41.6330|ERROR|com.barraider.twitchtools|33|Invalid AutoStopPage value: 
+2023-02-03 18:57:41.6330|INFO|com.barraider.twitchtools|33|LoadToken called for EXISTING token. Token Size: 30
+2023-02-03 18:57:41.6330|ERROR|com.barraider.twitchtools|33|Invalid AutoStopPage value: 
+2023-02-03 18:57:41.6330|INFO|com.barraider.twitchtools|33|LoadToken called for EXISTING token. Token Size: 30
+2023-02-03 18:57:41.6330|ERROR|com.barraider.twitchtools|33|Invalid AutoStopPage value: 
+2023-02-03 18:57:41.6330|INFO|com.barraider.twitchtools|33|LoadToken called for EXISTING token. Token Size: 30
+2023-02-03 18:57:41.6330|ERROR|com.barraider.twitchtools|33|Invalid AutoStopPage value: 
+2023-02-03 18:57:41.6330|INFO|com.barraider.twitchtools|33|LoadToken called for EXISTING token. Token Size: 30
+2023-02-03 18:57:41.6330|ERROR|com.barraider.twitchtools|33|Invalid AutoStopPage value: 
+2023-02-03 18:57:41.6330|INFO|com.barraider.twitchtools|33|LoadToken called for EXISTING token. Token Size: 30
+2023-02-03 18:57:41.6400|ERROR|com.barraider.twitchtools|33|Invalid AutoStopPage value: 
+2023-02-03 18:57:41.6400|INFO|com.barraider.twitchtools|33|LoadToken called for EXISTING token. Token Size: 30
+2023-02-03 18:57:41.6400|ERROR|com.barraider.twitchtools|33|Invalid AutoStopPage value: 
+2023-02-03 18:57:41.6400|INFO|com.barraider.twitchtools|33|LoadToken called for EXISTING token. Token Size: 30
+2023-02-03 18:57:41.6400|ERROR|com.barraider.twitchtools|33|Invalid AutoStopPage value: 
+2023-02-03 18:57:41.6400|INFO|com.barraider.twitchtools|33|LoadToken called for EXISTING token. Token Size: 30
+2023-02-03 18:57:41.6400|ERROR|com.barraider.twitchtools|33|Invalid AutoStopPage value: 
+2023-02-03 18:57:41.6400|INFO|com.barraider.twitchtools|33|LoadToken called for EXISTING token. Token Size: 30
+2023-02-03 18:57:41.6400|ERROR|com.barraider.twitchtools|33|Invalid AutoStopPage value: 
+2023-02-03 18:57:41.6400|INFO|com.barraider.twitchtools|33|LoadToken called for EXISTING token. Token Size: 30
+2023-02-03 18:57:41.6400|ERROR|com.barraider.twitchtools|33|Invalid AutoStopPage value: 
+2023-02-03 18:57:41.6400|INFO|com.barraider.twitchtools|33|LoadToken called for EXISTING token. Token Size: 30
+2023-02-03 18:57:41.7043|INFO|com.barraider.twitchtools|27|GlobalSettingsManager::GetGlobalSettingsAsync triggered
+2023-02-03 18:57:41.7043|ERROR|com.barraider.twitchtools|33|Invalid AutoStopPage value: 
+2023-02-03 18:57:41.7043|INFO|com.barraider.twitchtools|33|LoadToken called for EXISTING token. Token Size: 30
+2023-02-03 18:57:41.8549|INFO|com.barraider.twitchtools|32|Connected to chat room: 

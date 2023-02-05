@@ -1,0 +1,29 @@
+.sdpi-item-value.volume-range {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#volume {
+	width: 80%;
+    margin-right: 20px;
+}
+
+.volume-range {
+	margin-top: 5px;
+}
+
+.volume-range .volume-percent {
+	background-color: var(--sd-input-background);
+	padding: 5px 8px;
+	border-radius: 2px;
+}
+
+.settings-toggle {
+	margin: 0;
+    margin-left: 90px;
+	min-height: 0;
+	display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}

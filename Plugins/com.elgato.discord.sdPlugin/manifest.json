@@ -1,0 +1,122 @@
+{
+  "Actions": [
+    {
+      "Icon": "images/icons/mute_white", 
+      "Name": "Mute", 
+      "States": [
+        {
+          "Image": "images/actions/mute_0",
+          "Name": "Mute"
+        },
+        {
+          "Image": "images/actions/mute_1",
+          "Name": "Unmute"
+        }
+      ], 
+      "Tooltip": "", 
+      "UUID": "com.elgato.discord.mute"
+    },
+    {
+      "Icon": "images/icons/deafen_white", 
+      "Name": "Deafen", 
+      "States": [
+        {
+          "Image": "images/actions/deafen_0",
+          "Name": "Deafen"
+        },
+        {
+          "Image": "images/actions/deafen_1",
+          "Name": "Undeafen"
+        }
+      ], 
+      "Tooltip": "", 
+      "UUID": "com.elgato.discord.deafen"
+    },
+    {
+      "Icon": "images/icons/voicechannel_white",
+      "Name": "Voice Channel",
+      "States": [
+        {
+          "Image": "images/actions/voicechannel_0",
+          "Name": "Enter"
+        },
+        {
+          "Image": "images/actions/voicechannel_1",
+          "Name": "Leave"
+        }
+      ],
+      "Tooltip": "",
+      "UUID": "com.elgato.discord.channel.voice"
+    },
+    {
+      "Icon": "images/icons/textchannel_white",
+      "Name": "Text Channel",
+      "States": [
+        {
+          "Image": "images/actions/textchannel",
+          "Name": "Enter"
+        }
+      ],
+      "Tooltip": "",
+      "UUID": "com.elgato.discord.channel.text"
+    },
+    {
+      "Icon": "images/icons/pushtotalk_white",
+      "Name": "Push to Talk",
+      "States": [
+        {
+          "Image": "images/actions/pushtotalk_0"
+        },
+        {
+          "Image": "images/actions/pushtotalk_1"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "Tooltip": "",
+      "DisableAutomaticStates": true,
+      "UUID": "com.elgato.discord.pushto.talk"
+    },
+    {
+      "Icon": "images/icons/pushtomute_white",
+      "Name": "Push to Mute",
+      "States": [
+        {
+          "Image": "images/actions/pushtomute_0"
+        },
+        {
+          "Image": "images/actions/pushtomute_1"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "Tooltip": "",
+      "DisableAutomaticStates": true,
+      "UUID": "com.elgato.discord.pushto.mute"
+    }
+  ], 
+  "SDKVersion": 2,
+  "Author": "Elgato", 
+  "CodePathWin": "ESDDiscord.exe", 
+  "CodePathMac": "ESDDiscord", 
+  "Description": "Control Discord.", 
+  "Name": "Discord", 
+  "Icon": "images/plugin",
+  "Category": "Discord",
+  "CategoryIcon": "images/category",
+  "PropertyInspectorPath": "inspectors/index.html",
+  "URL": "https://www.elgato.com/gaming/stream-deck", 
+  "Version": "1.0.1",
+  "OS": [
+    {
+      "Platform": "mac",
+      "MinimumVersion": "10.14"
+    },
+    {
+      "Platform": "windows",
+      "MinimumVersion": "10"
+    }
+  ],
+  "Software": 
+  {
+    "MinimumVersion": "4.1"
+  }
+}

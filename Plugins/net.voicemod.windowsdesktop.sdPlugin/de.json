@@ -1,0 +1,116 @@
+{
+    "Description": "Der beste Echtzeit-„Voice Changer“ für Online-Spiele und Video-Streaming. Trollen Sie wie ein PROFI!",
+    "Name": "Voicemod",
+    "net.voicemod.windowsdesktop.addvoice": {
+        "Name": "Voice Changer",
+        "Tooltip": "Diese Aktion wählt eine Stimme aus"
+    },
+    "net.voicemod.windowsdesktop.voicechangerswitch": {
+        "Name": "Voice Changer On/Off",
+        "Tooltip": "Diese Aktion schaltet den „Voice Changer“ ein oder aus"
+    },
+    "net.voicemod.windowsdesktop.voicechangeron": {
+        "Name": "Voice Changer On",
+        "Tooltip": "Diese Aktion schaltet meine Stimme ein"
+    },
+    "net.voicemod.windowsdesktop.voicechangeroff": {
+        "Name": "Voice Changer Off",
+        "Tooltip": "Diese Aktion schaltet meine Stimme aus"
+    },
+    "net.voicemod.windowsdesktop.pushtotalk": {
+        "Name": "Zum Ändern der Stimme drücken",
+        "Tooltip": "Diese Aktion schaltet den Voice Changer ein und aus, während Sie die Tastatur drücken"
+    },
+    "net.voicemod.windowsdesktop.hearmyvoiceswitch": {
+        "Name": "Mich selbst h\u00f6ren On/Off",
+        "Tooltip": "Diese Aktion schaltet meine Stimme ein / aus"
+    },
+    "net.voicemod.windowsdesktop.hearmyvoiceon": {
+        "Name": "Hear my voice On",
+        "Tooltip": "Diese Aktion schaltet meine Stimme ein"
+    },
+    "net.voicemod.windowsdesktop.hearmyvoiceoff": {
+        "Name": "Hear my voice Off",
+        "Tooltip": "Diese Aktion schaltet meine Stimme aus"
+    },
+    "net.voicemod.windowsdesktop.backgroundswitch": {
+        "Name": "Hintergrundeffekte On/Off",
+        "Tooltip": "Mit dieser Aktion werden die Umgebungseffekte ein- oder ausgeschaltet"
+    },
+    "net.voicemod.windowsdesktop.muteswitch": {
+        "Name": "Mute On/Off",
+        "Tooltip": "Mit dieser Aktion wird das Mikrofon stummgeschaltet oder wieder aktiviert"
+    },
+    "net.voicemod.windowsdesktop.randomvoice": {
+        "Name": "Zufällige Stimme",
+        "Tooltip": "Diese Aktion wählt eine zufällige Stimme aus"
+    },
+    "net.voicemod.windowsdesktop.badlanguage": {
+        "Name": "Sofortiger Zensorton",
+        "Tooltip": "Diese Aktion schaltet das Mikrofon stumm und gibt einen Zensorton wieder"
+    },
+    "net.voicemod.windowsdesktop.pushtomemesound": {
+        "Name": "Soundboard",
+        "Tooltip": "Mit dieser Aktion wird eine Soundboard-Audiodatei abgespielt"
+    },
+    "net.voicemod.windowsdesktop.stopallsounds": {
+        "Name": "Alle Soundboard-Sounds stoppen",
+        "Tooltip": "Diese Aktion stoppt alle aktiven Soundboard-Sounds"
+    },
+    "net.voicemod.windowsdesktop.muteforme": {
+        "Name": "Stummschaltung für mich On/Off",
+        "Tooltip": "Diese Aktion schaltet den Ton für mich stumm/unstumm"
+    },
+    "Localization": {
+        "app-status": "App-Status:",
+        "retry-connection": "Es wird versucht, die Verbindung zu Voicemod wiederherzustellen",
+        "list-of-voices": "Voices list:",
+        "all-voices": "Alles",
+        "favorites-voices": "Favoriten",
+        "free-voices-label": "Freie Stimmen",
+        "maker-voices": "Maker",
+        "voices": "Stimmen:",
+        "no-element": "Keiner",
+        "install-voicemod-title": "VOICEMOD",
+        "install-voicemod-description": "ECHTZEIT-STIMMVERZERRER & SOUNDBOARD",
+        "install-voicemod-download": "JETZT DOWNLOADEN!",
+        "launch-voicemod": "⚠️Voicemod muss laufen⚠️",
+        "voicemod-is-running": "Voicemod läuft 👍",
+        "connecting-to-voicemod": "Mit Voicemod verbinden",
+        "voicemod-fail-to-connect": "Voicemod konnte keine Verbindung herstellen",
+        "install-voicemod-message": "Installieren Sie Voicemod & Troll wie ein PROFI! 😜",
+        "offer-fire": "🔥🔥🔥",
+        "offer-line-1": "Immer noch kein Voicemod PRO-Benutzer? 🤔",
+        "offer-line-2": "Klicken Sie hier, um Ihr Sonderangebot anzuzeigen 🤑",
+        "start-app": "Start! 🚀",
+        "skin":"Skin:",
+        "tune":"Tune:",
+        "soundboard": "Soundboard",
+        "soundboard-soundboard-label": "Ton:",
+        "soundboard-profile-label": "Profil:",
+        "soundboard-mode-label": "Wiedergabe-Modus:",
+        "soundboard-volume-label": "Lautstärke:",
+        "soundboard-loop-label": "Schleife",
+        "soundboard-mute-sounds-label": "Andere Töne stummschalten",
+        "soundboard-mute-voice-label": "Stimme stummschalten",
+        "soundboard-category-label": "Kategorien",
+        "soundboard-input-select-category": "Wählen Sie eine Kategorie",
+        "soundboard-import-button": "Alle Töne importieren",
+        "soundboard-input-select-voice": "Wählen Sie eine Stimme",
+        "soundboard-input-select-profile": "Wählen Sie ein Profil",
+        "soundboard-input-select-sound": "Wählen Sie einen Ton",
+        "install-voicemod-v-2-button": "Voicemod v2 installieren",
+        "install-voicemod-v-2-alert": "Um diese Funktionalität nutzen zu können, müssen Sie Voicemod aktualisieren.",
+        "random-voices-label": "Zufällige Stimme",
+        "random-voice-option-all": "Alle Stimmen",
+        "random-voice-option-favorite": "Favoriten-Stimmen",
+        "random-voice-option-custom": "Voicelab-Stimmen",
+        "random-voice-option-fav-custom": "Favoriten- und Voicelab-Stimmen",
+        "playback-default": "Standard",
+        "playback-play-loop-on-press": "Loop auf Tastendruck",
+        "playback-play-overlap": "Abspielen - Überlagerung",
+        "playback-play-pause": "Abspielen - Pause",
+        "playback-play-restart": "Abspielen - Neustart",
+        "playback-play-stop": "Abspielen - Stopp"
+    }
+}

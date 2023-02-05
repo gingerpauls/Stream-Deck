@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,minimal-ui,viewport-fit=cover"
+		/>
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<title>com.elgato.volume-controller Property Inspector</title>
+		<link rel="stylesheet" href="../../../../../libs/css/sdpi.css" />
+	</head>
+	<body>
+		<div class="sdpi-wrapper">
+			<div
+				id="unable-to-connect"
+				style="
+					display: none;
+					text-align: center;
+					margin-left: 47px;
+					margin-top: 2px;
+					margin-bottom: 8px;
+				"
+			>
+				<h2 style="display: inline" data-localize>Unable to connect to the audio router.</h2>
+				<br />
+				<h5 style="display: inline" data-localize>
+					You can manually start the audio router by opening "C:\Program Files\Elgato\Volume
+					Controller\ElgatoAudioControlServer.exe".
+				</h5>
+			</div>
+			<div style="display: none" id="property-inspector"></div>
+		</div>
+
+		<div class="sdpi-info-label hidden" style="top: -1000" value=""></div>
+		<script src="../../../../../libs/js/utils.js"></script>
+		<script src="../../../../../libs/js/constants.js"></script>
+		<script src="../../../../../libs/js/events.js"></script>
+		<script src="../../../../../libs/js/api.js"></script>
+		<script src="../../../../../libs/js/property-inspector.js"></script>
+		<script src="../../../../../libs/js/dynamic-styles.js"></script>
+		<script src="../../../../../libs/js/prototypes.js"></script>
+
+		<script src="../../../../../shared/action.enum.js"></script>
+		<script src="inspector.js"></script>
+	</body>
+</html>

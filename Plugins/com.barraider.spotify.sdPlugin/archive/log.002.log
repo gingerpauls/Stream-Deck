@@ -1,0 +1,391 @@
+2023-02-02 10:07:38.6901|DEBUG|com.barraider.spotify|1|Logger Initialized
+2023-02-02 10:07:38.7485|INFO|com.barraider.spotify|1|Plugin [com.barraider.spotify] Loading - 16 Actions Found
+2023-02-02 10:07:39.1684|INFO|com.barraider.spotify|1|Plugin version: 2.9.1
+2023-02-02 10:07:39.1684|INFO|com.barraider.spotify|1|Connecting to Stream Deck
+2023-02-02 10:07:41.2488|INFO|com.barraider.spotify|1|Connected to Stream Deck
+2023-02-02 10:07:41.2508|INFO|com.barraider.spotify|1|GlobalSettingsManager initialized
+2023-02-02 10:07:41.3087|INFO|com.barraider.spotify|4|GlobalSettingsManager::RequestGlobalSettings called
+2023-02-02 10:07:41.3087|INFO|com.barraider.spotify|4|Action Loaded: Spotify.Actions.ChangePlaybackDeviceAction
+2023-02-02 10:07:41.3411|INFO|com.barraider.spotify|4|Devices MS: 63810929261341.1
+2023-02-02 10:07:41.3451|DEBUG|com.barraider.spotify|4|[4] SpotifyQuery: me/player/devices
+2023-02-02 10:07:41.3451|ERROR|com.barraider.spotify|4|[4] SpotifyQuery called without an access token
+2023-02-02 10:07:41.3451|WARN|com.barraider.spotify|4|me/player/devices returned Conflict: Message:  Reason: 
+2023-02-02 10:07:41.3451|INFO|com.barraider.spotify|4|Devices MS: 63810929261357.1
+2023-02-02 10:07:41.3451|DEBUG|com.barraider.spotify|4|[4] SpotifyQuery: me/player/devices
+2023-02-02 10:07:41.3451|ERROR|com.barraider.spotify|4|[4] SpotifyQuery called without an access token
+2023-02-02 10:07:41.3451|WARN|com.barraider.spotify|4|me/player/devices returned Conflict: Message:  Reason: 
+2023-02-02 10:07:41.4827|INFO|com.barraider.spotify|4|Action Loaded: Spotify.Actions.PlayPauseToggleAction
+2023-02-02 10:07:41.4917|INFO|com.barraider.spotify|4|Devices MS: 63810929261491.8
+2023-02-02 10:07:41.4917|DEBUG|com.barraider.spotify|4|[4] SpotifyQuery: me/player/devices
+2023-02-02 10:07:41.4917|ERROR|com.barraider.spotify|4|[4] SpotifyQuery called without an access token
+2023-02-02 10:07:41.4917|WARN|com.barraider.spotify|4|me/player/devices returned Conflict: Message:  Reason: 
+2023-02-02 10:07:41.5007|INFO|com.barraider.spotify|4|GlobalSettingsManager::RequestGlobalSettings called
+2023-02-02 10:07:41.5007|INFO|com.barraider.spotify|10|PlaybackInfoBackgroundWorker Start
+2023-02-02 10:07:41.5007|WARN|com.barraider.spotify|10|PlaybackInfoBackgroundWorker failed - No token - Retry: 3
+2023-02-02 10:07:41.5007|WARN|com.barraider.spotify|10|PlaybackInfoBackgroundWorker failed - No token - Retry: 2
+2023-02-02 10:07:41.5007|WARN|com.barraider.spotify|10|PlaybackInfoBackgroundWorker failed - No token - Retry: 1
+2023-02-02 10:07:41.5007|INFO|com.barraider.spotify|4|Devices MS: 63810929261503.7
+2023-02-02 10:07:41.5007|DEBUG|com.barraider.spotify|4|[4] SpotifyQuery: me/player/devices
+2023-02-02 10:07:41.5007|ERROR|com.barraider.spotify|4|[4] SpotifyQuery called without an access token
+2023-02-02 10:07:41.5007|WARN|com.barraider.spotify|4|me/player/devices returned Conflict: Message:  Reason: 
+2023-02-02 10:07:41.5007|ERROR|com.barraider.spotify|10|PlaybackInfoBackgroundWorker Failed - No retries left
+2023-02-02 10:07:41.5007|INFO|com.barraider.spotify|10|PlaybackInfoBackgroundWorker Exited
+2023-02-02 10:07:41.5007|INFO|com.barraider.spotify|4|Action Loaded: Spotify.Actions.NextSongAction
+2023-02-02 10:07:41.5007|INFO|com.barraider.spotify|4|Action Loaded: Spotify.Actions.PreviousSongAction
+2023-02-02 10:07:41.5166|INFO|com.barraider.spotify|4|Action Loaded: Spotify.Actions.LikeSongAction
+2023-02-02 10:07:41.6114|INFO|com.barraider.spotify|11|GlobalSettingsManager::GetGlobalSettingsAsync triggered
+2023-02-02 10:07:41.6363|INFO|com.barraider.spotify|8|[8] LoadAuth called
+2023-02-02 10:07:41.6363|INFO|com.barraider.spotify|8|In SetAPIAuth
+2023-02-02 10:07:41.6363|INFO|com.barraider.spotify|8|[8] SetAPIAuth called ClientId: 546d32f5e7f14f15b2fdce555e9bd5fe
+2023-02-02 10:07:41.6403|INFO|com.barraider.spotify|8|[8] Auth initialized. Last refresh date was: 0001-01-01 12:00:00 AM
+2023-02-02 10:07:41.6403|INFO|com.barraider.spotify|8|[8] Token initialized [BQAIPcN]. Last refresh date was: 2023-02-01 10:35:49 PM
+2023-02-02 10:07:41.6403|INFO|com.barraider.spotify|8|[8] Initializing Tokens
+2023-02-02 10:07:41.6403|INFO|com.barraider.spotify|8|[8] InitToken: Attempting to connect
+2023-02-02 10:07:41.6403|INFO|com.barraider.spotify|8|Force Connect called, attempting to reconnect
+2023-02-02 10:07:41.6403|INFO|com.barraider.spotify|4|PlaybackInfoBackgroundWorker Start
+2023-02-02 10:07:41.6403|INFO|com.barraider.spotify|8|BarRaider.Spotify.OAuthTokenListener Listener stopped
+2023-02-02 10:07:41.6403|INFO|com.barraider.spotify|8|Devices MS: 63810929261646.3
+2023-02-02 10:07:41.6403|DEBUG|com.barraider.spotify|8|[8] SpotifyQuery: me/player/devices
+2023-02-02 10:07:41.7660|WARN|com.barraider.spotify|7|[7] SpotifyQueryInternal returned with StatusCode: Unauthorized. Token: [BQAIPcN]
+2023-02-02 10:07:41.7660|INFO|com.barraider.spotify|7|[7] RefreshTokens Called
+2023-02-02 10:07:41.7660|WARN|com.barraider.spotify|13|[13] SpotifyQueryInternal returned with StatusCode: Unauthorized. Token: [BQAIPcN]
+2023-02-02 10:07:41.9445|INFO|com.barraider.spotify|14|[14] GetSpotifyToken Succeeded!
+2023-02-02 10:07:41.9535|INFO|com.barraider.spotify|14|[14] Initializing Tokens
+2023-02-02 10:07:41.9535|INFO|com.barraider.spotify|14|GlobalSettingsManager::SetGlobalSettings called
+2023-02-02 10:07:41.9535|INFO|com.barraider.spotify|14|[14] New token saved [BQDwFBs]. Last refresh date was: Token: 2023-02-02 10:07:41 AM Auth: 0001-01-01 12:00:00 AM
+2023-02-02 10:07:41.9535|INFO|com.barraider.spotify|14|BarRaider.Spotify.OAuthTokenListener Listener stopped
+2023-02-02 10:07:41.9535|INFO|com.barraider.spotify|13|[13] RefreshTokens ignored as Token Refresh time was: 2023-02-02 10:07:41 AM versus 2023-02-02 10:07:41 AM
+2023-02-02 10:07:42.0701|INFO|com.barraider.spotify|8|Received 0 devices
+2023-02-02 10:07:42.0701|INFO|com.barraider.spotify|5|SpotifyGetDevices returning cached version
+2023-02-02 10:07:42.2676|INFO|com.barraider.spotify|10|GlobalSettingsManager::GetGlobalSettingsAsync triggered
+2023-02-02 10:07:42.2676|INFO|com.barraider.spotify|8|[8] LoadAuth called
+2023-02-02 10:07:42.2676|INFO|com.barraider.spotify|8|In SetAPIAuth
+2023-02-02 10:07:42.2676|INFO|com.barraider.spotify|8|[8] Token initialized [BQDwFBs]. Last refresh date was: 2023-02-02 10:07:41 AM
+2023-02-02 10:07:42.2676|INFO|com.barraider.spotify|8|[8] Initializing Tokens
+2023-02-02 10:07:42.2676|INFO|com.barraider.spotify|8|BarRaider.Spotify.OAuthTokenListener Listener stopped
+2023-02-02 10:07:42.2676|DEBUG|com.barraider.spotify|8|[8] SpotifyQuery: me
+2023-02-02 10:07:48.0501|INFO|com.barraider.spotify|7|[7] Plugin version is up to date
+2023-02-02 10:17:41.5121|DEBUG|com.barraider.spotify|19|[19] SpotifyQuery: Total Playback Requests: 600
+2023-02-02 10:19:49.0077|INFO|com.barraider.spotify|15|Destructor Called
+2023-02-02 10:19:49.0077|INFO|com.barraider.spotify|15|Destructor Called
+2023-02-02 10:19:49.0077|INFO|com.barraider.spotify|15|Destructor Called
+2023-02-02 10:19:49.0077|INFO|com.barraider.spotify|15|Destructor Called
+2023-02-02 10:19:49.0077|INFO|com.barraider.spotify|15|Destructor Called
+2023-02-02 10:19:49.0077|INFO|com.barraider.spotify|15|Action Loaded: Spotify.Actions.PreviousSongAction
+2023-02-02 10:19:49.0077|INFO|com.barraider.spotify|15|Action Loaded: Spotify.Actions.LikeSongAction
+2023-02-02 10:19:49.0077|INFO|com.barraider.spotify|15|Action Loaded: Spotify.Actions.PlayPauseToggleAction
+2023-02-02 10:19:49.0147|INFO|com.barraider.spotify|15|Devices MS: 726944.5724
+2023-02-02 10:19:49.0147|DEBUG|com.barraider.spotify|15|[15] SpotifyQuery: me/player/devices
+2023-02-02 10:19:49.0147|INFO|com.barraider.spotify|15|Action Loaded: Spotify.Actions.ChangePlaybackDeviceAction
+2023-02-02 10:19:49.0147|INFO|com.barraider.spotify|15|Action Loaded: Spotify.Actions.NextSongAction
+2023-02-02 10:19:49.1269|INFO|com.barraider.spotify|15|Received 2 devices
+2023-02-02 10:19:49.1269|INFO|com.barraider.spotify|12|SpotifyGetDevices returning cached version
+2023-02-02 10:20:50.9814|INFO|com.barraider.spotify|25|Fetched song info: Chiki-Boom Soul
+2023-02-02 10:20:51.9190|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-02 10:20:52.0247|INFO|com.barraider.spotify|24|IsUserTrack is False for spotify:track:0rewabkkyTMGSQshgkEgCS
+2023-02-02 10:23:35.2129|INFO|com.barraider.spotify|19|Fetched song info: Je suis au jardin
+2023-02-02 10:23:36.2417|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-02 10:23:36.3369|INFO|com.barraider.spotify|7|IsUserTrack is False for spotify:track:5x9t1giM2ts8zZbcFqvsVk
+2023-02-02 10:27:21.5934|INFO|com.barraider.spotify|6|Fetched song info: chonnchita
+2023-02-02 10:27:22.6093|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-02 10:27:22.7116|INFO|com.barraider.spotify|6|IsUserTrack is False for spotify:track:4QjtpTswV0kbzqoE60XDpk
+2023-02-02 10:27:42.4005|DEBUG|com.barraider.spotify|24|[24] SpotifyQuery: Total Playback Requests: 1200
+2023-02-02 10:29:02.6583|INFO|com.barraider.spotify|6|Fetched song info: Roy Roy
+2023-02-02 10:29:03.3834|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-02 10:29:03.4856|INFO|com.barraider.spotify|8|IsUserTrack is False for spotify:track:4NAGziR8mc4O2oxE3eLPvy
+2023-02-02 10:30:41.7916|INFO|com.barraider.spotify|18|Fetched song info: Why Like This?
+2023-02-02 10:30:42.0928|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-02 10:30:42.1886|INFO|com.barraider.spotify|19|IsUserTrack is False for spotify:track:2akRHsEkrA0OQrt0svBUnu
+2023-02-02 10:33:40.0447|INFO|com.barraider.spotify|19|Fetched song info: Mind's End
+2023-02-02 10:33:40.6147|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-02 10:33:40.7289|INFO|com.barraider.spotify|15|IsUserTrack is False for spotify:track:18WgJRPxd4SaJ3NIbBFCwI
+2023-02-02 10:37:24.3527|INFO|com.barraider.spotify|14|Fetched song info: Last Minute Session Cut - The Outro
+2023-02-02 10:37:25.2947|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-02 10:37:25.4253|INFO|com.barraider.spotify|6|IsUserTrack is False for spotify:track:15hti5b1vzvddmlGDNufla
+2023-02-02 10:37:43.2457|DEBUG|com.barraider.spotify|6|[6] SpotifyQuery: Total Playback Requests: 1800
+2023-02-02 10:39:33.5850|INFO|com.barraider.spotify|15|Fetched song info: Sweet Berries
+2023-02-02 10:39:34.2972|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-02 10:39:34.4208|INFO|com.barraider.spotify|7|IsUserTrack is False for spotify:track:4V4NLXR80N6ePJ6UDxez7s
+2023-02-02 10:42:20.7657|INFO|com.barraider.spotify|15|Fetched song info: Elyjah Slaps the Space
+2023-02-02 10:42:21.5786|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-02 10:42:21.6808|INFO|com.barraider.spotify|15|IsUserTrack is False for spotify:track:5Q66Zc9gAYGQPCaRWUgWUN
+2023-02-02 10:43:50.8816|INFO|com.barraider.spotify|6|Fetched song info: Dilla’s Eclair
+2023-02-02 10:43:51.1310|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-02 10:43:51.2292|INFO|com.barraider.spotify|19|IsUserTrack is False for spotify:track:5rNuR5jNOJqIKH4Sw32sS9
+2023-02-02 10:45:10.1904|INFO|com.barraider.spotify|20|Destructor Called
+2023-02-02 10:45:10.1904|INFO|com.barraider.spotify|20|Destructor Called
+2023-02-02 10:45:10.1904|INFO|com.barraider.spotify|20|Destructor Called
+2023-02-02 10:45:10.1904|INFO|com.barraider.spotify|20|Destructor Called
+2023-02-02 10:45:10.1904|INFO|com.barraider.spotify|20|Destructor Called
+2023-02-02 18:10:49.3401|DEBUG|com.barraider.spotify|1|Logger Initialized
+2023-02-02 18:10:49.3731|INFO|com.barraider.spotify|1|Plugin [com.barraider.spotify] Loading - 16 Actions Found
+2023-02-02 18:10:49.9892|INFO|com.barraider.spotify|1|Plugin version: 2.9.1
+2023-02-02 18:10:49.9892|INFO|com.barraider.spotify|1|Connecting to Stream Deck
+2023-02-02 18:10:52.0480|INFO|com.barraider.spotify|1|Connected to Stream Deck
+2023-02-02 18:10:52.0480|INFO|com.barraider.spotify|1|GlobalSettingsManager initialized
+2023-02-02 19:57:30.1369|INFO|com.barraider.spotify|153|GlobalSettingsManager::RequestGlobalSettings called
+2023-02-02 19:57:30.1369|INFO|com.barraider.spotify|153|Action Loaded: Spotify.Actions.PreviousSongAction
+2023-02-02 19:57:30.2008|INFO|com.barraider.spotify|154|Action Loaded: Spotify.Actions.LikeSongAction
+2023-02-02 19:57:30.2057|INFO|com.barraider.spotify|154|Action Loaded: Spotify.Actions.ChangePlaybackDeviceAction
+2023-02-02 19:57:30.2057|INFO|com.barraider.spotify|151|PlaybackInfoBackgroundWorker Start
+2023-02-02 19:57:30.2197|WARN|com.barraider.spotify|151|PlaybackInfoBackgroundWorker failed - No token - Retry: 3
+2023-02-02 19:57:30.2197|WARN|com.barraider.spotify|151|PlaybackInfoBackgroundWorker failed - No token - Retry: 2
+2023-02-02 19:57:30.2197|WARN|com.barraider.spotify|151|PlaybackInfoBackgroundWorker failed - No token - Retry: 1
+2023-02-02 19:57:30.2197|ERROR|com.barraider.spotify|151|PlaybackInfoBackgroundWorker Failed - No retries left
+2023-02-02 19:57:30.2197|INFO|com.barraider.spotify|151|PlaybackInfoBackgroundWorker Exited
+2023-02-02 19:57:30.2197|INFO|com.barraider.spotify|154|Devices MS: 63810964650225.7
+2023-02-02 19:57:30.2197|DEBUG|com.barraider.spotify|154|[154] SpotifyQuery: me/player/devices
+2023-02-02 19:57:30.2197|ERROR|com.barraider.spotify|154|[154] SpotifyQuery called without an access token
+2023-02-02 19:57:30.2347|WARN|com.barraider.spotify|154|me/player/devices returned Conflict: Message:  Reason: 
+2023-02-02 19:57:30.2347|INFO|com.barraider.spotify|154|Devices MS: 63810964650237.7
+2023-02-02 19:57:30.2347|DEBUG|com.barraider.spotify|154|[154] SpotifyQuery: me/player/devices
+2023-02-02 19:57:30.2347|ERROR|com.barraider.spotify|154|[154] SpotifyQuery called without an access token
+2023-02-02 19:57:30.2347|WARN|com.barraider.spotify|154|me/player/devices returned Conflict: Message:  Reason: 
+2023-02-02 19:57:30.2347|INFO|com.barraider.spotify|151|Action Loaded: Spotify.Actions.PlayPauseToggleAction
+2023-02-02 19:57:30.2566|INFO|com.barraider.spotify|151|Devices MS: 63810964650256.7
+2023-02-02 19:57:30.2566|DEBUG|com.barraider.spotify|151|[151] SpotifyQuery: me/player/devices
+2023-02-02 19:57:30.2566|ERROR|com.barraider.spotify|151|[151] SpotifyQuery called without an access token
+2023-02-02 19:57:30.2566|WARN|com.barraider.spotify|151|me/player/devices returned Conflict: Message:  Reason: 
+2023-02-02 19:57:30.2566|INFO|com.barraider.spotify|151|GlobalSettingsManager::RequestGlobalSettings called
+2023-02-02 19:57:30.2676|INFO|com.barraider.spotify|151|Devices MS: 63810964650267.6
+2023-02-02 19:57:30.2676|DEBUG|com.barraider.spotify|151|[151] SpotifyQuery: me/player/devices
+2023-02-02 19:57:30.2676|ERROR|com.barraider.spotify|151|[151] SpotifyQuery called without an access token
+2023-02-02 19:57:30.2676|WARN|com.barraider.spotify|151|me/player/devices returned Conflict: Message:  Reason: 
+2023-02-02 19:57:30.2676|INFO|com.barraider.spotify|150|Action Loaded: Spotify.Actions.NextSongAction
+2023-02-02 19:57:30.4396|INFO|com.barraider.spotify|151|GlobalSettingsManager::GetGlobalSettingsAsync triggered
+2023-02-02 19:57:30.4566|INFO|com.barraider.spotify|153|[153] LoadAuth called
+2023-02-02 19:57:30.4566|INFO|com.barraider.spotify|153|In SetAPIAuth
+2023-02-02 19:57:30.4566|INFO|com.barraider.spotify|153|[153] SetAPIAuth called ClientId: 546d32f5e7f14f15b2fdce555e9bd5fe
+2023-02-02 19:57:30.4566|INFO|com.barraider.spotify|153|[153] Auth initialized. Last refresh date was: 0001-01-01 12:00:00 AM
+2023-02-02 19:57:30.4566|INFO|com.barraider.spotify|153|[153] Token initialized [BQDwFBs]. Last refresh date was: 2023-02-02 10:07:41 AM
+2023-02-02 19:57:30.4566|INFO|com.barraider.spotify|153|[153] Initializing Tokens
+2023-02-02 19:57:30.4566|INFO|com.barraider.spotify|153|[153] InitToken: Attempting to connect
+2023-02-02 19:57:30.4566|INFO|com.barraider.spotify|153|Force Connect called, attempting to reconnect
+2023-02-02 19:57:30.4566|INFO|com.barraider.spotify|150|PlaybackInfoBackgroundWorker Start
+2023-02-02 19:57:30.4566|INFO|com.barraider.spotify|153|BarRaider.Spotify.OAuthTokenListener Listener stopped
+2023-02-02 19:57:30.4566|DEBUG|com.barraider.spotify|153|[153] SpotifyQuery: me
+2023-02-02 19:57:30.4800|INFO|com.barraider.spotify|153|Devices MS: 63810964650480.1
+2023-02-02 19:57:30.4800|DEBUG|com.barraider.spotify|153|[153] SpotifyQuery: me/player/devices
+2023-02-02 19:57:30.5878|WARN|com.barraider.spotify|146|[146] SpotifyQueryInternal returned with StatusCode: Unauthorized. Token: [BQDwFBs]
+2023-02-02 19:57:30.5878|WARN|com.barraider.spotify|145|[145] SpotifyQueryInternal returned with StatusCode: Unauthorized. Token: [BQDwFBs]
+2023-02-02 19:57:30.5878|WARN|com.barraider.spotify|153|[153] SpotifyQueryInternal returned with StatusCode: Unauthorized. Token: [BQDwFBs]
+2023-02-02 19:57:30.5878|INFO|com.barraider.spotify|146|[146] RefreshTokens Called
+2023-02-02 19:57:30.7699|INFO|com.barraider.spotify|144|[144] GetSpotifyToken Succeeded!
+2023-02-02 19:57:30.7699|INFO|com.barraider.spotify|144|[144] Initializing Tokens
+2023-02-02 19:57:30.7699|INFO|com.barraider.spotify|144|GlobalSettingsManager::SetGlobalSettings called
+2023-02-02 19:57:30.7818|INFO|com.barraider.spotify|144|[144] New token saved [BQBZ1uT]. Last refresh date was: Token: 2023-02-02 7:57:30 PM Auth: 0001-01-01 12:00:00 AM
+2023-02-02 19:57:30.7818|INFO|com.barraider.spotify|144|BarRaider.Spotify.OAuthTokenListener Listener stopped
+2023-02-02 19:57:30.7818|DEBUG|com.barraider.spotify|144|[144] SpotifyQuery: me
+2023-02-02 19:57:30.7818|INFO|com.barraider.spotify|153|[153] RefreshTokens ignored as Token Refresh time was: 2023-02-02 7:57:30 PM versus 2023-02-02 7:57:30 PM
+2023-02-02 19:57:30.7818|INFO|com.barraider.spotify|145|[145] RefreshTokens ignored as Token Refresh time was: 2023-02-02 7:57:30 PM versus 2023-02-02 7:57:30 PM
+2023-02-02 19:57:30.8901|INFO|com.barraider.spotify|144|Received 2 devices
+2023-02-02 19:57:30.8901|INFO|com.barraider.spotify|150|SpotifyGetDevices returning cached version
+2023-02-02 19:57:30.9479|INFO|com.barraider.spotify|146|Fetched song info: Night Waves
+2023-02-02 19:57:31.0950|INFO|com.barraider.spotify|148|GlobalSettingsManager::GetGlobalSettingsAsync triggered
+2023-02-02 19:57:31.0950|INFO|com.barraider.spotify|144|[144] LoadAuth called
+2023-02-02 19:57:31.0950|INFO|com.barraider.spotify|144|In SetAPIAuth
+2023-02-02 19:57:31.0950|INFO|com.barraider.spotify|144|[144] Token initialized [BQBZ1uT]. Last refresh date was: 2023-02-02 7:57:30 PM
+2023-02-02 19:57:31.0950|INFO|com.barraider.spotify|144|[144] Initializing Tokens
+2023-02-02 19:57:31.0950|INFO|com.barraider.spotify|144|BarRaider.Spotify.OAuthTokenListener Listener stopped
+2023-02-02 19:57:31.2097|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-02 19:57:31.3169|INFO|com.barraider.spotify|145|IsUserTrack is False for spotify:track:4HmWmgncTPd1ZKixecZZzS
+2023-02-02 19:57:33.7728|INFO|com.barraider.spotify|145|Destructor Called
+2023-02-02 19:57:33.7728|INFO|com.barraider.spotify|145|Destructor Called
+2023-02-02 19:57:33.7728|INFO|com.barraider.spotify|145|Destructor Called
+2023-02-02 19:57:33.7728|INFO|com.barraider.spotify|145|Destructor Called
+2023-02-02 19:57:33.7807|INFO|com.barraider.spotify|145|Destructor Called
+2023-02-02 19:57:36.8639|INFO|com.barraider.spotify|145|[145] Plugin version is up to date
+2023-02-02 21:06:54.2575|INFO|com.barraider.spotify|100|Action Loaded: Spotify.Actions.PreviousSongAction
+2023-02-02 21:06:54.2575|INFO|com.barraider.spotify|100|Action Loaded: Spotify.Actions.LikeSongAction
+2023-02-02 21:06:54.2575|INFO|com.barraider.spotify|100|Action Loaded: Spotify.Actions.PlayPauseToggleAction
+2023-02-02 21:06:54.2575|INFO|com.barraider.spotify|100|Devices MS: 4163373.4183
+2023-02-02 21:06:54.2575|DEBUG|com.barraider.spotify|100|[100] SpotifyQuery: me/player/devices
+2023-02-02 21:06:54.2655|INFO|com.barraider.spotify|100|Action Loaded: Spotify.Actions.ChangePlaybackDeviceAction
+2023-02-02 21:06:54.2655|INFO|com.barraider.spotify|100|Action Loaded: Spotify.Actions.NextSongAction
+2023-02-02 21:06:54.3768|WARN|com.barraider.spotify|115|[115] SpotifyQueryInternal returned with StatusCode: Unauthorized. Token: [BQBZ1uT]
+2023-02-02 21:06:54.3768|INFO|com.barraider.spotify|115|[115] RefreshTokens Called
+2023-02-02 21:06:54.5618|INFO|com.barraider.spotify|101|[101] GetSpotifyToken Succeeded!
+2023-02-02 21:06:54.5618|INFO|com.barraider.spotify|101|[101] Initializing Tokens
+2023-02-02 21:06:54.5618|INFO|com.barraider.spotify|101|GlobalSettingsManager::SetGlobalSettings called
+2023-02-02 21:06:54.5618|INFO|com.barraider.spotify|101|[101] New token saved [BQCC0GE]. Last refresh date was: Token: 2023-02-02 9:06:54 PM Auth: 0001-01-01 12:00:00 AM
+2023-02-02 21:06:54.5618|INFO|com.barraider.spotify|101|BarRaider.Spotify.OAuthTokenListener Listener stopped
+2023-02-02 21:06:54.6766|INFO|com.barraider.spotify|101|Received 2 devices
+2023-02-02 21:06:54.6766|INFO|com.barraider.spotify|154|SpotifyGetDevices returning cached version
+2023-02-02 21:06:54.8443|INFO|com.barraider.spotify|1|UncacheLikedSong spotify:track:4HmWmgncTPd1ZKixecZZzS
+2023-02-02 21:06:54.8443|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-02 21:06:54.8753|INFO|com.barraider.spotify|154|GlobalSettingsManager::GetGlobalSettingsAsync triggered
+2023-02-02 21:06:54.8753|INFO|com.barraider.spotify|115|[115] LoadAuth called
+2023-02-02 21:06:54.8753|INFO|com.barraider.spotify|115|In SetAPIAuth
+2023-02-02 21:06:54.8753|INFO|com.barraider.spotify|115|[115] Token initialized [BQCC0GE]. Last refresh date was: 2023-02-02 9:06:54 PM
+2023-02-02 21:06:54.8753|INFO|com.barraider.spotify|115|[115] Initializing Tokens
+2023-02-02 21:06:54.8753|INFO|com.barraider.spotify|115|BarRaider.Spotify.OAuthTokenListener Listener stopped
+2023-02-02 21:06:54.9267|INFO|com.barraider.spotify|115|Fetched song info: Innerspace
+2023-02-02 21:06:54.9466|INFO|com.barraider.spotify|101|IsUserTrack is False for spotify:track:4HmWmgncTPd1ZKixecZZzS
+2023-02-02 21:06:55.8663|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-02 21:06:55.9666|INFO|com.barraider.spotify|146|IsUserTrack is False for spotify:track:4tZ5Z8toQDjOmnWQYUe8Nv
+2023-02-02 21:06:59.5683|INFO|com.barraider.spotify|154|BarRaider.Spotify.TokenManager CheckVersion in cooldown.
+2023-02-02 21:08:47.0655|INFO|com.barraider.spotify|146|Fetched song info: noflowrs[instrw]
+2023-02-02 21:08:48.1287|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-02 21:08:48.2395|INFO|com.barraider.spotify|100|IsUserTrack is False for spotify:track:5UQsXBlD5z36Fj624dDJzn
+2023-02-02 21:09:54.1703|INFO|com.barraider.spotify|100|Fetched song info: What If / Interlude
+2023-02-02 21:09:54.8282|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-02 21:09:54.9284|INFO|com.barraider.spotify|116|IsUserTrack is False for spotify:track:2eL3xPlleM9pLI7fWeihLD
+2023-02-02 21:11:18.3962|INFO|com.barraider.spotify|153|Fetched song info: City Samba
+2023-02-02 21:11:18.8212|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-02 21:11:18.9284|INFO|com.barraider.spotify|100|IsUserTrack is False for spotify:track:14kpqRxMt2iAvNvMEoGJws
+2023-02-02 21:14:18.5565|INFO|com.barraider.spotify|94|Fetched song info: Piano Loop
+2023-02-02 21:14:19.3634|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-02 21:14:19.4656|INFO|com.barraider.spotify|94|IsUserTrack is False for spotify:track:71Z8Gp619ZpyyDIn511kd1
+2023-02-02 21:15:49.6845|INFO|com.barraider.spotify|94|Fetched song info: Long Way Home
+2023-02-02 21:15:50.3652|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-02 21:15:50.4675|INFO|com.barraider.spotify|146|IsUserTrack is False for spotify:track:58BQlDZ9wjiwcCHUE01wCT
+2023-02-02 21:16:50.6371|DEBUG|com.barraider.spotify|100|[100] SpotifyQuery: Total Playback Requests: 600
+2023-02-02 21:18:49.9613|INFO|com.barraider.spotify|85|Fetched song info: Oh Baby
+2023-02-02 21:18:50.9951|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-02 21:18:51.0929|INFO|com.barraider.spotify|81|IsUserTrack is False for spotify:track:3jTtoWpGIv05vaVX87xL1P
+2023-02-02 21:21:57.1982|INFO|com.barraider.spotify|69|Fetched song info: Bebop
+2023-02-02 21:21:58.1442|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-02 21:21:58.2430|INFO|com.barraider.spotify|85|IsUserTrack is False for spotify:track:1C04mZZEDtVhssZeokAd7o
+2023-02-02 21:23:38.3520|INFO|com.barraider.spotify|72|Fetched song info: SPSP
+2023-02-02 21:23:38.9130|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-02 21:23:39.0148|INFO|com.barraider.spotify|75|IsUserTrack is False for spotify:track:06gYKhvKl40JOATDLaifl3
+2023-02-02 21:25:26.1922|INFO|com.barraider.spotify|72|Fetched song info: Blaze
+2023-02-02 21:25:26.8540|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-02 21:25:26.9422|INFO|com.barraider.spotify|76|IsUserTrack is False for spotify:track:36qAhdxgwd7OLeGIvsO2a5
+2023-02-02 21:26:53.1631|DEBUG|com.barraider.spotify|85|[85] SpotifyQuery: Total Playback Requests: 1200
+2023-02-02 21:27:43.4461|INFO|com.barraider.spotify|73|Fetched song info: Paradise Circus
+2023-02-02 21:27:43.9308|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-02 21:27:44.0311|INFO|com.barraider.spotify|69|IsUserTrack is False for spotify:track:0ki5EwphQNTH3Tw02VtCRC
+2023-02-02 21:32:44.3658|INFO|com.barraider.spotify|1|UncacheLikedSong spotify:track:0ki5EwphQNTH3Tw02VtCRC
+2023-02-02 21:32:44.3658|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-02 21:32:44.4661|INFO|com.barraider.spotify|73|IsUserTrack is False for spotify:track:0ki5EwphQNTH3Tw02VtCRC
+2023-02-02 21:36:53.9686|DEBUG|com.barraider.spotify|75|[75] SpotifyQuery: Total Playback Requests: 1800
+2023-02-02 21:37:44.8030|INFO|com.barraider.spotify|1|UncacheLikedSong spotify:track:0ki5EwphQNTH3Tw02VtCRC
+2023-02-02 21:37:44.8030|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-02 21:37:44.9057|INFO|com.barraider.spotify|76|IsUserTrack is False for spotify:track:0ki5EwphQNTH3Tw02VtCRC
+2023-02-02 21:42:45.2468|INFO|com.barraider.spotify|1|UncacheLikedSong spotify:track:0ki5EwphQNTH3Tw02VtCRC
+2023-02-02 21:42:45.2468|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-02 21:42:45.3400|INFO|com.barraider.spotify|77|IsUserTrack is False for spotify:track:0ki5EwphQNTH3Tw02VtCRC
+2023-02-02 21:46:54.8625|DEBUG|com.barraider.spotify|74|[74] SpotifyQuery: Total Playback Requests: 2400
+2023-02-02 21:47:45.6525|INFO|com.barraider.spotify|1|UncacheLikedSong spotify:track:0ki5EwphQNTH3Tw02VtCRC
+2023-02-02 21:47:45.6525|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-02 21:47:45.7527|INFO|com.barraider.spotify|70|IsUserTrack is False for spotify:track:0ki5EwphQNTH3Tw02VtCRC
+2023-02-02 21:52:46.0503|INFO|com.barraider.spotify|1|UncacheLikedSong spotify:track:0ki5EwphQNTH3Tw02VtCRC
+2023-02-02 21:52:46.0503|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-02 21:52:46.1845|INFO|com.barraider.spotify|73|IsUserTrack is False for spotify:track:0ki5EwphQNTH3Tw02VtCRC
+2023-02-02 21:56:55.7494|DEBUG|com.barraider.spotify|77|[77] SpotifyQuery: Total Playback Requests: 3000
+2023-02-02 21:57:46.4362|INFO|com.barraider.spotify|1|UncacheLikedSong spotify:track:0ki5EwphQNTH3Tw02VtCRC
+2023-02-02 21:57:46.4362|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-02 21:57:46.5424|INFO|com.barraider.spotify|85|IsUserTrack is False for spotify:track:0ki5EwphQNTH3Tw02VtCRC
+2023-02-02 22:02:46.8191|INFO|com.barraider.spotify|1|UncacheLikedSong spotify:track:0ki5EwphQNTH3Tw02VtCRC
+2023-02-02 22:02:46.8191|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-02 22:02:46.9143|INFO|com.barraider.spotify|85|IsUserTrack is False for spotify:track:0ki5EwphQNTH3Tw02VtCRC
+2023-02-02 22:06:55.6792|WARN|com.barraider.spotify|73|[73] SpotifyQueryInternal returned with StatusCode: Unauthorized. Token: [BQCC0GE]
+2023-02-02 22:06:55.6792|INFO|com.barraider.spotify|73|[73] RefreshTokens Called
+2023-02-02 22:06:55.8383|INFO|com.barraider.spotify|76|[76] GetSpotifyToken Succeeded!
+2023-02-02 22:06:55.8383|INFO|com.barraider.spotify|76|[76] Initializing Tokens
+2023-02-02 22:06:55.8383|INFO|com.barraider.spotify|76|GlobalSettingsManager::SetGlobalSettings called
+2023-02-02 22:06:55.8383|INFO|com.barraider.spotify|76|[76] New token saved [BQDJ0Iq]. Last refresh date was: Token: 2023-02-02 10:06:55 PM Auth: 0001-01-01 12:00:00 AM
+2023-02-02 22:06:55.8383|INFO|com.barraider.spotify|76|BarRaider.Spotify.OAuthTokenListener Listener stopped
+2023-02-02 22:06:56.1400|INFO|com.barraider.spotify|154|GlobalSettingsManager::GetGlobalSettingsAsync triggered
+2023-02-02 22:06:56.1400|INFO|com.barraider.spotify|73|[73] LoadAuth called
+2023-02-02 22:06:56.1400|INFO|com.barraider.spotify|73|In SetAPIAuth
+2023-02-02 22:06:56.1400|INFO|com.barraider.spotify|73|[73] Token initialized [BQDJ0Iq]. Last refresh date was: 2023-02-02 10:06:55 PM
+2023-02-02 22:06:56.1400|INFO|com.barraider.spotify|73|[73] Initializing Tokens
+2023-02-02 22:06:56.1400|INFO|com.barraider.spotify|73|BarRaider.Spotify.OAuthTokenListener Listener stopped
+2023-02-02 22:06:56.6093|DEBUG|com.barraider.spotify|76|[76] SpotifyQuery: Total Playback Requests: 3600
+2023-02-02 22:07:00.8501|INFO|com.barraider.spotify|150|BarRaider.Spotify.TokenManager CheckVersion in cooldown.
+2023-02-02 22:07:47.2177|INFO|com.barraider.spotify|1|UncacheLikedSong spotify:track:0ki5EwphQNTH3Tw02VtCRC
+2023-02-02 22:07:47.2177|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-02 22:07:47.3140|INFO|com.barraider.spotify|76|IsUserTrack is False for spotify:track:0ki5EwphQNTH3Tw02VtCRC
+2023-02-02 22:12:47.5901|INFO|com.barraider.spotify|1|UncacheLikedSong spotify:track:0ki5EwphQNTH3Tw02VtCRC
+2023-02-02 22:12:47.5901|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-02 22:12:47.7018|INFO|com.barraider.spotify|69|IsUserTrack is False for spotify:track:0ki5EwphQNTH3Tw02VtCRC
+2023-02-02 22:16:57.4928|DEBUG|com.barraider.spotify|77|[77] SpotifyQuery: Total Playback Requests: 4200
+2023-02-02 22:17:47.9809|INFO|com.barraider.spotify|1|UncacheLikedSong spotify:track:0ki5EwphQNTH3Tw02VtCRC
+2023-02-02 22:17:47.9809|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-02 22:17:48.0761|INFO|com.barraider.spotify|74|IsUserTrack is False for spotify:track:0ki5EwphQNTH3Tw02VtCRC
+2023-02-02 22:22:48.3881|INFO|com.barraider.spotify|1|UncacheLikedSong spotify:track:0ki5EwphQNTH3Tw02VtCRC
+2023-02-02 22:22:48.3881|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-02 22:22:48.4898|INFO|com.barraider.spotify|78|IsUserTrack is False for spotify:track:0ki5EwphQNTH3Tw02VtCRC
+2023-02-02 22:26:58.3660|DEBUG|com.barraider.spotify|74|[74] SpotifyQuery: Total Playback Requests: 4800
+2023-02-02 22:27:48.7526|INFO|com.barraider.spotify|1|UncacheLikedSong spotify:track:0ki5EwphQNTH3Tw02VtCRC
+2023-02-02 22:27:48.7526|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-02 22:27:48.8508|INFO|com.barraider.spotify|76|IsUserTrack is False for spotify:track:0ki5EwphQNTH3Tw02VtCRC
+2023-02-02 22:32:49.1296|INFO|com.barraider.spotify|1|UncacheLikedSong spotify:track:0ki5EwphQNTH3Tw02VtCRC
+2023-02-02 22:32:49.1296|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-02 22:32:49.2298|INFO|com.barraider.spotify|70|IsUserTrack is False for spotify:track:0ki5EwphQNTH3Tw02VtCRC
+2023-02-02 22:36:59.2704|DEBUG|com.barraider.spotify|74|[74] SpotifyQuery: Total Playback Requests: 5400
+2023-02-02 22:37:49.5693|INFO|com.barraider.spotify|1|UncacheLikedSong spotify:track:0ki5EwphQNTH3Tw02VtCRC
+2023-02-02 22:37:49.5693|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-02 22:37:49.6666|INFO|com.barraider.spotify|78|IsUserTrack is False for spotify:track:0ki5EwphQNTH3Tw02VtCRC
+2023-02-02 22:42:49.9853|INFO|com.barraider.spotify|1|UncacheLikedSong spotify:track:0ki5EwphQNTH3Tw02VtCRC
+2023-02-02 22:42:49.9853|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-02 22:42:50.0845|INFO|com.barraider.spotify|71|IsUserTrack is False for spotify:track:0ki5EwphQNTH3Tw02VtCRC
+2023-02-02 22:47:00.1626|DEBUG|com.barraider.spotify|75|[75] SpotifyQuery: Total Playback Requests: 6000
+2023-02-02 22:47:50.4455|INFO|com.barraider.spotify|1|UncacheLikedSong spotify:track:0ki5EwphQNTH3Tw02VtCRC
+2023-02-02 22:47:50.4455|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-02 22:47:50.5393|INFO|com.barraider.spotify|77|IsUserTrack is False for spotify:track:0ki5EwphQNTH3Tw02VtCRC
+2023-02-02 22:52:50.8034|INFO|com.barraider.spotify|1|UncacheLikedSong spotify:track:0ki5EwphQNTH3Tw02VtCRC
+2023-02-02 22:52:50.8034|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-02 22:52:50.8992|INFO|com.barraider.spotify|70|IsUserTrack is False for spotify:track:0ki5EwphQNTH3Tw02VtCRC
+2023-02-02 22:57:01.0573|DEBUG|com.barraider.spotify|79|[79] SpotifyQuery: Total Playback Requests: 6600
+2023-02-02 22:57:51.1830|INFO|com.barraider.spotify|1|UncacheLikedSong spotify:track:0ki5EwphQNTH3Tw02VtCRC
+2023-02-02 22:57:51.1830|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-02 22:57:51.2873|INFO|com.barraider.spotify|85|IsUserTrack is False for spotify:track:0ki5EwphQNTH3Tw02VtCRC
+2023-02-02 23:02:51.5583|INFO|com.barraider.spotify|1|UncacheLikedSong spotify:track:0ki5EwphQNTH3Tw02VtCRC
+2023-02-02 23:02:51.5583|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-02 23:02:51.6590|INFO|com.barraider.spotify|85|IsUserTrack is False for spotify:track:0ki5EwphQNTH3Tw02VtCRC
+2023-02-02 23:06:56.0920|WARN|com.barraider.spotify|78|[78] SpotifyQueryInternal returned with StatusCode: Unauthorized. Token: [BQDJ0Iq]
+2023-02-02 23:06:56.0920|INFO|com.barraider.spotify|78|[78] RefreshTokens Called
+2023-02-02 23:06:56.2640|INFO|com.barraider.spotify|79|[79] GetSpotifyToken Succeeded!
+2023-02-02 23:06:56.2650|INFO|com.barraider.spotify|79|[79] Initializing Tokens
+2023-02-02 23:06:56.2650|INFO|com.barraider.spotify|79|GlobalSettingsManager::SetGlobalSettings called
+2023-02-02 23:06:56.2650|INFO|com.barraider.spotify|79|[79] New token saved [BQAC95A]. Last refresh date was: Token: 2023-02-02 11:06:56 PM Auth: 0001-01-01 12:00:00 AM
+2023-02-02 23:06:56.2650|INFO|com.barraider.spotify|79|BarRaider.Spotify.OAuthTokenListener Listener stopped
+2023-02-02 23:06:56.5787|INFO|com.barraider.spotify|149|GlobalSettingsManager::GetGlobalSettingsAsync triggered
+2023-02-02 23:06:56.5787|INFO|com.barraider.spotify|79|[79] LoadAuth called
+2023-02-02 23:06:56.5787|INFO|com.barraider.spotify|79|In SetAPIAuth
+2023-02-02 23:06:56.5787|INFO|com.barraider.spotify|79|[79] Token initialized [BQAC95A]. Last refresh date was: 2023-02-02 11:06:56 PM
+2023-02-02 23:06:56.5787|INFO|com.barraider.spotify|79|[79] Initializing Tokens
+2023-02-02 23:06:56.5787|INFO|com.barraider.spotify|79|BarRaider.Spotify.OAuthTokenListener Listener stopped
+2023-02-02 23:07:01.2669|INFO|com.barraider.spotify|154|BarRaider.Spotify.TokenManager CheckVersion in cooldown.
+2023-02-02 23:07:02.0320|DEBUG|com.barraider.spotify|79|[79] SpotifyQuery: Total Playback Requests: 7200
+2023-02-02 23:07:52.0277|INFO|com.barraider.spotify|1|UncacheLikedSong spotify:track:0ki5EwphQNTH3Tw02VtCRC
+2023-02-02 23:07:52.0277|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-02 23:07:52.1269|INFO|com.barraider.spotify|70|IsUserTrack is False for spotify:track:0ki5EwphQNTH3Tw02VtCRC
+2023-02-02 23:12:52.4528|INFO|com.barraider.spotify|1|UncacheLikedSong spotify:track:0ki5EwphQNTH3Tw02VtCRC
+2023-02-02 23:12:52.4528|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-02 23:12:52.5516|INFO|com.barraider.spotify|72|IsUserTrack is False for spotify:track:0ki5EwphQNTH3Tw02VtCRC
+2023-02-02 23:17:02.9157|DEBUG|com.barraider.spotify|71|[71] SpotifyQuery: Total Playback Requests: 7800
+2023-02-02 23:17:52.8172|INFO|com.barraider.spotify|1|UncacheLikedSong spotify:track:0ki5EwphQNTH3Tw02VtCRC
+2023-02-02 23:17:52.8172|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-02 23:17:52.9154|INFO|com.barraider.spotify|71|IsUserTrack is False for spotify:track:0ki5EwphQNTH3Tw02VtCRC
+2023-02-02 23:22:53.1871|INFO|com.barraider.spotify|1|UncacheLikedSong spotify:track:0ki5EwphQNTH3Tw02VtCRC
+2023-02-02 23:22:53.1871|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-02 23:22:53.2863|INFO|com.barraider.spotify|76|IsUserTrack is False for spotify:track:0ki5EwphQNTH3Tw02VtCRC
+2023-02-02 23:27:03.8119|DEBUG|com.barraider.spotify|76|[76] SpotifyQuery: Total Playback Requests: 8400
+2023-02-02 23:27:53.5655|INFO|com.barraider.spotify|1|UncacheLikedSong spotify:track:0ki5EwphQNTH3Tw02VtCRC
+2023-02-02 23:27:53.5655|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-02 23:27:53.6637|INFO|com.barraider.spotify|69|IsUserTrack is False for spotify:track:0ki5EwphQNTH3Tw02VtCRC
+2023-02-02 23:32:53.9385|INFO|com.barraider.spotify|1|UncacheLikedSong spotify:track:0ki5EwphQNTH3Tw02VtCRC
+2023-02-02 23:32:53.9385|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-02 23:32:54.0363|INFO|com.barraider.spotify|72|IsUserTrack is False for spotify:track:0ki5EwphQNTH3Tw02VtCRC
+2023-02-02 23:37:04.6792|DEBUG|com.barraider.spotify|74|[74] SpotifyQuery: Total Playback Requests: 9000
+2023-02-02 23:37:54.3134|INFO|com.barraider.spotify|1|UncacheLikedSong spotify:track:0ki5EwphQNTH3Tw02VtCRC
+2023-02-02 23:37:54.3134|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-02 23:37:54.4122|INFO|com.barraider.spotify|71|IsUserTrack is False for spotify:track:0ki5EwphQNTH3Tw02VtCRC
+2023-02-02 23:42:54.6972|INFO|com.barraider.spotify|1|UncacheLikedSong spotify:track:0ki5EwphQNTH3Tw02VtCRC
+2023-02-02 23:42:54.6972|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-02 23:42:54.7994|INFO|com.barraider.spotify|74|IsUserTrack is False for spotify:track:0ki5EwphQNTH3Tw02VtCRC
+2023-02-02 23:47:07.6783|DEBUG|com.barraider.spotify|79|[79] SpotifyQuery: Total Playback Requests: 9600
+2023-02-02 23:47:55.0499|INFO|com.barraider.spotify|1|UncacheLikedSong spotify:track:0ki5EwphQNTH3Tw02VtCRC
+2023-02-02 23:47:55.0499|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-02 23:47:55.1462|INFO|com.barraider.spotify|79|IsUserTrack is False for spotify:track:0ki5EwphQNTH3Tw02VtCRC
+2023-02-02 23:52:55.4222|INFO|com.barraider.spotify|1|UncacheLikedSong spotify:track:0ki5EwphQNTH3Tw02VtCRC
+2023-02-02 23:52:55.4222|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-02 23:52:55.5170|INFO|com.barraider.spotify|75|IsUserTrack is False for spotify:track:0ki5EwphQNTH3Tw02VtCRC
+2023-02-02 23:57:08.5359|DEBUG|com.barraider.spotify|74|[74] SpotifyQuery: Total Playback Requests: 10200
+2023-02-02 23:57:55.8142|INFO|com.barraider.spotify|1|UncacheLikedSong spotify:track:0ki5EwphQNTH3Tw02VtCRC
+2023-02-02 23:57:55.8142|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-02 23:57:55.9089|INFO|com.barraider.spotify|69|IsUserTrack is False for spotify:track:0ki5EwphQNTH3Tw02VtCRC

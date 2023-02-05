@@ -1,0 +1,44 @@
+{
+  "Description": "Discord를 제어합니다.",
+  "Name": "Discord",
+  "com.elgato.discord.mute": {
+    "Name": "마이크 음소거",
+    "Tooltip": "마이크 음소거 켬/끔"
+  },
+  "com.elgato.discord.deafen": {
+    "Name": "헤드폰 음소거",
+    "Tooltip": "헤드폰 음소거 켬/끔"
+  },
+  "com.elgato.discord.channel.voice": {
+    "Name": "음성 채널",
+    "Tooltip": "음성 채널 참가 또는 퇴장"
+  },
+  "com.elgato.discord.channel.text": {
+    "Name": "텍스트 채널",
+    "Tooltip": "텍스트 채널로 이동"
+  },
+  "com.elgato.discord.pushto.talk": {
+    "Name": "눌러서 말하기",
+    "Tooltip": "누르는 동안 말하기"
+  },
+  "com.elgato.discord.pushto.mute": {
+    "Name": "눌러서 음소거",
+    "Tooltip": "누르는 동안 음소거"
+  },
+  "Localization": {
+    "PI": {
+      "AppWarning": "Discord를 실행하세요",
+      "AuthWarning": "Discord authorization required",
+      "AccessLabel": "Authorization",
+      "AccessButton": "Request access",
+      "Server": "서버",
+      "NoServer": "서버 없음",
+      "VoiceChannel": "음성 채널",
+      "TextChannel": "텍스트 채널",
+      "NoChannel": "채널 없음",
+      "Action": "동작",
+      "PushToTalk": "눌러서 말하기",
+      "PushToMute": "눌러서 음소거"
+    }
+  }
+}

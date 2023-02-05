@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>com.tchelicon.goXLR.RoutingTable</title>
+    <link rel="stylesheet" href="css\sdpi.css">
+</head>
+
+<body>
+    <div class="sdpi-wrapper">
+        <div type="select" class="sdpi-item">
+            <div class="sdpi-item-label">Input</div>
+            <select class="sdpi-item-value" id="RoutingInput" onchange="setSettings()">
+                <option selected value="0">Select Input</option>
+                <option value="Mic">Mic</option>
+                <option value="Chat">Chat</option>
+                <option value="Music">Music</option>
+                <option value="Game">Game</option>
+                <option value="Console">Console</option>
+                <option value="Line In">Line In</option>
+                <option value="System">System</option>
+                <option value="Samples">Samples</option> 
+            </select>
+        </div>
+        <div type="select" class="sdpi-item">
+            <div class="sdpi-item-label">Output</div>
+            <select class="sdpi-item-value" id="RoutingOutput" onchange="setSettings()">
+                <option selected value="0">Select Output</option>
+                <option value="Headphones">Headphones</option>
+                <option value="Broadcast Mix">Broadcast Mix</option>
+                <option value="Line Out">Line Out</option>
+                <option value="Chat Mic">Chat Mic</option>
+                <option value="Sampler">Sampler</option>
+            </select>
+        </div>
+        <div type="select" class="sdpi-item">
+            <div class="sdpi-item-label">Action</div>
+            <select class="sdpi-item-value" id="RoutingAction" onchange="setSettings()">
+                <option selected value="0">Select Action</option>
+                <option value="Turn On">Turn On</option>
+                <option value="Turn Off">Turn Off</option>
+                <option value="Toggle">Toggle</option>
+            </select>
+        </div>
+        <details class="message info" id="detailsTag">
+            <summary id="connectivityMessage">Connected to GoXLR App</summary>
+        </details>
+    </div>
+    <script src="js\RoutingTable.js"> </script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+{
+  "Description": "Control Discord.",
+  "Name": "Discord",
+  "com.elgato.discord.mute": {
+    "Name": "Mute",
+    "Tooltip": "Toggle Microphone Mute"
+  },
+  "com.elgato.discord.deafen": {
+    "Name": "Deafen",
+    "Tooltip": "Toggle Deafen"
+  },
+  "com.elgato.discord.channel.voice": {
+    "Name": "Voice Channel",
+    "Tooltip": "Join or leave a voice channel"
+  },
+  "com.elgato.discord.channel.text": {
+    "Name": "Text Channel",
+    "Tooltip": "Go to a text channel"
+  },
+  "com.elgato.discord.pushto.talk": {
+    "Name": "Push to Talk",
+    "Tooltip": "Press and hold to talk"
+  },
+  "com.elgato.discord.pushto.mute": {
+    "Name": "Push to Mute",
+    "Tooltip": "Press and hold to mute"
+  },
+  "Localization": {
+    "PI": {
+      "AppWarning": "Please launch Discord",
+      "AuthWarning": "Discord authorization required",
+      "AccessLabel": "Authorization",
+      "AccessButton": "Request access",
+      "Server": "Server",
+      "NoServer": "No Server",
+      "VoiceChannel": "Voice Channel",
+      "TextChannel": "Text Channel",
+      "NoChannel": "No Channel",
+      "Action": "Action",
+      "PushToTalk": "Push to Talk",
+      "PushToMute": "Push to Mute"
+    }
+  }
+}

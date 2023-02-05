@@ -1,0 +1,116 @@
+{
+    "Description": "オンラインゲームやビデオストリーミングに最適なリアルタイムボイスチェンジャー。 Troll like a PRO!",
+    "Name": "Voicemod",
+    "net.voicemod.windowsdesktop.addvoice": {
+        "Name": "ボイスを選択",
+        "Tooltip": "この操作で声を選択します"
+    },
+    "net.voicemod.windowsdesktop.voicechangerswitch": {
+        "Name": "ボイスチェンジャーオン・オフ",
+        "Tooltip": "この操作でボイスチェンジャーのオン・オフを切り替えます"
+    },
+    "net.voicemod.windowsdesktop.voicechangeron": {
+        "Name": "ボイスチェンジャーをオンにする",
+        "Tooltip": "この操作はボイスチェンジャーをオンにします"
+    },
+    "net.voicemod.windowsdesktop.voicechangeroff": {
+        "Name": "ボイスチェンジャーをオフにする",
+        "Tooltip": "この操作はボイスチェンジャーをオフにします"
+    },
+    "net.voicemod.windowsdesktop.pushtotalk": {
+        "Name": "プッシュでボイスチェンジ",
+        "Tooltip": "この操作でキーパッドを押している間のボイスチェンジャーのオン・オフを切り替えます"
+    },
+    "net.voicemod.windowsdesktop.hearmyvoiceswitch": {
+        "Name": "自分の声をオン・オフ",
+        "Tooltip": "この操作で自分の声の再生のオン・オフを切り替えます"
+    },
+    "net.voicemod.windowsdesktop.hearmyvoiceon": {
+        "Name": "ボイスチェンジャーをオンにする",
+        "Tooltip": "この操作はボイスチェンジャーをオンにします"
+    },
+    "net.voicemod.windowsdesktop.hearmyvoiceoff": {
+        "Name": "ボイスチェンジャーをオフにする",
+        "Tooltip": "この操作はボイスチェンジャーをオフにします"
+    },
+    "net.voicemod.windowsdesktop.backgroundswitch": {
+        "Name": "アンビエントエフェクトオン・オフ",
+        "Tooltip": "この操作でアンビエントエフェクトのオン・オフを切り替えます自分の影の再生のオン・オフを切り替えます"
+    },
+    "net.voicemod.windowsdesktop.muteswitch": {
+        "Name": "消音オン・オフ",
+        "Tooltip": "この操作でマイクの消音のオン・オフを切り替えます"
+    },
+    "net.voicemod.windowsdesktop.randomvoice": {
+        "Name": "ランダムボイス",
+        "Tooltip": "この操作でボイスをランダムに選択します"
+    },
+    "net.voicemod.windowsdesktop.badlanguage": {
+        "Name": "検疫ビープ音",
+        "Tooltip": "この操作でマイクの消音と同時に検疫のビープ音の再生のオン・オフを切り替えます"
+    },
+    "net.voicemod.windowsdesktop.pushtomemesound": {
+        "Name": "Meme Sound を再生",
+        "Tooltip": "この操作で Meme Sound Machine オーディオファイルを再生します"
+    },
+    "net.voicemod.windowsdesktop.stopallsounds": {
+        "Name": "すべての Meme Sound を停止",
+        "Tooltip": "この操作ですべてのアクティブな meme sound を停止します"
+    },
+    "net.voicemod.windowsdesktop.muteforme": {
+        "Name": "Mute for me On/Off",
+        "Tooltip": "This action mutes/unmutes the sound for me"
+    },
+    "Localization": {
+        "app-status": "アプリのステータス:",
+        "retry-connection": "ここをクリックして再接続",
+        "list-of-voices": "音声リスト:",
+        "all-voices": "すべて",
+        "favorites-voices": "お気に入り",
+        "free-voices-label": "Free voices",
+        "maker-voices": "メーカー",
+        "voices": "ボイス:",
+        "no-element": "なし",
+        "install-voicemod-title": "VOICEMOD",
+        "install-voicemod-description": "リアルタイムボイスチェンジャー<br>とサウンドボード",
+        "install-voicemod-download": "今すぐダウンロード！",
+        "launch-voicemod": "⚠️ Voicemod を起動する必要があります ⚠️",
+        "voicemod-is-running": "Voicemod が作動中 👍",
+        "connecting-to-voicemod": "Connecting to Voicemod",
+        "voicemod-fail-to-connect": "Voicemod へ接続できませんでした",
+        "install-voicemod-message": "VoicemodをインストールしてPROのようにドッキリを仕掛ける！ 😜",
+        "offer-fire": "🔥🔥🔥",
+        "offer-line-1": "まだVoicemod PROユーザーになってないのですか？ 🤔",
+        "offer-line-2": "クリックして特別オファーを見る 🤑",
+        "start-app": "開始！🚀",
+        "skin":"Skin:",
+        "tune":"Tune:",
+        "soundboard": "Soundboard",
+        "soundboard-soundboard-label": "Sound:",
+        "soundboard-profile-label": "Profile:",
+        "soundboard-mode-label": "Playback mode:",
+        "soundboard-volume-label": "Volume:",
+        "soundboard-loop-label": "Loop",
+        "soundboard-mute-sounds-label": "Mute other sounds",
+        "soundboard-mute-voice-label": "Mute voice",
+        "soundboard-category-label": "Categories:",
+        "soundboard-import-button": "Import all sounds",
+        "soundboard-input-select-category": "Select a category",
+        "soundboard-input-select-voice": "Select a voice",
+        "soundboard-input-select-profile": "Select a profile",
+        "soundboard-input-select-sound": "Select a sound",
+        "install-voicemod-v-2-button": "Install Voicemod v2",
+        "install-voicemod-v-2-alert": "You need to update Voicemod to use this functionality",
+        "random-voices-label": "ランダムボイス",
+        "random-voice-option-all": "All Voices",
+        "random-voice-option-favorite": "Favorite Voices",
+        "random-voice-option-custom": "Voicelab Voices",
+        "random-voice-option-fav-custom": "Favorite + Voicelab Voices",
+        "playback-default": "Default",
+        "playback-play-loop-on-press": "Push to Loop",
+        "playback-play-overlap": "Play - Overlap",
+        "playback-play-pause": "Play - Pause",
+        "playback-play-restart": "Play - Restart",
+        "playback-play-stop": "Play - Stop"
+    }
+}

@@ -1,0 +1,34 @@
+﻿{
+  "Localization": {
+    "Setup": {
+      "General": {
+        "title-intro": "Setup",
+        "title-pairing": "Link",
+        "title-result": "Finalize"
+      },
+      "Intro": {
+        "Title": "Twitch Tools Setup",
+        "Description": "This wizard will help you link your Twitch account with the plugin.",
+        "DescriptionPart2": "Press the 'Link' button and authorize the plugin in the newly opened browser tab. ",
+        "NotePopup": "Note: This window may close but will open up again if the link failed.",
+        "Submit": "LINK",
+        "Close": "Cancel"
+      },
+      "Pairing": {
+        "Title": "Linking account",
+        "Description": "Please follow instructions in your browser...",
+        "Cancel": "Cancel"
+      },
+      "Result": {
+        "SuccessTitle": "✔️ Twitch Connected",
+        "SuccessDescription": "Enjoy using Twitch with your Stream Deck.<br/>You may <b><i>close</i></b> this window.",
+        "FailTitle": "VALIDATION FAILED",
+        "FailDescription": "We failed to link your account, please try again. For support:",
+        "FailRetry": "TRY AGAIN",
+        "Close": "Close",
+        "Cancel": "Cancel",
+        "Save": "Done"
+      }
+    }
+  }
+}

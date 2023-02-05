@@ -1,0 +1,44 @@
+{
+  "Description": "Contrôlez Discord.",
+  "Name": "Discord",
+  "com.elgato.discord.mute": {
+    "Name": "Couper le micro",
+    "Tooltip": "Couper/Réactiver le micro"
+  },
+  "com.elgato.discord.deafen": {
+    "Name": "Couper le son",
+    "Tooltip": "Couper/Réactiver le son"
+  },
+  "com.elgato.discord.channel.voice": {
+    "Name": "Canal voix",
+    "Tooltip": "Rejoindre ou quitter un canal voix"
+  },
+  "com.elgato.discord.channel.text": {
+    "Name": "Canal texte",
+    "Tooltip": "Accéder à un canal texte"
+  },
+  "com.elgato.discord.pushto.talk": {
+    "Name": "Appuyer pour parler",
+    "Tooltip": "Appuyer et maintenir pour parler"
+  },
+  "com.elgato.discord.pushto.mute": {
+    "Name": "Appuyer pour couper le micro",
+    "Tooltip": "Appuyer et maintenir pour couper le micro"
+  },
+  "Localization": {
+    "PI": {
+      "AppWarning": "Veuillez lancer Discord",
+      "AuthWarning": "Discord authorization required",
+      "AccessLabel": "Authorization",
+      "AccessButton": "Request access",
+      "Server": "Serveur",
+      "NoServer": "Pas de serveur",
+      "VoiceChannel": "Canal voix",
+      "TextChannel": "Canal texte",
+      "NoChannel": "Aucune chaîne",
+      "Action": "Action",
+      "PushToTalk": "Appuyer pour parler",
+      "PushToMute": "Appuyer pour couper le micro"
+    }
+  }
+}

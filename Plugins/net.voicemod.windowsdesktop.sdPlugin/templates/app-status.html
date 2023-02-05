@@ -1,0 +1,53 @@
+<!-- Offer -->
+<div class="offerFromStreamDeck hidden">
+    <div class="sdpi-item">
+        <div
+            class="sdpi-item-label"
+            data-localized="offer-fire"
+        >
+        </div>
+        <div class="sdpi-item-value">
+            <div
+                class="sdpi-item-child"
+                id="get-pro-link"
+            >
+                <span
+                    class="offer offer-one label"
+                    data-localized="offer-line-1"
+                ></span>
+                <span
+                    class="offer offer-two label"
+                    data-localized="offer-line-2"
+                ></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- App Status -->
+<div class="sdpi-item">
+    <div
+        class="sdpi-item-label"
+        data-localized="app-status"
+    ></div>
+    <div class="sdpi-item-value">
+        <div class="sdpi-item-child">
+            <span
+                class="app-status statusText label"
+                data-localized="launch-voicemod"
+            ></span>
+            <span
+                id="startButton"
+                class="status-button label hidden"
+                onclick="launchVoicemod()"
+                data-localized="start-app"
+            ></span>
+            <span
+                id="connectButton"
+                class="status-button label hidden"
+                onclick="sendMessageToPlugin('connectVoicemod')"
+                data-localized="retry-connection"
+            ></span>
+        </div>
+    </div>
+</div>

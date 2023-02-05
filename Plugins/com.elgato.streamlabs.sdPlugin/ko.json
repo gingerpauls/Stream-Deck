@@ -1,0 +1,148 @@
+{
+  "Description": "Streamlabs 대시보드를 제어합니다.", 
+  "Name": "Streamlabs", 
+  "com.elgato.streamlabs.alert": {
+    "Name": "경고 테스트", 
+    "Tooltip": "경고 테스트"
+  }, 
+  "com.elgato.streamlabs.alert.mute": {
+    "Name": "경고 음소거", 
+    "Tooltip": "경고를 음소거합니다",
+    "States": [
+        {
+		  "Name": "음소거"
+        }, 
+        {
+		  "Name": "음소거 해제"
+        }
+      ]
+  }, 
+  "com.elgato.streamlabs.alert.pause": {
+    "Name": "경고 일시정지", 
+    "Tooltip": "경고를 일시정지합니다",
+    "States": [
+        {
+		  "Name": "일시정지"
+        }, 
+        {
+		  "Name": "계속"
+        }
+      ]
+  }, 
+  "com.elgato.streamlabs.alert.skip": {
+    "Name": "경고 건너뛰기", 
+    "Tooltip": "경고를 건너뜁니다"
+  }, 
+  "com.elgato.streamlabs.changeprofile": {
+    "Name": "프로필 변경", 
+    "Tooltip": "프로필을 변경합니다"
+  }, 
+  "com.elgato.streamlabs.emptyjar": {
+    "Name": "단지 비우기", 
+    "Tooltip": "더 많은 기부금을 받을 수 있도록 단지를 비웁니다"
+  }, 
+  "com.elgato.streamlabs.playcredits": {
+    "Name": "크레딧 재생", 
+    "Tooltip": "크레딧을 재생합니다"
+  }, 
+  "com.elgato.streamlabs.spinwheel": {
+    "Name": "휠 스핀", 
+    "Tooltip": "기회의 휠 스핀을 돌립니다"
+  },
+  "com.elgato.streamlabs.media.skip": {
+    "Name": "미디어 건너뛰기", 
+    "Tooltip": "다음 미디어로 건너뜁니다"
+  },
+  "com.elgato.streamlabs.media.playback": {
+    "Name": "이전 미디어", 
+    "Tooltip": "이전 미디어로 건너뜁니다"
+  },
+  "com.elgato.streamlabs.media.volume": {
+    "Name": "볼륨 변경", 
+    "Tooltip": "미디어 볼륨을 변경합니다"
+  },
+  "com.elgato.streamlabs.media.pause": {
+    "Name": "미디어 일시정지", 
+    "Tooltip": "현재 미디어를 정지 또는 재생합니다",
+    "States": [
+        {
+		  "Name": "일시정지"
+        }, 
+        {
+		  "Name": "계속"
+        }
+      ]
+  }, 
+  "com.elgato.streamlabs.media.request": {
+    "Name": "요청 스위치", 
+    "Tooltip": "새로운 미디어 요청을 켜거나 끕니다",
+    "States": [
+        {
+		  "Name": "켬"
+        }, 
+        {
+		  "Name": "끔"
+        }
+      ]
+  }, 
+  "com.elgato.streamlabs.media.autoplay": {
+    "Name": "자동재생 스위치", 
+    "Tooltip": "미디어 연속 자동 재생을 켜거나 끕니다",
+    "States": [
+        {
+		  "Name": "켬"
+        }, 
+        {
+		  "Name": "끔"
+        }
+      ]
+  }, 
+  "com.elgato.streamlabs.media.autoshow": {
+    "Name": "자동 보기 스위치", 
+    "Tooltip": "현재 미디어를 보거나 가립니다",
+    "States": [
+        {
+		  "Name": "켬"
+        }, 
+        {
+		  "Name": "끔"
+        }
+      ]
+  }, 
+  "com.elgato.streamlabs.media.moderation": {
+    "Name": "관리 스위치", 
+    "Tooltip": "요청한 미디어에 대한 관리를 켜거나 끕니다",
+    "States": [
+        {
+		  "Name": "켬"
+        }, 
+        {
+		  "Name": "끔"
+        }
+      ]
+  }, 
+  "com.elgato.streamlabs.media.backuplist": {
+    "Name": "백업 목록 스위치", 
+    "Tooltip": "대기열이 비어있을 때 백업 재생목록 사용 여부를 켜거나 끕니다",
+    "States": [
+        {
+		  "Name": "켬"
+        }, 
+        {
+		  "Name": "끔"
+        }
+      ]
+  }, 
+  "Localization": {
+    "PI": {
+      "Account": "계정",
+      "NoAccounts": "계정 없음",
+      "AddAccount": "신규 추가",
+      "Profile": "프로필",
+      "Action": "동작",
+      "VolumeUp": "높게",
+      "VolumeDown": "낮게",
+      "LiveWarning": "라이브 중에만 작동합니다"
+    }
+  }
+}

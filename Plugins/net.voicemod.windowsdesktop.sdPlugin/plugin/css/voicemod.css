@@ -1,0 +1,227 @@
+:root {
+    --green: #7ED321;
+    --red: #FF0000;
+    --yellow: #FBD004;
+    --white: #FFFFFF;
+    --sd-action-image: #d8d8d8;
+    --sd-background: #2D2D2D;
+    --sd-text: #9a9a9a;
+    --sd-input-background: #3d3d3d;
+    --azure: #128bfa;
+    --green-light: #4cdcc7;
+    --danger: #FF5820;
+}
+
+/* Helpers */
+.-danger {
+    color: var(--danger);
+}
+
+.-disable {
+    pointer-events: none;
+    opacity: .5;
+}
+
+/* Offer and App Status */
+.main-plugin-container a {
+	text-decoration: none;
+}
+
+.status-button {
+	display: block;
+	cursor: pointer;
+	color: var(--green);
+}
+
+.offer {
+	display: block;
+	font-weight: 600;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.offer.offer-one {
+	color: var(--white);
+}
+
+.offer.offer-two {
+	color: var(--yellow);
+}
+
+.voicemod-not-installed {
+	text-align: center;
+	margin: 3px 0 0 97px;
+}
+
+.voicemod-not-installed .voicemod-header {
+	margin-bottom: 10px;
+}
+
+.voicemod-not-installed .voicemod-title {
+	font-weight: 600;
+	font-size: 16px;
+	color: var(--white);
+}
+
+.voicemod-not-installed .voicemod-description {
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.voicemod-not-installed .download-button {
+	max-height: 28px;
+	margin-top: 0px;
+	color: var(--white);
+	text-align: center;
+	padding: 8px 18px 9px 18px;
+	border: none;
+	border-radius: 26px;
+	outline: none;
+	font-size: 16px;
+	text-shadow: -2px 2px 0 rgba(0, 0, 0, 0.2);
+	font-weight: 500;
+	transition: all .1s linear;
+	background: linear-gradient(to right, var(--azure), var(--green-light));
+	cursor: pointer;
+}
+
+.t-voicemodUpdate {
+    text-align: center;
+    margin: 10px;
+}
+
+/* Scrollbar */
+body::-webkit-scrollbar {
+	width: 5px;
+}
+
+body::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+	background-color: var(--sd-input-background);
+	outline: 1px solid var(--sd-text);
+	border-radius: 10px;
+}
+
+/* Slider */
+input[type=range] {
+	-webkit-appearance: none;
+	background: transparent;
+}
+
+input[type=range]::-webkit-slider-thumb {
+	-webkit-appearance: none;
+}
+
+input[type=range]:focus {
+	outline: none;
+}
+
+input[type=range]::-ms-track {
+	width: 100%;
+	cursor: pointer;
+	background: transparent;
+	border-color: transparent;
+	color: transparent;
+}
+
+input[type=range]::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	border: 1px solid var(--sd-text);
+	height: 13px;
+	width: 13px;
+	border-radius: 50%;
+	background: var(--white);
+	cursor: pointer;
+}
+
+/* Toggle */
+.toggle-container {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin: 0;
+}
+
+/* The toggle - the box around the slider */
+.toggle {
+	position: relative;
+	display: inline-block;
+	width: 30px;
+	height: 15px;
+	margin-right: 10px;
+}
+
+/* Hide default HTML checkbox */
+.toggle input {
+	opacity: 0;
+	width: 0;
+	height: 0;
+}
+
+.slider {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: var(--sd-input-background);
+	-webkit-transition: .4s;
+	transition: .4s;
+}
+
+.slider:before {
+	position: absolute;
+	content: "";
+	height: 11px;
+	width: 11px;
+	left: 3px;
+	bottom: 2px;
+	background-color: var(--sd-text);
+	-webkit-transition: .4s;
+	transition: .4s;
+}
+
+.toggle input:checked+.slider {
+	background-color: var(--azure);
+}
+
+.toggle input:focus+.slider {
+	box-shadow: 0 0 1px var(--azure);
+}
+
+.toggle input:checked+.slider:before {
+	background-color: var(--sd-action-image);
+	transform: translateX(12px);
+}
+
+.toggle .slider.round {
+	border-radius: 12.5px;
+}
+
+.toggle .slider.round:before {
+	border-radius: 50%;
+}
+
+/* TODO:
+* once refactor is completed
+* double check if needed
+*/
+.red {
+	background-color: var(--red);
+}
+
+.center {
+	text-align: center;
+}
+
+.marginLeftItem {
+	margin-left: 97px;
+}
+
+.marginTopItem {
+	margin-top: 3px;
+}

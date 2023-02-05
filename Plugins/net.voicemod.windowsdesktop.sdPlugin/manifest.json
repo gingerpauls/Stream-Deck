@@ -1,0 +1,232 @@
+{
+  "Actions": [{
+      "Icon": "plugin/icons/action-select-voice",
+      "Name": "Voice Changer",
+      "States": [{
+        "Image": "plugin/icons/key-select-voice",
+        "TitleAlignment": "middle",
+        "FontSize": "16"
+      }],
+      "SupportedInMultiActions": true,
+      "Tooltip": "This action lets you choose a Voice Changer effect to add and use.",
+      "PropertyInspectorPath": "addVoice/index.html",
+      "UUID": "net.voicemod.windowsdesktop.addvoice"
+    },
+    {
+      "Icon": "plugin/icons/action-voice-changer",
+      "Name": "Voice Changer On/Off",
+      "States": [{
+        "Image": "plugin/icons/key-voice-changer-off",
+        "TitleAlignment": "middle",
+        "FontSize": "16"
+      }],
+      "SupportedInMultiActions": true,
+      "Tooltip": "This action switches the Voice Changer on/off.",
+      "PropertyInspectorPath": "plugin/index.html",
+      "UUID": "net.voicemod.windowsdesktop.voicechangerswitch"
+    },
+    {
+      "Icon": "plugin/icons/action-voice-changer-on",
+      "Name": "Voice Changer ON",
+      "States": [
+        {
+          "Image": "plugin/icons/key-voice-changer-on-off",
+          "TitleAlignment": "middle",
+          "FontSize": "16"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "This action turns ON Voice Changer",
+      "PropertyInspectorPath": "plugin/index.html",
+      "UUID": "net.voicemod.windowsdesktop.voicechangeron",
+      "VisibleInActionsList": true
+    },
+    {
+      "Icon": "plugin/icons/action-voice-changer-off",
+      "Name": "Voice Changer OFF",
+      "States": [
+        {
+          "Image": "plugin/icons/key-voice-changer-off-off",
+          "TitleAlignment": "middle",
+          "FontSize": "16"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "This action turns OFF Voice Changer",
+      "PropertyInspectorPath": "plugin/index.html",
+      "UUID": "net.voicemod.windowsdesktop.voicechangeroff",
+      "VisibleInActionsList": true
+    },
+    {
+      "Icon": "plugin/icons/action-push-voice-changer",
+      "Name": "Activate Voice Changer",
+      "States": [{
+        "Image": "plugin/icons/key-voice-changer-on-1",
+        "TitleAlignment": "middle",
+        "FontSize": "16"
+      }],
+      "SupportedInMultiActions": false,
+      "Tooltip": "This action activates the Voice Changer as long as you hold down the keypad button.",
+      "PropertyInspectorPath": "plugin/index.html",
+      "UUID": "net.voicemod.windowsdesktop.pushtotalk"
+    },
+    {
+      "Icon": "plugin/icons/action-hear-my-voice",
+      "Name": "Hear myself On/Off",
+      "States": [{
+        "Image": "plugin/icons/key-hear-my-voice-off",
+        "TitleAlignment": "middle",
+        "FontSize": "16"
+      }],
+      "SupportedInMultiActions": true,
+      "Tooltip": "This action switches 'Hear myself' on/off.",
+      "PropertyInspectorPath": "plugin/index.html",
+      "UUID": "net.voicemod.windowsdesktop.hearmyvoiceswitch"
+    },
+    {
+      "Icon": "plugin/icons/action-hear-myself-on",
+      "Name": "Hear Myself On",
+      "States": [{
+          "Image": "plugin/icons/key-hear-myself-on-off",
+          "TitleAlignment": "middle",
+          "FontSize": "16"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "This action switches 'Hear myself' always to ON",
+      "PropertyInspectorPath": "plugin/index.html",
+      "UUID": "net.voicemod.windowsdesktop.hearmyvoiceon",
+      "VisibleInActionsList": true
+    },
+    {
+      "Icon": "plugin/icons/action-hear-myself-off",
+      "Name": "Hear Myself Off",
+      "States": [{
+          "Image": "plugin/icons/key-hear-myself-off-off",
+          "TitleAlignment": "middle",
+          "FontSize": "16"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "This action switches 'Hear myself' always to OFF",
+      "PropertyInspectorPath": "plugin/index.html",
+      "UUID": "net.voicemod.windowsdesktop.hearmyvoiceoff",
+      "VisibleInActionsList": true
+    },
+    {
+      "Icon": "plugin/icons/action-ambient-sound",
+      "Name": "Background Effects On/Off",
+      "States": [{
+        "Image": "plugin/icons/key-ambient-sound-off",
+        "TitleAlignment": "middle",
+        "FontSize": "16"
+      }],
+      "SupportedInMultiActions": true,
+      "Tooltip": "This action switches the ambient effects on/off.",
+      "PropertyInspectorPath": "plugin/index.html",
+      "UUID": "net.voicemod.windowsdesktop.backgroundswitch"
+    },
+    {
+      "Icon": "plugin/icons/action-mute-sounds",
+      "Name": "Mute On/Off",
+      "States": [{
+        "Image": "plugin/icons/key-mute-sounds-off",
+        "TitleAlignment": "middle",
+        "FontSize": "16"
+      }],
+      "SupportedInMultiActions": true,
+      "Tooltip": "This action mutes/unmutes the microphone",
+      "PropertyInspectorPath": "plugin/index.html",
+      "UUID": "net.voicemod.windowsdesktop.muteswitch"
+    },
+    {
+      "Icon": "plugin/icons/action-random-voice",
+      "Name": "Random Voice",
+      "States": [{
+        "Image": "plugin/icons/key-random-voice-idle",
+        "TitleAlignment": "middle",
+        "FontSize": "16"
+      }],
+      "SupportedInMultiActions": true,
+      "Tooltip": "This action selects a random voice.",
+      "PropertyInspectorPath": "random/index.html",
+      "UUID": "net.voicemod.windowsdesktop.randomvoice"
+    },
+    {
+      "Icon": "plugin/icons/action-push-bad-language",
+      "Name": "Instant Censor Beep",
+      "States": [{
+        "Image": "plugin/icons/key-push-bad-language-on-2",
+        "TitleAlignment": "middle",
+        "FontSize": "16"
+      }],
+      "SupportedInMultiActions": false,
+      "Tooltip": "This action mutes the mic and plays a censoring beep.",
+      "PropertyInspectorPath": "plugin/index.html",
+      "UUID": "net.voicemod.windowsdesktop.badlanguage"
+    },
+    {
+      "Icon": "plugin/icons/action-add-sound",
+      "Name": "Soundboard",
+      "States": [{
+        "Image": "plugin/icons/key-new-sound",
+        "TitleAlignment": "middle",
+        "FontSize": "16"
+      }],
+      "SupportedInMultiActions": true,
+      "Tooltip": "This action plays a Soundboard audio file.",
+      "PropertyInspectorPath": "meme/index.html",
+      "UUID": "net.voicemod.windowsdesktop.pushtomemesound"
+    },
+    {
+      "Icon": "plugin/icons/action-stop-all-sounds",
+      "Name": "Stop All Soundboard Sounds",
+      "States": [{
+        "Image": "plugin/icons/key-stop-all-sounds",
+        "TitleAlignment": "middle",
+        "FontSize": "16"
+      }],
+      "SupportedInMultiActions": true,
+      "Tooltip": "This action stops all active Soundboard sounds.",
+      "PropertyInspectorPath": "plugin/index.html",
+      "UUID": "net.voicemod.windowsdesktop.stopallsounds"
+    },
+    {
+      "Icon": "plugin/icons/action-mute-for-me",
+      "Name": "Mute for me On/Off",
+      "States": [{
+          "Image": "plugin/icons/key-mute-for-me-idle",
+          "TitleAlignment": "middle",
+          "FontSize": "16"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "This action mutes/unmutes the sound for me.",
+      "PropertyInspectorPath": "plugin/index.html",
+      "UUID": "net.voicemod.windowsdesktop.muteforme"
+    }
+  ],
+  "SDKVersion": 2,
+  "Author": "Voicemod S.L.",
+  "CodePath": "voicemodplugin.exe",
+  "Category": "Voicemod",
+  "CategoryIcon": "plugin/icons/category-voicemod-logo",
+  "PropertyInspectorPath": "plugin/index.html",
+  "Description": "Change your voice in real-time and add sound effects to your stream with Voicemod. With integration for Stream Deck, using our voice changers and soundboards has never been easier - simply click a button and turn your stream into a show.",
+  "Name": "Voicemod",
+  "Icon": "plugin/icons/voicemodPluginIcon",
+  "URL": "http://www.voicemod.net",
+  "Version": "2.3.1",
+  "OS": [{
+    "Platform": "windows",
+    "MinimumVersion": "10"
+  }],
+  "Software": {
+    "MinimumVersion": "4.6.3"
+  },
+  "ApplicationsToMonitor": {
+    "windows": [
+      "VoicemodDesktop.exe"
+    ]
+  }
+}

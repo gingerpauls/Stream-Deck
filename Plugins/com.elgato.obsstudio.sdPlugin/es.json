@@ -1,0 +1,180 @@
+{
+	"Author": "Corsair Memory Inc.",
+	"Name": "OBS Studio",
+	"Description": "Plugin de Elgato Stream Deck para OBS Studio",
+	"Category": "OBS Studio",
+	"com.elgato.obsstudio.record": {
+		"Name": "Grabar",
+		"Tooltip": "Iniciar/detener grabación en archivo",
+		"States": [
+			{
+				"Name": "Iniciar"
+			},
+			{
+				"Name": "Detener"
+			}
+		]
+	},
+	"com.elgato.obsstudio.record.pause": {
+		"Name": "Pausar grabación",
+		"States": [
+			{
+				"Name": "Pausa"
+			},
+			{
+				"Name": "Reanudar"
+			}
+		],
+		"Tooltip": "Pausar una grabación activa"
+	},
+	"com.elgato.obsstudio.stream": {
+		"Name": "Stream",
+		"States": [
+			{
+				"Name": "Iniciar"
+			},
+			{
+				"Name": "Detener"
+			}
+		],
+		"Tooltip": "Iniciar/detener streaming"
+	},
+	"com.elgato.obsstudio.replaybuffer": {
+		"Name": "Búfer de repetición",
+		"States": [
+			{
+				"Name": "Iniciar"
+			},
+			{
+				"Name": "Detener"
+			}
+		],
+		"Tooltip": "Activar/desactivar el búfer de repetición"
+	},
+	"com.elgato.obsstudio.replaybuffer.save": {
+		"Name": "Guardar búfer de repetición",
+		"Tooltip": "Guardar el búfer de repetición activo"
+	},
+	"com.elgato.obsstudio.scenecollection": {
+		"Name": "Colección de escenas",
+		"Tooltip": "Cambiar colección de escenas"
+	},
+	"com.elgato.obsstudio.scene": {
+		"Name": "Escena",
+		"Tooltip": "Cambiar escena"
+	},
+	"com.elgato.obsstudio.source": {
+		"Name": "Visibilidad de fuente",
+		"States": [
+			{
+				"Name": "Mostrar"
+			},
+			{
+				"Name": "Ocultar"
+			}
+		],
+		"Tooltip": "Mostrar/ocultar fuente"
+	},
+	"com.elgato.obsstudio.mixeraudio": {
+		"Name": "Mezclador de audio",
+		"States": [
+			{
+				"Name": "No silenciar"
+			},
+			{
+				"Name": "Silenciar"
+			}
+		],
+		"Tooltip": "Silenciar/no silenciar fuente de audio"
+	},
+	"com.elgato.obsstudio.source.media": {
+		"Name": "Control de fuente multimedia",
+		"States": [
+			{
+				"Name": "Reproducir"
+			},
+			{
+				"Name": "Pausa"
+			},
+			{
+				"Name": "Detener"
+			},
+			{
+				"Name": "Reiniciar"
+			}
+		],
+		"Tooltip": "Controles de reproducción de fuente multimedia"
+	},
+	"com.elgato.obsstudio.studiomode": {
+		"Name": "Modo Estudio",
+		"States": [
+			{
+				"Name": "Activar"
+			},
+			{
+				"Name": "Desactivar"
+			}
+		],
+		"Tooltip": "Activar/desactivar el Modo Estudio"
+	},
+	"com.elgato.obsstudio.transitionstudio": {
+		"Name": "Vista previa al programa",
+		"Tooltip": "Transición de escena de vista previa a programa"
+	},
+	"com.elgato.obsstudio.filter.state": {
+		"Name": "Filtro",
+		"States": [
+			{
+				"Name": "Activar"
+			},
+			{
+				"Name": "Desactivar"
+			}
+		],
+		"Tooltip": "Mostrar/ocultar filtro"
+	},
+	"com.elgato.obsstudio.screenshot": {
+		"Name": "Captura de pantalla",
+		"Tooltip": "Capturar la escena activa"
+	},
+	"com.elgato.obsstudio.transition": {
+		"Name": "Transición",
+		"Tooltip": "Definir una transición"
+	},
+	"Localization": {
+		"Source": "Fuente",
+		"Filter": "Filtro",
+		"Long Press": "Pulsación larga",
+		"Scene": "Escena",
+		"Keep Same": "Mantener igual",
+		"Target": "Destino",
+		"Preview": "Vista previa",
+		"Program": "Programa",
+		"Collection": "Colección",
+		"Action": "Acción",
+		"Play/Pause": "Reproducir/pausar",
+		"Play/Stop": "Reproducir/detener",
+		"Play/Restart": "Reproducir/reiniciar",
+		"Stop": "Detener",
+		"Transition": "Transición",
+		"Duration (ms)": "Duración (ms)",
+		"OBS Studio is not connected.": "OBS Studio no está conectado.",
+		"Studio mode is not enabled.": "El Modo Estudio no está activado.",
+		"The source is no longer valid.": "La fuente ya no es válida.",
+		"Source is invalid.": "La fuente no es válida.",
+		"Missing parameters": "Faltan parámetros",
+		"Disconnected from OBS Studio.": "Te has desconectado de OBS Studio.",
+		"To pause a recording start recording first.": "Para pausar una grabación, antes debes iniciarla.",
+		"Replay Buffer is not enabled!": "El búfer de repetición no está activado.",
+		"Replay Buffer must be started for saving to work.": "Debes iniciar el búfer de repetición para poder guardarlo.",
+		"Action is not configured for the active scene collection": "La acción no está configurada para la colección de escenas activa",
+		"Unknown (Load collection %s to load)": "Desconocida (Cargar colección \"%s\" para cargar)",
+		"Waiting for OBS...": "Esperando a OBS...",
+		"Waiting for settings...": "Esperando a los ajustes...",
+		"Waiting for sources...": "Esperando a las fuentes...",
+		"Waiting for filters...": "Esperando a los filtros...",
+		"Waiting for scenes...": "Esperando a las escenas...",
+		"Waiting for collections...": "Esperando a las colecciones...",
+		"Changing collection...": "Cambiando de colección..."
+	}
+}

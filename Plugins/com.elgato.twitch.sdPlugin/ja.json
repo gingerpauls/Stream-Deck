@@ -1,0 +1,110 @@
+{
+  "Description": "Twitchをコントロールします。", 
+  "Name": "Twitch", 
+  "com.elgato.twitch.chatmessage": {
+    "Name": "チャットメッセージ", 
+    "Tooltip": "事前に作成したメッセージをチャンネルのチャットに投稿"
+  }, 
+  "com.elgato.twitch.clear": {
+    "Name": "チャットを消去", 
+    "Tooltip": "Twitchのチャットメッセージの履歴を消去"
+  }, 
+  "com.elgato.twitch.emotechat": {
+    "Name": "エモートチャット", 
+    "Tooltip": "チャットを絵文字のみに制限",
+    "States": [
+        {
+		  "Name": "有効にする"
+        }, 
+        {
+		  "Name": "無効にする"
+        }
+      ]
+  }, 
+  "com.elgato.twitch.followerschat": {
+    "Name": "フォロワーチャット", 
+    "Tooltip": "チャットをフォロワーのみに制限",
+    "States": [
+        {
+		  "Name": "有効にする"
+        }, 
+        {
+		  "Name": "無効にする"
+        }
+      ]
+  }, 
+  "com.elgato.twitch.playad": {
+    "Name": "広告を再生", 
+    "Tooltip": "広告を再生"
+  }, 
+  "com.elgato.twitch.slowchat": {
+    "Name": "チャットを表示", 
+    "Tooltip": "スローチャットを有効/無効にする",
+    "States": [
+        {
+		  "Name": "有効にする"
+        }, 
+        {
+		  "Name": "無効にする"
+        }
+      ]
+  }, 
+  "com.elgato.twitch.streamtitle": {
+    "Name": "ストリーム/ゲームタイトル", 
+    "Tooltip": "ストリーム/ゲームタイトルを表示"
+  }, 
+  "com.elgato.twitch.subchat": {
+    "Name": "サブチャット", 
+    "Tooltip": "購読者のみのチャットを有効/無効にする",
+    "States": [
+        {
+		  "Name": "有効にする"
+        }, 
+        {
+		  "Name": "無効にする"
+        }
+      ]
+  }, 
+  "com.elgato.twitch.viewers": {
+    "Name": "視聴者", 
+    "Tooltip": "ライブ視聴者数を表示"
+  }, 
+  "com.elgato.twitch.createclip": {
+    "Name": "クリップを作成", 
+    "Tooltip": "ライブストリームのクリップをすばやく作成"
+  }, 
+  "com.elgato.twitch.openlastclip": {
+    "Name": "最後のクリップを開く", 
+    "Tooltip": "最後に作成したクリップを開く"
+  },
+  "com.elgato.twitch.marker": {
+    "Name": "ストリームマーカーを作成", 
+    "Tooltip": "ライブストリームのストリームマーカーをすばやく作成"
+  },
+  "Localization": {
+    "PI": {
+      "Account": "アカウント",
+      "NoAccounts": "アカウントがありません",
+      "AddAccount": "新規を追加",
+      "Message": "メッセージ",
+      "Stream": "ストリームタイトル",
+      "Game": "ゲーム",
+      "Duration": "継続時間",
+      "Second": "秒",
+      "Seconds": "秒",
+      "Duration_0m": "0 分 (すべてのフォロワー)",
+      "Duration_10m": "10分 (最もよく使用される)",
+      "Duration_30m": "30分",
+      "Duration_1h": "1時間",
+      "Duration_1d": "1日",
+      "Duration_1w": "1週間",
+      "Duration_1M": "1か月",
+      "Duration_3M": "3か月",
+      "MessagePlaceholder": "Twitchチャットメッセージをこちらに入力してください。",
+      "StreamPlaceholder": "ストリームタイトルをこちらに追加してください。",
+      "GamePlaceholder": "ゲームタイトルをこちらに追加してください。",
+      "LiveWarning": "ライブ時にのみ動作します",
+      "AccountWarning": "Twitchパートナーまたはアフィリエイトアカウントが必要です"
+    }
+  }
+}

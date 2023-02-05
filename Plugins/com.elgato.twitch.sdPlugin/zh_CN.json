@@ -1,0 +1,110 @@
+{
+  "Description": "控制 Twitch。", 
+  "Name": "Twitch", 
+  "com.elgato.twitch.chatmessage": {
+    "Name": "聊天消息", 
+    "Tooltip": "将预编辑的消息发布到频道的聊天中"
+  }, 
+  "com.elgato.twitch.clear": {
+    "Name": "清除聊天", 
+    "Tooltip": "清除 Twitch 聊天消息历史"
+  }, 
+  "com.elgato.twitch.emotechat": {
+    "Name": "表情聊天", 
+    "Tooltip": "将聊天仅限为表情",
+    "States": [
+        {
+		  "Name": "激活"
+        }, 
+        {
+		  "Name": "取消激活"
+        }
+      ]
+  }, 
+  "com.elgato.twitch.followerschat": {
+    "Name": "关注者聊天", 
+    "Tooltip": "将聊天仅限为关注者",
+    "States": [
+        {
+		  "Name": "激活"
+        }, 
+        {
+		  "Name": "取消激活"
+        }
+      ]
+  }, 
+  "com.elgato.twitch.playad": {
+    "Name": "播放广告", 
+    "Tooltip": "播放广告"
+  }, 
+  "com.elgato.twitch.slowchat": {
+    "Name": "慢聊", 
+    "Tooltip": "激活/停用慢聊",
+    "States": [
+        {
+		  "Name": "激活"
+        }, 
+        {
+		  "Name": "取消激活"
+        }
+      ]
+  }, 
+  "com.elgato.twitch.streamtitle": {
+    "Name": "实时播放/游戏标题", 
+    "Tooltip": "显示实时播放/游戏标题"
+  }, 
+  "com.elgato.twitch.subchat": {
+    "Name": "订阅者聊天", 
+    "Tooltip": "激活/停用仅订阅者聊天",
+    "States": [
+        {
+		  "Name": "激活"
+        }, 
+        {
+		  "Name": "取消激活"
+        }
+      ]
+  }, 
+  "com.elgato.twitch.viewers": {
+    "Name": "观众", 
+    "Tooltip": "显示实时观众人数"
+  }, 
+  "com.elgato.twitch.createclip": {
+    "Name": "创建剪辑", 
+    "Tooltip": "快速创建实况播放剪辑"
+  }, 
+  "com.elgato.twitch.openlastclip": {
+    "Name": "打开上个剪辑", 
+    "Tooltip": "打开上次创建的剪辑"
+  },
+  "com.elgato.twitch.marker": {
+    "Name": "创建流标记", 
+    "Tooltip": "快速创建实况播放流标记"
+  },
+  "Localization": {
+    "PI": {
+      "Account": "帐户",
+      "NoAccounts": "无帐户",
+      "AddAccount": "新增",
+      "Message": "消息",
+      "Stream": "实时播放标题",
+      "Game": "游戏",
+      "Duration": "时间长度",
+      "Second": "秒",
+      "Seconds": "秒钟",
+      "Duration_0m": "0 分钟（任意关注者）",
+      "Duration_10m": "10 分钟（最常用）",
+      "Duration_30m": "30 分钟",
+      "Duration_1h": "1 小时",
+      "Duration_1d": "1 天",
+      "Duration_1w": "1 周",
+      "Duration_1M": "1 个月",
+      "Duration_3M": "3 个月",
+      "MessagePlaceholder": "在此输入 Twitch 聊天消息。",
+      "StreamPlaceholder": "在此添加实时播放标题。",
+      "GamePlaceholder": "在此添加游戏标题。",
+      "LiveWarning": "只在您上线时发挥作用",
+      "AccountWarning": "需要 Twitch Partner 或 Affiliate 帐户"
+    }
+  }
+}

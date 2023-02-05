@@ -1,0 +1,15 @@
+const REQUEST_TYPE = Object.freeze({
+	togglePolling: 'togglePolling',
+	setPollingInterval: 'setPollingInterval',
+	getDeviceCount: 'getDeviceCount',
+	getSystemDefaultDevice: 'getSystemDefaultDevice',
+	getDevice: 'getDevice',
+	getApplicationInstanceAtIndex: 'getApplicationInstanceAtIndex',
+	getApplicationInstance: 'getApplicationInstance',
+	getApplicationInstanceImage: 'getApplicationInstanceImage',
+	getApplicationInstanceCount: 'getApplicationInstanceCount',
+	setApplicationInstanceVolume: 'setApplicationInstanceVolume',
+	setApplicationInstanceMute: 'setApplicationInstanceMute',
+	setSystemDefaultDeviceMute: 'setSystemDefaultDeviceMute',
+	setSystemDefaultDeviceVolume: 'setSystemDefaultDeviceVolume',
+});

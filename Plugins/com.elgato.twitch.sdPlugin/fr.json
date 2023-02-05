@@ -1,0 +1,110 @@
+{
+  "Description": "Contrôlez Twitch.", 
+  "Name": "Twitch", 
+  "com.elgato.twitch.chatmessage": {
+    "Name": "Message de discussion", 
+    "Tooltip": "Publier un message prédéfini dans la discussion de la chaîne"
+  }, 
+  "com.elgato.twitch.clear": {
+    "Name": "Effacer la discussion", 
+    "Tooltip": "Effacer l’historique des messages de discussion Twitch."
+  }, 
+  "com.elgato.twitch.emotechat": {
+    "Name": "Emote Chat", 
+    "Tooltip": "Restreindre la discussion à des émoticônes",
+    "States": [
+        {
+		  "Name": "Activer"
+        }, 
+        {
+		  "Name": "Désactiver"
+        }
+      ]
+  }, 
+  "com.elgato.twitch.followerschat": {
+    "Name": "Followers Chat", 
+    "Tooltip": "Restreindre la discussion aux followers",
+    "States": [
+        {
+		  "Name": "Activer"
+        }, 
+        {
+		  "Name": "Désactiver"
+        }
+      ]
+  }, 
+  "com.elgato.twitch.playad": {
+    "Name": "Diffuser l'annonce", 
+    "Tooltip": "Diffuser l'annonce"
+  }, 
+  "com.elgato.twitch.slowchat": {
+    "Name": "Slow Chat", 
+    "Tooltip": "Activer/Désactiver Slow Chat",
+    "States": [
+        {
+		  "Name": "Activer"
+        }, 
+        {
+		  "Name": "Désactiver"
+        }
+      ]
+  }, 
+  "com.elgato.twitch.streamtitle": {
+    "Name": "Titre du jeu/flux", 
+    "Tooltip": "Afficher le titre de votre jeu/flux"
+  }, 
+  "com.elgato.twitch.subchat": {
+    "Name": "Sub Chat", 
+    "Tooltip": "Activer/Désactiver la discussion entre abonnés",
+    "States": [
+        {
+		  "Name": "Activer"
+        }, 
+        {
+		  "Name": "Désactiver"
+        }
+      ]
+  }, 
+  "com.elgato.twitch.viewers": {
+    "Name": "Spectateurs", 
+    "Tooltip": "Afficher le nombre de spectateurs en direct"
+  }, 
+  "com.elgato.twitch.createclip": {
+    "Name": "Créer un clip", 
+    "Tooltip": "Créer rapidement un clip de votre flux en direct"
+  }, 
+  "com.elgato.twitch.openlastclip": {
+    "Name": "Ouvrir le dernier clip", 
+    "Tooltip": "Ouvrir le dernier clip créé"
+  },
+  "com.elgato.twitch.marker": {
+    "Name": "Créer un repère de flux", 
+    "Tooltip": "Créer rapidement un repère dans votre flux en direct"
+  },
+  "Localization": {
+    "PI": {
+      "Account": "Compte",
+      "NoAccounts": "Aucun compte",
+      "AddAccount": "Ajouter",
+      "Message": "Message",
+      "Stream": "Titre du stream",
+      "Game": "Jeu",
+      "Duration": "Durée",
+      "Second": "seconde(s)",
+      "Seconds": "Secondes",
+      "Duration_0m": "0 minute (tous les followers)",
+      "Duration_10m": "10 minutes (choix le plus fréquent)",
+      "Duration_30m": "30 minutes",
+      "Duration_1h": "1 heure",
+      "Duration_1d": "1 jour",
+      "Duration_1w": "1 semaine",
+      "Duration_1M": "1 mois",
+      "Duration_3M": "3 mois",
+      "MessagePlaceholder": "Saisissez ici votre message de discussion Twitch.",
+      "StreamPlaceholder": "Ajoutez ici le titre du flux.",
+      "GamePlaceholder": "Ajoutez ici le titre du jeu.",
+      "LiveWarning": "Fonctionnement uniquement lorsque vous êtes en direct",
+      "AccountWarning": "Vous devez disposer d’un compte Twitch de type partenaire ou affilié"
+    }
+  }
+}

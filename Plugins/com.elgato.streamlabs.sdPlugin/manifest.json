@@ -1,0 +1,257 @@
+{
+  "Actions": [
+    {
+      "Icon": "plugin/images/actions/alert_white", 
+      "Name": "Test Alert", 
+      "States": [
+        {
+          "Image": "plugin/images/icons/alert"
+        }
+      ], 
+      "Tooltip": "Test Alert", 
+      "UUID": "com.elgato.streamlabs.alert"
+    }, 
+    {
+      "Icon": "plugin/images/actions/skip_white", 
+      "Name": "Skip Alert", 
+      "States": [
+        {
+          "Image": "plugin/images/icons/skip"
+        }
+      ], 
+      "Tooltip": "Skip alert", 
+      "UUID": "com.elgato.streamlabs.alert.skip"
+    }, 
+    {
+      "Icon": "plugin/images/actions/toggle_mute_white",
+      "Name": "Mute Alerts", 
+      "States": [
+        {
+          "Image": "plugin/images/icons/mute",
+		      "Name": "Mute"
+        }, 
+        {
+          "Image": "plugin/images/icons/unmute",
+		      "Name": "Unmute"
+        }
+      ], 
+      "Tooltip": "Mute alerts", 
+      "UUID": "com.elgato.streamlabs.alert.mute"
+    },
+    {
+      "Icon": "plugin/images/actions/toggle_pause_white", 
+      "Name": "Pause Alerts", 
+      "States": [
+        {
+          "Image": "plugin/images/icons/unpause",
+		      "Name": "Pause"
+        }, 
+        {
+          "Image": "plugin/images/icons/pause",
+		      "Name": "Resume"
+        }
+      ], 
+      "Tooltip": "Pause alerts", 
+      "UUID": "com.elgato.streamlabs.alert.pause"
+    }, 
+    {
+      "Icon": "plugin/images/actions/spinwheel_white", 
+      "Name": "Spin Wheel", 
+      "States": [
+        {
+          "Image": "plugin/images/icons/spinwheel"
+        }
+      ], 
+      "Tooltip": "Spin your wheel of chance", 
+      "UUID": "com.elgato.streamlabs.spinwheel"
+    },
+    {
+      "Icon": "plugin/images/actions/playcredits_white", 
+      "Name": "Play Credits", 
+      "States": [
+        {
+          "Image": "plugin/images/icons/credits"
+        }
+      ], 
+      "Tooltip": "Play credits", 
+      "UUID": "com.elgato.streamlabs.playcredits"
+    }, 
+    {
+      "Icon": "plugin/images/actions/emptyjar_white", 
+      "Name": "Empty Jar", 
+      "States": [
+        {
+          "Image": "plugin/images/icons/emptyjar"
+        }
+      ], 
+      "Tooltip": "Empty your jar to make way for more donations", 
+      "UUID": "com.elgato.streamlabs.emptyjar"
+    }, 
+    {
+      "Icon": "plugin/images/actions/profile_white", 
+      "Name": "Change Profile", 
+      "States": [
+        {
+          "Image": "plugin/images/icons/profile"
+        }
+      ], 
+      "Tooltip": "Change profile", 
+      "UUID": "com.elgato.streamlabs.changeprofile"
+    },
+	  {
+      "Icon": "plugin/images/actions/media_pause_white", 
+      "Name": "Pause Media", 
+      "States": [
+        {
+          "Image": "plugin/images/icons/media_paused",
+		      "Name": "Pause"
+        }, 
+        {
+          "Image": "plugin/images/icons/media_resumed",
+		      "Name": "Resume"
+        }
+      ], 
+      "Tooltip": "Pause/Play current media", 
+      "UUID": "com.elgato.streamlabs.media.pause"
+    }, 
+	  {
+      "Icon": "plugin/images/actions/media_volume_white", 
+      "Name": "Change Volume", 
+      "States": [
+        {
+          "Image": "plugin/images/icons/media_volumeup"
+        }
+      ], 
+      "Tooltip": "Change media volume", 
+      "UUID": "com.elgato.streamlabs.media.volume"
+    }, 
+	  {
+      "Icon": "plugin/images/actions/media_skip_white", 
+      "Name": "Skip Media", 
+      "States": [
+        {
+          "Image": "plugin/images/icons/media_skip"
+        }
+      ], 
+      "Tooltip": "Skip to next media", 
+      "UUID": "com.elgato.streamlabs.media.skip"
+    }, 
+	  {
+      "Icon": "plugin/images/actions/media_playback_white", 
+      "Name": "Previous Media", 
+      "States": [
+        {
+          "Image": "plugin/images/icons/media_playback"
+        }
+      ], 
+      "Tooltip": "Skip to previous media", 
+      "UUID": "com.elgato.streamlabs.media.playback"
+    }, 
+	  {
+      "Icon": "plugin/images/actions/media_request_white", 
+      "Name": "Toggle Requests", 
+      "States": [
+        {
+          "Image": "plugin/images/icons/media_request_disabled",
+		      "Name": "Enable"
+        },
+        {
+          "Image": "plugin/images/icons/media_request_enabled",
+		      "Name": "Disable"
+        }
+      ], 
+      "Tooltip": "Enable/Disable new media requests", 
+      "UUID": "com.elgato.streamlabs.media.request"
+    },
+	  {
+      "Icon": "plugin/images/actions/media_autoplay_white", 
+      "Name": "Toggle Autoplay", 
+      "States": [
+        {
+          "Image": "plugin/images/icons/media_autoplay_disabled",
+		      "Name": "Enable"
+        },
+        {
+          "Image": "plugin/images/icons/media_autoplay_enabled",
+		      "Name": "Disable"
+        }
+      ], 
+      "Tooltip": "Enable/Disable playing successive media automatically", 
+      "UUID": "com.elgato.streamlabs.media.autoplay"
+    }, 	
+	  {
+      "Icon": "plugin/images/actions/media_autoshow_white", 
+      "Name": "Toggle Auto Show", 
+      "States": [
+        {
+          "Image": "plugin/images/icons/media_autoshow_disabled",
+		      "Name": "Enable"
+        },
+        {
+          "Image": "plugin/images/icons/media_autoshow_enabled",
+		      "Name": "Disable"
+        }
+      ], 
+      "Tooltip": "Show/Hide current media", 
+      "UUID": "com.elgato.streamlabs.media.autoshow"
+    }, 
+	  {
+      "Icon": "plugin/images/actions/media_moderation_white", 
+      "Name": "Toggle Moderation", 
+      "States": [
+        {
+          "Image": "plugin/images/icons/media_moderation_disabled",
+		      "Name": "Enable"
+        },
+        {
+          "Image": "plugin/images/icons/media_moderation_enabled",
+		      "Name": "Disable"
+        }
+      ], 
+      "Tooltip": "Enable/Disable moderation on requested media", 
+      "UUID": "com.elgato.streamlabs.media.moderation"
+    },
+	  {
+      "Icon": "plugin/images/actions/media_backuplist_white", 
+      "Name": "Toggle Backup List", 
+      "States": [
+        {
+          "Image": "plugin/images/icons/media_backuplist_disabled",
+		      "Name": "Enable"
+        },
+        {
+          "Image": "plugin/images/icons/media_backuplist_enabled",
+		      "Name": "Disable"
+        }
+      ], 
+      "Tooltip": "Enable/Disable using backup playlist when the queue is empty", 
+      "UUID": "com.elgato.streamlabs.media.backuplist"
+    }	
+  ],
+  "SDKVersion": 2,
+  "Author": "Streamlabs",
+  "CodePath": "plugin/index.html",
+  "Description": "Control Streamlabs Dashboard.",
+  "Name": "Streamlabs",
+  "Icon": "plugin/images/icons/plugin",
+  "Category": "Streamlabs",
+  "CategoryIcon": "plugin/images/actions/category",
+  "PropertyInspectorPath": "pi/index.html",
+  "URL": "https://streamlabs.com",
+  "Version": "1.5.1",
+  "DefaultWindowSize": [500, 650],
+  "OS": [
+    {
+        "Platform": "mac",
+        "MinimumVersion" : "10.11"
+    },
+    {
+        "Platform": "windows",
+        "MinimumVersion" : "10"
+    }
+  ],
+  "Software":
+    {
+        "MinimumVersion" : "4.9"
+    }
+}

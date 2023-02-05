@@ -1,0 +1,110 @@
+{
+  "Description": "Control Twitch.", 
+  "Name": "Twitch", 
+  "com.elgato.twitch.chatmessage": {
+    "Name": "Chat Message", 
+    "Tooltip": "Post a precomposed message in your channel's chat"
+  }, 
+  "com.elgato.twitch.clear": {
+    "Name": "Clear Chat", 
+    "Tooltip": "Clear Twitch chat message history"
+  }, 
+  "com.elgato.twitch.emotechat": {
+    "Name": "Emote Chat", 
+    "Tooltip": "Limit chat to emoticons only",
+    "States": [
+        {
+		  "Name": "Activate"
+        }, 
+        {
+		  "Name": "Deactivate"
+        }
+      ]
+  }, 
+  "com.elgato.twitch.followerschat": {
+    "Name": "Followers Chat", 
+    "Tooltip": "Limit chat to followers only",
+    "States": [
+        {
+		  "Name": "Activate"
+        }, 
+        {
+		  "Name": "Deactivate"
+        }
+      ]
+  }, 
+  "com.elgato.twitch.playad": {
+    "Name": "Play Ad", 
+    "Tooltip": "Play ad"
+  }, 
+  "com.elgato.twitch.slowchat": {
+    "Name": "Slow Chat", 
+    "Tooltip": "Activate/deactivate slow chat",
+    "States": [
+        {
+		  "Name": "Activate"
+        }, 
+        {
+		  "Name": "Deactivate"
+        }
+      ]
+  }, 
+  "com.elgato.twitch.streamtitle": {
+    "Name": "Stream/Game Title", 
+    "Tooltip": "Display your stream/game title"
+  }, 
+  "com.elgato.twitch.subchat": {
+    "Name": "Sub Chat", 
+    "Tooltip": "Activate/deactivate subscriber-only chat",
+    "States": [
+        {
+		  "Name": "Activate"
+        }, 
+        {
+		  "Name": "Deactivate"
+        }
+      ]
+  }, 
+  "com.elgato.twitch.viewers": {
+    "Name": "Viewers", 
+    "Tooltip": "Show live viewer count"
+  }, 
+  "com.elgato.twitch.createclip": {
+    "Name": "Create Clip", 
+    "Tooltip": "Quickly create a clip of your livestream"
+  }, 
+  "com.elgato.twitch.openlastclip": {
+    "Name": "Open Last Clip", 
+    "Tooltip": "Open the last created clip"
+  },
+  "com.elgato.twitch.marker": {
+    "Name": "Create Stream Marker", 
+    "Tooltip": "Quickly create a Stream Marker of your livestream"
+  },
+  "Localization": {
+    "PI": {
+      "Account": "Account",
+      "NoAccounts": "No Accounts",
+      "AddAccount": "Add New",
+      "Message": "Message",
+      "Stream": "Stream Title",
+      "Game": "Game",
+      "Duration": "Duration",
+      "Second": "Second(s)",
+      "Seconds": "Seconds",
+      "Duration_0m": "0 Minute (Any followers)",
+      "Duration_10m": "10 Minutes (Most Popular)",
+      "Duration_30m": "30 Minutes",
+      "Duration_1h": "1 Hour",
+      "Duration_1d": "1 Day",
+      "Duration_1w": "1 Week",
+      "Duration_1M": "1 Month",
+      "Duration_3M": "3 Months",
+      "MessagePlaceholder": "Enter Twitch chat message here.",
+      "StreamPlaceholder": "Add stream title here.",
+      "GamePlaceholder": "Add game title here.",
+      "LiveWarning": "Only works when you're live",
+      "AccountWarning": "A Twitch Partner or Affiliate account is required"
+    }
+  }
+}

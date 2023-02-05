@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Push to Meme Sound PI</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="../plugin/css/sdpi.css">
+    <link rel="stylesheet" href="../plugin/css/voicemod.css">
+    <link rel="stylesheet" href="./css/meme.css">
+
+    <script src="../plugin/js/utils.js"></script>
+
+    <script src="../plugin/js/main.js"></script>
+    <script src="../plugin/js/plugin.js"></script>
+</head>
+
+<body>
+    <div class="sdpi-wrapper meme">
+		<!-- Template voicemod-not-installed - Voicemod not installed container -->
+        <div class="t-voicemodNotInstalled"></div>
+
+		<!-- Template update-voicemod - Voicemod need an update -->
+		<div class="t-voicemodUpdate hidden"></div>
+
+		<!-- Main plugin PI view -->
+        <div class="sdpi-wrapper isVoicemodInstalled">
+
+            <div class="pi-container hidden">
+                <div
+                    type="select"
+                    class="sdpi-item hidden isHideOnV1"
+                >
+                    <div
+                        class="sdpi-item-label"
+                        data-localized="soundboard-profile-label"
+                    ></div>
+                    <select
+                        class="sdpi-item-value profileDropDown"
+                        onchange="sendMemeOptions(event, 'memeProfile')"
+                    >
+                        <option
+                            value=""
+                            data-localized="no-element"
+                        ></option>
+                    </select>
+                </div>
+
+                <div
+                    type="select"
+                    class="sdpi-item"
+                >
+                    <div
+                        class="sdpi-item-label"
+                        data-localized="soundboard-soundboard-label"
+                    ></div>
+                    <select
+                        class="sdpi-item-value memeDropDown"
+                        onchange="sendMemeOptions(event, 'meme')"
+                    >
+                        <option value="">None</option>
+                    </select>
+                </div>
+
+                <div
+                    type="select"
+                    class="sdpi-item hidden"
+                >
+                    <div
+                        class="sdpi-item-label"
+                        data-localized="soundboard-mode-label"
+                    ></div>
+                    <select class="sdpi-item-value">
+                        <option
+                            value=""
+                            data-localized="no-element"
+                        ></option>
+                    </select>
+                </div>
+
+                <div
+                    type="select"
+                    class="sdpi-item settings-volume hidden"
+                >
+                    <div
+                        class="sdpi-item-label"
+                        data-localized="soundboard-volume-label"
+                    ></div>
+                    <div class="sdpi-item-value volume-range">
+                        <input
+                            type="range"
+                            id="volume"
+                            name="volume"
+                            min="0"
+                            max="100"
+                        >
+                        <div class="volume-percent">
+                            57
+                        </div>
+                    </div>
+                </div>
+
+                <div
+                    type="checkbox"
+                    class="sdpi-item settings-toggle hidden"
+                >
+                    <div class="sdpi-item-value toggle-container toggle-loop">
+                        <label class="toggle">
+                            <input type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+                        <div
+                            class="label toggle-label"
+                            data-localized="soundboard-loop-label"
+                        ></div>
+                    </div>
+
+                    <div class="sdpi-item-value toggle-container toggle-mute-sound">
+                        <label class="toggle">
+                            <input type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+                        <div
+                            class="label toggle-label"
+                            data-localized="soundboard-mute-sounds-label"
+                        ></div>
+                    </div>
+
+                    <div class="sdpi-item-value toggle-container toggle-mute-voice">
+                        <label class="toggle">
+                            <input type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+                        <div
+                            class="label toggle-label"
+                            data-localized="soundboard-mute-voice-label"
+                        ></div>
+                    </div>
+                </div>
+
+            </div>
+
+			<!-- Template - Offer and App status -->
+            <div class="t-app-status"></div>
+        </div>
+    </div>
+
+    <script src="./js/meme.js"></script>
+
+</body>
+
+</html>

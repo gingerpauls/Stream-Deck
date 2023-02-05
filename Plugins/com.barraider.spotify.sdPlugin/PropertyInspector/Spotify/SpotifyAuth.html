@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,minimal-ui,viewport-fit=cover">
+    <meta name=apple-mobile-web-app-capable content=yes>
+    <meta name=apple-mobile-web-app-status-bar-style content=black>
+    <title>BarRaider's Spotify Approval</title>
+    <link rel="stylesheet" href="../auth.css">
+</head>
+<body>
+    <div>
+        <h3>
+            To use this plugin you need to authorize this app to communicate with your Spotify account. <br />
+            <span class="red">Note:</span>&nbsp;Only Spotify Premium accounts are supported. This plugin will not work correctly with the free-tier Spotify accounts!
+            <br/><br/>
+            If you have a Premium account, start by <span class="linkspan" onclick="window.opener.openSpotifyAuth()">clicking here</span> and approving this app on Spotify's website. <br />
+            Then paste the Approval Code to the textbox below.
+        </h3>
+         
+       <div class="bold">Approval Code:</div>
+            <input class="approvalCode" placeholder="Make sure you paste the entire code" value="" id="approvalCode" oninput="window.opener.updateApprovalCode(this); showPleaseWait();">
+
+        <div style="color:orange;display:none;" id="dvPleaseWait">
+            <span>Please wait - This may take up to 1 minute...</span>
+        </div>
+        <br/><br/>
+        <hr/>
+        <h4>For feedback/suggestions contact me at <span class="linkspan" onclick="window.opener.openWebsite()">https://BarRaider.com</span></h4>
+    </div>
+    <script src="../SpotifyAuth.js"></script>
+</body>
+</html>

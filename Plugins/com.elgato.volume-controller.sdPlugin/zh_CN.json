@@ -1,0 +1,34 @@
+{
+	"Description": "控制您的音频。",
+	"Name": "音量控制器",
+	"Category": "音量控制器",
+	"com.elgato.volume-controller.auto-detection": {
+		"Name": "自动检测",
+		"Tooltip": "为打开的应用程序自动配置音频控制。"
+	},
+	"com.elgato.volume-controller.manual-detection": {
+		"Name": "手动检测",
+		"Tooltip": "为打开的应用程序手动配置音频控制。"
+	},
+	"Localization": {
+		"This device is not supported at this time.": "目前暂不支持该设备。",
+		"Unable to connect to the audio router.": "无法连接至音频路由器。",
+		"Requires an active livestream and a game selected.": "需要选择一个进行中的直播和游戏。",
+		"You can manually start the audio router by opening 'C:\\Program Files\\Elgato\\Volume Controller\\ElgatoAudioControlServer.exe'.": "您可以打开“C:\\Program Files\\Elgato\\Volume Controller\\ElgatoAudioControlServer.exe”以手动开启音频路由器。",
+		"Device Settings": "设备设置",
+		"Show Apps": "显示应用",
+		"All": "全部",
+		"Active Only": "进行中",
+		"Step Size": "调整单位",
+		"Volume": "音量",
+		"Application": "应用程序",
+		"Type": "类型",
+		"Adjust": "调整",
+		"Mute": "静音",
+		"Set": "设置",
+		"Icon Style": "图标样式",
+		"Static": "静态",
+		"Slider (vertical)": "滑块（上下）",
+		"Slider (horizontal)": "滑块（左右）"
+	}
+}

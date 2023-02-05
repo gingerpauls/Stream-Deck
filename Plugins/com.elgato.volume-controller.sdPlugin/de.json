@@ -1,0 +1,34 @@
+{
+	"Description": "Steuere dein Audio.",
+	"Name": "Lautstärkesteuerung",
+	"Category": "Lautstärkesteuerung",
+	"com.elgato.volume-controller.auto-detection": {
+		"Name": "Automatische Erkennung",
+		"Tooltip": "Konfiguriere die Lautstärkesteuerung für geöffnete Programme automatisch."
+	},
+	"com.elgato.volume-controller.manual-detection": {
+		"Name": "Manuelle Erkennung",
+		"Tooltip": "Konfiguriere die Lautstärkesteuerung für geöffnete Programme manuell."
+	},
+	"Localization": {
+		"This device is not supported at this time.": "Dieses Gerät wird derzeit nicht unterstützt.",
+		"Unable to connect to the audio router.": "Verbindung zum Audio-Router nicht möglich.",
+		"Requires an active livestream and a game selected.": "Erfordert einen laufenden Livestream und ein ausgewähltes Spiel.",
+		"You can manually start the audio router by opening 'C:\\Program Files\\Elgato\\Volume Controller\\ElgatoAudioControlServer.exe'.": "Um den Audio-Router manuell zu starten, öffne: C:\\Programme\\Elgato\\Volume Controller\\ElgatoAudioControlServer.exe",
+		"Device Settings": "Geräteeinstellungen",
+		"Show Apps": "Apps anzeigen",
+		"All": "Alle",
+		"Active Only": "Nur aktive",
+		"Step Size": "Stufengröße",
+		"Volume": "Lautstärke",
+		"Application": "Programm",
+		"Type": "Typ",
+		"Adjust": "Anpassen",
+		"Mute": "Stumm",
+		"Set": "Anwenden",
+		"Icon Style": "Icon-Stil",
+		"Static": "Statisch",
+		"Slider (vertical)": "Regler (vertikal)",
+		"Slider (horizontal)": "Regler (horizontal)"
+	}
+}

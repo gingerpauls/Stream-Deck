@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>com.tchelicon.goXLR.ChangeProfile</title>
+    <link rel="stylesheet" href="css\sdpi.css">
+</head>
+
+<body>
+    <div class="sdpi-wrapper">
+        <div type="select" class="sdpi-item">
+            <div class="sdpi-item-label">Profile to change to</div>
+            <select class="sdpi-item-value" id="profileList" onchange="setSettings(event.target.value, 'SelectedProfile')">
+                <option selected value="0">Waiting for info...</option>
+            </select>
+        </div>
+        <details class="message info" id= "detailsTag">
+            <summary id="connectivityMessage">Connected to GoXLR App</summary>
+        </details>
+     </div>
+     <script src="js\profileChange.js"> </script>
+</body>
+</html>

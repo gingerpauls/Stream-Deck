@@ -1,0 +1,222 @@
+/******************************************************************************/
+/* Overlays */
+/******************************************************************************/
+.overlay {
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
+	background: hsla(0, 0%, 10%, 75%);
+	box-shadow: inset 0px 0px 6px 3px hsl(0, 0%, 18%);
+}
+
+/******************************************************************************/
+/* Processing Overlay */
+/******************************************************************************/
+.overlay>.processing {
+	--spinner-color: hsl(0, 0%, 50%);
+	--spinner-color-thick: hsla(210, 100%, 60%, 90%);
+	--spinner-width: 2px;
+	--spinner-width-thick: 8px;
+	--spinner-size: 40px;
+	--spinner-calc-offset: calc(((var(--spinner-width-thick) - var(--spinner-width)) / 2));
+	--spinner-calc-size: calc(var(--spinner-size) - (var(--spinner-calc-offset) * 2));
+
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.overlay>.processing>.text {
+	color: hsl(0, 0%, 90%);
+	font-size: 1.333rem;
+	font-weight: normal;
+	text-shadow: 0px 2px 6px black;
+}
+
+.overlay>.processing>.icon,
+.overlay>.processing>.icon>.item {
+	box-sizing: border-box;
+}
+
+.overlay>.processing>.icon {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	width: var(--spinner-size);
+	height: var(--spinner-size);
+}
+
+.overlay>.processing>.icon>.item {
+	display: inline-block;
+	position: relative;
+	background: transparent;
+	width: var(--spinner-calc-size);
+	height: var(--spinner-calc-size);
+	margin: var(--spinner-calc-offset);
+	border-radius: var(--spinner-calc-size);
+	border: var(--spinner-width) var(--spinner-color) solid;
+	box-shadow:
+		0px 0px 10px -2px var(--spinner-color),
+		inset 0px 0px 10px -2px var(--spinner-color);
+}
+
+.overlay>.processing>.icon>.item:after {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	padding: 0;
+	/* The first part here zeroes the element again, which is necessary. */
+	margin: calc((0px - var(--spinner-calc-offset) - var(--spinner-width)));
+	background: transparent;
+	border-radius: var(--spinner-size);
+	border: var(--spinner-width-thick) transparent solid;
+	border-top-color: var(--spinner-color-thick);
+	box-shadow: 0px -8px 8px -5px var(--spinner-color-thick);
+
+	animation: 1s processing-spinner-rotate infinite linear;
+}
+
+@keyframes processing-spinner-rotate {
+	0% {
+		transform: rotate(0deg);
+	}
+
+	100% {
+		transform: rotate(-360deg);
+	}
+}
+
+/******************************************************************************/
+/* Warning Overlay */
+/******************************************************************************/
+.overlay>.warning {
+	--warning-size: 40px;
+	--icon-size: calc(var(--warning-size) * 0.92307692307692307692307692307692);
+
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.overlay>.warning>.text {
+	color: hsl(0, 0%, 90%);
+	font-size: 1.333rem;
+	font-weight: normal;
+	text-shadow: 0px 2px 6px black;
+}
+
+.overlay>.warning>.icon {
+	margin: 0px auto;
+	font-size: var(--icon-size);
+	color: hsl(40, 100%, 50%);
+}
+
+/******************************************************************************/
+/* Error Overlay */
+/******************************************************************************/
+.overlay>.error {
+	--size: 40px;
+	--icon-size: calc(var(--size) * 0.92307692307692307692307692307692);
+
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.overlay>.error>.text {
+	color: hsl(0, 0%, 90%);
+	font-size: 1.333rem;
+	font-weight: normal;
+	text-shadow: 0px 2px 6px black;
+}
+
+.overlay>.error>.icon {
+	margin: 0px auto;
+	font-size: var(--icon-size);
+	color: hsl(40, 100%, 50%);
+}
+
+/******************************************************************************/
+/* Messages */
+/******************************************************************************/
+
+.message {
+	display: block;
+	position: relative;
+	padding: 0.25rem;
+	font-size: 1.15rem;
+	font-weight: bold;
+	line-height: 1.0em;
+	text-align: left;
+	margin-left: calc(100px);
+	max-width: 230px;
+	min-height: 26px;
+}
+
+.message:before {
+	content: " ";
+	display: block;
+	position: absolute;
+	left: -2.0rem;
+	top: 0.25rem;
+	font-size: 1.5rem;
+	width: 1.0em;
+	height: 1.0em;
+}
+
+.message.hint:before {
+	content: "\1F4A1";
+}
+
+.message.warning:before {
+	content: "\26A0";
+}
+
+/* Readonly values */
+
+details.sdpi-item-value {
+	padding: 4px 18px 4px 4px;
+}
+
+details.sdpi-item-value summary.warning::after {
+	content: var(--warning-icon);
+	position: absolute;
+	margin-left: 6px;
+}
+
+details.sdpi-item-value summary {
+	font-size: 10pt;
+	font-weight: 600;
+	min-height: 18px;
+}
+
+details.sdpi-item-value:first-child {
+	margin-top: 4px;
+	margin-left: 0;
+	padding-left: 102px;
+}
+
+details.sdpi-item-value h1 {
+	text-align: left;
+}
+
+details.sdpi-item-value > summary::-webkit-details-marker {
+	display: none;
+}

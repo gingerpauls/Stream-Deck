@@ -1,0 +1,133 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,minimal-ui,viewport-fit=cover">
+    <meta name=apple-mobile-web-app-capable content=yes>
+    <meta name=apple-mobile-web-app-status-bar-style content=black>
+    <title>BarRaider's Spotify Integration</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/barraider/streamdeck-easypi@latest/src/sdpi.css">
+    <script src="https://cdn.jsdelivr.net/gh/barraider/streamdeck-easypi@latest/src/sdtools.common.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/barraider/streamdeck-easypi@latest/src/pickers.js"></script>
+    <script src="../SpotifyCommon.js"></script>
+    <script src="../SpotifyPlayPause.js"></script>
+    <script src="../SpotifyReloadDevices.js"></script>
+</head>
+<body>
+    <div class="sdpi-wrapper">
+        <details class="message">
+            <summary>For feedback/suggestions contact me at <span class="linkspan" onclick="openWebsite()">https://BarRaider.com</span></summary>
+        </details>
+        <div id="sdWrapper" style="display:none;">
+            <div class="sdpi-item" id="dvDevices">
+                <div class="sdpi-item-label">Device (required)</div>
+                <select class="sdpi-item-value select sdProperty sdList" id="devices" oninput="setSettings()" sdListTextProperty="name" sdListValueProperty="id" sdValueField="devicesSelected"></select>
+            </div>
+            <div class="sdpi-item" id="dvRefreshDevices">
+                <div class="sdpi-item-label">Refresh</div>
+                <button class="sdpi-item-value" onclick="reloadDevices()">Reload devices</button>
+            </div>
+            <div type="radio" class="sdpi-item" id="dvShowTimeElapsed">
+                <div class="sdpi-item-label">Song Time</div>
+                <div class="sdpi-item-value ">
+                    <div class="sdpi-item-child">
+                        <input id="showTimeDisabled" class="sdProperty sdCheckbox" type="radio" name="songTime" checked oninput="setSettings()">
+                        <label for="showTimeDisabled" class="sdpi-item-label"><span></span>Disabled</label>
+                    </div>
+                    <div class="sdpi-item-child">
+                        <input id="showTimeElapsed" class="sdProperty sdCheckbox" type="radio" name="songTime" checked oninput="setSettings()">
+                        <label for="showTimeElapsed" class="sdpi-item-label"><span></span>Time Elapsed</label>
+                    </div>
+                    <div class="sdpi-item-child">
+                        <input id="showTimeRemaining" class="sdProperty sdCheckbox" type="radio" name="songTime" oninput="setSettings()">
+                        <label for="showTimeRemaining" class="sdpi-item-label"><span></span>Time Remaining</label>
+                    </div>
+                </div>
+            </div>
+            <div type="checkbox" class="sdpi-item" id="dvShowSongName">
+                <div class="sdpi-item-label">Song Name</div>
+                <div class="sdpi-item-value">
+                    <input id="showSongName" class="sdProperty sdCheckbox" type="checkbox" value="" oninput="setSettings()">
+                    <label for="showSongName" class="sdpi-item-label"><span></span>Display on key</label>
+                </div>
+            </div>
+            <div class="sdpi-item" id="dvSongFormat">
+                <div class="sdpi-item-label">Format</div>
+                <select class="sdpi-item-value select sdProperty" id="songFormat" oninput="setSettings()">
+                    <option value="4">Artist</option>
+                    <option value="2">Artist - Title</option>
+                    <option value="3">Title</option>
+                    <option value="0" selected>Title - Artist</option>
+                    <option value="1">TRACK URI</option>
+                    <option value="5">URL</option>
+                </select>
+            </div>
+            <div id="dvSongFileSettings">
+                <div class="sdpi-item" id="dvSongFileName">
+                    <div class="sdpi-item-label">Save To File</div>
+                    <input class="sdpi-item-value sdProperty hasFileButton" disabled value="" id="songFileName">
+                    <button class="max100 leftMargin0" onclick="openSaveFilePicker('Save song to file','Text files (*.txt)|*.txt|All files (*.*)|*.*','songFileName')">...</button>
+                </div>
+                <div class="sdpi-item" id="dvFilePrefix">
+                    <div class="sdpi-item-label">File Title Prefix</div>
+                    <input class="sdpi-item-value sdProperty" placeholder="" value="" id="songFilePrefix" oninput="setSettings()">
+                </div>
+                <div class="sdpi-item" id="dvFilePrefix">
+                    <div class="sdpi-item-label">File Title Suffix</div>
+                    <input class="sdpi-item-value sdProperty" placeholder="" value="" id="songFileSuffix" oninput="setSettings()">
+                </div>
+                <div class="sdpi-item" id="dvPauseText">
+                    <div class="sdpi-item-label">Text when Paused</div>
+                    <input class="sdpi-item-value sdProperty" placeholder="Music Paused" value="" id="pauseText" oninput="setSettings()">
+                </div>
+            </div>
+            <div type="checkbox" class="sdpi-item" id="dvShowSongImage">
+                <div class="sdpi-item-label">Cover Image</div>
+                <div class="sdpi-item-value">
+                    <input id="showSongImage" class="sdProperty sdCheckbox" type="checkbox" value="" oninput="setSettings()">
+                    <label for="showSongImage" class="sdpi-item-label"><span></span>Display on key</label>
+                </div>
+            </div>
+            <div class="sdpi-item" id="dvKeyImage">
+                <div class="sdpi-item-label">Play image</div>
+                <div class="sdpi-item-group file" id="filepickergroup">
+                    <input class="sdpi-item-value sdProperty sdFile" type="file" id="keyImage" accept=".jpg, .jpeg, .png, .ico, .gif, .bmp, .tiff" oninput="setSettings()">
+                    <label class="sdpi-file-info " for="keyImage" id="keyImageFilename">No file...</label>
+                    <label class="sdpi-file-label" for="keyImage">Choose file...</label>
+                </div>
+            </div>
+            <div class="sdpi-item" id="dvPauseImage">
+                <div class="sdpi-item-label">Pause image</div>
+                <div class="sdpi-item-group file" id="filepickergroup">
+                    <input class="sdpi-item-value sdProperty sdFile" type="file" id="pauseImage" accept=".jpg, .jpeg, .png, .ico, .gif, .bmp, .tiff" oninput="setSettings()">
+                    <label class="sdpi-file-info " for="pauseImage" id="pauseImageFilename">No file...</label>
+                    <label class="sdpi-file-label" for="pauseImage">Choose file...</label>
+                </div>
+            </div>
+            <hr>
+            <div class="sdpi-item" id="dvAlbumArtDisplayMode">
+                <div class="sdpi-item-label">Album Art Mode</div>
+                <select class="sdpi-item-value select sdProperty" id="albumArtDisplayMode" oninput="setSettings()">
+                    <option value="0" selected>Stretch</option>
+                    <option value="1">Fit</option>
+                </select>
+            </div>
+            <details class="message">
+                <summary>Don't know about the Album Art feature? <span class="linkspan" >Click here</span></summary>
+                <p>By grouping multiple keys of the Play/Pause action in 2x2, 3x3 or 4x4 squares, you can auto-expand the current song's album art. The settings above allow you to tweak it even more. <br/>To see a tutorial for this <span class="linkspan" onclick="openAlbumArtTutorial()">Click Here</span></p>
+            </details>
+            <hr>
+            <div class="sdpi-item" id="dvReset">
+                <div class="sdpi-item-label">Revoke Approval</div>
+                <button class="sdpi-item-value max20" onclick="resetPlugin()">Revoke</button>
+                <p>Plugin will no longer communicate with Spotify and will ask for a new Approval Code</p>
+            </div>
+
+            <div class="sdpi-item" id="dvHdn">
+                <input value="" type="hidden" id="tokenExists" class="sdProperty" oninput="setSettings()">
+                <input value="" type="hidden" id="version" class="sdProperty" oninput="setSettings()">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,148 @@
+{
+  "Description": "Streamlabsのダッシュボードをコントロールします。", 
+  "Name": "Streamlabs", 
+  "com.elgato.streamlabs.alert": {
+    "Name": "テスト通知", 
+    "Tooltip": "テスト通知"
+  }, 
+  "com.elgato.streamlabs.alert.mute": {
+    "Name": "通知を消音", 
+    "Tooltip": "通知を消音",
+    "States": [
+        {
+		  "Name": "消音"
+        }, 
+        {
+		  "Name": "消音を解除"
+        }
+      ]
+  }, 
+  "com.elgato.streamlabs.alert.pause": {
+    "Name": "通知を一時停止", 
+    "Tooltip": "通知を一時停止",
+    "States": [
+        {
+		  "Name": "一時停止"
+        }, 
+        {
+		  "Name": "再開"
+        }
+      ]
+  }, 
+  "com.elgato.streamlabs.alert.skip": {
+    "Name": "通知をスキップ", 
+    "Tooltip": "通知をスキップ"
+  }, 
+  "com.elgato.streamlabs.changeprofile": {
+    "Name": "プロファイルを変更", 
+    "Tooltip": "プロファイルを変更"
+  }, 
+  "com.elgato.streamlabs.emptyjar": {
+    "Name": "ビンを空にする", 
+    "Tooltip": "もっと寄付が入るようにビンを空にする"
+  }, 
+  "com.elgato.streamlabs.playcredits": {
+    "Name": "プレイクレジット", 
+    "Tooltip": "プレイクレジット"
+  }, 
+  "com.elgato.streamlabs.spinwheel": {
+    "Name": "ルーレット", 
+    "Tooltip": "ルーレットを回す"
+  },
+  "com.elgato.streamlabs.media.skip": {
+    "Name": "メディアをスキップ", 
+    "Tooltip": "次のメディアにスキップ"
+  },
+  "com.elgato.streamlabs.media.playback": {
+    "Name": "前のメディア", 
+    "Tooltip": "前のメディアにスキップ"
+  },
+  "com.elgato.streamlabs.media.volume": {
+    "Name": "音量を変更", 
+    "Tooltip": "メディアの音量を変更"
+  },
+  "com.elgato.streamlabs.media.pause": {
+    "Name": "メディアを一時停止", 
+    "Tooltip": "現在のメディアを一時停止/再生",
+    "States": [
+        {
+		  "Name": "一時停止"
+        }, 
+        {
+		  "Name": "再開"
+        }
+      ]
+  }, 
+  "com.elgato.streamlabs.media.request": {
+    "Name": "リクエストを切り替え", 
+    "Tooltip": "新しいメディアリクエストをオン/オフ",
+    "States": [
+        {
+		  "Name": "オン"
+        }, 
+        {
+		  "Name": "オフ"
+        }
+      ]
+  }, 
+  "com.elgato.streamlabs.media.autoplay": {
+    "Name": "自動再生を切り替え", 
+    "Tooltip": "メディアの連続自動再生をオン/オフ",
+    "States": [
+        {
+		  "Name": "オン"
+        }, 
+        {
+		  "Name": "オフ"
+        }
+      ]
+  }, 
+  "com.elgato.streamlabs.media.autoshow": {
+    "Name": "自動表示を切り替え", 
+    "Tooltip": "現在のメディアを表示/非表示",
+    "States": [
+        {
+		  "Name": "オン"
+        }, 
+        {
+		  "Name": "オフ"
+        }
+      ]
+  }, 
+  "com.elgato.streamlabs.media.moderation": {
+    "Name": "モデレーションを切り替え", 
+    "Tooltip": "要求されたメディアでモデレーションをオン/オフ",
+    "States": [
+        {
+		  "Name": "オン"
+        }, 
+        {
+		  "Name": "オフ"
+        }
+      ]
+  }, 
+  "com.elgato.streamlabs.media.backuplist": {
+    "Name": "バックアップリストを切り替え", 
+    "Tooltip": "キューが空のときバックアップ再生リストを使うことをオン/オフ",
+    "States": [
+        {
+		  "Name": "オン"
+        }, 
+        {
+		  "Name": "オフ"
+        }
+      ]
+  }, 
+  "Localization": {
+    "PI": {
+      "Account": "アカウント",
+      "NoAccounts": "アカウントがありません",
+      "AddAccount": "新規を追加",
+      "Profile": "プロファイル",
+      "Action": "アクション",
+      "VolumeUp": "上げる",
+      "VolumeDown": "下げる",
+      "LiveWarning": "ライブ時にのみ動作します"
+    }
+  }
+}

@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Twitch Tools Setup</title>
+    <meta name='viewport' content='viewport-fit=cover, width=device-width, initial-scale=1'>
+    <meta charset="UTF-8">
+    <!-- Import style sheets -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <!-- Import scripts -->
+    <script src="js/introView.js"></script>
+    <script src="js/pairingView.js"></script>
+    <script src="js/resultView.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <div class="main">
+        <div class="center">
+            <div class="icon-bar">
+                <div id="app-wrapper">
+                    <div id="app-logo" class="app-logo"></div>
+                    <div id="app-over"></div>
+                </div>
+                <div id="br-wrapper">
+                    <div id="br-logo" class="br-logo"></div>
+                    <div id="br-over"></div>
+                </div>
+            </div>
+            <div class="content-wrapper">
+                <!-- Status bar indicating the current view -->
+                <div class="status-bar">
+                    <div class="title-row">
+                        <div id="title-intro" class="title-cell"></div>
+                        <div id="title-pairing" class="title-cell"></div>
+                        <div id="title-result" class="title-cell"></div>
+                    </div>
+                    <div class="status-row">
+                        <div id="status-intro" class="status-cell"></div>
+                        <div id="status-pairing" class="status-cell"></div>
+                        <div id="status-result" class="status-cell"></div>
+                    </div>
+                </div>
+                <!-- General header element -->
+                <div class="header">
+                    <h1 id="title"></h1>
+                </div>
+                <!-- Main view element -->
+                <div id="content"></div>
+            </div>
+            <!-- Completion Box -->
+            <div id="bar-box" style="display:none;">
+                <p class='bar-box-title bar-box-font'>This plugin was developed by:</p><br />
+                <h2 class='bar-logo'>BarRaider</h2>
+                <p class='bar-box-font margin-top0'>Join the community for future apps and updates</p>
+                <span class='button twitter' id='twitter'><img src='./images/twitter.png'>TWITTER</span><span class='button discord' id='discord'><img src='./images/discord.png'>DISCORD</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

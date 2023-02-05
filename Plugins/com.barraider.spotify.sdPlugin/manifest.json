@@ -1,0 +1,323 @@
+{
+  "Actions": [
+    {
+      "Icon": "Images/spotify_toggle_play_on_white",
+      "Name": "Play/Pause",
+      "States": [
+        {
+          "Image": "Images/btn_spotify_play_pause",
+          "MultiActionImage": "Images/btn_spotify_play",
+          "TitleAlignment": "bottom",
+          "FontSize": "14",
+          "Name": "Play"
+        },
+        {
+          "Image": "Images/btn_spotify_pause",
+          "Name": "Pause",
+          "OnlyForMultiAction": true
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "DisableCaching": true,
+      "Tooltip": "Play/Pause",
+      "UUID": "com.barraider.spotifyplaypause",
+      "PropertyInspectorPath": "PropertyInspector/Spotify/SpotifyPlayPause.html"
+    },
+    {
+      "Icon": "Images/spotify_prev",
+      "Name": "Previous Song",
+      "States": [
+        {
+          "Image": "Images/btn_spotify_prev",
+          "TitleAlignment": "bottom",
+          "FontSize": "14"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "DisableCaching": true,
+      "Tooltip": "Previous Song",
+      "UUID": "com.barraider.spotifyprev",
+      "PropertyInspectorPath": "PropertyInspector/Spotify/Spotify.html"
+    },
+    {
+      "Icon": "Images/spotify_next",
+      "Name": "Next Song",
+      "States": [
+        {
+          "Image": "Images/btn_spotify_next",
+          "TitleAlignment": "bottom",
+          "FontSize": "14"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "DisableCaching": true,
+      "Tooltip": "Next Song",
+      "UUID": "com.barraider.spotifynext",
+      "PropertyInspectorPath": "PropertyInspector/Spotify/Spotify.html"
+    },
+    {
+      "Icon": "Images/spotify_device",
+      "Name": "Change Playback Device",
+      "States": [
+        {
+          "Image": "Images/btn_spotify_device",
+          "TitleAlignment": "bottom",
+          "FontSize": "14"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "DisableCaching": true,
+      "Tooltip": "Changes the device to play on",
+      "UUID": "com.barraider.spotify.changedevice",
+      "PropertyInspectorPath": "PropertyInspector/Spotify/SpotifyChangeDevice.html"
+    },
+    {
+      "Icon": "Images/spotify_like",
+      "Name": "Liked Song Toggle",
+      "States": [
+        {
+          "Image": "Images/btn_spotify_like",
+          "TitleAlignment": "bottom",
+          "FontSize": "14",
+          "Name": "Like"
+        },
+        {
+          "Name": "Unlike",
+          "OnlyForMultiAction": true
+        },
+        {
+          "Name": "Toggle",
+          "OnlyForMultiAction": true
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "DisableCaching": true,
+      "Tooltip": "Toggle if you Like this song or not",
+      "UUID": "com.barraider.spotifylikesong",
+      "PropertyInspectorPath": "PropertyInspector/Spotify/SpotifyLike.html"
+    },
+    {
+      "Icon": "Images/spotify_play",
+      "Name": "Play URI",
+      "States": [
+        {
+          "Image": "Images/btn_spotify_play",
+          "TitleAlignment": "bottom",
+          "FontSize": "14"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "DisableCaching": true,
+      "Tooltip": "Allows playing a specific Song/Artist/Album based on the Spotify URI",
+      "UUID": "com.barraider.spotifyplayuri",
+      "PropertyInspectorPath": "PropertyInspector/Spotify/SpotifyPlayURI.html"
+    },
+    {
+      "Icon": "Images/spotify_toggle_play_playlist_on_white",
+      "Name": "Playlist Start",
+      "States": [
+        {
+          "Image": "Images/btn_spotify_play_playlist",
+          "TitleAlignment": "bottom",
+          "FontSize": "14"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "DisableCaching": true,
+      "Tooltip": "Playlist Start",
+      "UUID": "com.barraider.spotifyplayplaylist",
+      "PropertyInspectorPath": "PropertyInspector/Spotify/SpotifyPlayPlaylist.html"
+    },
+    {
+      "Icon": "Images/spotify_remove_from_playlist",
+      "Name": "Remove Song From Playlist",
+      "States": [
+        {
+          "Image": "Images/btn_spotify_remove_from_playlist",
+          "TitleAlignment": "bottom",
+          "FontSize": "14"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "DisableCaching": true,
+      "Tooltip": "Remove Song To Playlist",
+      "UUID": "com.barraider.spotifyremoveplaylistsong",
+      "PropertyInspectorPath": "PropertyInspector/Spotify/SpotifySaveToPlaylist.html"
+    },
+    {
+      "Icon": "Images/spotify_repeat",
+      "Name": "Repeat Mode",
+      "States": [
+        {
+          "Image": "Images/btn_spotify_repeat",
+          "TitleAlignment": "bottom",
+          "FontSize": "14",
+          "Name": "Repeat Toggle"
+        },
+        {
+          "Image": "Images/btn_spotify_repeat",
+          "Name": "Repeat All",
+          "OnlyForMultiAction": true
+        },
+        {
+          "Image": "Images/btn_spotify_repeat",
+          "Name": "Repeat Track",
+          "OnlyForMultiAction": true
+        },
+        {
+          "Image": "Images/btn_spotify_repeat",
+          "Name": "No Repeat",
+          "OnlyForMultiAction": true
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "DisableCaching": true,
+      "Tooltip": "Repeat Mode",
+      "UUID": "com.barraider.spotifyrepeat",
+      "PropertyInspectorPath": "PropertyInspector/Spotify/SpotifyRepeat.html"
+    },
+    {
+      "Icon": "Images/spotify_save_to_playlist",
+      "Name": "Save Song To Playlist",
+      "States": [
+        {
+          "Image": "Images/btn_spotify_save_to_playlist",
+          "TitleAlignment": "bottom",
+          "FontSize": "14"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "DisableCaching": true,
+      "Tooltip": "Save Song To Playlist",
+      "UUID": "com.barraider.spotifysavesong",
+      "PropertyInspectorPath": "PropertyInspector/Spotify/SpotifySaveToPlaylist.html"
+    },
+    {
+      "Icon": "Images/spotify_toggle_shuffle_on_white",
+      "Name": "Shuffle Mode",
+      "States": [
+        {
+          "Image": "Images/btn_spotify_shuffle",
+          "TitleAlignment": "bottom",
+          "FontSize": "14",
+          "Name": "Shuffle"
+        },
+        {
+          "Image": "Images/btn_spotify_shuffle",
+          "Name": "No Shuffle",
+          "OnlyForMultiAction": true
+        },
+        {
+          "Image": "Images/btn_spotify_shuffle",
+          "Name": "Shuffle Toggle",
+          "OnlyForMultiAction": true
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "DisableCaching": true,
+      "Tooltip": "Shuffle Mode",
+      "UUID": "com.barraider.spotifyshuffle",
+      "PropertyInspectorPath": "PropertyInspector/Spotify/SpotifyShuffle.html"
+    },
+    {
+      "Icon": "Images/spotify_info",
+      "Name": "Song Info",
+      "States": [
+        {
+          "Image": "Images/btn_spotify_info",
+          "TitleAlignment": "bottom",
+          "FontSize": "14"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "DisableCaching": true,
+      "Tooltip": "Get current song info copied to clipboard",
+      "UUID": "com.barraider.spotifygetsonginfo",
+      "PropertyInspectorPath": "PropertyInspector/Spotify/SpotifyGetSongInfo.html"
+    },
+    {
+      "Icon": "Images/spotify_volume_up",
+      "Name": "Volume Up",
+      "States": [
+        {
+          "Image": "Images/btn_spotify_volume_up",
+          "TitleAlignment": "bottom",
+          "FontSize": "12"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "DisableCaching": true,
+      "Tooltip": "Volume Up",
+      "UUID": "com.barraider.spotifyvolup",
+      "PropertyInspectorPath": "PropertyInspector/Spotify/SpotifyVolume.html"
+    },
+    {
+      "Icon": "Images/spotify_volume_down",
+      "Name": "Volume Down",
+      "States": [
+        {
+          "Image": "Images/btn_spotify_volume_down",
+          "TitleAlignment": "bottom",
+          "FontSize": "12"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "DisableCaching": true,
+      "Tooltip": "Volume Down",
+      "UUID": "com.barraider.spotifyvoldown",
+      "PropertyInspectorPath": "PropertyInspector/Spotify/SpotifyVolume.html"
+    },
+    {
+      "Icon": "Images/spotify_volume_mute",
+      "Name": "Volume Mute/Unmute",
+      "States": [
+        {
+          "Image": "Images/btn_spotify_volume_mute",
+          "TitleAlignment": "bottom",
+          "FontSize": "12"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "DisableCaching": true,
+      "Tooltip": "Volume Mute/Unmute",
+      "UUID": "com.barraider.spotifyvoltoggle",
+      "PropertyInspectorPath": "PropertyInspector/Spotify/SpotifyMute.html"
+    },
+    {
+      "Icon": "Images/spotify_volume_set",
+      "Name": "Volume Set",
+      "States": [
+        {
+          "Image": "Images/btn_spotify_volume_set",
+          "TitleAlignment": "bottom",
+          "FontSize": "12"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "DisableCaching": true,
+      "Tooltip": "Volume Set",
+      "UUID": "com.barraider.spotifyvolset",
+      "PropertyInspectorPath": "PropertyInspector/Spotify/SpotifyVolume.html"
+    }
+  ],
+  "Author": "BarRaider",
+  "Description": "Spotify integration and live feedback. Control Spotify and get live feedback all on your Stream Deck. A Spotify Premium account is required.\r\nFor help with this plugin visit our Discord: http://discord.BarRaider.com",
+  "Name": "Spotify Integration",
+  "Icon": "Images/pluginIcon",
+  "URL": "https://BarRaider.com/spotify",
+  "Version": "2.9.1",
+  "DefaultWindowSize": [620, 750],
+  "CodePath": "com.barraider.spotify.exe",
+  "Category": "Spotify [BarRaider]",
+  "CategoryIcon": "Images/categoryIcon",
+  "OS": [
+    {
+      "Platform": "windows",
+      "MinimumVersion": "10"
+    }
+  ],
+  "SDKVersion": 2,
+  "Software": {
+    "MinimumVersion": "5.0"
+  }
+}

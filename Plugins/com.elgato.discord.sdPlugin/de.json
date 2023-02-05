@@ -1,0 +1,44 @@
+{
+  "Description": "Steuere Discord.",
+  "Name": "Discord",
+  "com.elgato.discord.mute": {
+    "Name": "Stummschalten",
+    "Tooltip": "Mikrofon-Stummschaltung ein/aus"
+  },
+  "com.elgato.discord.deafen": {
+    "Name": "Taubschalten",
+    "Tooltip": "Taubschaltung ein/aus"
+  },
+  "com.elgato.discord.channel.voice": {
+    "Name": "Sprachkanal",
+    "Tooltip": "Einen Sprachkanal betreten/verlassen"
+  },
+  "com.elgato.discord.channel.text": {
+    "Name": "Textkanal",
+    "Tooltip": "Zu einem Textkanal gehen"
+  },
+  "com.elgato.discord.pushto.talk": {
+    "Name": "Push-to-Talk",
+    "Tooltip": "Gedrückt halten zum Sprechen"
+  },
+  "com.elgato.discord.pushto.mute": {
+    "Name": "Push-to-Mute",
+    "Tooltip": "Gedrückt halten zum Stummschalten"
+  },
+  "Localization": {
+    "PI": {
+      "AppWarning": "Bitte starte Discord",
+      "AuthWarning": "Discord authorization required",
+      "AccessLabel": "Authorization",
+      "AccessButton": "Request access",
+      "Server": "Server",
+      "NoServer": "Kein Server",
+      "VoiceChannel": "Sprachkanal",
+      "TextChannel": "Textkanal",
+      "NoChannel": "Kein Kanal",
+      "Action": "Aktion",
+      "PushToTalk": "Push-to-Talk",
+      "PushToMute": "Push-to-Mute"
+    }
+  }
+}

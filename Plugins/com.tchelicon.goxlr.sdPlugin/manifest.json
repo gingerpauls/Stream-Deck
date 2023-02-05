@@ -1,0 +1,74 @@
+{
+  "Actions": [
+    {
+      "Icon": "actionImage",
+      "Name": "GOXLR Profile Change",
+      "States": [
+        {
+          "Image": "onIcon",
+          "TitleAlignment": "middle",
+          "FontSize": "16",
+          "Name": "Off" 
+        },
+        {
+          "Image": "offIcon",
+          "TitleAlignment": "middle",
+          "FontSize": "16",
+          "Name": "On"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "This action changes to the selected GOXLR profile",
+      "PropertyInspectorPath": "GoXLRProfileChange.html",
+      "UUID": "com.tchelicon.goxlr.profilechange"
+    },
+	{
+	  "Icon": "actionImage",
+      "Name": "GOXLR Routing Table Change",
+      "States": [
+        {
+          "Image": "onIcon",
+          "TitleAlignment": "middle",
+          "FontSize": "16",
+          "Name": "Off"
+        },
+        {
+          "Image": "offIcon",
+          "TitleAlignment": "middle",
+          "FontSize": "16",
+          "Name": "On"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "This action changes GOXLR's routing table",
+      "PropertyInspectorPath": "GoXLRRoutingTable.html",
+      "UUID": "com.tchelicon.goxlr.routingtable"
+	}
+  ], 
+  "SDKVersion": 2,
+  "Author": "TC Helicon", 
+  "CodePath": "GoXLRStreamDeckPlugin.exe", 
+  "Description": "Use certain functionality on your GOXLR from Stream Deck", 
+  "Name": "GOXLR Plugin", 
+  "Icon": "actionImage", 
+  "Category": "GOXLR", 
+  "CategoryIcon": "categoryIcon", 
+  "URL": "https://www.tc-helicon.com/brand/tchelicon/support", 
+  "Version": "0.18",
+  "OS": [
+    {
+        "Platform": "windows", 
+        "MinimumVersion" : "10"
+    }
+  ],
+  "Software": 
+    {
+        "MinimumVersion" : "4.1"
+    },
+    "ApplicationsToMonitor":{
+      "windows":[
+        "GoXLR App.exe",
+        "GoXLR Beta App.exe"
+      ]
+    }
+}

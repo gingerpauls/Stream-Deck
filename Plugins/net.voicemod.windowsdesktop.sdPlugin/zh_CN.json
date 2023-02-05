@@ -1,0 +1,116 @@
+{
+    "Description": "适于在线游戏和视频流的最佳实时Voice Changer。像专业歌手一样轮唱！",
+    "Name": "Voicemod",
+    "net.voicemod.windowsdesktop.addvoice": {
+        "Name": "Voice Changer",
+        "Tooltip": "此操作选择一个语音"
+    },
+    "net.voicemod.windowsdesktop.voicechangerswitch": {
+        "Name": "语音转换器开/关",
+        "Tooltip": "此操作开启/关闭Voice Changer"
+    },
+    "net.voicemod.windowsdesktop.voicechangeron": {
+        "Name": "语音转换器开",
+        "Tooltip": "此动作可以打开我的声音"
+    },
+    "net.voicemod.windowsdesktop.voicechangeroff": {
+        "Name": "语音转换器关",
+        "Tooltip": "此动作可以打关闭我的声音"
+    },
+    "net.voicemod.windowsdesktop.pushtotalk": {
+        "Name": "推送到语音转换器",
+        "Tooltip": "当您按下键盘时，此操作会打开/关闭语音切换器"
+    },
+    "net.voicemod.windowsdesktop.hearmyvoiceswitch": {
+        "Name": "听见自己的声音开/关",
+        "Tooltip": "此操作开启/关闭‘聆听我的声音’"
+    },
+    "net.voicemod.windowsdesktop.hearmyvoiceon": {
+        "Name": "听我的声音开",
+        "Tooltip": "此操作开关可以听到我的声音开"
+    },
+    "net.voicemod.windowsdesktop.hearmyvoiceoff": {
+        "Name": "听我的声音关",
+        "Tooltip": "此操作开关可以听到我的声音关"
+    },
+    "net.voicemod.windowsdesktop.backgroundswitch": {
+        "Name": "背景效果开/关",
+        "Tooltip": "此操作开启/关闭环境效果"
+    },
+    "net.voicemod.windowsdesktop.muteswitch": {
+        "Name": "静音开/关",
+        "Tooltip": "此操作使麦克风静音/取消静音"
+    },
+    "net.voicemod.windowsdesktop.randomvoice": {
+        "Name": "随机语音",
+        "Tooltip": "此操作选择随机语音"
+    },
+    "net.voicemod.windowsdesktop.badlanguage": {
+        "Name": "即时检查器哔哔声",
+        "Tooltip": "此操作会使麦克风静音并重现检查器哔哔声"
+    },
+    "net.voicemod.windowsdesktop.pushtomemesound": {
+        "Name": "Soundboard",
+        "Tooltip": "此操作播放Soundboard音频文件"
+    },
+    "net.voicemod.windowsdesktop.stopallsounds": {
+        "Name": "停止所有模因声音",
+        "Tooltip": "此操作停止所有活跃的Soundboard声音"
+    },
+    "net.voicemod.windowsdesktop.muteforme": {
+        "Name": "为我静音 开/关",
+        "Tooltip": "这个动作可以使我的声音静音/取消静音"
+    },
+    "Localization": {
+        "app-status": "应用状态:",
+        "retry-connection": "正在尝试重新连接Voicemod",
+        "list-of-voices": "声音清单:",
+        "all-voices": "所有",
+        "favorites-voices": "喜爱",
+        "free-voices-label": "自由的声音",
+        "maker-voices": "音效制作器",
+        "voices": "声音:",
+        "no-element": "没有",
+        "install-voicemod-title": "VOICEMOD",
+        "install-voicemod-description": "实时语音转换器和声音板",
+        "install-voicemod-download": "立即下载！",
+        "launch-voicemod": "⚠️Voicemod需要运行⚠️",
+        "voicemod-is-running": "Voicemod正在运行 👍",
+        "connecting-to-voicemod": "连接到Voicemod",
+        "voicemod-fail-to-connect": "Voicemod无法连接",
+        "install-voicemod-message": "像专业人士一样安装Voicemod和Troll！😜",
+        "offer-fire": "🔥🔥🔥",
+        "offer-line-1": "还不是Voicemod PRO用户？ 🤔",
+        "offer-line-2": "点击查看您的特别优惠 🤑",
+        "start-app": "开始！🚀",
+        "skin":"Skin:",
+        "tune":"Tune:",
+        "soundboard": "Soundboard",
+        "soundboard-soundboard-label": "声音:",
+        "soundboard-profile-label": "配置文件:",
+        "soundboard-mode-label": "回放模式:",
+        "soundboard-volume-label": "音量:",
+        "soundboard-loop-label": "循环",
+        "soundboard-mute-sounds-label": "使其它声音静音",
+        "soundboard-mute-voice-label": "使语音静音",
+        "soundboard-category-label": "类别:",
+        "soundboard-import-button": "导入所有声音",
+        "soundboard-input-select-category": "选择类别",
+        "soundboard-input-select-voice": "选择语音",
+        "soundboard-input-select-profile": "选择配置文件",
+        "soundboard-input-select-sound": "选择声音",
+        "install-voicemod-v-2-button": "安装Voicemod v2",
+        "install-voicemod-v-2-alert": "您需要更新Voicemod才能使用此功能",
+        "random-voices-label": "随机语音",
+        "random-voice-option-all": "所有语音",
+        "random-voice-option-favorite": "收藏夹语音",
+        "random-voice-option-custom": "Voicelab语音",
+        "random-voice-option-fav-custom": "收藏夹 + Voicelab语音",
+        "playback-default": "默认",
+        "playback-play-loop-on-press": "按下以循环",
+        "playback-play-overlap": "播放 - 重叠",
+        "playback-play-pause": "播放 - 暂停",
+        "playback-play-restart": "播放 - 重新开始",
+        "playback-play-stop": "播放 - 停止"
+    }
+}

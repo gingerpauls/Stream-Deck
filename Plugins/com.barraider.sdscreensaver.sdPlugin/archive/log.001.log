@@ -1,0 +1,74 @@
+2023-02-03 08:31:29.6174|DEBUG|com.barraider.sdscreensaver|1|Logger Initialized
+2023-02-03 08:31:29.6628|INFO|com.barraider.sdscreensaver|1|Plugin [com.barraider.sdscreensaver] Loading - 1 Actions Found
+2023-02-03 08:31:30.0622|INFO|com.barraider.sdscreensaver|1|Plugin version: 2.4
+2023-02-03 08:31:30.0622|INFO|com.barraider.sdscreensaver|1|Connecting to Stream Deck
+2023-02-03 08:31:32.1287|INFO|com.barraider.sdscreensaver|1|Connected to Stream Deck
+2023-02-03 08:31:32.1287|INFO|com.barraider.sdscreensaver|1|GlobalSettingsManager initialized
+2023-02-03 08:31:32.4169|INFO|com.barraider.sdscreensaver|3|GlobalSettingsManager::RequestGlobalSettings called
+2023-02-03 08:31:32.4169|INFO|com.barraider.sdscreensaver|3|ScreenSaverManager initializing
+2023-02-03 08:31:32.4608|DEBUG|com.barraider.sdscreensaver|3|RetrieveLastSettings, Enabled is True
+2023-02-03 08:31:32.4608|WARN|com.barraider.sdscreensaver|3|CacheBackgroundImage - fileName is null. Mode: 0
+2023-02-03 08:31:32.4608|INFO|com.barraider.sdscreensaver|3|ScreenSaverManager loaded
+2023-02-03 08:31:32.7211|INFO|com.barraider.sdscreensaver|3|GlobalSettingsManager::GetGlobalSettingsAsync triggered
+2023-02-03 08:31:32.7501|DEBUG|com.barraider.sdscreensaver|9|SSM GlobalSettings {
+  "animatedGifDelay": "100",
+  "chaos": false,
+  "delay": "250",
+  "effectColor": "#00FF00",
+  "effectVariance": "1",
+  "fileName": "",
+  "flipHorizontal": false,
+  "flipVertical": false,
+  "folderMode": false,
+  "folderName": "",
+  "folderRefreshTime": "0",
+  "lockBrightness": "40",
+  "saverEnabled": true,
+  "screenSaverMode": 0,
+  "showTime": true,
+  "sleepMinutes": "15",
+  "unlockBrightness": "90",
+  "visualEffect": 0
+}
+2023-02-03 08:31:32.7501|WARN|com.barraider.sdscreensaver|9|Manger OnReceivedGlobalSettings valid payload with True
+2023-02-03 08:31:32.7501|DEBUG|com.barraider.sdscreensaver|9|HandleSettingsChanged, Enabled is True Global: True
+2023-02-03 08:31:32.7880|WARN|com.barraider.sdscreensaver|9|CacheBackgroundImage - fileName is null. Mode: 0
+2023-02-03 08:43:27.5964|INFO|com.barraider.sdscreensaver|12|Computer unlocked
+2023-02-03 08:43:27.5964|INFO|com.barraider.sdscreensaver|12|Setting device brightness: 90
+2023-02-03 18:06:28.6373|DEBUG|com.barraider.sdscreensaver|1|Logger Initialized
+2023-02-03 18:06:28.6912|INFO|com.barraider.sdscreensaver|1|Plugin [com.barraider.sdscreensaver] Loading - 1 Actions Found
+2023-02-03 18:06:29.0732|INFO|com.barraider.sdscreensaver|1|Plugin version: 2.4
+2023-02-03 18:06:29.0732|INFO|com.barraider.sdscreensaver|1|Connecting to Stream Deck
+2023-02-03 18:06:31.1133|INFO|com.barraider.sdscreensaver|1|Connected to Stream Deck
+2023-02-03 18:06:31.1133|INFO|com.barraider.sdscreensaver|1|GlobalSettingsManager initialized
+2023-02-03 18:06:31.4494|INFO|com.barraider.sdscreensaver|3|GlobalSettingsManager::RequestGlobalSettings called
+2023-02-03 18:06:31.4494|INFO|com.barraider.sdscreensaver|3|ScreenSaverManager initializing
+2023-02-03 18:06:31.4693|DEBUG|com.barraider.sdscreensaver|3|RetrieveLastSettings, Enabled is True
+2023-02-03 18:06:31.4693|WARN|com.barraider.sdscreensaver|3|CacheBackgroundImage - fileName is null. Mode: 0
+2023-02-03 18:06:31.4693|INFO|com.barraider.sdscreensaver|3|ScreenSaverManager loaded
+2023-02-03 18:06:31.7506|INFO|com.barraider.sdscreensaver|3|GlobalSettingsManager::GetGlobalSettingsAsync triggered
+2023-02-03 18:06:31.7716|DEBUG|com.barraider.sdscreensaver|9|SSM GlobalSettings {
+  "animatedGifDelay": "100",
+  "chaos": false,
+  "delay": "250",
+  "effectColor": "#00FF00",
+  "effectVariance": "1",
+  "fileName": "",
+  "flipHorizontal": false,
+  "flipVertical": false,
+  "folderMode": false,
+  "folderName": "",
+  "folderRefreshTime": "0",
+  "lockBrightness": "40",
+  "saverEnabled": true,
+  "screenSaverMode": 0,
+  "showTime": true,
+  "sleepMinutes": "15",
+  "unlockBrightness": "90",
+  "visualEffect": 0
+}
+2023-02-03 18:06:31.7716|WARN|com.barraider.sdscreensaver|9|Manger OnReceivedGlobalSettings valid payload with True
+2023-02-03 18:06:31.7716|DEBUG|com.barraider.sdscreensaver|9|HandleSettingsChanged, Enabled is True Global: True
+2023-02-03 18:06:31.7885|WARN|com.barraider.sdscreensaver|9|CacheBackgroundImage - fileName is null. Mode: 0
+2023-02-03 18:08:22.8376|INFO|com.barraider.sdscreensaver|10|Computer unlocked
+2023-02-03 18:08:22.8436|INFO|com.barraider.sdscreensaver|10|Setting device brightness: 90

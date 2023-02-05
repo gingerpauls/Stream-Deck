@@ -1,0 +1,38 @@
+{
+  "Actions": [
+    {
+      "Icon": "Images/counterIcon",
+      "Name": "Stream Counter",
+      "States": [
+        {
+          "Image": "Images/counter",
+          "TitleAlignment": "middle",
+          "FontSize": "20"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Counter",
+      "UUID": "com.barraider.streamcounter",
+      "PropertyInspectorPath": "PropertyInspector/StreamCounter/StreamCounter.html"
+    }
+  ],
+  "Author": "BarRaider",
+  "Description": "Keep score of kills/deaths/etc and show it live on your stream. Includes advanced features such as sound support, changing the increments of each keypress + creating a Count-Down counter.",
+  "Name": "Stream Counter",
+  "Icon": "Images/pluginIcon",
+  "URL": "https://BarRaider.com/",
+  "Version": "1.8",
+  "CodePath": "com.barraider.streamcounter",
+  "Category": "BarRaider",
+  "CategoryIcon": "Images/categoryIcon",
+  "OS": [
+    {
+      "Platform": "windows",
+      "MinimumVersion": "10"
+    }
+  ],
+  "SDKVersion": 2,
+  "Software": {
+    "MinimumVersion": "5.0"
+  }
+}

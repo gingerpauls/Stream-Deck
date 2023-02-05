@@ -1,0 +1,44 @@
+{
+  "Description": "控制 Discord。",
+  "Name": "Discord",
+  "com.elgato.discord.mute": {
+    "Name": "麦克风静音",
+    "Tooltip": "切换麦克风静音"
+  },
+  "com.elgato.discord.deafen": {
+    "Name": "耳机静音",
+    "Tooltip": "切换耳机静音"
+  },
+  "com.elgato.discord.channel.voice": {
+    "Name": "语音通道",
+    "Tooltip": "加入或离开语音通道"
+  },
+  "com.elgato.discord.channel.text": {
+    "Name": "文本通道",
+    "Tooltip": "进入文本通道"
+  },
+  "com.elgato.discord.pushto.talk": {
+    "Name": "按下开始讲话",
+    "Tooltip": "按住讲话"
+  },
+  "com.elgato.discord.pushto.mute": {
+    "Name": "按下将麦克风静音",
+    "Tooltip": "按住静音"
+  },
+  "Localization": {
+    "PI": {
+      "AppWarning": "请启动 Discord",
+      "AuthWarning": "Discord authorization required",
+      "AccessLabel": "Authorization",
+      "AccessButton": "Request access",
+      "Server": "服务器",
+      "NoServer": "无服务器",
+      "VoiceChannel": "语音通道",
+      "TextChannel": "文本通道",
+      "NoChannel": "无频道",
+      "Action": "操作",
+      "PushToTalk": "按下开始讲话",
+      "PushToMute": "按下将麦克风静音"
+    }
+  }
+}

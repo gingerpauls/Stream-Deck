@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Add Voice PI</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/addVoice.css">
+    <link rel="stylesheet" href="../plugin/css/sdpi.css">
+    <link rel="stylesheet" href="../plugin/css/voicemod.css">
+
+    <script src="../plugin/js/utils.js"></script>
+
+    <script src="../plugin/js/main.js"></script>
+    <script src="../plugin/js/plugin.js"></script>
+</head>
+
+<body>
+    <div class="sdpi-wrapper">
+        <!-- Template voicemod-not-installed - Voicemod not installed container -->
+		<div class="t-voicemodNotInstalled"></div>
+
+        <div class="sdpi-wrapper isVoicemodInstalled">
+
+            <div class="pi-container">
+                <div class="sdpi-wrapper radioButtonFilterGroup hidden">
+                    <div
+                        id="VoiceList"
+                        class="sdpi-item"
+                        type="radio"
+                    >
+                        <div
+                            class="sdpi-item-label"
+                            data-localized="list-of-voices"
+                        ></div>
+                        <div class="sdpi-item-value voices-radios-button">
+                            <span class="sdpi-item-child">
+                                <input
+                                    id="radioButtonVoicesAll"
+                                    type="radio"
+                                    value="allVoices"
+                                    name="radioButtonListVoices"
+                                    checked
+                                >
+                                <label for="radioButtonVoicesAll">
+                                    <span class="icon-radio-button"></span>
+                                    <span
+                                        class="label"
+                                        data-localized="all-voices"
+                                    ></span>
+                                </label>
+                            </span>
+                            <span class="sdpi-item-child">
+                                <input
+                                    id="radioButtonVoicesFavorites"
+                                    type="radio"
+                                    value="favoriteVoices"
+                                    name="radioButtonListVoices"
+                                >
+                                <label for="radioButtonVoicesFavorites">
+                                    <span class="icon-radio-button"></span>
+                                    <span
+                                        class="label"
+                                        data-localized="favorites-voices"
+                                    ></span>
+                                </label>
+                            </span>
+                            <span class="sdpi-item-child">
+                                <input
+                                    id="radioButtonVoicesMaker"
+                                    type="radio"
+                                    value="customVoices"
+                                    name="radioButtonListVoices"
+                                >
+                                <label for="radioButtonVoicesMaker">
+                                    <span class="icon-radio-button"></span>
+                                    <span
+                                        class="label"
+                                        data-localized="maker-voices"
+                                    ></span>
+                                </label>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div type="select" class="sdpi-item">
+                    <div
+                        class="sdpi-item-label"
+                        data-localized="voices"
+                    ></div>
+                    <select
+                        class="sdpi-item-value voicesDropDown"
+                        onchange="handleSelectedVoiceChange(event.target.value)"
+                    >
+                        <option
+                            value=""
+                            data-localized="no-element"
+                        ></option>
+                    </select>
+                </div>
+
+                <div type="select" class="sdpi-item voiceSkins hidden">
+                    <div
+                        class="sdpi-item-label"
+                        data-localized="skin"
+                    >
+                    </div>
+                    <select
+                        class="sdpi-item-value voiceSkinsDropDown"
+                        onchange="handleSelectedVoiceSkinChange(event.target.value)"
+                    >     
+                        <option
+                            value=""
+                            data-localized="no-element"
+                        ></option>                   
+                    </select>
+                </div>
+
+                <div type="select" class="sdpi-item voiceTunes hidden">
+                    <div
+                        class="sdpi-item-label"
+                        data-localized="tune"
+                    >
+                    </div>
+                    <select
+                        class="sdpi-item-value voiceTunesDropDown"
+                        onchange="handleSelectedVoiceTuneChange(event.target.value)"
+                    >     
+                        <option
+                            value=""
+                            data-localized="no-element"
+                        ></option>                   
+                    </select>
+                </div>
+            </div>
+
+
+            <!-- Template - Offer and App status -->
+            <div class="t-app-status"></div>
+
+        </div>
+    </div>
+
+    <script src="./js/addVoice.js"></script>
+
+</body>
+
+</html>

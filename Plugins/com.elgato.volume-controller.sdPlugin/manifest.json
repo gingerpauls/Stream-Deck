@@ -1,0 +1,192 @@
+{
+	"SDKVersion": 2,
+	"Author": "Elgato",
+	"CodePath": "app.html",
+	"Description": "Control your audio.",
+	"Name": "Volume Controller",
+	"Icon": "icon",
+	"URL": "https://www.elgato.com/en/gaming/stream-deck",
+	"Version": "1.0.1",
+	"Category": "Volume Controller",
+	"CategoryIcon": "category",
+	"OS": [
+		{
+			"Platform": "windows",
+			"MinimumVersion": "10"
+		}
+	],
+	"Software": {
+		"MinimumVersion": "6.0"
+	},
+	"ApplicationsToMonitor": {
+		"windows": ["ElgatoAudioControlServer.exe"]
+	},
+	"Actions": [
+		{
+			"Icon": "actions/auto-detection/assets/action",
+			"Name": "Auto Detection",
+			"States": [
+				{
+					"Image": "actions/auto-detection/assets/key"
+				}
+			],
+			"Tooltip": "Automatically configure audio control for open applications.",
+			"UUID": "com.elgato.volume-controller.auto-detection",
+			"PropertyInspectorPath": "actions/auto-detection/property-inspector/inspector.html",
+			"SupportedInMultiActions": false
+		},
+		{
+			"Icon": "actions/manual-detection/assets/action",
+			"Name": "Manual Detection",
+			"Controllers": ["Encoder", "Keypad"],
+			"Encoder": {
+				"layout": "$B1"
+			},
+			"States": [
+				{
+					"Image": "actions/manual-detection/assets/key",
+					"TitleAlignment": "bottom", 
+					"FontSize": "12",
+					"FontStyle": "Bold"
+				}
+			],
+			"Tooltip": "Manually configure audio control for open applications.",
+			"UUID": "com.elgato.volume-controller.manual-detection",
+			"PropertyInspectorPath": "actions/manual-detection/property-inspector/inspector.html"
+		},
+		{
+			"Icon": "actions/back-to-profile/assets/category",
+			"Name": "Back To Profile",
+			"States": [
+				{
+					"Image": "actions/back-to-profile/assets/action"
+				}
+			],
+			"UUID": "com.elgato.volume-controller.back-to-profile",
+			"VisibleInActionsList": false,
+			"PropertyInspectorPath": "actions/auto-detection/property-inspector/inspector.html",
+			"SupportedInMultiActions": false
+		},
+		{
+			"Icon": "actions/auto-detection/actions/mute/assets/category",
+			"Name": "Auto Mute",
+			"States": [
+				{
+					"Image": "actions/auto-detection/actions/mute/assets/action",
+					"TitleAlignment": "middle"
+				}
+			],
+			"UUID": "com.elgato.volume-controller.auto-detection.mute",
+			"VisibleInActionsList": false,
+			"UserTitleEnabled" : false,
+			"PropertyInspectorPath": "actions/auto-detection/property-inspector/inspector.html",
+			"SupportedInMultiActions": false
+		},
+		{
+			"Icon": "actions/auto-detection/actions/volume-down/assets/category",
+			"Name": "Auto Volume Down",
+			"States": [
+				{
+					"Image": "actions/auto-detection/actions/volume-down/assets/action"
+				}
+			],
+			"UUID": "com.elgato.volume-controller.auto-detection.volume-down",
+			"VisibleInActionsList": false,
+			"UserTitleEnabled" : false,
+			"PropertyInspectorPath": "actions/auto-detection/property-inspector/inspector.html",
+			"SupportedInMultiActions": false
+		},
+		{
+			"Icon": "actions/auto-detection/actions/volume-up/assets/category",
+			"Name": "Auto Volume Up",
+			"States": [
+				{
+					"Image": "actions/auto-detection/actions/volume-up/assets/action"
+				}
+			],
+			"UUID": "com.elgato.volume-controller.auto-detection.volume-up",
+			"VisibleInActionsList": false,
+			"UserTitleEnabled" : false,
+			"PropertyInspectorPath": "actions/auto-detection/property-inspector/inspector.html",
+			"SupportedInMultiActions": false
+		},
+		{
+			"Icon": "actions/auto-detection/actions/next/assets/category",
+			"Name": "Auto Next",
+			"States": [
+				{
+					"Image": "actions/auto-detection/actions/next/assets/action"
+				}
+			],
+			"UUID": "com.elgato.volume-controller.auto-detection.next",
+			"VisibleInActionsList": false,
+			"PropertyInspectorPath": "actions/auto-detection/property-inspector/inspector.html",
+			"SupportedInMultiActions": false
+		},
+		{
+			"Icon": "actions/auto-detection/actions/previous/assets/category",
+			"Name": "Auto Previous",
+			"States": [
+				{
+					"Image": "actions/auto-detection/actions/previous/assets/action"
+				}
+			],
+			"UUID": "com.elgato.volume-controller.auto-detection.previous",
+			"VisibleInActionsList": false,
+			"PropertyInspectorPath": "actions/auto-detection/property-inspector/inspector.html",
+			"SupportedInMultiActions": false
+		},
+		{
+			"Icon": "actions/auto-detection/actions/volume/assets/category",
+			"Name": "Auto Volume",
+			"Controllers": ["Encoder"],
+			"Encoder": {
+				"layout": "$B1"
+			},
+			"States": [
+				{
+					"Image": "actions/auto-detection/actions/volume/assets/action"
+				}
+			],
+			"UUID": "com.elgato.volume-controller.auto-detection.volume",
+			"VisibleInActionsList": false,
+			"UserTitleEnabled" : false,
+			"PropertyInspectorPath": "actions/auto-detection/property-inspector/inspector.html",
+			"SupportedInMultiActions": false
+		},
+		{
+			"Icon": "blank",
+			"Name": "-",
+			"States": [
+				{
+					"Image": "blank"
+				}
+			],
+			"UUID": "com.elgato.volume-controller.auto-detection.blank",
+			"VisibleInActionsList": false,
+			"UserTitleEnabled" : false,
+			"PropertyInspectorPath": "actions/auto-detection/property-inspector/inspector.html",
+			"SupportedInMultiActions": false
+		}
+	],
+	"Profiles": [
+		{
+			"Name": "Volume Controller (Auto)",
+			"DeviceType": 0,
+			"Readonly": true,
+			"DontAutoSwitchWhenInstalled": true
+		},
+		{
+			"Name": "Volume Controller XL (Auto)",
+			"DeviceType": 2,
+			"Readonly": true,
+			"DontAutoSwitchWhenInstalled": true
+		},
+		{
+			"Name": "Volume Controller+ (Auto)",
+			"DeviceType": 7,
+			"Readonly": true,
+			"DontAutoSwitchWhenInstalled": true
+		}
+	]
+}

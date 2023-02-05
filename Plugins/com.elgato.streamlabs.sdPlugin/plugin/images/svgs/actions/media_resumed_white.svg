@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <path id="media_resumed_white-a" d="M18,2 C19.1045695,2 20,2.8954305 20,4 L20,16 C20,17.1045695 19.1045695,18 18,18 L2,18 C0.8954305,18 0,17.1045695 0,16 L0,4 C0,2.8954305 0.8954305,2 2,2 L18,2 Z M13,6 L7,10 L13,14 L13,6 Z"/>
+  </defs>
+  <g id="icon/streamlabs/media_resumed_white" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
+    <mask id="media_resumed_white-b" fill="#fff">
+      <use xlink:href="#media_resumed_white-a"/>
+    </mask>
+    <use id="Combined-Shape" fill="#EFEFEF" transform="matrix(-1 0 0 1 20 0)" xlink:href="#media_resumed_white-a"/>
+    <g id="Group" fill="#EFEFEF" mask="url(#media_resumed_white-b)">
+      <g id="colors/all/active">
+        <rect id="color" width="20" height="20" x="0" y="0"/>
+      </g>
+    </g>
+  </g>
+</svg>

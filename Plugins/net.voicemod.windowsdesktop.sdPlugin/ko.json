@@ -1,0 +1,116 @@
+{
+    "Description": "온라인 게임과 동영상 스트리밍을 위한 최고의 실시간 Voice Changer입니다. 프로처럼 트롤하세요!",
+    "Name": "Voicemod",
+    "net.voicemod.windowsdesktop.addvoice": {
+        "Name": "Voice Changer",
+        "Tooltip": "이 동작은 음성을 선택합니다"
+    },
+    "net.voicemod.windowsdesktop.voicechangerswitch": {
+        "Name": "음성 체인저 켜기 / 끄기",
+        "Tooltip": "Voice Changer를 켜고 끕니다"
+    },
+    "net.voicemod.windowsdesktop.voicechangeron": {
+        "Name": "음성 체인저 켜기",
+        "Tooltip": "이 동작은 음성 체인저를 켜기 전환합니다"
+    },
+    "net.voicemod.windowsdesktop.voicechangeroff": {
+        "Name": "음성 체인저 끄기",
+        "Tooltip": "이 동작은 음성 체인저를 끄기로 전환합니다"
+    },
+    "net.voicemod.windowsdesktop.pushtotalk": {
+        "Name": "푸시 투 보이스 체인저",
+        "Tooltip": "이 조작은 키패드를 누른 채 보이스 체인저를 켜고 끕니다"
+    },
+    "net.voicemod.windowsdesktop.hearmyvoiceswitch": {
+        "Name": "내 음성 듣기 켜기/끄기",
+        "Tooltip": "'내 목소리 듣기'를 켜고 끕니다"
+    },
+    "net.voicemod.windowsdesktop.hearmyvoiceon": {
+        "Name": "내 목소리 켜기 ",
+        "Tooltip": "이 동작은 내 목소리의 켜기 전환"
+    },
+    "net.voicemod.windowsdesktop.hearmyvoiceoff": {
+        "Name": "내 목소리 끄기",
+        "Tooltip": "이 동작은 내 목소리의 끄기 전환"
+    },
+    "net.voicemod.windowsdesktop.backgroundswitch": {
+        "Name": "배경 효과음 켜기/끄기",
+        "Tooltip": "배경 효과를 켜고 끕니다"
+    },
+    "net.voicemod.windowsdesktop.muteswitch": {
+        "Name": "묵자 켜기 / 끄기",
+        "Tooltip": "마이크 음소거 기능을 켜고 끕니다"
+    },
+    "net.voicemod.windowsdesktop.randomvoice": {
+        "Name": "무작위 음성",
+        "Tooltip": "무작위로 목소리를 선택합니다"
+    },
+    "net.voicemod.windowsdesktop.badlanguage": {
+        "Name": "즉석 센서 알림",
+        "Tooltip": "이 액션은 마이크를 음소거시키고 센서 알림을 재생합니다"
+    },
+    "net.voicemod.windowsdesktop.pushtomemesound": {
+        "Name": "Soundboard",
+        "Tooltip": "Soundboard의 오디오 파일을 재생합니다"
+    },
+    "net.voicemod.windowsdesktop.stopallsounds": {
+        "Name": "모든 밈 효과음 정지",
+        "Tooltip": "모든 활성화된 Soundboard의 사운드를 정지합니다"
+    },
+    "net.voicemod.windowsdesktop.muteforme": {
+        "Name": "나를 위해 음소거 켜기 / 끄기",
+        "Tooltip": "이 동작은 나를 위해 소리를 소거 / 음소거 해제합니다"
+    },
+    "Localization": {
+        "app-status": "앱 상태:",
+        "retry-connection": "Voicemod에 재연결을 시도하는 중",
+        "list-of-voices": "목소리 목록:",
+        "all-voices": "모든",
+        "favorites-voices": "즐겨 찾기",
+        "free-voices-label": "무료 목소리",
+        "maker-voices": "만드는 사람",
+        "voices": "목소리:",
+        "no-element": "없음",
+        "install-voicemod-title": "VOICEMOD",
+        "install-voicemod-description": "실시간 음성 변환기 & 사운드보드",
+        "install-voicemod-download": "지금 다운로드하세요!",
+        "launch-voicemod": "⚠️Voicemod가 실행 중이어야 합니다⚠️",
+        "voicemod-is-running": "Voicemod가 실행 중입니다. 👍",
+        "connecting-to-voicemod": "Voicemod에 연결",
+        "voicemod-fail-to-connect": "Voicemod가 연결하지 못했습니다",
+        "install-voicemod-message": "Voicemod 설치 & PRO처럼 노래하기! 😜",
+        "offer-fire": "🔥🔥🔥",
+        "offer-line-1": "아직 Voicemod PRO 사용자가 아닌가요? 🤔",
+        "offer-line-2": "특별 홍보물을 보려면 클릭하세요 🤑",
+        "start-app": "스타트! 🚀",
+        "skin":"Skin:",
+        "tune":"Tune:",
+        "soundboard": "Soundboard",
+        "soundboard-soundboard-label": "사운드:",
+        "soundboard-profile-label": "프로필:",
+        "soundboard-mode-label": "재생 모드:",
+        "soundboard-volume-label": "볼륨:",
+        "soundboard-loop-label": "반복",
+        "soundboard-mute-sounds-label": "다른 사운드 음소거",
+        "soundboard-mute-voice-label": "목소리 음소거",
+        "soundboard-category-label": "카테고리:",
+        "soundboard-import-button": "모든 사운드 가져오기",
+        "soundboard-input-select-category": "카테고리 선택",
+        "soundboard-input-select-voice": "목소리 선택",
+        "soundboard-input-select-profile": "프로필 선택",
+        "soundboard-input-select-sound": "사운드 선택",
+        "install-voicemod-v-2-button": "Voicemod v2를 설치하세요",
+        "install-voicemod-v-2-alert": "이 기능을 이용하려면 Voicemod를 업데이트해야 합니다.",
+        "random-voices-label": "무작위 음성",
+        "random-voice-option-all": "모든 목소리",
+        "random-voice-option-favorite": "즐겨 찾는 목소리",
+        "random-voice-option-custom": "보이스랩 목소리",
+        "random-voice-option-fav-custom": "즐겨 찾는 +보이스랩 목소리",
+        "playback-default": "태만",
+        "playback-play-loop-on-press": "눌러서 루프 실행",
+        "playback-play-overlap": "재생 - 오버랩",
+        "playback-play-pause": "재생 - 일시 중지",
+        "playback-play-restart": "재생 - 다시 시작",
+        "playback-play-stop": "재생 - 중지"
+    }
+}

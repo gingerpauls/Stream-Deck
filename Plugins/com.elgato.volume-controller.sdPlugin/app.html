@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>com.elgato.volume-controller</title>
+		<meta charset="utf-8" />
+		<style>
+			canvas {
+				background-color: transparent;
+			}
+		</style>
+	</head>
+
+	<body>
+		<canvas id="canvas" width="144" height="144" style="background: transparent"></canvas>
+
+		<!-- libs -->
+		<script src="libs/js/utils.js"></script>
+		<script src="libs/js/constants.js"></script>
+		<script src="libs/js/events.js"></script>
+		<script src="libs/js/api.js"></script>
+		<script src="libs/js/stream-deck.js"></script>
+		<script src="libs/js/action.js"></script>
+		<script src="libs/js/timers.js"></script>
+
+		<!-- app -->
+		<script src='shared/app-activity.enum.js'></script>
+		<script src='shared/volume-change.enum.js'></script>
+		<script src='shared/controller.enum.js'></script>
+		<script src='shared/action.enum.js'></script>
+		<script src='shared/constants.js'></script>
+		<script src='shared/images.js'></script>
+		<script src='shared/request-type.js'></script>
+		<script src='shared/audio-request.js'></script>
+		<script src='shared/audio-router.js'></script>
+		<script src='shared/deck-device.js'></script>
+		<script src='shared/app-utils.js'></script>
+		<script src='shared/audio-event.enum.js'></script>
+		<script src='shared/stream-deck-types.enum.js'></script>
+		<script src="app.js"></script>
+
+		<!-- actions -->
+		<script src='actions/back-to-profile/back.js'></script>
+		<script src='actions/manual-detection/manual.js'></script>
+
+		<!-- auto actions -->
+		<script src='actions/auto-detection/auto.js'></script>
+		<script src='actions/auto-detection/actions/volume/auto-volume.js'></script>
+		<script src='actions/auto-detection/actions/volume-up/auto-volume-up.js'></script>
+		<script src='actions/auto-detection/actions/volume-down/auto-volume-down.js'></script>
+		<script src='actions/auto-detection/actions/mute/auto-mute.js'></script>
+		<script src='actions/auto-detection/actions/next/auto-next.js'></script>
+		<script src='actions/auto-detection/actions/previous/auto-previous.js'></script>
+		<script src='actions/auto-detection/actions/blank/blank.js'></script>
+
+	</body>
+</html>

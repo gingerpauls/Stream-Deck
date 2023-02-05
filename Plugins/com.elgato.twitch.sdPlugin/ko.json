@@ -1,0 +1,110 @@
+{
+  "Description": "Twitch를 제어합니다.", 
+  "Name": "Twitch", 
+  "com.elgato.twitch.chatmessage": {
+    "Name": "채팅 메시지", 
+    "Tooltip": "미리 작성한 메시지를 채널 채팅에 포스팅합니다"
+  }, 
+  "com.elgato.twitch.clear": {
+    "Name": "채팅 지우기", 
+    "Tooltip": "Twitch 채팅 메시지 기록을 지웁니다"
+  }, 
+  "com.elgato.twitch.emotechat": {
+    "Name": "이모티콘 채팅", 
+    "Tooltip": "이모티콘으로만 채팅이 가능합니다",
+    "States": [
+        {
+		  "Name": "활성화"
+        }, 
+        {
+		  "Name": "비활성화"
+        }
+      ]
+  }, 
+  "com.elgato.twitch.followerschat": {
+    "Name": "팔로워 채팅", 
+    "Tooltip": "팔로워만 채팅을 허용합니다",
+    "States": [
+        {
+		  "Name": "활성화"
+        }, 
+        {
+		  "Name": "비활성화"
+        }
+      ]
+  }, 
+  "com.elgato.twitch.playad": {
+    "Name": "광고 재생", 
+    "Tooltip": "광고를 재생합니다"
+  }, 
+  "com.elgato.twitch.slowchat": {
+    "Name": "슬로우 채팅", 
+    "Tooltip": "슬로우 채팅을 활성화/비활성화합니다",
+    "States": [
+        {
+		  "Name": "활성화"
+        }, 
+        {
+		  "Name": "비활성화"
+        }
+      ]
+  }, 
+  "com.elgato.twitch.streamtitle": {
+    "Name": "스트림/게임 제목", 
+    "Tooltip": "스트림/게임 제목을 표시합니다"
+  }, 
+  "com.elgato.twitch.subchat": {
+    "Name": "구독자 채팅", 
+    "Tooltip": "구독자 전용 채팅을 활성화/비활성화합니다",
+    "States": [
+        {
+		  "Name": "활성화"
+        }, 
+        {
+		  "Name": "비활성화"
+        }
+      ]
+  }, 
+  "com.elgato.twitch.viewers": {
+    "Name": "시청자", 
+    "Tooltip": "실시간 시청자 숫자를 표시합니다"
+  }, 
+  "com.elgato.twitch.createclip": {
+    "Name": "클립 생성", 
+    "Tooltip": "스트리밍 영상의 클립을 빠르게 생성합니다"
+  }, 
+  "com.elgato.twitch.openlastclip": {
+    "Name": "마지막 클립 열기", 
+    "Tooltip": "마지막에 생성한 클립을 엽니다"
+  },
+  "com.elgato.twitch.marker": {
+    "Name": "스트림 마커 생성", 
+    "Tooltip": "스트리밍 영상의 마커를 빠르게 생성합니다"
+  },
+  "Localization": {
+    "PI": {
+      "Account": "계정",
+      "NoAccounts": "계정 없음",
+      "AddAccount": "신규 추가",
+      "Message": "메시지",
+      "Stream": "스트림 제목",
+      "Game": "게임",
+      "Duration": "지속",
+      "Second": "초",
+      "Seconds": "초",
+      "Duration_0m": "0분 (아무 팔로워)",
+      "Duration_10m": "10분 (가장 인기)",
+      "Duration_30m": "30분",
+      "Duration_1h": "1시간",
+      "Duration_1d": "1일",
+      "Duration_1w": "1주일",
+      "Duration_1M": "1개월",
+      "Duration_3M": "3개월",
+      "MessagePlaceholder": "이곳에 Twitch 채팅 메시지를 입력하십시오.",
+      "StreamPlaceholder": "이곳에 스트림 제목을 추가하십시오.",
+      "GamePlaceholder": "이곳에 게임 제목을 추가하십시오.",
+      "LiveWarning": "라이브 중에만 작동합니다",
+      "AccountWarning": "Twitch 파트너 또는 제휴 계정이 필요합니다"
+    }
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "Description": "控制 Streamlabs 控制中心。", 
+  "Name": "Streamlabs", 
+  "com.elgato.streamlabs.alert": {
+    "Name": "测试警告", 
+    "Tooltip": "测试警告"
+  }, 
+  "com.elgato.streamlabs.alert.mute": {
+    "Name": "将警报静音", 
+    "Tooltip": "将警报静音",
+    "States": [
+        {
+		  "Name": "静音"
+        }, 
+        {
+		  "Name": "取消静音"
+        }
+      ]
+  }, 
+  "com.elgato.streamlabs.alert.pause": {
+    "Name": "暂停警报", 
+    "Tooltip": "暂停警报",
+    "States": [
+        {
+		  "Name": "暂停"
+        }, 
+        {
+		  "Name": "继续"
+        }
+      ]
+  }, 
+  "com.elgato.streamlabs.alert.skip": {
+    "Name": "跳过警报", 
+    "Tooltip": "跳过警报"
+  }, 
+  "com.elgato.streamlabs.changeprofile": {
+    "Name": "更改配置文件", 
+    "Tooltip": "更改配置文件"
+  }, 
+  "com.elgato.streamlabs.emptyjar": {
+    "Name": "清空罐子", 
+    "Tooltip": "清空罐子以容纳更多捐赠"
+  }, 
+  "com.elgato.streamlabs.playcredits": {
+    "Name": "播放制作人员名单", 
+    "Tooltip": "播放制作人员名单"
+  }, 
+  "com.elgato.streamlabs.spinwheel": {
+    "Name": "旋转滚轮", 
+    "Tooltip": "旋转幸运之轮"
+  },
+  "com.elgato.streamlabs.media.skip": {
+    "Name": "跳过媒体", 
+    "Tooltip": "跳转到下一个媒体"
+  },
+  "com.elgato.streamlabs.media.playback": {
+    "Name": "上一个媒体", 
+    "Tooltip": "跳转到上一个媒体"
+  },
+  "com.elgato.streamlabs.media.volume": {
+    "Name": "调节音量", 
+    "Tooltip": "调节媒体音量"
+  },
+  "com.elgato.streamlabs.media.pause": {
+    "Name": "暂停媒体", 
+    "Tooltip": "暂停/播放当前媒体",
+    "States": [
+        {
+		  "Name": "暂停"
+        }, 
+        {
+		  "Name": "继续"
+        }
+      ]
+  }, 
+  "com.elgato.streamlabs.media.request": {
+    "Name": "切换请求", 
+    "Tooltip": "启用/禁用新媒体请求",
+    "States": [
+        {
+		  "Name": "启用"
+        }, 
+        {
+		  "Name": "禁用"
+        }
+      ]
+  }, 
+  "com.elgato.streamlabs.media.autoplay": {
+    "Name": "切换自动播放", 
+    "Tooltip": "启用/禁用自动播放连续媒体",
+    "States": [
+        {
+		  "Name": "启用"
+        }, 
+        {
+		  "Name": "禁用"
+        }
+      ]
+  }, 
+  "com.elgato.streamlabs.media.autoshow": {
+    "Name": "切换自动显示", 
+    "Tooltip": "显示/隐藏当前媒体",
+    "States": [
+        {
+		  "Name": "启用"
+        }, 
+        {
+		  "Name": "禁用"
+        }
+      ]
+  }, 
+  "com.elgato.streamlabs.media.moderation": {
+    "Name": "切换调节", 
+    "Tooltip": "启用/禁用对请求的媒体进行调节",
+    "States": [
+        {
+		  "Name": "启用"
+        }, 
+        {
+		  "Name": "禁用"
+        }
+      ]
+  }, 
+  "com.elgato.streamlabs.media.backuplist": {
+    "Name": "切换备用列表", 
+    "Tooltip": "启用/禁用在队列播放完毕时使用备用播放列表",
+    "States": [
+        {
+		  "Name": "启用"
+        }, 
+        {
+		  "Name": "禁用"
+        }
+      ]
+  }, 
+  "Localization": {
+    "PI": {
+      "Account": "帐户",
+      "NoAccounts": "无帐户",
+      "AddAccount": "新增",
+      "Profile": "配置文件",
+      "Action": "操作",
+      "VolumeUp": "调高",
+      "VolumeDown": "调低",
+      "LiveWarning": "只在您上线时发挥作用"
+    }
+  }
+}

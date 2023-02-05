@@ -1,0 +1,110 @@
+{
+  "Description": "Controla Twitch.", 
+  "Name": "Twitch", 
+  "com.elgato.twitch.chatmessage": {
+    "Name": "Mensaje de chat", 
+    "Tooltip": "Publicar mensaje predefinido en el chat del canal"
+  }, 
+  "com.elgato.twitch.clear": {
+    "Name": "Borrar chat", 
+    "Tooltip": "Borrar el historial de chat de Twitch."
+  }, 
+  "com.elgato.twitch.emotechat": {
+    "Name": "Chat con emoticonos", 
+    "Tooltip": "Limitar el chat únicamente a emoticonos",
+    "States": [
+        {
+		  "Name": "Activar"
+        }, 
+        {
+		  "Name": "Desactivar"
+        }
+      ]
+  }, 
+  "com.elgato.twitch.followerschat": {
+    "Name": "Chat de seguidores", 
+    "Tooltip": "Limitar el chat únicamente a seguidores",
+    "States": [
+        {
+		  "Name": "Activar"
+        }, 
+        {
+		  "Name": "Desactivar"
+        }
+      ]
+  }, 
+  "com.elgato.twitch.playad": {
+    "Name": "Reproducir anuncio", 
+    "Tooltip": "Reproducir anuncio"
+  }, 
+  "com.elgato.twitch.slowchat": {
+    "Name": "Chat lento", 
+    "Tooltip": "Activar/desactivar chat lento",
+    "States": [
+        {
+		  "Name": "Activar"
+        }, 
+        {
+		  "Name": "Desactivar"
+        }
+      ]
+  }, 
+  "com.elgato.twitch.streamtitle": {
+    "Name": "Título del stream/juego", 
+    "Tooltip": "Muestra el título del stream/juego"
+  }, 
+  "com.elgato.twitch.subchat": {
+    "Name": "Chat de suscriptores", 
+    "Tooltip": "Activar/desactivar limitación de chat a suscriptores",
+    "States": [
+        {
+		  "Name": "Activar"
+        }, 
+        {
+		  "Name": "Desactivar"
+        }
+      ]
+  }, 
+  "com.elgato.twitch.viewers": {
+    "Name": "Espectadores", 
+    "Tooltip": "Mostrar número de espectadores en directo"
+  }, 
+  "com.elgato.twitch.createclip": {
+    "Name": "Crear clip", 
+    "Tooltip": "Crear rápidamente un clip del streaming en directo"
+  }, 
+  "com.elgato.twitch.openlastclip": {
+    "Name": "Abrir último clip", 
+    "Tooltip": "Abrir el último clip creado"
+  },
+  "com.elgato.twitch.marker": {
+    "Name": "Crear marcador de stream", 
+    "Tooltip": "Añade rápidamente un marcador a la grabación del streaming"
+  },
+  "Localization": {
+    "PI": {
+      "Account": "Cuenta",
+      "NoAccounts": "No hay cuentas",
+      "AddAccount": "Añadir",
+      "Message": "Mensaje",
+      "Stream": "Título del stream",
+      "Game": "Juego",
+      "Duration": "Duración",
+      "Second": "segundo(s)",
+      "Seconds": "segundos",
+      "Duration_0m": "0 minutos (cualquier número de seguidores)",
+      "Duration_10m": "10 minutos (más popular)",
+      "Duration_30m": "30 minutos",
+      "Duration_1h": "1 hora",
+      "Duration_1d": "1 día",
+      "Duration_1w": "1 semana",
+      "Duration_1M": "1 mes",
+      "Duration_3M": "3 meses",
+      "MessagePlaceholder": "Escribe aquí el mensaje de chat de Twitch.",
+      "StreamPlaceholder": "Añadir aquí el título del stream.",
+      "GamePlaceholder": "Añade aquí el título del juego.",
+      "LiveWarning": "Solo funciona transmitiendo en directo",
+      "AccountWarning": "Se requiere una cuenta de Partner o afiliado de Twitch"
+    }
+  }
+}

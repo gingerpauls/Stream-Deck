@@ -1,0 +1,34 @@
+{
+	"Description": "Control your audio.", 
+	"Name": "Volume Controller",
+	"Category": "Volume Controller",
+	"com.elgato.volume-controller.auto-detection": {
+		"Name": "Auto Detection",
+		"Tooltip": "Automatically configure audio control for open applications."
+	},
+	"com.elgato.volume-controller.manual-detection": {
+		"Name": "Manual Detection",
+		"Tooltip": "Manually configure audio control for open applications."
+	},
+	"Localization": {
+		"This device is not supported at this time.": "This device is not supported at this time.",
+		"Unable to connect to the audio router.": "Unable to connect to the audio router.",
+		"Requires an active livestream and a game selected.": "Requires an active livestream and a game selected.",
+		"You can manually start the audio router by opening 'C:\\Program Files\\Elgato\\Volume Controller\\ElgatoAudioControlServer.exe'.": "You can manually start the audio router by opening 'C:\\Program Files\\Elgato\\Volume Controller\\ElgatoAudioControlServer.exe'.",
+		"Device Settings": "Device Settings",
+		"Show Apps": "Show Apps",
+		"All": "All",
+		"Active Only": "Active Only",
+		"Step Size": "Step Size",
+		"Volume": "Volume",
+		"Application": "Application",
+		"Type": "Type",
+		"Adjust": "Adjust",
+		"Mute": "Mute",
+		"Set": "Set",
+		"Icon Style": "Icon Style",
+		"Static": "Static",
+		"Slider (vertical)": "Slider (vertical)",
+		"Slider (horizontal)": "Slider (horizontal)"
+	}
+}

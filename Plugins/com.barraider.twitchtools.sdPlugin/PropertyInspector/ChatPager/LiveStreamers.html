@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,minimal-ui,viewport-fit=cover">
+    <meta name=apple-mobile-web-app-capable content=yes>
+    <meta name=apple-mobile-web-app-status-bar-style content=black>
+    <title>Live Streamers</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/barraider/streamdeck-easypi@latest/src/sdpi.css">
+    <script src="https://cdn.jsdelivr.net/gh/barraider/streamdeck-easypi@latest/src/sdtools.common.js"></script>
+    <script src="../setup.js"></script>
+    <script src="../LiveStreamers.js"></script>
+</head>
+<body>
+    <div class="sdpi-wrapper">
+        <details class="message info">
+            <summary>For feedback/suggestions contact me at <span class="linkspan" onclick="openWebsite()">https://BarRaider.com</span> </summary>
+        </details>
+        <div id="sdWrapper" style="display:none;">
+            <div type="radio" class="sdpi-item" id="rdLiveImage">
+                <div class="sdpi-item-label">Live Image</div>
+                <div class="sdpi-item-value ">
+                    <div class="sdpi-item-child">
+                        <input id="liveStreamPreview" class="sdProperty sdCheckbox" type="radio" name="rdLiveImage" checked oninput="setSettings()">
+                        <label for="liveStreamPreview" class="sdpi-item-label"><span></span>Stream Preview</label>
+                    </div>
+                    <div class="sdpi-item-child">
+                        <input id="liveGameIcon" class="sdProperty sdCheckbox" type="radio" name="rdLiveImage" oninput="setSettings()">
+                        <label for="liveGameIcon" class="sdpi-item-label"><span></span>Game Icon</label>
+                    </div>
+                    <div class="sdpi-item-child">
+                        <input id="liveUserIcon" class="sdProperty sdCheckbox" type="radio" name="rdLiveImage" oninput="setSettings()">
+                        <label for="liveUserIcon" class="sdpi-item-label"><span></span>User Icon</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sdpi-item" id="select_single">
+                <div class="sdpi-item-label">Long Press</div>
+                <select class="sdpi-item-value select sdProperty" id="longPressAction" oninput="setSettings()">
+                    <option value="0" selected>Raids Streamer</option>
+                </select>
+            </div>
+            <div type="textarea" class="sdpi-item" id="dvFilteredUsers">
+                <div class="sdpi-item-label">Filtered Users</div>
+                <span class="sdpi-item-value textarea">
+                    <textarea type="textarea" oninput="setSettings()" class="sdProperty" id="filteredUsers" placeholder="One username per line"></textarea>
+                </span>
+            </div>
+            <hr />
+            <div class="sdpi-item" id="dvReset">
+                <div class="sdpi-item-label">Revoke Approval</div>
+                <button class="sdpi-item-value max20" onclick="resetPlugin()">Revoke</button>
+                <p>Plugin will no longer communicate with Twitch and will ask for a new Approval Code</p>
+            </div>
+
+            <div class="sdpi-item" id="dvHdn">
+                <input value="" type="hidden" id="tokenExists" class="sdProperty" oninput="setSettings()">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

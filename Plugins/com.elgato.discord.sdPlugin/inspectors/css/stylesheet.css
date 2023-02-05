@@ -1,0 +1,135 @@
+.sdpi-item-group.folder {
+  width: 232px;
+  display: flex;
+  align-items: center;
+}
+
+	
+
+
+.sdpi-folder-info{
+	overflow-y:auto;
+	
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+	hyphens: auto;
+
+	min-width: 100px;
+	max-width: 123px;	
+	max-height: 32px;
+	margin-top: 0px;
+	margin-left: 5px;
+	margin-right: 3px;
+	display: inline-block;
+	/*overflow:hidden;*/
+	padding: 6px 4px;
+	background-color: var(--sdpi-background);
+
+	cursor:text;
+}
+
+
+
+label.sdpi-folder-label {
+	color: var(--sdpi-color);
+	font-size: 8pt;
+	background-color: var(--sdpi-background);
+
+	border: 1pt solid var(--sdpi-buttonbordercolor);
+	border-radius: var(--sdpi-borderradius);
+	border-color: var(--sdpi-buttonbordercolor);
+	min-height: 23px !important;
+	height: 23px !important;
+	margin-right: 0px;
+
+	cursor: pointer;
+	user-select: none;
+	display: inline-block;
+	line-height: 20px;
+	padding: 0px 4px;
+	margin: auto;
+	float: right;
+}
+
+
+
+
+
+label.sdpi-folder-label:active{ 
+  background-color: var(--sdpi-color);
+  color:#303030;
+}
+
+
+#showInfoDiv {
+	overflow: hidden;
+}
+
+#infoDl {
+	cursor: text;
+	user-select: text;
+	overflow-y: auto;
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+}
+
+#infoDl > dd {
+	margin-bottom: 3px;
+}
+
+
+#infoDl > #showPath {
+	padding-bottom: 8px; /*workaround to fix overflow bug*/
+}
+
+#timestampFormat{
+	font-size:95%;
+}
+
+.nonDisplayed{
+	display: none;
+}
+
+#filename{
+   min-width: 150px;
+   max-width: 175px;
+}
+
+#addVariable_btn{
+	width:30px;
+	background-image: url("../icons/pi_icons/button_addVariables_active.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	
+}
+#addVariable:active{
+	background-image: url("../icons/pi_icons/button_addVariables_pressed.svg");
+}
+
+
+#showInfoDiv .sdpi-item {
+	min-height: 0px;
+	max-height: 32px;
+	margin: 0px;
+	padding: 0px;
+}
+#showInfoDiv p{
+	word-wrap: break-word;
+	vertical-align: middle;
+	margin-bottom: 4px;
+	max-width: 220px;
+}
+
+ #statusInfo{
+	color:#3281a8;
+ }
+ 
+ #text{
+	min-width: 150px;
+	max-width: 175px;
+ }
+
+ #marker_context-menu{
+	min-width:175px;
+ }

@@ -1,0 +1,551 @@
+{
+  "Actions": [
+    {
+      "Icon": "Images/noicon",
+      "Name": "Display Action",
+      "States": [
+        {
+          "Image": "Images/noicon",
+          "TitleAlignment": "middle",
+          "FontSize": "13",
+          "TitleColor": "White"
+
+        }
+      ],
+      "VisibleInActionsList": false,
+      "SupportedInMultiActions": false,
+      "Tooltip": "Display Action",
+      "UUID": "com.barraider.wintools.displayaction"
+    },
+    {
+      "Icon": "Images/mixerIcon",
+      "Name": "App Audio Mixer",
+      "States": [
+        {
+          "Image": "Images/mixerAction",
+          "TitleAlignment": "middle",
+          "FontSize": "18",
+          "TitleColor": "Yellow"
+
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "Tooltip": "Modify volume levels for a specific application",
+      "UUID": "com.barraider.wintools.appaudiomixer",
+      "PropertyInspectorPath": "PropertyInspector/AppAudioMixer.html"
+    },
+    {
+      "Icon": "Images/deviceAudioIcon",
+      "Name": "App Playback Device",
+      "States": [
+        {
+          "Image": "Images/deviceAudioAction",
+          "TitleAlignment": "bottom",
+          "FontSize": "11",
+          "TitleColor": "White"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Sets the playback device for a specific application",
+      "UUID": "com.barraider.wintools.appplayback",
+      "PropertyInspectorPath": "PropertyInspector/AppPlayback.html"
+    },
+    {
+      "Icon": "Images/appSoundIcon",
+      "Name": "App Mute Toggle",
+      "States": [
+        {
+          "Image": "Images/appSoundAction",
+          "TitleAlignment": "bottom",
+          "FontSize": "11",
+          "TitleColor": "White"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "DisableCaching": true,
+      "Tooltip": "Mutes/Unmutes a specific application",
+      "UUID": "com.barraider.wintools.appmute",
+      "PropertyInspectorPath": "PropertyInspector/AppMuteToggle.html"
+    },
+    {
+      "Icon": "Images/appSoundIcon",
+      "Name": "App Volume Adjust",
+      "States": [
+        {
+          "Image": "Images/appSoundAction",
+          "TitleAlignment": "bottom",
+          "FontSize": "11",
+          "TitleColor": "White"
+
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Modify volume levels for a specific application",
+      "UUID": "com.barraider.wintools.appvolumeadjust",
+      "PropertyInspectorPath": "PropertyInspector/AppVolumeAdjuster.html"
+    },
+    {
+      "Icon": "Images/appSoundIcon",
+      "Name": "App Volume Set",
+      "States": [
+        {
+          "Image": "Images/appSoundAction",
+          "TitleAlignment": "bottom",
+          "FontSize": "11",
+          "TitleColor": "White"
+
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Set (or fade) the volume of an application to a specific level",
+      "UUID": "com.barraider.wintools.appvolumeset",
+      "PropertyInspectorPath": "PropertyInspector/AppVolumeSet.html"
+    },
+    {
+      "Icon": "Images/soundIcon",
+      "Name": "Audio Device/Mic Mute Toggle",
+      "States": [
+        {
+          "Image": "Images/soundAction",
+          "TitleAlignment": "bottom",
+          "FontSize": "11",
+          "TitleColor": "White"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "DisableCaching": true,
+      "Tooltip": "Mutes/Unmutes a playback/recording device",
+      "UUID": "com.barraider.wintools.audiomute",
+      "PropertyInspectorPath": "PropertyInspector/AudioDeviceMuteToggle.html"
+    },
+    {
+      "Icon": "Images/soundIcon",
+      "Name": "Audio Device Volume Adjust",
+      "States": [
+        {
+          "Image": "Images/soundAction",
+          "TitleAlignment": "bottom",
+          "FontSize": "11",
+          "TitleColor": "White"
+
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Modify volume levels for a playback/recording device",
+      "UUID": "com.barraider.wintools.audiovolumeadjust",
+      "PropertyInspectorPath": "PropertyInspector/AudioDeviceVolumeAdjuster.html"
+    },
+    {
+      "Icon": "Images/soundIcon",
+      "Name": "Audio Device Volume Set",
+      "States": [
+        {
+          "Image": "Images/soundAction",
+          "TitleAlignment": "bottom",
+          "FontSize": "11",
+          "TitleColor": "White"
+
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Set (or fade) the volume of a playback/recording device to a specific level",
+      "UUID": "com.barraider.wintools.audiovolumeset",
+      "PropertyInspectorPath": "PropertyInspector/AudioDeviceVolumeSet.html"
+    },
+    {
+      "Icon": "Images/bluetoothIcon",
+      "Name": "Bluetooth/Wifi Toggle",
+      "States": [
+        {
+          "Image": "Images/bluetoothAction",
+          "TitleAlignment": "middle",
+          "FontSize": "12",
+          "Name": "Toggle"
+        },
+        {
+          "Name": "Enable",
+          "OnlyForMultiAction": true
+        },
+        {
+          "Name": "Disable",
+          "OnlyForMultiAction": true
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Turns your Bluetooth/Wifi on or off",
+      "UUID": "com.barraider.wintools.bluetooth",
+      "PropertyInspectorPath": "PropertyInspector/BluetoothToggle.html"
+    },
+    {
+      "Icon": "Images/deviceDefaultIcon",
+      "Name": "Default Audio Device",
+      "States": [
+        {
+          "Image": "Images/deviceDefaultAction",
+          "TitleAlignment": "bottom",
+          "FontSize": "11",
+          "TitleColor": "White"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Sets the default playback or recording device",
+      "UUID": "com.barraider.wintools.defaultaudiodevice",
+      "PropertyInspectorPath": "PropertyInspector/DefaultAudioDevice.html"
+    },
+    {
+      "Icon": "Images/driveIcon",
+      "Name": "Drive Info",
+      "States": [
+        {
+          "Image": "Images/driveAction",
+          "TitleAlignment": "middle",
+          "FontSize": "10"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "Tooltip": "Shows information about your disk drives",
+      "UUID": "com.barraider.wintools.driveinfo",
+      "PropertyInspectorPath": "PropertyInspector/DriveInfo.html"
+    },
+    {
+      "Icon": "Images/cloudIcon",
+      "Name": "IP Info",
+      "States": [
+        {
+          "Image": "Images/cloudAction",
+          "TitleAlignment": "middle",
+          "FontSize": "12"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "Tooltip": "Shows your current ip",
+      "UUID": "com.barraider.wintools.ip",
+      "PropertyInspectorPath": "PropertyInspector/IP.html"
+    },
+    {
+      "Icon": "Images/keyIcon",
+      "Name": "Keyboard Language",
+      "States": [
+        {
+          "Image": "Images/keyAction",
+          "TitleAlignment": "top",
+          "FontSize": "10"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "Tooltip": "Shows and changes the current keyboard input language",
+      "UUID": "com.barraider.wintools.keyboardlang",
+      "PropertyInspectorPath": "PropertyInspector/KeyboardLanguage.html"
+    },
+    {
+      "Icon": "Images/keyIcon",
+      "Name": "Keyboard LEDs Display",
+      "States": [
+        {
+          "Image": "Images/keyAction",
+          "TitleAlignment": "middle",
+          "FontSize": "18"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "DisableCaching": true,
+      "Tooltip": "Displays and locks the NumLock, CapsLock and ScrollLock status",
+      "UUID": "com.barraider.wintools.keyboardleds",
+      "PropertyInspectorPath": "PropertyInspector/KeyboardLeds.html"
+    },
+    {
+      "Icon": "Images/keyLockIcon",
+      "Name": "Keyboard Caps/Num/Scroll Toggle",
+      "States": [
+        {
+          "Image": "Images/keyLockAction",
+          "TitleAlignment": "bottom",
+          "FontSize": "15",
+          "TitleColor": "White"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "DisableCaching": true,
+      "Tooltip": "Displays and changes an individual NumLock/CapsLock/ScrollLock status",
+      "UUID": "com.barraider.wintools.keyboardkeytoggle",
+      "PropertyInspectorPath": "PropertyInspector/KeyboardKeyToggle.html"
+    },
+    {
+      "Icon": "Images/copyIcon",
+      "Name": "Latest File Copy",
+      "States": [
+        {
+          "Image": "Images/pluginAction",
+          "TitleAlignment": "middle",
+          "FontSize": "12"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Copies the latest copy in a directory to a set location",
+      "UUID": "com.barraider.wintools.latestfilecopy",
+      "PropertyInspectorPath": "PropertyInspector/LatestFileCopy.html"
+    },
+    {
+      "Icon": "Images/lockIcon",
+      "Name": "Lock Computer",
+      "States": [
+        {
+          "Image": "Images/lockAction",
+          "TitleAlignment": "middle",
+          "FontSize": "12"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Locks your computer",
+      "UUID": "com.barraider.wintools.lock"
+    },
+    {
+      "Icon": "Images/multiClipIcon",
+      "Name": "Multi Clip",
+      "States": [
+        {
+          "Image": "Images/multiClipAction",
+          "TitleAlignment": "middle",
+          "FontSize": "12",
+          "Name": "Key Press"
+        },
+        {
+          "Name": "Long Press",
+          "OnlyForMultiAction": true
+        },
+        {
+          "Name": "Clear All Multi Clips",
+          "OnlyForMultiAction": true
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Each Multi Clip key is it's own dedicated clipboard",
+      "UUID": "com.barraider.wintools.multiclip",
+      "PropertyInspectorPath": "PropertyInspector/MultiClip.html"
+    },
+    {
+      "Icon": "Images/cloudIcon",
+      "Name": "Network Card Info",
+      "States": [
+        {
+          "Image": "Images/cloudAction",
+          "TitleAlignment": "middle",
+          "FontSize": "12"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "Tooltip": "Shows if your network card is enabled/disabled (useful to check if VPN is enabled)",
+      "UUID": "com.barraider.wintools.networkcard",
+      "PropertyInspectorPath": "PropertyInspector/NetworkCard.html"
+    },
+    {
+      "Icon": "Images/notificationIcon",
+      "Name": "Notification Popup",
+      "States": [
+        {
+          "Image": "Images/notificationAction",
+          "TitleAlignment": "middle",
+          "FontSize": "12"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Pops up a custom notification",
+      "UUID": "com.barraider.wintools.notification",
+      "PropertyInspectorPath": "PropertyInspector/NotificationToast.html"
+    },
+    {
+      "Icon": "Images/powerIcon",
+      "Name": "Power Plan Switcher",
+      "States": [
+        {
+          "Image": "Images/powerAction",
+          "TitleAlignment": "middle",
+          "FontSize": "12"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "DisableCaching": true,
+      "Tooltip": "Allows you to switch between the various Windows power plans",
+      "UUID": "com.barraider.wintools.powerplanswitcher",
+      "PropertyInspectorPath": "PropertyInspector/PowerPlanSwitcher.html"
+    },
+    {
+      "Icon": "Images/cloudIcon",
+      "Name": "Ping",
+      "States": [
+        {
+          "Image": "Images/pluginAction",
+          "TitleAlignment": "middle",
+          "FontSize": "12"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "DisableCaching": true,
+      "Tooltip": "Pings servers and shows latency on Stream Deck",
+      "UUID": "com.barraider.wintools.ping",
+      "PropertyInspectorPath": "PropertyInspector/Ping.html"
+    },
+    {
+      "Icon": "Images/monitorIcon",
+      "Name": "Primary Monitor",
+      "States": [
+        {
+          "Image": "Images/pluginAction",
+          "TitleAlignment": "middle",
+          "FontSize": "12"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Sets the primary monitor",
+      "UUID": "com.barraider.wintools.primarymonitor",
+      "PropertyInspectorPath": "PropertyInspector/PrimaryMonitor.html"
+    },
+    {
+      "Icon": "Images/gearsIcon",
+      "Name": "Service Start/Stop",
+      "States": [
+        {
+          "Image": "Images/serviceAction",
+          "TitleAlignment": "middle",
+          "FontSize": "12"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Starts/Stops a Windows Service",
+      "UUID": "com.barraider.wintools.service",
+      "PropertyInspectorPath": "PropertyInspector/WindowsService.html"
+    },
+    {
+      "Icon": "Images/uptimeIcon",
+      "Name": "Uptime Counter",
+      "States": [
+        {
+          "Image": "Images/pluginAction",
+          "TitleAlignment": "middle",
+          "FontSize": "11"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Shows the system uptime of your PC",
+      "UUID": "com.barraider.wintools.uptime",
+      "PropertyInspectorPath": "PropertyInspector/Uptime.html"
+    },
+    {
+      "Icon": "Images/vdIcon",
+      "Name": "Virtual Desktop - Create",
+      "States": [
+        {
+          "Image": "Images/vdCreateAction",
+          "TitleAlignment": "bottom",
+          "FontSize": "10",
+          "TitleColor": "White"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Creates a new Virtual Desktop",
+      "UUID": "com.barraider.wintools.vdcreate",
+      "PropertyInspectorPath": "PropertyInspector/VDCreate.html"
+    },
+    {
+      "Icon": "Images/vdIcon",
+      "Name": "Virtual Desktop - Delete",
+      "States": [
+        {
+          "Image": "Images/vdDeleteAction",
+          "TitleAlignment": "bottom",
+          "FontSize": "10",
+          "TitleColor": "White"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Deletes an existing Virtual Desktop",
+      "UUID": "com.barraider.wintools.vddelete",
+      "PropertyInspectorPath": "PropertyInspector/VDDelete.html"
+    },
+    {
+      "Icon": "Images/vdIcon",
+      "Name": "Virtual Desktop - Show current",
+      "States": [
+        {
+          "Image": "Images/vdShowAction",
+          "TitleAlignment": "bottom",
+          "FontSize": "10",
+          "TitleColor": "White"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "Tooltip": "Shows name of current Virtual Desktop",
+      "UUID": "com.barraider.wintools.vdshow"
+    },
+    {
+      "Icon": "Images/vdIcon",
+      "Name": "Switch Virtual Desktop",
+      "States": [
+        {
+          "Image": "Images/vdSwitchAction",
+          "TitleAlignment": "bottom",
+          "FontSize": "10",
+          "TitleColor": "White"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Switches to a Virtual Desktop",
+      "UUID": "com.barraider.wintools.vdswitch",
+      "PropertyInspectorPath": "PropertyInspector/VDSwitch.html"
+    },
+    {
+      "Icon": "Images/folderIcon",
+      "Name": "Windows Explorer Scratch Pad",
+      "States": [
+        {
+          "Image": "Images/folderAction",
+          "TitleAlignment": "middle",
+          "FontSize": "12"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Stores the current folder in your Windows Explorer so you can quickly open it later",
+      "UUID": "com.barraider.wintools.windowsexplorer",
+      "PropertyInspectorPath": "PropertyInspector/WindowsExplorer.html"
+    }
+  ],
+  "Author": "BarRaider",
+  "Description": "Control Windows from the Stream Deck. Control the volume of apps or devices, Toggle Bluetooth/Wifi on or off, use the 'Explorer Scratch Pad' to quickly cycle between common folders, 'Multi-Clip' turns every key to an individual clipboard, Ping servers and see latency, change power plans, Stop/Start/Restart Windows services, Virtual Desktop support, and more",
+  "Name": "Win Tools",
+  "Icon": "Images/pluginIcon",
+  "URL": "https://barraider.com/",
+  "Version": "1.8",
+  "CodePath": "com.barraider.wintools",
+  "Category": "Win Tools [BarRaider]",
+  "CategoryIcon": "Images/categoryIcon",
+  "OS": [
+    {
+      "Platform": "windows",
+      "MinimumVersion": "10"
+    }
+  ],
+  "Profiles": [
+    {
+      "Name": "WinTools",
+      "ReadOnly": true,
+      "DeviceType": 0,
+      "DontAutoSwitchWhenInstalled": true
+    },
+    {
+      "Name": "WinToolsXL",
+      "ReadOnly": true,
+      "DeviceType": 2,
+      "DontAutoSwitchWhenInstalled": true
+    },
+    {
+      "Name": "WinToolsMobile",
+      "ReadOnly": true,
+      "DeviceType": 3,
+      "DontAutoSwitchWhenInstalled": true
+    }
+  ],
+  "SDKVersion": 2,
+  "Software": {
+    "MinimumVersion": "5.3"
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "Actions": [
+    {
+      "Icon": "plugin/images/icons/post_message_white", 
+      "Name": "Chat Message", 
+      "States": [
+        {
+          "Image": "plugin/images/actions/btn_twitch_post_message"
+        }
+      ], 
+      "Tooltip": "Post a precomposed message in your channel's chat", 
+      "UUID": "com.elgato.twitch.chatmessage"
+    }, 
+    {
+      "Icon": "plugin/images/icons/clear_chat_white", 
+      "Name": "Clear Chat", 
+      "States": [
+        {
+          "Image": "plugin/images/actions/btn_twitch_clear_chat"
+        }
+      ], 
+      "Tooltip": "Clear Twitch chat message history", 
+      "UUID": "com.elgato.twitch.clear"
+    },
+    {
+      "Icon": "plugin/images/icons/twitch_toggle_emotechat_white", 
+      "Name": "Emote Chat", 
+      "States": [
+        {
+          "Image": "plugin/images/actions/btn_twitch_toggle_emotechat",
+		      "Name": "Activate"
+        }, 
+        {
+          "Image": "plugin/images/actions/btn_twitch_toggle_emotechat_inactive",
+		      "Name": "Deactivate"
+        }
+      ], 
+      "Tooltip": "Limit chat to emoticons only", 
+      "UUID": "com.elgato.twitch.emotechat"
+    }, 
+    {
+      "Icon": "plugin/images/icons/twitch_toggle_followerschat_white", 
+      "Name": "Followers Chat", 
+      "States": [
+        {
+          "Image": "plugin/images/actions/btn_twitch_toggle_followerschat",
+		      "Name": "Activate"
+        }, 
+        {
+          "Image": "plugin/images/actions/btn_twitch_toggle_followerschat_inactive",
+		      "Name": "Deactivate"
+        }
+      ], 
+      "Tooltip": "Limit chat to followers only", 
+      "UUID": "com.elgato.twitch.followerschat"
+    }, 
+    {
+      "Icon": "plugin/images/icons/twitch_play_ad_on_white", 
+      "Name": "Play Ad", 
+      "States": [
+        {
+          "Image": "plugin/images/actions/btn_twitch_play_ad"
+        }
+      ], 
+      "Tooltip": "Play ad", 
+      "UUID": "com.elgato.twitch.playad"
+    }, 
+    {
+      "Icon": "plugin/images/icons/twitch_toggle_slowchat_on_white", 
+      "Name": "Slow Chat", 
+      "States": [
+        {
+          "Image": "plugin/images/actions/btn_twitch_toggle_slowchat",
+		      "Name": "Activate"
+        }, 
+        {
+          "Image": "plugin/images/actions/btn_twitch_toggle_slowchat_inactive",
+		      "Name": "Deactivate"
+        }
+      ], 
+      "Tooltip": "Activate/deactivate slow chat", 
+      "UUID": "com.elgato.twitch.slowchat"
+    }, 
+    {
+      "Icon": "plugin/images/icons/twitch_game_title_white", 
+      "Name": "Stream/Game Title", 
+      "States": [
+        {
+          "Image": "plugin/images/actions/btn_twitch_game_title"
+        }
+      ], 
+      "Tooltip": "Display your stream/game title", 
+      "UUID": "com.elgato.twitch.streamtitle"
+    }, 
+    {
+      "Icon": "plugin/images/icons/twitch_toggle_subchat_white", 
+      "Name": "Sub Chat", 
+      "States": [
+        {
+          "Image": "plugin/images/actions/btn_twitch_toggle_subchat",
+		      "Name": "Activate"		  
+        }, 
+        {
+          "Image": "plugin/images/actions/btn_twitch_toggle_subchat_inactive",
+		      "Name": "Deactivate"
+        }
+      ], 
+      "Tooltip": "Activate/deactivate subscriber-only chat", 
+      "UUID": "com.elgato.twitch.subchat"
+    }, 
+    {
+      "Icon": "plugin/images/icons/marker_chat_white", 
+      "Name": "Create Stream Marker", 
+      "States": [
+        {
+          "Image": "plugin/images/actions/btn_twitch_marker_chat"
+        }
+      ], 
+      "Tooltip": "Quickly create a Stream Marker of your livestream", 
+      "UUID": "com.elgato.twitch.marker"
+    },
+    {
+      "Icon": "plugin/images/icons/twitch_show_viewers_white", 
+      "Name": "Viewers", 
+      "States": [
+        {
+          "Image": "plugin/images/actions/btn_twitch_show_viewers"
+        }
+      ], 
+      "Tooltip": "Show live viewer count", 
+      "UUID": "com.elgato.twitch.viewers",
+	  "SupportedInMultiActions": false
+    }, 
+    {
+      "Icon": "plugin/images/icons/twitch_create_clip_white", 
+      "Name": "Create Clip", 
+      "States": [
+        {
+          "Image": "plugin/images/actions/btn_twitch_create_clip"
+        }
+      ], 
+      "Tooltip": "Quickly create a clip of your livestream", 
+      "UUID": "com.elgato.twitch.createclip"
+    }, 
+    {
+      "Icon": "plugin/images/icons/twitch_open_last_created_clip_white", 
+      "Name": "Open Last Clip", 
+      "States": [
+        {
+          "Image": "plugin/images/actions/btn_twitch_open_last_create_clip"
+        }
+      ], 
+      "Tooltip": "Open the last created clip", 
+      "UUID": "com.elgato.twitch.openlastclip"
+    }
+  ], 
+  "SDKVersion": 2,
+  "Author": "Elgato",
+  "CodePath": "plugin/index.html",
+  "Description": "Control Twitch.", 
+  "Name": "Twitch", 
+  "Icon": "plugin/images/icons/plugin",
+  "Category": "Twitch",
+  "CategoryIcon": "plugin/images/icons/category",
+  "PropertyInspectorPath": "pi/index.html",
+  "URL": "https://www.elgato.com/en/gaming/stream-deck", 
+  "Version": "1.6",
+  "DefaultWindowSize": [500, 650],
+  "OS": [
+    {
+        "Platform": "mac",
+        "MinimumVersion" : "10.11"
+    },
+    {
+        "Platform": "windows",
+        "MinimumVersion" : "10"
+    }
+  ],
+  "Software":
+    {
+        "MinimumVersion" : "4.9"
+    }
+}

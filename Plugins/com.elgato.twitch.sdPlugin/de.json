@@ -1,0 +1,110 @@
+{
+  "Description": "Steuere Twitch.", 
+  "Name": "Twitch", 
+  "com.elgato.twitch.chatmessage": {
+    "Name": "Chat-Nachricht", 
+    "Tooltip": "Eine vorbereitete Nachricht in den Channel-Chat posten"
+  }, 
+  "com.elgato.twitch.clear": {
+    "Name": "Chat leeren", 
+    "Tooltip": "Twitch-Chatnachrichtenverlauf löschen."
+  }, 
+  "com.elgato.twitch.emotechat": {
+    "Name": "Emote Chat", 
+    "Tooltip": "Beschränke den Chat auf Emoticons",
+    "States": [
+        {
+		  "Name": "Aktivieren"
+        }, 
+        {
+		  "Name": "Deaktivieren"
+        }
+      ]
+  }, 
+  "com.elgato.twitch.followerschat": {
+    "Name": "Follower-Chat", 
+    "Tooltip": "Chat auf nur Follower beschränken",
+    "States": [
+        {
+		  "Name": "Aktivieren"
+        }, 
+        {
+		  "Name": "Deaktivieren"
+        }
+      ]
+  }, 
+  "com.elgato.twitch.playad": {
+    "Name": "Werbung spielen", 
+    "Tooltip": "Werbung spielen"
+  }, 
+  "com.elgato.twitch.slowchat": {
+    "Name": "Langsamer Chat", 
+    "Tooltip": "Langsamen Chat aktivieren/deaktivieren",
+    "States": [
+        {
+		  "Name": "Aktivieren"
+        }, 
+        {
+		  "Name": "Deaktivieren"
+        }
+      ]
+  }, 
+  "com.elgato.twitch.streamtitle": {
+    "Name": "Stream/Game Titel", 
+    "Tooltip": "Stream/Game Titel anzeigen"
+  }, 
+  "com.elgato.twitch.subchat": {
+    "Name": "Subscriber-Chat", 
+    "Tooltip": "Subscriber-Chat aktivieren/deaktivieren",
+    "States": [
+        {
+		  "Name": "Aktivieren"
+        }, 
+        {
+		  "Name": "Deaktivieren"
+        }
+      ]
+  }, 
+  "com.elgato.twitch.viewers": {
+    "Name": "Zuschauer", 
+    "Tooltip": "Live-Zuschauer-Anzahl anzeigen"
+  }, 
+  "com.elgato.twitch.createclip": {
+    "Name": "Clip erstellen", 
+    "Tooltip": "In kürzester Zeit aus deinem Livestream einen Clip erstellen"
+  }, 
+  "com.elgato.twitch.openlastclip": {
+    "Name": "Letzten Clip öffnen", 
+    "Tooltip": "Zuletzt erstellten Clip öffnen"
+  },
+  "com.elgato.twitch.marker": {
+    "Name": "Stream Marker erstellen", 
+    "Tooltip": "Erstelle im Handumdrehen in deinem Live-Stream einen Stream Marker"
+  },
+  "Localization": {
+    "PI": {
+      "Account": "Account",
+      "NoAccounts": "Keine Accounts",
+      "AddAccount": "Neue hinzufügen",
+      "Message": "Nachricht",
+      "Stream": "Stream-Titel",
+      "Game": "Spiel",
+      "Duration": "Dauer",
+      "Second": "Sekunde(n)",
+      "Seconds": "Sekunden",
+      "Duration_0m": "0 Minuten (Alle Follower)",
+      "Duration_10m": "10 Minuten (beliebt)",
+      "Duration_30m": "30 Minuten",
+      "Duration_1h": "1 Stunde",
+      "Duration_1d": "1 Tag",
+      "Duration_1w": "1 Woche",
+      "Duration_1M": "1 Monat",
+      "Duration_3M": "3 Monate",
+      "MessagePlaceholder": "Twitch-Chatnachricht hier eingeben",
+      "StreamPlaceholder": "Streamtitel hier eingeben",
+      "GamePlaceholder": "Spieltitel hier eingeben",
+      "LiveWarning": "Funktioniert nur, während du live bist",
+      "AccountWarning": "Ein Twitch-Partner- oder -Affiliate-Account ist erforderlich"
+    }
+  }
+}

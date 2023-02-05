@@ -1,0 +1,34 @@
+{
+	"Description": "オーディオをコントロール。",
+	"Name": "音量コントローラ",
+	"Category": "音量コントローラ",
+	"com.elgato.volume-controller.auto-detection": {
+		"Name": "自動検出",
+		"Tooltip": "開いているアプリケーションのオーディオコントロールを自動的に設定します。"
+	},
+	"com.elgato.volume-controller.manual-detection": {
+		"Name": "手動検出",
+		"Tooltip": "開いているアプリケーションのオーディオコントロールを手動で設定します。"
+	},
+	"Localization": {
+		"This device is not supported at this time.": "現時点ではこのデバイスはサポートされていません。",
+		"Unable to connect to the audio router.": "オーディオルーターに接続できません。",
+		"Requires an active livestream and a game selected.": "アクティブなライブ配信とゲームを選択する必要があります。",
+		"You can manually start the audio router by opening 'C:\\Program Files\\Elgato\\Volume Controller\\ElgatoAudioControlServer.exe'.": "'C:\\Program Files\\Elgato\\Volume Controller\\ElgatoAudioControlServer.exe' を開くことで、オーディオルーターを手動で開始できます。",
+		"Device Settings": "デバイス設定",
+		"Show Apps": "アプリを表示",
+		"All": "すべて",
+		"Active Only": "アクティブのみ",
+		"Step Size": "ステップのサイズ",
+		"Volume": "音量",
+		"Application": "アプリケーション",
+		"Type": "タイプ",
+		"Adjust": "調整",
+		"Mute": "消音",
+		"Set": "設定",
+		"Icon Style": "アイコンのスタイル",
+		"Static": "静的",
+		"Slider (vertical)": "スライダー (縦向き)",
+		"Slider (horizontal)": "スライダー (横向き)"
+	}
+}

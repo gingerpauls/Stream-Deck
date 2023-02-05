@@ -1,0 +1,44 @@
+{
+  "Description": "Controlar Discord.",
+  "Name": "Discord",
+  "com.elgato.discord.mute": {
+    "Name": "Silencio",
+    "Tooltip": "Silenciar/no silenciar micrófono"
+  },
+  "com.elgato.discord.deafen": {
+    "Name": "Cortar audio",
+    "Tooltip": "Cortar/no cortar audio"
+  },
+  "com.elgato.discord.channel.voice": {
+    "Name": "Canal de voz",
+    "Tooltip": "Entrar o salir de un canal de voz"
+  },
+  "com.elgato.discord.channel.text": {
+    "Name": "Canal de texto",
+    "Tooltip": "Ir a un canal de texto"
+  },
+  "com.elgato.discord.pushto.talk": {
+    "Name": "Pulsar para hablar",
+    "Tooltip": "Mantener pulsado para hablar"
+  },
+  "com.elgato.discord.pushto.mute": {
+    "Name": "Pulsar para silenciar",
+    "Tooltip": "Mantener pulsado para silenciar"
+  },
+  "Localization": {
+    "PI": {
+      "AppWarning": "Abre Discord",
+      "AuthWarning": "Discord authorization required",
+      "AccessLabel": "Authorization",
+      "AccessButton": "Request access",
+      "Server": "Servidor",
+      "NoServer": "Sin servidor",
+      "VoiceChannel": "Canal de voz",
+      "TextChannel": "Canal de texto",
+      "NoChannel": "Sin canal",
+      "Action": "Acción",
+      "PushToTalk": "Pulsar para hablar",
+      "PushToMute": "Pulsar para silenciar"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+	"Description": "음량을 제어합니다.",
+	"Name": "음량 제어",
+	"Category": "음량 제어",
+	"com.elgato.volume-controller.auto-detection": {
+		"Name": "자동 감지",
+		"Tooltip": "열려 있는 응용 프로그램의 오디오 설정을 자동으로 구성합니다."
+	},
+	"com.elgato.volume-controller.manual-detection": {
+		"Name": "수동 감지",
+		"Tooltip": "열려 있는 응용 프로그램의 오디오 설정을 수동으로 구성합니다."
+	},
+	"Localization": {
+		"This device is not supported at this time.": "현재 이 기기는 지원되지 않습니다.",
+		"Unable to connect to the audio router.": "오디오 라우터에 연결할 수 없습니다.",
+		"Requires an active livestream and a game selected.": "진행 중인 라이브 스트리밍과 게임 선택이 필요합니다.",
+		"You can manually start the audio router by opening 'C:\\Program Files\\Elgato\\Volume Controller\\ElgatoAudioControlServer.exe'.": "다음 파일을 실행하면 오디오 라우터를 수동으로 시작할 수 있습니다: 'C:\\Program Files\\Elgato\\Volume Controller\\ElgatoAudioControlServer.exe'",
+		"Device Settings": "기기 설정",
+		"Show Apps": "앱 보기",
+		"All": "모두",
+		"Active Only": "활성화된 앱만",
+		"Step Size": "단계 크기",
+		"Volume": "음량",
+		"Application": "응용 프로그램",
+		"Type": "종류",
+		"Adjust": "조정",
+		"Mute": "음소거",
+		"Set": "설정",
+		"Icon Style": "아이콘 스타일",
+		"Static": "고정",
+		"Slider (vertical)": "슬라이더 (수직)",
+		"Slider (horizontal)": "슬라이더 (수평)"
+	}
+}

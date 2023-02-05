@@ -1,0 +1,27 @@
+2023-02-02 10:07:38.5380|DEBUG|com.barraider.twitchtools|1|Logger Initialized
+2023-02-02 10:07:38.6263|INFO|com.barraider.twitchtools|1|Plugin [com.barraider.twitchtools] Loading - 16 Actions Found
+2023-02-02 10:07:39.1744|DEBUG|com.barraider.twitchtools|1|Plugin Loaded: UUID: 088235D2967BAAD7F343DE554B648FBA Device Info: Devices:
+[Id: 689AA4D1892962FC46356E9F4E6954E2 Type: StreamDeckMobile Size: Rows: 3 Columns: 5]
+ApplicationInfo: Language: en Platform: windows Version: 6.0.2.17735
+PluginInfo: Version: 3.1
+
+2023-02-02 10:07:39.1744|INFO|com.barraider.twitchtools|1|Plugin version: 3.1
+2023-02-02 10:07:39.1744|INFO|com.barraider.twitchtools|1|Connecting to Stream Deck...
+2023-02-02 10:07:41.2917|INFO|com.barraider.twitchtools|1|Connected to Stream Deck
+2023-02-02 10:07:41.2917|INFO|com.barraider.twitchtools|1|GlobalSettingsManager initialized
+2023-02-02 18:10:49.2762|DEBUG|com.barraider.twitchtools|1|Logger Initialized
+2023-02-02 18:10:49.3356|INFO|com.barraider.twitchtools|1|Plugin [com.barraider.twitchtools] Loading - 16 Actions Found
+2023-02-02 18:10:50.0493|DEBUG|com.barraider.twitchtools|1|Plugin Loaded: UUID: 31B3C2FB1D2C6BAD5F527D3EBAD755F0 Device Info: Devices:
+[Id: 689AA4D1892962FC46356E9F4E6954E2 Type: StreamDeckMobile Size: Rows: 3 Columns: 5]
+ApplicationInfo: Language: en Platform: windows Version: 6.0.2.17735
+PluginInfo: Version: 3.1
+
+2023-02-02 18:10:50.0493|INFO|com.barraider.twitchtools|1|Plugin version: 3.1
+2023-02-02 18:10:50.0493|INFO|com.barraider.twitchtools|1|Connecting to Stream Deck...
+2023-02-02 18:10:52.1886|INFO|com.barraider.twitchtools|1|Connected to Stream Deck
+2023-02-02 18:10:52.1886|INFO|com.barraider.twitchtools|1|GlobalSettingsManager initialized
+2023-02-02 19:57:33.8087|INFO|com.barraider.twitchtools|145|GlobalSettingsManager::RequestGlobalSettings called
+2023-02-02 19:57:34.1109|INFO|com.barraider.twitchtools|144|GlobalSettingsManager::GetGlobalSettingsAsync triggered
+2023-02-02 19:57:34.1418|INFO|com.barraider.twitchtools|145|Token initialized. Last refresh date was: 2022-12-17 11:05:25 AM Token Size: 30
+2023-02-02 19:57:34.1418|INFO|com.barraider.twitchtools|145|TwitchTokenManager raising new token change. Token Size: 30
+2023-02-02 19:57:34.1418|INFO|com.barraider.twitchtools|145|ChatPager.Backend.OAuthTokenListener Listener stopped

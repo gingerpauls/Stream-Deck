@@ -1,0 +1,44 @@
+{
+  "Description": "Discordをコントロール",
+  "Name": "Discord",
+  "com.elgato.discord.mute": {
+    "Name": "消音",
+    "Tooltip": "マイクの消音を切り替え"
+  },
+  "com.elgato.discord.deafen": {
+    "Name": "スピーカーミュート",
+    "Tooltip": "スピーカーミュートを切り替え"
+  },
+  "com.elgato.discord.channel.voice": {
+    "Name": "ボイスチャンネル",
+    "Tooltip": "ボイスチャンネルを開始または終了"
+  },
+  "com.elgato.discord.channel.text": {
+    "Name": "テキストチャンネル",
+    "Tooltip": "テキストチャンネルに移動"
+  },
+  "com.elgato.discord.pushto.talk": {
+    "Name": "押して話す",
+    "Tooltip": "押したままにして話す"
+  },
+  "com.elgato.discord.pushto.mute": {
+    "Name": "押してミュート",
+    "Tooltip": "押したままにしてミュート"
+  },
+  "Localization": {
+    "PI": {
+      "AppWarning": "Discordを起動してください",
+      "AuthWarning": "Discord authorization required",
+      "AccessLabel": "Authorization",
+      "AccessButton": "Request access",
+      "Server": "サーバー",
+      "NoServer": "サーバーがありません",
+      "VoiceChannel": "ボイスチャンネル",
+      "TextChannel": "テキストチャンネル",
+      "NoChannel": "チャンネルがありません",
+      "Action": "アクション",
+      "PushToTalk": "押して話す",
+      "PushToMute": "押してミュート"
+    }
+  }
+}

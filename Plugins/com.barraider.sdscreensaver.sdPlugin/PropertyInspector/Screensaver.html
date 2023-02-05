@@ -1,0 +1,172 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,minimal-ui,viewport-fit=cover">
+    <meta name=apple-mobile-web-app-capable content=yes>
+    <meta name=apple-mobile-web-app-status-bar-style content=black>
+    <title>BarRaider's Screensaver</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/barraider/streamdeck-easypi@latest/src/sdpi.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/barraider/streamdeck-easypi@latest/src/rangeTooltip.css">
+    <script src="https://cdn.jsdelivr.net/gh/barraider/streamdeck-easypi@latest/src/sdtools.common.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/barraider/streamdeck-easypi@latest/src/pickers.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/barraider/streamdeck-easypi@latest/src/rangeTooltip.js"></script>
+    <script src="Screensaver.js"></script>
+
+</head>
+<body>
+    <div class="sdpi-wrapper">
+        <details class="message">
+            <summary>For feedback/suggestions contact me at <span class="linkspan" onclick="openWebsite()">https://BarRaider.com</span> </summary>
+        </details>
+        <div class="sdpi-item">
+            <span>READ THIS BEFORE USING!<br />Usage: The plugin only fully kicks in when you lock (Win+L) your computer. Pressing the button will only initiate a 5-sec test mode. Also, when initating the test mode, keys with animated/dynamic images will NOT be changed.</span>
+        </div>
+        <div class="sdpi-item">
+            <span>Please note, this plugin doesn't actually require "wasting" a Stream Deck key apart for the configuration part.<br />As soon as you finish configuring (and pressing the key to test that it works), you can safely delete this key and use it for something else! :)</span>
+        </div>
+        <hr />
+        <div class="sdpi-item" id="dvScreenSaveMode">
+            <div class="sdpi-item-label">Mode</div>
+            <select class="sdpi-item-value select sdProperty" id="screenSaverMode" oninput="setSettings()">
+                <option value="0" selected>Single Image</option>
+                <option value="1">Folder</option>
+                <option value="2">Disco Plugin</option>
+            </select>
+        </div>
+        <details class="message">
+            <summary id="msgStatus1" style="color:red;"></summary>
+        </details>
+        <div id="dvSingleImageMode">
+            <hr />
+            <div class="sdpi-item" id="userIcon1_selector">
+                <div class="sdpi-item-label">Image</div>
+                <div class="sdpi-item-group file" id="filepickergroup">
+                    <input class="sdpi-item-value sdFile sdProperty" type="file" id="fileName" accept=".jpg, .jpeg, .png, .ico, .gif, .bmp, .tiff" oninput="setSettings()">
+                    <label class="sdpi-file-info " for="fileName" id="fileNameFilename">No file...</label>
+                    <label class="sdpi-file-label" for="fileName">Choose file...</label>
+                </div>
+            </div>
+            <div type="checkbox" class="sdpi-item" id="FlipHorizontal">
+                <div class="sdpi-item-label">Flip Horizontal</div>
+                <div class="sdpi-item-value">
+                    <input id="flipHorizontal" class="sdProperty sdCheckbox" type="checkbox" value="" oninput="setSettings()">
+                    <label for="flipHorizontal" class="sdpi-item-label"><span></span>Check to flip</label>
+                </div>
+            </div>
+            <div type="checkbox" class="sdpi-item" id="FlipVertical">
+                <div class="sdpi-item-label">Flip Vertical</div>
+                <div class="sdpi-item-value">
+                    <input id="flipVertical" class="sdProperty sdCheckbox" type="checkbox" value="" oninput="setSettings()">
+                    <label for="flipVertical" class="sdpi-item-label"><span></span>Check to flip</label>
+                </div>
+            </div>
+            <hr />
+        </div>
+        <div id="dvFolderMode">
+            <hr />
+            <div class="sdpi-item" id="dvWatchDirectory">
+                <div class="sdpi-item-label">Images Folder</div>
+                <input class="sdpi-item-value sdProperty hasFileButton" disabled value="" id="folderName">
+                <button class="max100 leftMargin0" onclick="openDirectoryPicker('Images Folder','folderName')">...</button>
+            </div>
+            <div class="sdpi-item" id="dvFolderRefresh">
+                <div class="sdpi-item-label">Change image every (minutes)</div>
+                <input class="sdpi-item-value sdProperty max20" id="folderRefreshTime" value="0" inputmode\ pattern="[0-9]*" type="number" oninput="setSettings()">
+            </div>
+            <hr />
+        </div>
+        <div id="dvDiscoMode">
+            <hr />
+            <div class="sdpi-item" id="select_single">
+                <div class="sdpi-item-label">Effect</div>
+                <select class="sdpi-item-value select sdProperty" id="visualEffect" oninput="setSettings()" value="0">
+                    <option value="0">Dance Floor</option>
+                    <option value="2">Matrix</option>
+                    <option value="4">Matrix v2</option>
+                    <option value="1">Ripple</option>
+                    <option value="3">Scanner</option>
+                </select>
+            </div>
+
+            <div class="sdpi-item" id="select_single">
+                <div class="sdpi-item-label">Effect Variance</div>
+                <select class="sdpi-item-value select sdProperty" id="effectVariance" oninput="setSettings()" value="1">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+            </div>
+            <div type="color" class="sdpi-item" id="dvColor">
+                <div class="sdpi-item-label">Color</div>
+                <input type="color" class="sdpi-item-value sdProperty" value="#00FF00" id="effectColor" oninput="setSettings()">
+            </div>
+            <div type="range" class="sdpi-item sdShowTooltip" id="delay_div">
+                <div class="sdpi-item-label">Delay (ms)</div>
+                <div class="sdpi-item-value">
+                    <span class="clickable" value="100">100</span>
+                    <input type="range" min="100" max="1000" data-suffix=" ms" value="250" class="sdProperty" oninput="setSettings()" id="delay">
+                    <span class="clickable" value="1000">1000</span>
+                    <label for="delay" class="rangeLabel"></label>
+                </div>
+            </div>
+            <div class="sdpi-item">
+                <span class="titleAlignedSmall">(Use left/right keys for added precision)</span>
+            </div>
+            <div class="sdpi-info-label hidden" style="top: -1000;" value="">Tooltip</div>
+            <div class="sdpi-item" id="dvMatrixChaos">
+                <div class="sdpi-item-label">Chaos</div>
+                <div class="sdpi-item-value">
+                    <input id="chaos" type="checkbox" value="" class="sdProperty sdCheckbox" oninput="setSettings()">
+                    <label for="chaos" class="sdpi-item-label"><span></span>Create additional chaos</label>
+                </div>
+            </div>
+            <hr />
+        </div>
+        <div type="checkbox" class="sdpi-item" id="ShowTime">
+            <div class="sdpi-item-label">Clock</div>
+            <div class="sdpi-item-value">
+                <input id="showTime" class="sdProperty sdCheckbox" type="checkbox" value="" oninput="setSettings()">
+                <label for="showTime" class="sdpi-item-label"><span></span>Show time on top-left key</label>
+            </div>
+        </div>
+        <div class="sdpi-item" id="dvSleepMinutes">
+            <div class="sdpi-item-label">Stop after</div>
+            <select class="sdpi-item-value select sdProperty" id="sleepMinutes" oninput="setSettings()">
+                <option value="5">5 Minutes</option>
+                <option value="10">10 Minutes</option>
+                <option value="15">15 Minutes</option>
+                <option value="30">30 Minutes</option>
+                <option value="60">1 Hour</option>
+                <option value="120">2 Hours</option>
+                <option value="0">- Never -</option>
+            </select>
+        </div>
+        <div class="sdpi-item" id="dvLockBrightness">
+            <div class="sdpi-item-label">Brightness on Lock</div>
+            <input class="sdpi-item-value sdProperty" placeholder="Valid values: 0-100" value="" id="lockBrightness" pattern="^([0-9]|[1-9][0-9]|100)$" oninput="setSettings()">
+        </div>
+        <div class="sdpi-item" id="dvUnlockBrightness">
+            <div class="sdpi-item-label">Brightness on Unlock</div>
+            <input class="sdpi-item-value sdProperty" placeholder="Valid values: 0-100" value="" id="unlockBrightness" pattern="^([0-9]|[1-9][0-9]|100)$" oninput="setSettings()">
+        </div>
+        <div class="sdpi-item" id="anumber">
+            <div class="sdpi-item-label">Animated Gif Delay (ms)</div>
+            <input class="sdpi-item-value sdProperty" id="animatedGifDelay" value="100" inputmode="numeric" pattern="[0-9]*" type="number" oninput="setSettings()">
+        </div>
+        <hr />
+        <div type="checkbox" class="sdpi-item" id="SaverEnabled">
+            <div class="sdpi-item-label">CIRCUT BREAKER</div>
+            <div class="sdpi-item-value">
+                <input id="saverEnabled" class="sdProperty sdCheckbox" type="checkbox" value="" oninput="setSettings()">
+                <label for="saverEnabled" class="sdpi-item-label"><span></span>Keep checked to ENABLE plugin, Uncheck to DISABLE plugin</label>
+            </div>
+        </div>
+        <div class="sdpi-item" id="dvHdn">
+            <input value="" class="sdProperty" type="hidden" id="folderMode" oninput="setSettings()">
+        </div>
+
+    </div>
+</body>
+</html>

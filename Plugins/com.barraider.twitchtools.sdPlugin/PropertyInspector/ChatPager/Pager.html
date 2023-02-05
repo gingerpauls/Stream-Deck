@@ -1,0 +1,257 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,minimal-ui,viewport-fit=cover">
+    <meta name=apple-mobile-web-app-capable content=yes>
+    <meta name=apple-mobile-web-app-status-bar-style content=black>
+    <title>BarRaider's Twitch Pager</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/barraider/streamdeck-easypi@latest/src/sdpi.css">
+    <script src="https://cdn.jsdelivr.net/gh/barraider/streamdeck-easypi@latest/src/sdtools.common.js"></script>
+    <script src="../setup.js"></script>
+    <script src="../Pager.js"></script>
+</head>
+<body>
+    <div class="sdpi-wrapper">
+        <details class="message info">
+            <summary>For feedback/suggestions contact me at <span class="linkspan" onclick="openWebsite()">https://BarRaider.com</span> </summary>
+        </details>
+        <div id="sdWrapper" style="display:none;">
+            <div class="sdpi-item" id="anumber">
+                <div class="sdpi-item-label">Page Cooldown (seconds)</div>
+                <input class="sdpi-item-value sdProperty" id="pageCooldown" inputmode="numeric" pattern="[0-9]*" type="number" oninput="setSettings()">
+            </div>
+            <div class="sdpi-item" id="dvPageCommand">
+                <div class="sdpi-item-label">Page Command</div>
+                <input class="sdpi-item-value sdProperty" placeholder="!page" id="pageCommand" oninput="setSettings()">
+            </div>
+            <div class="sdpi-item" id="dvChatMessage">
+                <div class="sdpi-item-label">Chat Page Message</div>
+                <input class="sdpi-item-value sdProperty" placeholder="Hey, {USERNAME}, I am now getting paged...! (Get a pager for your Elgato Stream Deck at https://BarRaider.com )" id="chatMessage" oninput="setSettings()">
+            </div>
+            <div type="color" class="sdpi-item" id="dvAlert">
+                <div class="sdpi-item-label">Alert Color</div>
+                <input type="color" class="sdpi-item-value sdProperty" value="#FF0000" id="alertColor" oninput="setSettings()">
+            </div>
+            <div type="checkbox" class="sdpi-item" id="dvFullScreenAlert">
+                <div class="sdpi-item-label">Username</div>
+                <div class="sdpi-item-value">
+                    <input id="showUsername" class="sdProperty sdCheckbox" type="checkbox" value="" oninput="setSettings()">
+                    <label for="showUsername" class="sdpi-item-label"><span></span>Append name of paging user</label>
+                </div>
+            </div>
+            <div class="sdpi-item" id="dvAutoStopPage">
+                <div class="sdpi-item-label">Auto Stop (seconds)</div>
+                <input class="sdpi-item-value sdProperty" placeholder="10" id="autoStopPage" oninput="setSettings()">
+            </div>
+            <div type="range" class="sdpi-item">
+                <details class="message titleAlignedSmall">
+                    <summary>Leave Allowed Pagers blank to allow anyone in chat to page</summary>
+                </details>
+            </div>
+            <div type="textarea" class="sdpi-item" id="inputText_div">
+                <div class="sdpi-item-label">Allowed Pagers (optional)</div>
+                <span class="sdpi-item-value textarea">
+                    <textarea type="textarea" oninput="setSettings()" class="sdProperty" id="allowedPagers" placeholder="One username per line"></textarea>
+                </span>
+            </div>
+            <div type="checkbox" class="sdpi-item" id="dvFullScreenAlert">
+                <div class="sdpi-item-label">Full Screen Alert</div>
+                <div class="sdpi-item-value">
+                    <input id="fullScreenAlert" class="sdProperty sdCheckbox" type="checkbox" value="" oninput="setSettings()">
+                    <label for="fullScreenAlert" class="sdpi-item-label"><span></span>Flash on entire Stream Deck</label>
+                </div>
+            </div>
+            <div id="dvFullScreenAlertSettings">
+                <div type="checkbox" class="sdpi-item" id="dvTwoLettersPerKey">
+                    <div class="sdpi-item-label empty"></div>
+                    <div class="sdpi-item-value">
+                        <input id="twoLettersPerKey" class="sdProperty sdCheckbox" type="checkbox" value="" oninput="setSettings()">
+                        <label for="twoLettersPerKey" class="sdpi-item-label"><span></span>Two letters on each key</label>
+                    </div>
+                </div>
+                <div type="checkbox" class="sdpi-item" id="dvAlwaysAlert">
+                    <div class="sdpi-item-label empty"></div>
+                    <div class="sdpi-item-value">
+                        <input id="alwaysAlert" class="sdProperty sdCheckbox" type="checkbox" value="" oninput="setSettings()">
+                        <label for="alwaysAlert" class="sdpi-item-label"><span></span>Alert in all profiles</label>
+                    </div>
+                </div>
+            </div>
+            <div type="checkbox" class="sdpi-item" id="dvDashboardOnClick">
+                <div class="sdpi-item-label">Button Click</div>
+                <div class="sdpi-item-value">
+                    <input id="dashboardOnClick" class="sdProperty sdCheckbox" type="checkbox" value="" oninput="setSettings()">
+                    <label for="dashboardOnClick" class="sdpi-item-label"><span></span>Goto Twitch dashboard on click</label>
+                </div>
+            </div>
+            <div type="checkbox" class="sdpi-item">
+                <div class="sdpi-item-label">File</div>
+                <div class="sdpi-item-value">
+                    <input id="saveToFile" class="sdProperty sdCheckbox" type="checkbox" value="" oninput="setSettings()">
+                    <label for="saveToFile" class="sdpi-item-label"><span></span>Save page to file</label>
+                </div>
+            </div>
+            <div id="dvSaveToFile">
+                <div class="sdpi-item" id="dvPageFileName">
+                    <div class="sdpi-item-label">File Name</div>
+                    <input class="sdpi-item-value sdProperty" placeholder="c:\temp\pager.txt" value="" id="pageFileName">
+                    <button class="sdpi-item-value max20 leftMargin0" onclick="setSettings()">Save</button>
+                </div>
+                <div class="sdpi-item" id="dvFilePrefix">
+                    <div class="sdpi-item-label">File Title Prefix</div>
+                    <input class="sdpi-item-value sdProperty" placeholder="Page: " value="" id="filePrefix" oninput="setSettings()">
+                </div>
+                <div class="sdpi-item" id="anumber">
+                    <div class="sdpi-item-label">Auto clear after (seconds)</div>
+                    <input class="sdpi-item-value sdProperty" id="clearFileSeconds" inputmode="numeric" pattern="[0-9]*" type="number" oninput="setSettings()">
+                </div>
+            </div>
+            <div type="checkbox" class="sdpi-item">
+                <div class="sdpi-item-label">Notifications</div>
+                <div class="sdpi-item-value">
+                    <input id="pubsubNotifications" class="sdProperty sdCheckbox" type="checkbox" value="" oninput="setSettings()">
+                    <label for="pubsubNotifications" class="sdpi-item-label"><span></span>Cheers/Follows/Points/Raids/Subs</label>
+                </div>
+            </div>
+            <div id="dvPubsubNotifications">
+                <details class="message">
+                    <summary>* Leave Flash / Chat messages blank to disable them</summary>
+                </details>
+                <details class="message">
+                    <summary>Cheers/Bits</summary>
+                </details>
+                <div type="color" class="sdpi-item" id="dvBits">
+                    <div class="sdpi-item-label">Flash</div>
+                    <input type="color" class="sdpi-item-value sdProperty" value="#FF00FF" id="bitsFlashColor" oninput="setSettings()">
+                    <input class="sdpi-item-value sdProperty" placeholder="{DISPLAYNAME} - {BITS} bits" value="" id="bitsFlashMessage" oninput="setSettings()">
+                </div>
+                <div class="sdpi-item" id="dvChatBits">
+                    <div class="sdpi-item-label">Chat</div>
+                    <input class="sdpi-item-value sdProperty" id="bitsChatMessage" placeholder="{DISPLAYNAME} cheered {BITS} bits! Overall cheered {TOTALBITS} bits. {MESSAGE}" value="" oninput="setSettings()">
+                </div>
+                <hr />
+                <details class="message">
+                    <summary>Follow</summary>
+                </details>
+                <div type="color" class="sdpi-item" id="dvFollow">
+                    <div class="sdpi-item-label">Flash</div>
+                    <input type="color" class="sdpi-item-value sdProperty" value="#0000FF" id="followFlashColor" oninput="setSettings()">
+                    <input class="sdpi-item-value sdProperty" placeholder="Follower: {DISPLAYNAME}" value="" id="followFlashMessage" oninput="setSettings()">
+                </div>
+                <div class="sdpi-item" id="dvChatFollow">
+                    <div class="sdpi-item-label">Chat</div>
+                    <input class="sdpi-item-value sdProperty" id="followChatMessage" placeholder="Thanks for the follow, @{DISPLAYNAME} !!!" value="" oninput="setSettings()">
+                </div>
+                <hr />
+                <details class="message">
+                    <summary>Sub</summary>
+                </details>
+                <div type="color" class="sdpi-item" id="dvSub">
+                    <div class="sdpi-item-label">Flash</div>
+                    <input type="color" class="sdpi-item-value sdProperty" value="#FF0000" id="subFlashColor" oninput="setSettings()">
+                    <input class="sdpi-item-value sdProperty" placeholder="Sub: {DISPLAYNAME}" value="" id="subFlashMessage" oninput="setSettings()">
+                </div>
+                <div class="sdpi-item" id="dvChatSub">
+                    <div class="sdpi-item-label">Chat</div>
+                    <input class="sdpi-item-value sdProperty" id="subChatMessage" placeholder="New Sub by: @{DISPLAYNAME} for {MONTHS} months!!! {MESSAGE}" value="" oninput="setSettings()">
+                </div>
+                <hr />
+                <details class="message">
+                    <summary>Channel Points</summary>
+                </details>
+                <div type="color" class="sdpi-item" id="dvPoints">
+                    <div class="sdpi-item-label">Flash</div>
+                    <input type="color" class="sdpi-item-value sdProperty" value="#00FF00" id="pointsFlashColor" oninput="setSettings()">
+                    <input class="sdpi-item-value sdProperty" placeholder="Points: {DISPLAYNAME} - {TITLE}" value="" id="pointsFlashMessage" oninput="setSettings()">
+                </div>
+                <div class="sdpi-item" id="dvChatPoints">
+                    <div class="sdpi-item-label">Chat</div>
+                    <input class="sdpi-item-value sdProperty" id="pointsChatMessage" placeholder="{DISPLAYNAME} redeemed {TITLE} for {POINTS} points. {MESSAGE}" value="" oninput="setSettings()">
+                </div>
+                <hr />
+                <details class="message">
+                    <summary>Raid</summary>
+                </details>
+                <div type="color" class="sdpi-item" id="dvRaid">
+                    <div class="sdpi-item-label">Flash</div>
+                    <input type="color" class="sdpi-item-value sdProperty" value="#FFA500" id="raidFlashColor" oninput="setSettings()">
+                    <input class="sdpi-item-value sdProperty" placeholder="{DISPLAYNAME} raiding with {VIEWERS} viewers" value="" id="raidFlashMessage" oninput="setSettings()">
+                </div>
+                <div class="sdpi-item" id="dvChatRaid">
+                    <div class="sdpi-item-label">Chat</div>
+                    <input class="sdpi-item-value sdProperty" id="raidChatMessage" placeholder="{DISPLAYNAME} just raided with {VIEWERS} viewers!" value="" oninput="setSettings()">
+                </div>
+                <hr />
+            </div>
+            <div type="checkbox" class="sdpi-item">
+                <div class="sdpi-item-label">Audio</div>
+                <div class="sdpi-item-value">
+                    <input id="playSoundOnChat" class="sdProperty sdCheckbox" type="checkbox" value="" oninput="setSettings()">
+                    <label for="playSoundOnChat" class="sdpi-item-label"><span></span>Play sound on chat message</label>
+                </div>
+            </div>
+            <div type="checkbox" class="sdpi-item">
+                <div class="sdpi-item-label">Audio</div>
+                <div class="sdpi-item-value">
+                    <input id="playSoundOnNotification" class="sdProperty sdCheckbox" type="checkbox" value="" oninput="setSettings()">
+                    <label for="playSoundOnNotification" class="sdpi-item-label"><span></span>Play sound on page/notification</label>
+                </div>
+            </div>
+
+            <div id="dvPlaySoundSettings">
+                <div class="sdpi-item" id="dvPlaybackDevices">
+                    <div class="sdpi-item-label">Playback Device</div>
+                    <select class="sdpi-item-value select sdProperty sdList" id="playbackDevices" oninput="setSettings()" sdListTextProperty="name" sdListValueProperty="name" sdValueField="playbackDevice"></select>
+                </div>
+                <div class="sdpi-item" id="dvSoundFile">
+                    <div class="sdpi-item-label">Sound File</div>
+                    <div class="sdpi-item-group file" id="filepickergroup">
+                        <input class="sdpi-item-value sdProperty sdFile" type="file" id="playSoundFile" accept=".wav, .mp3, .ogg, .wma, .aac, .mp4" oninput="setSettings()">
+                        <label class="sdpi-file-info " for="playSoundFile" id="playSoundFileFilename">No file...</label>
+                        <label class="sdpi-file-label" for="playSoundFile">Choose file...</label>
+                    </div>
+                </div>
+                <div class="sdpi-item" id="anumber">
+                    <div class="sdpi-item-label">Sound Cooldown (seconds)</div>
+                    <input class="sdpi-item-value sdProperty" id="soundCooldown" inputmode="numeric" pattern="[0-9]*" type="number" oninput="setSettings()">
+                </div>
+                <div id="dvMutedUsers">
+                    <div type="textarea" class="sdpi-item" id="inputText_div">
+                        <div class="sdpi-item-label">Muted Users</div>
+                        <span class="sdpi-item-value textarea">
+                            <textarea type="textarea" oninput="setSettings()" class="sdProperty" id="mutedUsers" placeholder="One username per line"></textarea>
+                        </span>
+                    </div>
+                </div>
+                <hr />
+            </div>
+            <div type="checkbox" class="sdpi-item">
+                <div class="sdpi-item-label">Channels</div>
+                <div class="sdpi-item-value">
+                    <input id="multipleChannels" class="sdProperty sdCheckbox" type="checkbox" value="" oninput="setSettings()">
+                    <label for="multipleChannels" class="sdpi-item-label"><span></span>Monitor additional streamers</label>
+                </div>
+            </div>
+            <div id="dvMultipleChannels">
+                <div type="textarea" class="sdpi-item" id="inputText_div">
+                    <div class="sdpi-item-label">Streamers to monitor</div>
+                    <span class="sdpi-item-value textarea">
+                        <textarea type="textarea" oninput="setSettings()" class="sdProperty" id="monitoredStreamers" placeholder="One username per line"></textarea>
+                    </span>
+                </div>
+            </div>
+            <hr />
+            <div class="sdpi-item" id="dvReset">
+                <div class="sdpi-item-label">Revoke Approval</div>
+                <button class="sdpi-item-value max20" onclick="resetPlugin()">Revoke</button>
+                <p>Plugin will no longer communicate with Twitch and will ask for a new Approval Code</p>
+            </div>
+
+            <div class="sdpi-item" id="dvHdn">
+                <input value="" type="hidden" id="tokenExists" class="sdProperty" oninput="setSettings()">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

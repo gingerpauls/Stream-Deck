@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,minimal-ui,viewport-fit=cover">
+    <meta name=apple-mobile-web-app-capable content=yes>
+    <meta name=apple-mobile-web-app-status-bar-style content=black>
+    <title>MultiClip Settings</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/barraider/streamdeck-easypi@latest/src/sdpi.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/barraider/streamdeck-easypi@master/src/rangeTooltip.css">
+    <script src="https://cdn.jsdelivr.net/gh/barraider/streamdeck-easypi@latest/src/sdtools.common.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/barraider/streamdeck-easypi@master/src/rangeTooltip.js"></script>
+    <script src="MultiClip.js"></script>
+</head>
+<body>
+    <div class="sdpi-wrapper">
+        <details class="message">
+            <summary>For feedback/suggestions contact me at <span class="linkspan" onclick="openWebsite()">https://BarRaider.com</span></summary>
+        </details>
+        <div type="checkbox" class="sdpi-item" id="dvSoundOnChange">
+            <div class="sdpi-item-label">Sound</div>
+            <div class="sdpi-item-value">
+                <input id="playSoundOnSet" type="checkbox" value="" class="sdProperty sdCheckbox" oninput="setSettings()">
+                <label for="playSoundOnSet" class="sdpi-item-label"><span></span>Play sound when new value is set</label>
+            </div>
+        </div>
+        <div id="dvSoundOnSetSettings">
+            <div class="sdpi-item" id="dvPlaybackDevices">
+                <div class="sdpi-item-label">Playback Device</div>
+                <select class="sdpi-item-value select sdProperty sdList" id="playbackDevices" oninput="setSettings()" sdListTextProperty="name" sdListValueProperty="name" sdValueField="playbackDevice"></select>
+            </div>
+            <div class="sdpi-item" id="dvSoundFile">
+                <div class="sdpi-item-label">Sound File</div>
+                <div class="sdpi-item-group file" id="filepickergroup">
+                    <input class="sdpi-item-value sdProperty sdFile" type="file" id="playSoundOnSetFile" accept=".wav, .mp3, .ogg, .wma, .aac, .mp4" oninput="setSettings()">
+                    <label class="sdpi-file-info " for="playSoundOnSetFile" id="playSoundOnSetFileFilename">No file...</label>
+                    <label class="sdpi-file-label" for="playSoundOnSetFile">Choose file...</label>
+                </div>
+            </div>
+        </div>
+        <div type="range" class="sdpi-item sdShowTooltip" id="dvLongKeypressTime">
+            <div class="sdpi-item-label" id="longKeypressTimeTitle">Long Keypress Time</div>
+            <div class="sdpi-item-value">
+                <span class="clickable" value="150">150</span>
+                <input type="range" min="150" max="1000" value=150 list="numbers" data-suffix=" ms" class="sdProperty" id="longKeypressTime" oninput="setSettings()">
+                <span class="clickable" value="1000">1000</span>
+                <datalist id="numbers">
+                    <option>1000</option>
+                </datalist>
+                <label for="longKeypressTime" class="rangeLabel"></label>
+            </div>
+        </div>
+        <div class="sdpi-item">
+            <div class="sdpi-item-label">Long Press Action</div>
+            <select class="sdpi-item-value select sdProperty" id="longPressAction" oninput="setSettings()">
+                <option value="0">Store Selected Text</option>
+                <option value="1">Store Existing Clipboard Content</option>
+            </select>
+        </div>
+        <hr />
+        <div class="sdpi-item" id="dvClipboardId">
+            <div class="sdpi-item-label">Shared Id (optional)</div>
+            <input class="sdpi-item-value sdProperty" placeholder="clipboard1" value="" id="sharedId" oninput="setSettings()">
+        </div>
+        <details class="message">
+            <summary>For instructions on how to use the Shared Id <span class="linkspan"> CLICK HERE</span></summary>
+            <p>By default, every instance of a Multi-Clip is its own clipboard.</p>
+            <p>
+                This function allows you to share clipboard across multiple stream deck profiles.
+                Type the same name/id in 'Shared Id' across all Multi-Clips that you want to reuse as the same clipboard.
+            </p>
+        </details>
+        <div class="sdpi-info-label hidden" style="top: -1000;" value="">Tooltip</div>
+        <hr />
+        <div class="sdpi-item" id="dvReset">
+            <div class="sdpi-item-label">Clear</div>
+            <button class="sdpi-item-value" onclick="resetMultiClips()">Clear Multi Clips</button>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,52 @@
+﻿{
+  "Localization": {
+    "Setup": {
+      "General": {
+        "title-intro": "Setup",
+        "title-api": "API Key",
+        "title-pairing": "Link",
+        "title-result": "Finalize"
+      },
+      "Intro": {
+        "Title": "Spotify Premium Required",
+        "Description": "Note: A Spotify Premium account is <b><i>required</b></i> for this plugin to work. Free accounts <b><i>will not work</b></i>. This is a limitation imposed by Spotify.",
+        "NextStep": "Already have Spotify Premium?",
+        "Submit": "GET STARTED",
+        "Close": "Not Now"
+      },
+      "API": {
+        "Title": "Client ID and Secret",
+        "Description": "<B><font color='red'>You will require a NEW app for this version. Follow these new instructions:</font></b> We need you to provide the 'Client Id' and 'Client Secret' for your spotify account. For instructions on how to get them ",
+        "ClickHere": "Click here",
+        "QuickLink": "If you <b><i>previously completed</i></b> the above instructions: ",
+        "Dashboard": "Spotify App Dashboard",
+        "ClientIdPlaceholder": "Client ID",
+        "ClientSecretPlaceholder": "Client Secret",
+        "SecretWarning": "Note: NEVER SHARE YOUR CLIENT ID OR SECRET!!!",
+        "NextStep": "Click the button and authorize the plugin in the newly opened browser tab",
+        "Submit": "NEXT",
+        "Close": "Cancel"
+      },
+      "Pairing": {
+        "Title": "Linking Account",
+        "Description": "Please follow instructions in your browser...",
+        "DescriptionPart2": "Pro-Tip: If you get a <b>INVALID_CLIENT: Invalid client</b> message, you <b><i>did not</i></b> follow the instructions in the previous phase correctly! Go back and recheck all the app settings in the Spotify App Dashboard.",
+        "PleaseWait": "Please wait... If this takes more than 1 minute, restart the Stream Deck app",
+        "ClickHere": "Click here",
+        "Cancel": "Cancel"
+      },
+      "Result": {
+        "ValidateTitle": "Validating Code",
+        "ValidateDescription": "This may take 10-15 seconds...",
+        "SuccessTitle": "✔️ Spotify Connected",
+        "SuccessDescription": "Enjoy using Spotify with your Stream Deck.<br/>You may <b><i>close</i></b> this window.",
+        "FailTitle": "VALIDATION FAILED",
+        "FailDescription": "We failed to link your account, please try again.<br/>If you keep getting this error after ~10 seconds of linking, a Antivirus/Firewall/VPN is blocking the plugin. For support:",
+        "FailRetry": "CLOSE",
+        "Close": "Close",
+        "Cancel": "Cancel",
+        "Save": "Done"
+      }
+    }
+    }
+}

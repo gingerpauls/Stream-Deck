@@ -1,0 +1,300 @@
+{
+  "Actions": [
+    {
+      "Icon": "Images/banIcon",
+      "Name": "Ban / Timeout",
+      "States": [
+        {
+          "Image": "Images/banAction",
+          "TitleAlignment": "middle",
+          "FontSize": "12"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "Tooltip": "Shows list of viewers you can ban/timeout.",
+      "UUID": "com.barraider.twitchtools.bantimeoutcmd",
+      "PropertyInspectorPath": "PropertyInspector/ChatPager/BanTimeout.html"
+    },
+    {
+      "Icon": "Images/streamTitleIcon",
+      "Name": "Change Title/Game",
+      "States": [
+        {
+          "Image": "Images/streamTitleAction",
+          "TitleAlignment": "bottom",
+          "FontSize": "10"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Allows you to change the Stream's status, game and tags from text files",
+      "UUID": "com.barraider.twitchtools.streamtitle",
+      "PropertyInspectorPath": "PropertyInspector/ChatPager/StreamTitle.html"
+    },
+    {
+      "Icon": "Images/channelIcon",
+      "Name": "Channel Monitor",
+      "States": [
+        {
+          "Image": "Images/channelAction",
+          "TitleAlignment": "bottom",
+          "FontSize": "12"
+        }
+      ],
+      "UserTitleEnabled": false,
+      "SupportedInMultiActions": false,
+      "DisableCaching": true,
+      "Tooltip": "Shows you when your favorite streamer is live.",
+      "UUID": "com.barraider.twitchtools.channel",
+      "PropertyInspectorPath": "PropertyInspector/ChatPager/Channel.html"
+    },
+    {
+      "Icon": "Images/clearChatIcon",
+      "Name": "Clear Chat",
+      "States": [
+        {
+          "Image": "Images/clearChatAction",
+          "TitleAlignment": "bottom",
+          "FontSize": "10"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Clear all messages in chat.",
+      "UUID": "com.barraider.twitchtools.clearchat",
+      "PropertyInspectorPath": "PropertyInspector/ChatPager/ClearChat.html"
+    },
+    {
+      "Icon": "Images/clipIcon",
+      "Name": "Clip to Chat",
+      "States": [
+        {
+          "Image": "Images/clipAction",
+          "TitleAlignment": "bottom",
+          "FontSize": "10"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Creates a twitch clip and posts it in chat.",
+      "UUID": "com.barraider.twitchtools.cliptochat",
+      "PropertyInspectorPath": "PropertyInspector/ChatPager/ClipToChat.html"
+    },
+    {
+      "Icon": "Images/markerIcon",
+      "Name": "Create Stream Marker",
+      "States": [
+        {
+          "Image": "Images/markerAction",
+          "TitleAlignment": "middle",
+          "FontSize": "11"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Creates a Stream Marker in the live stream",
+      "UUID": "com.barraider.twitchtools.marker",
+      "PropertyInspectorPath": "PropertyInspector/ChatPager/Marker.html"
+    },
+    {
+      "Icon": "Images/giveawayIcon",
+      "Name": "Giveaway",
+      "States": [
+        {
+          "Image": "Images/giveawayAction",
+          "TitleAlignment": "middle",
+          "FontSize": "10"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Allows to manage Giveaways from your Stream Deck",
+      "UUID": "com.barraider.twitchtools.giveaway",
+      "PropertyInspectorPath": "PropertyInspector/ChatPager/Giveaway.html"
+    },
+    {
+      "Icon": "Images/channelIcon",
+      "Name": "Live Streamers",
+      "States": [
+        {
+          "Image": "Images/channelAction",
+          "TitleAlignment": "bottom",
+          "FontSize": "10"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "DisableCaching": true,
+      "Tooltip": "Shows you which of the streamers you follow are currently live.",
+      "UUID": "com.barraider.twitchtools.livestreamers",
+      "PropertyInspectorPath": "PropertyInspector/ChatPager/LiveStreamers.html"
+    },
+    {
+      "Icon": "Images/modIcon",
+      "Name": "Mods / VIPs",
+      "States": [
+        {
+          "Image": "Images/modAction",
+          "TitleAlignment": "middle",
+          "FontSize": "12"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "Tooltip": "Shows list of viewers you can grant or remove moderation or VIP status.",
+      "UUID": "com.barraider.twitchtools.modvipcmd",
+      "PropertyInspectorPath": "PropertyInspector/ChatPager/ModVip.html"
+    },
+    {
+      "Icon": "Images/adIcon",
+      "Name": "Run Ad",
+      "States": [
+        {
+          "Image": "Images/adAction",
+          "TitleAlignment": "middle",
+          "FontSize": "11"
+        }
+      ],
+      "UserTitleEnabled": false,
+      "SupportedInMultiActions": true,
+      "Tooltip": "Run an twitch ad and see both the time left and cooldown till next ad",
+      "UUID": "com.barraider.twitchtools.runad",
+      "PropertyInspectorPath": "PropertyInspector/ChatPager/RunAd.html"
+    },
+    {
+      "Icon": "Images/messageIcon",
+      "Name": "Send Message",
+      "States": [
+        {
+          "Image": "Images/messageAction",
+          "TitleAlignment": "middle",
+          "FontSize": "11"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Sends a preset message to a channel",
+      "UUID": "com.barraider.twitchtools.sendmessage",
+      "PropertyInspectorPath": "PropertyInspector/ChatPager/SendMessage.html"
+    },
+    {
+      "Icon": "Images/shieldIcon",
+      "Name": "Shield Mode",
+      "States": [
+        {
+          "Image": "Images/shieldAction",
+          "TitleAlignment": "middle",
+          "FontSize": "12"
+        }
+      ],
+      "UserTitleEnabled": false,
+      "SupportedInMultiActions": true,
+      "DisableCaching": true,
+      "Tooltip": "Toggle Twitch Shield",
+      "UUID": "com.barraider.twitchtools.shield",
+      "PropertyInspectorPath": "PropertyInspector/ChatPager/Shield.html"
+    },
+    {
+      "Icon": "Images/shoutoutIcon",
+      "Name": "Shoutout",
+      "States": [
+        {
+          "Image": "Images/shoutoutAction",
+          "TitleAlignment": "middle",
+          "FontSize": "12"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "Tooltip": "Shows viewers and let's you send them a \"shoutout\".",
+      "UUID": "com.barraider.twitchtools.shoutout",
+      "PropertyInspectorPath": "PropertyInspector/ChatPager/Shoutout.html"
+    },
+    {
+      "Icon": "Images/icon",
+      "Name": "Twitch Pager",
+      "States": [
+        {
+          "Image": "Images/bg",
+          "TitleAlignment": "bottom",
+          "FontSize": "10"
+        }
+      ],
+      "UserTitleEnabled": false,
+      "SupportedInMultiActions": false,
+      "Tooltip": "Listens to your twitch chat and gives you a visual alert if someone uses the !page command.",
+      "UUID": "com.barraider.twitchtools.twitchpager",
+      "PropertyInspectorPath": "PropertyInspector/ChatPager/Pager.html"
+    },
+    {
+      "Icon": "Images/viewersIcon",
+      "Name": "Viewers",
+      "States": [
+        {
+          "Image": "Images/viewersAction",
+          "TitleAlignment": "bottom",
+          "FontSize": "11"
+        }
+      ],
+      "UserTitleEnabled": false,
+      "SupportedInMultiActions": false,
+      "DisableCaching": true,
+      "Tooltip": "Shows you who is currently viewing a channel.",
+      "UUID": "com.barraider.twitchtools.channelviewers",
+      "PropertyInspectorPath": "PropertyInspector/ChatPager/ChannelViewers.html"
+    },
+    {
+      "Icon": "Images/icon",
+      "Name": "Alert Flasher",
+      "States": [
+        {
+          "Image": "Images/noicon",
+          "TitleAlignment": "middle",
+          "FontSize": "28"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "VisibleInActionsList": false,
+      "DisableCaching": true,
+      "Tooltip": "",
+      "UUID": "com.barraider.alertflasher"
+    }
+  ],
+  "Author": "BarRaider",
+  "Description": "Advanced tools to control Twitch from your Stream Deck. Features include: Manage Giveaways, Clip-To-Chat, Send chat messages, Ban users, Update stream title and tags, Twitch Pager (Flashes stream deck on follows/subs/bits/channel points, or !page command), Channel Monitor (Shows which of your favorite streamers are now live)",
+  "Name": "Twitch Tools",
+  "Icon": "Images/pluginIcon",
+  "URL": "https://BarRaider.com/",
+  "Version": "3.1",
+  "DefaultWindowSize": [ 620, 750 ],
+  "CodePath": "com.barraider.twitchtools",
+  "Category": "Twitch Tools [BarRaider]",
+  "CategoryIcon": "Images/categoryIcon",
+  "OS": [
+    {
+      "Platform": "windows",
+      "MinimumVersion": "10"
+    }
+  ],
+  "Profiles": [
+    {
+      "Name": "FullScreenAlert",
+      "ReadOnly": true,
+      "DeviceType": 0,
+      "DontAutoSwitchWhenInstalled": true
+    },
+    {
+      "Name": "FullScreenAlertMini",
+      "ReadOnly": true,
+      "DeviceType": 1,
+      "DontAutoSwitchWhenInstalled": true
+    },
+    {
+      "Name": "FullScreenAlertXL",
+      "ReadOnly": true,
+      "DeviceType": 2,
+      "DontAutoSwitchWhenInstalled": true
+    },
+    {
+      "Name": "FullScreenAlertMobile",
+      "ReadOnly": true,
+      "DeviceType": 3,
+      "DontAutoSwitchWhenInstalled": true
+    }
+  ],
+  "SDKVersion": 2,
+  "Software": {
+    "MinimumVersion": "6.0"
+  }
+}

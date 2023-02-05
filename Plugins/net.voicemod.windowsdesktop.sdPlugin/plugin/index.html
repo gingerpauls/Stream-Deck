@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<title>App Status PI</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Import style sheets -->
+	<link rel="stylesheet" type="text/css" href="css/sdpi.css">
+	<link rel="stylesheet" type="text/css" href="css/voicemod.css">
+	<!-- Import scripts -->
+	<script src="js/utils.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/plugin.js"></script>
+</head>
+
+<body>
+	<div class="sdpi-wrapper main-plugin-container">
+
+		<!-- Template - Voicemod not installed container -->
+        <div class="t-voicemodNotInstalled"></div>
+
+        <!-- Template update-voicemod - Voicemod need an update -->
+        <div class="t-voicemodUpdate hidden"></div>
+
+		<!-- Main plugin PI view -->
+		<div class="sdpi-wrapper isVoicemodInstalled">
+			<!-- Template - Offer and App status -->
+			<div class="t-app-status"></div>
+		</div>
+	</div>
+
+</body>
+
+</html>

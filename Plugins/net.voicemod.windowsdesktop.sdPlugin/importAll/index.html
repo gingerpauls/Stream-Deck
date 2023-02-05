@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Import All Sound PI</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="../plugin/css/sdpi.css">
+    <link rel="stylesheet" href="../plugin/css/voicemod.css">
+    <link rel="stylesheet" href="./css/importAll.css">
+
+    <script src="../plugin/js/utils.js"></script>
+
+    <script src="../plugin/js/main.js"></script>
+    <script src="../plugin/js/plugin.js"></script>
+</head>
+
+<body>
+    <div class="sdpi-wrapper meme">
+		<!-- Template voicemod-not-installed - Voicemod not installed container -->
+        <div class="t-voicemodNotInstalled"></div>
+
+        <!-- Template update-voicemod - Voicemod need an update -->
+        <div class="t-voicemodUpdate hidden"></div>
+
+		<!-- Main plugin PI view -->
+        <div class="sdpi-wrapper isVoicemodInstalled">
+
+            <div class="pi-container">
+                <div
+                    type="select"
+                    class="sdpi-item"
+                >
+                    <div
+                        class="sdpi-item-label"
+                        data-localized="soundboard-category-label"
+                    ></div>
+                    <select
+                        class="sdpi-item-value"
+                        onchange="chooseCategory(event.target.value)"
+                    >
+                        <option
+                            value=""
+                            data-localized="soundboard-category-label"
+                            selected
+                        ></option>
+                        <option
+                            value="voices"
+                            data-localized="voices"
+                        ></option>
+                        <option
+                            value="soundbar"
+                            data-localized="soundboard-soundboard-label"
+                        ></option>
+                    </select>
+                </div>
+
+                <!-- Voices case -->
+                <div
+                    id="isVoices"
+                    class="import-all-voices sdpi-item hidden"
+                    type="radio"
+                >
+                    <div
+                        class="sdpi-item-label"
+                        data-localized="list-of-voices"
+                    ></div>
+                    <div class="sdpi-item-value">
+                        <span class="sdpi-item-child">
+                            <input
+                                id="radioButtonVoicesAll"
+                                type="radio"
+                                value="allVoices"
+                                name="radioButtonListVoices"
+                                checked
+                            >
+                            <label for="radioButtonVoicesAll">
+                                <span class="icon-radio-button"></span>
+                                <span
+                                    class="label"
+                                    data-localized="all-voices"
+                                ></span>
+                            </label>
+                        </span>
+                        <span class="sdpi-item-child">
+                            <input
+                                id="radioButtonVoicesFavorites"
+                                type="radio"
+                                value="favoriteVoices"
+                                name="radioButtonListVoices"
+                            >
+                            <label for="radioButtonVoicesFavorites">
+                                <span class="icon-radio-button"></span>
+                                <span
+                                    class="label"
+                                    data-localized="favorites-voices"
+                                ></span>
+                            </label>
+                        </span>
+                        <span class="sdpi-item-child">
+                            <input
+                                id="radioButtonVoicesMaker"
+                                type="radio"
+                                value="customVoices"
+                                name="radioButtonListVoices"
+                            >
+                            <label for="radioButtonVoicesMaker">
+                                <span class="icon-radio-button"></span>
+                                <span
+                                    class="label"
+                                    data-localized="maker-voices"
+                                ></span>
+                            </label>
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Soundbar case -->
+                <div
+                    type="select"
+                    class="sdpi-item hidden"
+                    id="isSoundbar"
+                >
+                    <div
+                        class="sdpi-item-label"
+                        data-localized="soundboard-profile-label"
+                    ></div>
+                    <select class="sdpi-item-value">
+                        <option
+                            value=""
+                            data-localized="no-element"
+                        ></option>
+                    </select>
+                </div>
+
+                <!-- Import All button -->
+                <div class="sdpi-item">
+                    <button
+                        id="importAll"
+                        class="label sdpi-item-value button-import"
+                        data-localized="soundboard-import-button"
+                    ></button>
+               </div>
+            </div>
+
+			<!-- Template - Offer and App status -->
+            <div class="t-app-status"></div>
+        </div>
+    </div>
+
+    <script src="./js/importAll.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,148 @@
+{
+  "Description": "Controla Streamlabs Dashboard.", 
+  "Name": "Streamlabs", 
+  "com.elgato.streamlabs.alert": {
+    "Name": "Probar la alerta", 
+    "Tooltip": "Probar la alerta"
+  }, 
+  "com.elgato.streamlabs.alert.mute": {
+    "Name": "Silenciar alertas", 
+    "Tooltip": "Silenciar alertas",
+    "States": [
+        {
+		  "Name": "Silencio"
+        }, 
+        {
+		  "Name": "Quitar silencio"
+        }
+      ]
+  }, 
+  "com.elgato.streamlabs.alert.pause": {
+    "Name": "Pausar alertas", 
+    "Tooltip": "Pausar alertas",
+    "States": [
+        {
+		  "Name": "Pausa"
+        }, 
+        {
+		  "Name": "Reanudar"
+        }
+      ]
+  }, 
+  "com.elgato.streamlabs.alert.skip": {
+    "Name": "Saltar alerta", 
+    "Tooltip": "Saltar alerta"
+  }, 
+  "com.elgato.streamlabs.changeprofile": {
+    "Name": "Cambiar de perfil", 
+    "Tooltip": "Cambiar de perfil"
+  }, 
+  "com.elgato.streamlabs.emptyjar": {
+    "Name": "Vaciar el bote", 
+    "Tooltip": "Vacía el bote para que quepan más donaciones"
+  }, 
+  "com.elgato.streamlabs.playcredits": {
+    "Name": "Reproducir créditos", 
+    "Tooltip": "Reproducir créditos"
+  }, 
+  "com.elgato.streamlabs.spinwheel": {
+    "Name": "Girar rueda", 
+    "Tooltip": "Gira la rueda de la suerte"
+  },
+  "com.elgato.streamlabs.media.skip": {
+    "Name": "Saltar contenido multimedia", 
+    "Tooltip": "Saltar al siguiente contenido"
+  },
+  "com.elgato.streamlabs.media.playback": {
+    "Name": "Contenido anterior", 
+    "Tooltip": "Saltar al contenido anterior"
+  },
+  "com.elgato.streamlabs.media.volume": {
+    "Name": "Cambiar volumen", 
+    "Tooltip": "Cambiar el volumen del contenido multimedia"
+  },
+  "com.elgato.streamlabs.media.pause": {
+    "Name": "Pausar contenido multimedia", 
+    "Tooltip": "Pausar/reproducir contenido actual",
+    "States": [
+        {
+		  "Name": "Pausa"
+        }, 
+        {
+		  "Name": "Reanudar"
+        }
+      ]
+  }, 
+  "com.elgato.streamlabs.media.request": {
+    "Name": "Activar/desactivar solicitudes", 
+    "Tooltip": "Activar/desactivar solicitudes de nuevo contenido multimedia",
+    "States": [
+        {
+		  "Name": "Activar"
+        }, 
+        {
+		  "Name": "Desactivar"
+        }
+      ]
+  }, 
+  "com.elgato.streamlabs.media.autoplay": {
+    "Name": "Activar/desactivar reproducción automática", 
+    "Tooltip": "Activar/desactivar reproducción automática del contenido sucesivo",
+    "States": [
+        {
+		  "Name": "Activar"
+        }, 
+        {
+		  "Name": "Desactivar"
+        }
+      ]
+  }, 
+  "com.elgato.streamlabs.media.autoshow": {
+    "Name": "Activar/desactivar mostrado automático", 
+    "Tooltip": "Mostrar/ocultar contenido actual",
+    "States": [
+        {
+		  "Name": "Activar"
+        }, 
+        {
+		  "Name": "Desactivar"
+        }
+      ]
+  }, 
+  "com.elgato.streamlabs.media.moderation": {
+    "Name": "Activar/desactivar moderación", 
+    "Tooltip": "Activar/desactivar moderación para el contenido solicitado",
+    "States": [
+        {
+		  "Name": "Activar"
+        }, 
+        {
+		  "Name": "Desactivar"
+        }
+      ]
+  }, 
+  "com.elgato.streamlabs.media.backuplist": {
+    "Name": "Activar/desactivar lista de respaldo", 
+    "Tooltip": "Activar/desactivar el uso de la lista de respaldo cuando la cola está vacía",
+    "States": [
+        {
+		  "Name": "Activar"
+        }, 
+        {
+		  "Name": "Desactivar"
+        }
+      ]
+  }, 
+  "Localization": {
+    "PI": {
+      "Account": "Cuenta",
+      "NoAccounts": "No hay cuentas",
+      "AddAccount": "Añadir",
+      "Profile": "Perfil",
+      "Action": "Acción",
+      "VolumeUp": "Superior",
+      "VolumeDown": "Inferior",
+      "LiveWarning": "Solo funciona transmitiendo en directo"
+    }
+  }
+}

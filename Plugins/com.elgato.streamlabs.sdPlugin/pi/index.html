@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+		<head>
+				<title>com.elgato.streamlabs.pi</title>
+				<meta charset="UTF-8">
+				<!-- Import style sheets -->
+				<link rel="stylesheet" type="text/css" href="css/sdpi.css">
+				<link rel="stylesheet" type="text/css" href="css/pi.css">
+				<!-- Import scripts -->
+				<script src="../plugin/js/utils.js"></script>
+				<script src="js/main.js"></script>
+				<script src="js/pi.js"></script>
+
+				<script src="js/single/alertPI.js"></script>
+				<script src="js/single/emptyjarPI.js"></script>
+				<script src="js/single/playbackPI.js"></script>
+				<script src="js/single/playcreditsPI.js"></script>
+				<script src="js/single/profilePI.js"></script>
+				<script src="js/single/skipPI.js"></script>
+				<script src="js/single/skipvideoPI.js"></script>
+				<script src="js/single/spinwheelPI.js"></script>
+				<script src="js/single/volumePI.js"></script>
+				
+				<script src="js/multiple/autoplayPI.js"></script>
+				<script src="js/multiple/autoshowPI.js"></script>
+				<script src="js/multiple/backuplistPI.js"></script>
+				<script src="js/multiple/moderationPI.js"></script>
+				<script src="js/multiple/mutePI.js"></script>
+				<script src="js/multiple/pausePI.js"></script>
+				<script src="js/multiple/pausemediaPI.js"></script>
+				<script src="js/multiple/requestPI.js"></script>
+		</head>
+		<body>
+				<!-- Property Inspector -->
+				<div class="sdpi-wrapper" id="pi">
+						<!-- Account select -->
+						<div class="sdpi-item">
+								<div class="sdpi-item-label" id="account-label"></div>
+								<select class="sdpi-item-value select" id="account-select">
+										<option id="no-accounts" value="no-accounts"></option>
+											<option disabled></option>
+										<hr>
+										<option id="add-account" value="add"></option>
+								</select>
+						</div>
+						<!-- Placeholder for more UI elements -->
+						<div id="placeholder"></div>
+				</div>
+				<!-- Floating tooltips element -->
+				<div class="sdpi-info-label hidden" style="top: -1000px;" value=""></div>
+		</body>
+</html>
