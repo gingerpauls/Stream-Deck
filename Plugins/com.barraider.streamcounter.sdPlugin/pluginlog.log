@@ -22,3 +22,16 @@
 2023-02-05 09:41:25.9591|INFO|com.barraider.streamcounter|1|Connecting to Stream Deck
 2023-02-05 09:41:28.0171|INFO|com.barraider.streamcounter|1|Connected to Stream Deck
 2023-02-05 09:41:28.0171|INFO|com.barraider.streamcounter|1|GlobalSettingsManager initialized
+2023-02-05 13:26:26.5384|INFO|com.barraider.streamcounter|112|Loading counter file: 
+2023-02-05 13:26:27.1727|INFO|com.barraider.streamcounter|1|Loading counter file: 
+2023-02-05 13:26:27.4839|INFO|com.barraider.streamcounter|112|Destructor called
+2023-02-05 13:26:29.4003|INFO|com.barraider.streamcounter|112|Loading counter file: 
+2023-02-05 13:26:29.8157|INFO|com.barraider.streamcounter|112|Destructor called
+2023-02-05 13:26:30.9607|INFO|com.barraider.streamcounter|112|Loading counter file: 
+2023-02-05 13:26:31.1781|INFO|com.barraider.streamcounter|1|Loading counter file: 
+2023-02-05 13:26:31.2634|INFO|com.barraider.streamcounter|112|Destructor called
+2023-02-05 13:26:32.1495|INFO|com.barraider.streamcounter|112|Loading counter file: 
+2023-02-05 13:26:32.1785|INFO|com.barraider.streamcounter|1|Loading counter file: 
+2023-02-05 13:26:32.4557|INFO|com.barraider.streamcounter|112|Destructor called
+2023-02-05 13:26:33.2247|INFO|com.barraider.streamcounter|112|Loading counter file: 
+2023-02-05 13:26:33.5418|INFO|com.barraider.streamcounter|112|Destructor called

@@ -882,3 +882,207 @@
 2023-02-05 13:22:27.3899|INFO|com.barraider.spotify|18|[18] Initializing Tokens
 2023-02-05 13:22:27.3899|INFO|com.barraider.spotify|18|BarRaider.Spotify.OAuthTokenListener Listener stopped
 2023-02-05 13:22:32.0915|INFO|com.barraider.spotify|10|BarRaider.Spotify.TokenManager CheckVersion in cooldown.
+2023-02-05 13:23:53.1948|INFO|com.barraider.spotify|12|Fetched song info: Tumble
+2023-02-05 13:23:53.8491|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 13:23:53.9458|INFO|com.barraider.spotify|13|IsUserTrack is False for spotify:track:3bos4pir9GcszIzYOFtr6h
+2023-02-05 13:26:17.2490|INFO|com.barraider.spotify|17|Action Loaded: Spotify.Actions.ChangePlaybackDeviceAction
+2023-02-05 13:26:17.2490|INFO|com.barraider.spotify|17|Devices MS: 8920943.2214
+2023-02-05 13:26:17.2490|DEBUG|com.barraider.spotify|17|[17] SpotifyQuery: me/player/devices
+2023-02-05 13:26:17.2490|INFO|com.barraider.spotify|17|Action Loaded: Spotify.Actions.PreviousSongAction
+2023-02-05 13:26:17.2490|INFO|com.barraider.spotify|17|Action Loaded: Spotify.Actions.PlayPauseToggleAction
+2023-02-05 13:26:17.2490|INFO|com.barraider.spotify|17|Action Loaded: Spotify.Actions.NextSongAction
+2023-02-05 13:26:17.2490|INFO|com.barraider.spotify|17|Action Loaded: Spotify.Actions.LikeSongAction
+2023-02-05 13:26:17.4016|INFO|com.barraider.spotify|12|Received 2 devices
+2023-02-05 13:26:17.4016|INFO|com.barraider.spotify|5|SpotifyGetDevices returning cached version
+2023-02-05 13:26:26.5214|INFO|com.barraider.spotify|6|Destructor Called
+2023-02-05 13:26:26.5214|INFO|com.barraider.spotify|6|Destructor Called
+2023-02-05 13:26:26.5214|INFO|com.barraider.spotify|6|Destructor Called
+2023-02-05 13:26:26.5214|INFO|com.barraider.spotify|6|Destructor Called
+2023-02-05 13:26:26.5214|INFO|com.barraider.spotify|6|Destructor Called
+2023-02-05 13:26:27.4799|INFO|com.barraider.spotify|15|Action Loaded: Spotify.Actions.ChangePlaybackDeviceAction
+2023-02-05 13:26:27.4809|INFO|com.barraider.spotify|15|SpotifyGetDevices returning cached version
+2023-02-05 13:26:27.4809|INFO|com.barraider.spotify|15|Action Loaded: Spotify.Actions.PreviousSongAction
+2023-02-05 13:26:27.4809|INFO|com.barraider.spotify|15|Action Loaded: Spotify.Actions.PlayPauseToggleAction
+2023-02-05 13:26:27.4809|INFO|com.barraider.spotify|15|SpotifyGetDevices returning cached version
+2023-02-05 13:26:27.4809|INFO|com.barraider.spotify|15|Action Loaded: Spotify.Actions.NextSongAction
+2023-02-05 13:26:27.4809|INFO|com.barraider.spotify|15|Action Loaded: Spotify.Actions.LikeSongAction
+2023-02-05 13:26:27.9028|INFO|com.barraider.spotify|15|Destructor Called
+2023-02-05 13:26:27.9028|INFO|com.barraider.spotify|15|Destructor Called
+2023-02-05 13:26:27.9028|INFO|com.barraider.spotify|15|Destructor Called
+2023-02-05 13:26:27.9028|INFO|com.barraider.spotify|15|Destructor Called
+2023-02-05 13:26:27.9028|INFO|com.barraider.spotify|15|Destructor Called
+2023-02-05 13:26:28.9430|INFO|com.barraider.spotify|6|Action Loaded: Spotify.Actions.ChangePlaybackDeviceAction
+2023-02-05 13:26:28.9430|INFO|com.barraider.spotify|6|SpotifyGetDevices returning cached version
+2023-02-05 13:26:28.9430|INFO|com.barraider.spotify|6|Action Loaded: Spotify.Actions.PreviousSongAction
+2023-02-05 13:26:28.9430|INFO|com.barraider.spotify|6|Action Loaded: Spotify.Actions.PlayPauseToggleAction
+2023-02-05 13:26:28.9430|INFO|com.barraider.spotify|6|SpotifyGetDevices returning cached version
+2023-02-05 13:26:28.9430|INFO|com.barraider.spotify|6|Action Loaded: Spotify.Actions.NextSongAction
+2023-02-05 13:26:28.9430|INFO|com.barraider.spotify|6|Action Loaded: Spotify.Actions.LikeSongAction
+2023-02-05 13:26:29.4003|INFO|com.barraider.spotify|17|Destructor Called
+2023-02-05 13:26:29.4003|INFO|com.barraider.spotify|17|Destructor Called
+2023-02-05 13:26:29.4003|INFO|com.barraider.spotify|17|Destructor Called
+2023-02-05 13:26:29.4003|INFO|com.barraider.spotify|17|Destructor Called
+2023-02-05 13:26:29.4003|INFO|com.barraider.spotify|17|Destructor Called
+2023-02-05 13:26:29.8157|INFO|com.barraider.spotify|17|Action Loaded: Spotify.Actions.ChangePlaybackDeviceAction
+2023-02-05 13:26:29.8157|INFO|com.barraider.spotify|17|SpotifyGetDevices returning cached version
+2023-02-05 13:26:29.8157|INFO|com.barraider.spotify|17|Action Loaded: Spotify.Actions.PreviousSongAction
+2023-02-05 13:26:29.8157|INFO|com.barraider.spotify|17|Action Loaded: Spotify.Actions.PlayPauseToggleAction
+2023-02-05 13:26:29.8157|INFO|com.barraider.spotify|17|SpotifyGetDevices returning cached version
+2023-02-05 13:26:29.8157|INFO|com.barraider.spotify|17|Action Loaded: Spotify.Actions.NextSongAction
+2023-02-05 13:26:29.8157|INFO|com.barraider.spotify|17|Action Loaded: Spotify.Actions.LikeSongAction
+2023-02-05 13:26:30.1508|INFO|com.barraider.spotify|17|Destructor Called
+2023-02-05 13:26:30.1508|INFO|com.barraider.spotify|17|Destructor Called
+2023-02-05 13:26:30.1508|INFO|com.barraider.spotify|17|Destructor Called
+2023-02-05 13:26:30.1508|INFO|com.barraider.spotify|17|Destructor Called
+2023-02-05 13:26:30.1508|INFO|com.barraider.spotify|17|Destructor Called
+2023-02-05 13:26:30.3972|INFO|com.barraider.spotify|7|Action Loaded: Spotify.Actions.ChangePlaybackDeviceAction
+2023-02-05 13:26:30.3972|INFO|com.barraider.spotify|7|SpotifyGetDevices returning cached version
+2023-02-05 13:26:30.3972|INFO|com.barraider.spotify|7|Action Loaded: Spotify.Actions.PreviousSongAction
+2023-02-05 13:26:30.3972|INFO|com.barraider.spotify|7|Action Loaded: Spotify.Actions.PlayPauseToggleAction
+2023-02-05 13:26:30.3972|INFO|com.barraider.spotify|7|SpotifyGetDevices returning cached version
+2023-02-05 13:26:30.3972|INFO|com.barraider.spotify|7|Action Loaded: Spotify.Actions.NextSongAction
+2023-02-05 13:26:30.3972|INFO|com.barraider.spotify|7|Action Loaded: Spotify.Actions.LikeSongAction
+2023-02-05 13:26:30.9607|INFO|com.barraider.spotify|7|Destructor Called
+2023-02-05 13:26:30.9607|INFO|com.barraider.spotify|7|Destructor Called
+2023-02-05 13:26:30.9607|INFO|com.barraider.spotify|7|Destructor Called
+2023-02-05 13:26:30.9607|INFO|com.barraider.spotify|7|Destructor Called
+2023-02-05 13:26:30.9607|INFO|com.barraider.spotify|7|Destructor Called
+2023-02-05 13:26:31.2634|INFO|com.barraider.spotify|15|Action Loaded: Spotify.Actions.ChangePlaybackDeviceAction
+2023-02-05 13:26:31.2634|INFO|com.barraider.spotify|15|SpotifyGetDevices returning cached version
+2023-02-05 13:26:31.2634|INFO|com.barraider.spotify|15|Action Loaded: Spotify.Actions.PreviousSongAction
+2023-02-05 13:26:31.2634|INFO|com.barraider.spotify|15|Action Loaded: Spotify.Actions.PlayPauseToggleAction
+2023-02-05 13:26:31.2634|INFO|com.barraider.spotify|15|SpotifyGetDevices returning cached version
+2023-02-05 13:26:31.2634|INFO|com.barraider.spotify|15|Action Loaded: Spotify.Actions.NextSongAction
+2023-02-05 13:26:31.2634|INFO|com.barraider.spotify|15|Action Loaded: Spotify.Actions.LikeSongAction
+2023-02-05 13:26:31.6000|INFO|com.barraider.spotify|15|Destructor Called
+2023-02-05 13:26:31.6000|INFO|com.barraider.spotify|15|Destructor Called
+2023-02-05 13:26:31.6000|INFO|com.barraider.spotify|15|Destructor Called
+2023-02-05 13:26:31.6000|INFO|com.barraider.spotify|15|Destructor Called
+2023-02-05 13:26:31.6000|INFO|com.barraider.spotify|15|Destructor Called
+2023-02-05 13:26:31.8388|INFO|com.barraider.spotify|15|Action Loaded: Spotify.Actions.ChangePlaybackDeviceAction
+2023-02-05 13:26:31.8388|INFO|com.barraider.spotify|15|SpotifyGetDevices returning cached version
+2023-02-05 13:26:31.8408|INFO|com.barraider.spotify|15|Action Loaded: Spotify.Actions.PreviousSongAction
+2023-02-05 13:26:31.8408|INFO|com.barraider.spotify|15|Action Loaded: Spotify.Actions.PlayPauseToggleAction
+2023-02-05 13:26:31.8408|INFO|com.barraider.spotify|15|SpotifyGetDevices returning cached version
+2023-02-05 13:26:31.8408|INFO|com.barraider.spotify|15|Action Loaded: Spotify.Actions.NextSongAction
+2023-02-05 13:26:31.8408|INFO|com.barraider.spotify|15|Action Loaded: Spotify.Actions.LikeSongAction
+2023-02-05 13:26:32.1495|INFO|com.barraider.spotify|15|Destructor Called
+2023-02-05 13:26:32.1495|INFO|com.barraider.spotify|15|Destructor Called
+2023-02-05 13:26:32.1495|INFO|com.barraider.spotify|15|Destructor Called
+2023-02-05 13:26:32.1495|INFO|com.barraider.spotify|15|Destructor Called
+2023-02-05 13:26:32.1495|INFO|com.barraider.spotify|15|Destructor Called
+2023-02-05 13:26:32.4567|INFO|com.barraider.spotify|15|Action Loaded: Spotify.Actions.ChangePlaybackDeviceAction
+2023-02-05 13:26:32.4567|INFO|com.barraider.spotify|15|SpotifyGetDevices returning cached version
+2023-02-05 13:26:32.4567|INFO|com.barraider.spotify|15|Action Loaded: Spotify.Actions.PreviousSongAction
+2023-02-05 13:26:32.4567|INFO|com.barraider.spotify|15|Action Loaded: Spotify.Actions.PlayPauseToggleAction
+2023-02-05 13:26:32.4567|INFO|com.barraider.spotify|15|SpotifyGetDevices returning cached version
+2023-02-05 13:26:32.4567|INFO|com.barraider.spotify|15|Action Loaded: Spotify.Actions.NextSongAction
+2023-02-05 13:26:32.4567|INFO|com.barraider.spotify|15|Action Loaded: Spotify.Actions.LikeSongAction
+2023-02-05 13:26:32.7808|INFO|com.barraider.spotify|15|Destructor Called
+2023-02-05 13:26:32.7808|INFO|com.barraider.spotify|15|Destructor Called
+2023-02-05 13:26:32.7808|INFO|com.barraider.spotify|15|Destructor Called
+2023-02-05 13:26:32.7808|INFO|com.barraider.spotify|15|Destructor Called
+2023-02-05 13:26:32.7808|INFO|com.barraider.spotify|15|Destructor Called
+2023-02-05 13:26:32.9693|INFO|com.barraider.spotify|15|Action Loaded: Spotify.Actions.ChangePlaybackDeviceAction
+2023-02-05 13:26:32.9693|INFO|com.barraider.spotify|15|SpotifyGetDevices returning cached version
+2023-02-05 13:26:32.9693|INFO|com.barraider.spotify|15|Action Loaded: Spotify.Actions.PreviousSongAction
+2023-02-05 13:26:32.9693|INFO|com.barraider.spotify|15|Action Loaded: Spotify.Actions.PlayPauseToggleAction
+2023-02-05 13:26:32.9693|INFO|com.barraider.spotify|15|SpotifyGetDevices returning cached version
+2023-02-05 13:26:32.9693|INFO|com.barraider.spotify|15|Action Loaded: Spotify.Actions.NextSongAction
+2023-02-05 13:26:32.9693|INFO|com.barraider.spotify|15|Action Loaded: Spotify.Actions.LikeSongAction
+2023-02-05 13:26:33.2247|INFO|com.barraider.spotify|15|Destructor Called
+2023-02-05 13:26:33.2247|INFO|com.barraider.spotify|15|Destructor Called
+2023-02-05 13:26:33.2247|INFO|com.barraider.spotify|15|Destructor Called
+2023-02-05 13:26:33.2247|INFO|com.barraider.spotify|15|Destructor Called
+2023-02-05 13:26:33.2247|INFO|com.barraider.spotify|15|Destructor Called
+2023-02-05 13:26:33.5418|INFO|com.barraider.spotify|15|Action Loaded: Spotify.Actions.ChangePlaybackDeviceAction
+2023-02-05 13:26:33.5418|INFO|com.barraider.spotify|15|SpotifyGetDevices returning cached version
+2023-02-05 13:26:33.5418|INFO|com.barraider.spotify|15|Action Loaded: Spotify.Actions.PreviousSongAction
+2023-02-05 13:26:33.5438|INFO|com.barraider.spotify|15|Action Loaded: Spotify.Actions.PlayPauseToggleAction
+2023-02-05 13:26:33.5438|INFO|com.barraider.spotify|15|SpotifyGetDevices returning cached version
+2023-02-05 13:26:33.5438|INFO|com.barraider.spotify|15|Action Loaded: Spotify.Actions.NextSongAction
+2023-02-05 13:26:33.5438|INFO|com.barraider.spotify|15|Action Loaded: Spotify.Actions.LikeSongAction
+2023-02-05 13:26:34.6304|INFO|com.barraider.spotify|17|Destructor Called
+2023-02-05 13:26:34.6304|INFO|com.barraider.spotify|17|Destructor Called
+2023-02-05 13:26:34.6304|INFO|com.barraider.spotify|17|Destructor Called
+2023-02-05 13:26:34.6304|INFO|com.barraider.spotify|17|Destructor Called
+2023-02-05 13:26:34.6304|INFO|com.barraider.spotify|17|Destructor Called
+2023-02-05 13:26:59.3587|INFO|com.barraider.spotify|12|Fetched song info: Loved Ones
+2023-02-05 13:26:59.4255|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 13:26:59.5203|INFO|com.barraider.spotify|6|IsUserTrack is False for spotify:track:43iOWRh6448rFtwBX6CAfZ
+2023-02-05 13:28:39.4903|INFO|com.barraider.spotify|19|Fetched song info: Peach Garden
+2023-02-05 13:28:40.1231|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 13:28:40.2243|INFO|com.barraider.spotify|21|IsUserTrack is False for spotify:track:1Vo7VWSYDp9ntpMNSDSD2P
+2023-02-05 13:30:32.6530|INFO|com.barraider.spotify|15|Fetched song info: Anotherworld
+2023-02-05 13:30:32.9886|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 13:30:33.0908|INFO|com.barraider.spotify|17|IsUserTrack is False for spotify:track:0ZGDbvRm55Bjpwlf0Ga8JT
+2023-02-05 13:31:47.5933|DEBUG|com.barraider.spotify|8|[8] SpotifyQuery: Total Playback Requests: 13800
+2023-02-05 13:31:58.7641|INFO|com.barraider.spotify|7|Fetched song info: Remind Me, Once More
+2023-02-05 13:31:59.5341|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 13:31:59.6363|INFO|com.barraider.spotify|7|IsUserTrack is False for spotify:track:4BIL7UwoBX9o6FXuH8wDlr
+2023-02-05 13:35:06.0029|INFO|com.barraider.spotify|8|Fetched song info: So Special (Gonna Last)
+2023-02-05 13:35:07.0237|INFO|com.barraider.spotify|1|UncacheLikedSong spotify:track:3jmKIVOsWUULXZI2j3Umez
+2023-02-05 13:35:07.0237|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 13:35:07.1240|INFO|com.barraider.spotify|8|IsUserTrack is True for spotify:track:3jmKIVOsWUULXZI2j3Umez
+2023-02-05 13:37:10.1715|INFO|com.barraider.spotify|12|Fetched song info: Indelible
+2023-02-05 13:37:11.0287|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 13:37:11.1270|INFO|com.barraider.spotify|12|IsUserTrack is False for spotify:track:0FscdKiOQ8JnJ4K40sr6Do
+2023-02-05 13:39:31.3960|INFO|com.barraider.spotify|18|Fetched song info: Turquoise
+2023-02-05 13:39:32.1261|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 13:39:32.2308|INFO|com.barraider.spotify|18|IsUserTrack is False for spotify:track:2a3D9weJXsSIDCAnYvWnDh
+2023-02-05 13:40:42.4446|INFO|com.barraider.spotify|13|Fetched song info: Floating Bonsai
+2023-02-05 13:40:42.6186|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 13:40:42.7153|INFO|com.barraider.spotify|7|IsUserTrack is False for spotify:track:5RnEXmeHtuVVpI7DZvEyLh
+2023-02-05 13:41:48.3787|DEBUG|com.barraider.spotify|13|[13] SpotifyQuery: Total Playback Requests: 14400
+2023-02-05 13:42:37.6219|INFO|com.barraider.spotify|7|Fetched song info: Bag
+2023-02-05 13:42:38.4333|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 13:42:38.5270|INFO|com.barraider.spotify|7|IsUserTrack is True for spotify:track:46dpoz1D3ug0PZhahq8OWH
+2023-02-05 13:44:11.7415|INFO|com.barraider.spotify|13|Fetched song info: Flight
+2023-02-05 13:44:12.2257|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 13:44:12.3170|INFO|com.barraider.spotify|16|IsUserTrack is False for spotify:track:6z5ODupMLPkO2xyuPXqH3L
+2023-02-05 13:46:50.9540|INFO|com.barraider.spotify|16|Fetched song info: rendezvous
+2023-02-05 13:46:51.6337|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 13:46:51.7330|INFO|com.barraider.spotify|13|IsUserTrack is False for spotify:track:7MAdi5bx8K5Qm402r2WAiN
+2023-02-05 13:48:32.1833|INFO|com.barraider.spotify|12|Fetched song info: Chill Rain
+2023-02-05 13:48:32.5364|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 13:48:32.6311|INFO|com.barraider.spotify|13|IsUserTrack is True for spotify:track:53gaMfQW5gdchpeDNAHMsU
+2023-02-05 13:51:22.3519|INFO|com.barraider.spotify|20|Fetched song info: Floating
+2023-02-05 13:51:22.5828|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 13:51:22.6780|INFO|com.barraider.spotify|17|IsUserTrack is False for spotify:track:5KHe3KEWTJm74VuCGYEF9l
+2023-02-05 13:51:49.1951|DEBUG|com.barraider.spotify|17|[17] SpotifyQuery: Total Playback Requests: 15000
+2023-02-05 13:52:51.4309|INFO|com.barraider.spotify|13|Fetched song info: Coolin
+2023-02-05 13:52:52.3649|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 13:52:52.4677|INFO|com.barraider.spotify|16|IsUserTrack is False for spotify:track:6Fo1MWZHxYDrwCVNvuzhG6
+2023-02-05 13:55:46.8985|INFO|com.barraider.spotify|13|Fetched song info: NY Vibes
+2023-02-05 13:55:47.9058|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 13:55:48.0060|INFO|com.barraider.spotify|8|IsUserTrack is True for spotify:track:4VuLZ4IWQfeMgVPt43gjau
+2023-02-05 13:58:19.0633|INFO|com.barraider.spotify|19|Fetched song info: Hazy
+2023-02-05 13:58:19.8114|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 13:58:19.9077|INFO|com.barraider.spotify|19|IsUserTrack is False for spotify:track:1UHwXf1l16qoeEg6lCjvpr
+2023-02-05 14:00:02.2072|INFO|com.barraider.spotify|13|Fetched song info: whereucomefrom.
+2023-02-05 14:00:02.5164|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 14:00:02.6122|INFO|com.barraider.spotify|21|IsUserTrack is False for spotify:track:0mWVHKcxQcHPTS0Yd3LJSE
+2023-02-05 14:01:18.2751|INFO|com.barraider.spotify|17|Fetched song info: time keeps moving
+2023-02-05 14:01:18.9912|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 14:01:19.0915|INFO|com.barraider.spotify|19|IsUserTrack is False for spotify:track:2f5wZ9ZS64HAVtssbFBRoF
+2023-02-05 14:01:50.1547|DEBUG|com.barraider.spotify|12|[12] SpotifyQuery: Total Playback Requests: 15600
+2023-02-05 14:02:24.3821|INFO|com.barraider.spotify|7|Fetched song info: chonnchita
+2023-02-05 14:02:24.4454|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 14:02:24.5492|INFO|com.barraider.spotify|12|IsUserTrack is False for spotify:track:4QjtpTswV0kbzqoE60XDpk
+2023-02-05 14:04:05.4929|INFO|com.barraider.spotify|18|Fetched song info: infomercials & heavy eyelids
+2023-02-05 14:04:06.2723|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 14:04:06.3696|INFO|com.barraider.spotify|18|IsUserTrack is False for spotify:track:6ovBBDzTAlGqnTQk4Q2QGB
+2023-02-05 14:05:19.6583|INFO|com.barraider.spotify|16|Fetched song info: Jakarta
+2023-02-05 14:05:19.8733|INFO|com.barraider.spotify|1|UncacheLikedSong spotify:track:0lj1fprTrqgEXM4rOTQBH3
+2023-02-05 14:05:19.8733|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 14:05:19.9710|INFO|com.barraider.spotify|6|IsUserTrack is False for spotify:track:0lj1fprTrqgEXM4rOTQBH3
+2023-02-05 14:07:28.7524|INFO|com.barraider.spotify|6|Fetched song info: Mountain Top
+2023-02-05 14:07:29.0137|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 14:07:29.1075|INFO|com.barraider.spotify|18|IsUserTrack is False for spotify:track:76vc3FztkP9dKHGWj9Su0m
+2023-02-05 14:08:46.8687|INFO|com.barraider.spotify|17|Fetched song info: Anotherworld
+2023-02-05 14:08:47.6218|INFO|com.barraider.spotify|1|UncacheLikedSong spotify:track:0ZGDbvRm55Bjpwlf0Ga8JT
+2023-02-05 14:08:47.6218|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 14:08:47.7160|INFO|com.barraider.spotify|17|IsUserTrack is False for spotify:track:0ZGDbvRm55Bjpwlf0Ga8JT
+2023-02-05 14:10:12.9869|INFO|com.barraider.spotify|18|Fetched song info: Yirga
+2023-02-05 14:10:13.1226|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 14:10:13.2178|INFO|com.barraider.spotify|13|IsUserTrack is False for spotify:track:6KTdB6OGAd5gpGVhamOFp1
