@@ -1086,3 +1086,648 @@
 2023-02-05 14:10:12.9869|INFO|com.barraider.spotify|18|Fetched song info: Yirga
 2023-02-05 14:10:13.1226|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
 2023-02-05 14:10:13.2178|INFO|com.barraider.spotify|13|IsUserTrack is False for spotify:track:6KTdB6OGAd5gpGVhamOFp1
+2023-02-05 14:11:50.9594|DEBUG|com.barraider.spotify|17|[17] SpotifyQuery: Total Playback Requests: 16200
+2023-02-05 14:12:01.2127|INFO|com.barraider.spotify|7|Fetched song info: Dark Day
+2023-02-05 14:12:01.9338|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 14:12:02.0345|INFO|com.barraider.spotify|7|IsUserTrack is False for spotify:track:7vN8Hu0Vv5nxC6IWR0YPcT
+2023-02-05 14:13:32.2604|INFO|com.barraider.spotify|21|Fetched song info: DeepFried
+2023-02-05 14:13:32.4614|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 14:13:32.5596|INFO|com.barraider.spotify|23|IsUserTrack is False for spotify:track:1cO4oVg1zZacDL8nooXmLe
+2023-02-05 14:14:44.3691|INFO|com.barraider.spotify|21|Fetched song info: Saturday Morning
+2023-02-05 14:14:45.0912|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 14:14:45.1884|INFO|com.barraider.spotify|22|IsUserTrack is False for spotify:track:4nhcOOSb7RubUsFWtWHlwH
+2023-02-05 14:16:05.4733|INFO|com.barraider.spotify|17|Fetched song info: Ruffneck Madness
+2023-02-05 14:16:05.7820|INFO|com.barraider.spotify|1|UncacheLikedSong spotify:track:5OYNCn3IG1dOu7g14X2x6n
+2023-02-05 14:16:05.7820|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 14:16:05.8827|INFO|com.barraider.spotify|13|IsUserTrack is False for spotify:track:5OYNCn3IG1dOu7g14X2x6n
+2023-02-05 14:18:29.6674|INFO|com.barraider.spotify|8|Fetched song info: Myrrh
+2023-02-05 14:18:29.8554|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 14:18:29.9551|INFO|com.barraider.spotify|16|IsUserTrack is False for spotify:track:0GJPN9x51c454tJcYEv5ix
+2023-02-05 14:21:11.8837|INFO|com.barraider.spotify|15|Fetched song info: jazzyfav.
+2023-02-05 14:21:11.9545|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 14:21:12.0527|INFO|com.barraider.spotify|12|IsUserTrack is False for spotify:track:2vLY1XY3CldlvrDnEN1Xj6
+2023-02-05 14:21:51.7840|DEBUG|com.barraider.spotify|16|[16] SpotifyQuery: Total Playback Requests: 16800
+2023-02-05 14:22:24.9912|INFO|com.barraider.spotify|21|Fetched song info: Magic Hoodie
+2023-02-05 14:22:25.5747|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 14:22:25.6739|INFO|com.barraider.spotify|8|IsUserTrack is False for spotify:track:3Q5uu90ueSV1hk1bIKYBKu
+2023-02-05 14:22:27.9060|WARN|com.barraider.spotify|8|[8] SpotifyQueryInternal returned with StatusCode: Unauthorized. Token: [BQDXjKY]
+2023-02-05 14:22:27.9060|INFO|com.barraider.spotify|8|[8] RefreshTokens Called
+2023-02-05 14:22:28.1494|INFO|com.barraider.spotify|12|[12] GetSpotifyToken Succeeded!
+2023-02-05 14:22:28.1494|INFO|com.barraider.spotify|12|[12] Initializing Tokens
+2023-02-05 14:22:28.1494|INFO|com.barraider.spotify|12|GlobalSettingsManager::SetGlobalSettings called
+2023-02-05 14:22:28.1494|INFO|com.barraider.spotify|12|[12] New token saved [BQA-CcP]. Last refresh date was: Token: 2023-02-05 2:22:28 PM Auth: 0001-01-01 12:00:00 AM
+2023-02-05 14:22:28.1494|INFO|com.barraider.spotify|12|BarRaider.Spotify.OAuthTokenListener Listener stopped
+2023-02-05 14:22:28.4511|INFO|com.barraider.spotify|11|GlobalSettingsManager::GetGlobalSettingsAsync triggered
+2023-02-05 14:22:28.4511|INFO|com.barraider.spotify|12|[12] LoadAuth called
+2023-02-05 14:22:28.4511|INFO|com.barraider.spotify|12|In SetAPIAuth
+2023-02-05 14:22:28.4511|INFO|com.barraider.spotify|12|[12] Token initialized [BQA-CcP]. Last refresh date was: 2023-02-05 2:22:28 PM
+2023-02-05 14:22:28.4511|INFO|com.barraider.spotify|12|[12] Initializing Tokens
+2023-02-05 14:22:28.4511|INFO|com.barraider.spotify|12|BarRaider.Spotify.OAuthTokenListener Listener stopped
+2023-02-05 14:22:33.1656|INFO|com.barraider.spotify|10|BarRaider.Spotify.TokenManager CheckVersion in cooldown.
+2023-02-05 14:24:23.1227|INFO|com.barraider.spotify|16|Fetched song info: Sanctuary
+2023-02-05 14:24:23.4678|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 14:24:23.5660|INFO|com.barraider.spotify|18|IsUserTrack is True for spotify:track:3VVk46QNv2uKfLx2Lol1hH
+2023-02-05 14:27:04.3757|INFO|com.barraider.spotify|17|Fetched song info: not even the friendzone
+2023-02-05 14:27:04.7677|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 14:27:04.8650|INFO|com.barraider.spotify|6|IsUserTrack is False for spotify:track:5d9L3KJvd5cQzD1EcgvrR4
+2023-02-05 14:28:22.4628|INFO|com.barraider.spotify|17|Fetched song info: Noon
+2023-02-05 14:28:23.4542|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 14:28:23.5469|INFO|com.barraider.spotify|6|IsUserTrack is False for spotify:track:7pw2OhPeMVdKvwLYlhzM6B
+2023-02-05 14:29:52.6423|INFO|com.barraider.spotify|20|Fetched song info: Attila
+2023-02-05 14:29:53.0717|INFO|com.barraider.spotify|1|UncacheLikedSong spotify:track:6b26ayGPfxaRfKrH291BLE
+2023-02-05 14:29:53.0717|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 14:29:53.1724|INFO|com.barraider.spotify|17|IsUserTrack is False for spotify:track:6b26ayGPfxaRfKrH291BLE
+2023-02-05 14:31:52.6057|DEBUG|com.barraider.spotify|13|[13] SpotifyQuery: Total Playback Requests: 17400
+2023-02-05 14:32:20.7904|INFO|com.barraider.spotify|7|Fetched song info: Hopeless
+2023-02-05 14:32:21.2272|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 14:32:21.3209|INFO|com.barraider.spotify|15|IsUserTrack is False for spotify:track:5U9bOxDLTuvHjKqtD3m0Ro
+2023-02-05 14:34:42.1349|INFO|com.barraider.spotify|6|Fetched song info: sweet spot
+2023-02-05 14:34:42.3593|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 14:34:42.4555|INFO|com.barraider.spotify|7|IsUserTrack is False for spotify:track:2jNMLUn4k1bEIpPOc8mbxm
+2023-02-05 14:36:41.1571|INFO|com.barraider.spotify|18|Fetched song info: Dusty
+2023-02-05 14:36:41.4164|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 14:36:41.5346|INFO|com.barraider.spotify|8|IsUserTrack is False for spotify:track:1hpuNhA3Ft0TOcbAVfNdK0
+2023-02-05 14:38:20.2931|INFO|com.barraider.spotify|16|Fetched song info: Downtown
+2023-02-05 14:38:21.0392|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 14:38:21.1419|INFO|com.barraider.spotify|16|IsUserTrack is False for spotify:track:659Y4H5dU0WocKVRzAVr3R
+2023-02-05 14:39:36.3730|INFO|com.barraider.spotify|6|Fetched song info: Sweet Berries
+2023-02-05 14:39:36.5002|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 14:39:36.5959|INFO|com.barraider.spotify|7|IsUserTrack is False for spotify:track:4V4NLXR80N6ePJ6UDxez7s
+2023-02-05 14:41:53.4109|DEBUG|com.barraider.spotify|17|[17] SpotifyQuery: Total Playback Requests: 18000
+2023-02-05 14:42:23.5879|INFO|com.barraider.spotify|15|Fetched song info: Harps
+2023-02-05 14:42:23.8447|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 14:42:23.9490|INFO|com.barraider.spotify|13|IsUserTrack is False for spotify:track:6f06uk6qZPqFpBfKGyjoX4
+2023-02-05 14:44:14.7484|INFO|com.barraider.spotify|12|Fetched song info: Lemon Tea
+2023-02-05 14:44:15.7728|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 14:44:15.8745|INFO|com.barraider.spotify|12|IsUserTrack is False for spotify:track:00RW0bhpba2Djqf8E65sXL
+2023-02-05 14:46:44.9593|INFO|com.barraider.spotify|17|Fetched song info: Roses
+2023-02-05 14:46:45.0187|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 14:46:45.1214|INFO|com.barraider.spotify|16|IsUserTrack is False for spotify:track:1u0Xo3j20ST5IOZIffErzh
+2023-02-05 14:48:21.0811|INFO|com.barraider.spotify|15|Fetched song info: Revell
+2023-02-05 14:48:21.7548|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 14:48:21.8600|INFO|com.barraider.spotify|19|IsUserTrack is False for spotify:track:0wtme5G4NKuhqdbfSbE11J
+2023-02-05 14:49:50.2185|INFO|com.barraider.spotify|7|Fetched song info: Count My Blessings
+2023-02-05 14:49:50.3731|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 14:49:50.4793|INFO|com.barraider.spotify|15|IsUserTrack is False for spotify:track:0Yx45lj5VL6WczL5ODSG4g
+2023-02-05 14:51:46.4179|INFO|com.barraider.spotify|12|Fetched song info: Beygl
+2023-02-05 14:51:47.3255|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 14:51:47.4263|INFO|com.barraider.spotify|12|IsUserTrack is False for spotify:track:1aZyPoFgX5B969aPmou3ap
+2023-02-05 14:51:54.2592|DEBUG|com.barraider.spotify|7|[7] SpotifyQuery: Total Playback Requests: 18600
+2023-02-05 14:53:22.5899|INFO|com.barraider.spotify|17|Action Loaded: Spotify.Actions.ChangePlaybackDeviceAction
+2023-02-05 14:53:22.5909|INFO|com.barraider.spotify|17|Devices MS: 5225189.2592
+2023-02-05 14:53:22.5909|DEBUG|com.barraider.spotify|17|[17] SpotifyQuery: me/player/devices
+2023-02-05 14:53:22.5909|INFO|com.barraider.spotify|17|Action Loaded: Spotify.Actions.PreviousSongAction
+2023-02-05 14:53:22.5909|INFO|com.barraider.spotify|17|Action Loaded: Spotify.Actions.PlayPauseToggleAction
+2023-02-05 14:53:22.5909|INFO|com.barraider.spotify|17|Action Loaded: Spotify.Actions.NextSongAction
+2023-02-05 14:53:22.5909|INFO|com.barraider.spotify|17|Action Loaded: Spotify.Actions.LikeSongAction
+2023-02-05 14:53:22.6916|INFO|com.barraider.spotify|17|Received 2 devices
+2023-02-05 14:53:22.6916|INFO|com.barraider.spotify|4|SpotifyGetDevices returning cached version
+2023-02-05 14:53:40.5494|INFO|com.barraider.spotify|13|Fetched song info: Nothing But Jazz Loops
+2023-02-05 14:53:41.4027|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 14:53:41.4027|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 14:53:41.4989|INFO|com.barraider.spotify|8|IsUserTrack is False for spotify:track:6FfcG9P2nJsWfTpE5qhaE7
+2023-02-05 14:53:41.4989|WARN|com.barraider.spotify|7|BarRaider.Spotify.CacheManager IsUserTrack failed to uncache Track: spotify:track:6FfcG9P2nJsWfTpE5qhaE7
+2023-02-05 14:53:41.4989|WARN|com.barraider.spotify|7|BarRaider.Spotify.CacheManager IsUserTrack spotify:track:6FfcG9P2nJsWfTpE5qhaE7 is in cache for 2023-02-05 2:53:41 PM
+2023-02-05 14:53:41.4989|INFO|com.barraider.spotify|7|IsUserTrack is False for spotify:track:6FfcG9P2nJsWfTpE5qhaE7
+2023-02-05 14:55:32.7427|INFO|com.barraider.spotify|15|Fetched song info: Waves
+2023-02-05 14:55:33.3038|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 14:55:33.3038|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 14:55:33.3950|INFO|com.barraider.spotify|13|IsUserTrack is False for spotify:track:0IQMaGr8RLyiwluTKHoxda
+2023-02-05 14:55:33.4040|WARN|com.barraider.spotify|6|BarRaider.Spotify.CacheManager IsUserTrack failed to uncache Track: spotify:track:0IQMaGr8RLyiwluTKHoxda
+2023-02-05 14:55:33.4040|WARN|com.barraider.spotify|6|BarRaider.Spotify.CacheManager IsUserTrack spotify:track:0IQMaGr8RLyiwluTKHoxda is in cache for 2023-02-05 2:55:33 PM
+2023-02-05 14:55:33.4040|INFO|com.barraider.spotify|6|IsUserTrack is False for spotify:track:0IQMaGr8RLyiwluTKHoxda
+2023-02-05 14:55:51.9868|INFO|com.barraider.spotify|15|Destructor Called
+2023-02-05 14:55:51.9868|INFO|com.barraider.spotify|15|Destructor Called
+2023-02-05 14:55:51.9868|INFO|com.barraider.spotify|15|Destructor Called
+2023-02-05 14:55:51.9868|INFO|com.barraider.spotify|15|Destructor Called
+2023-02-05 14:55:51.9868|INFO|com.barraider.spotify|15|Destructor Called
+2023-02-05 14:57:31.8757|INFO|com.barraider.spotify|7|Fetched song info: No Sides - Instrumental
+2023-02-05 14:57:32.3869|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 14:57:32.4846|INFO|com.barraider.spotify|13|IsUserTrack is False for spotify:track:4jMwW4tsMw6YhKHOx8u6LT
+2023-02-05 15:01:07.1395|INFO|com.barraider.spotify|12|Fetched song info: A Little Piano
+2023-02-05 15:01:08.1548|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 15:01:08.2506|INFO|com.barraider.spotify|6|IsUserTrack is False for spotify:track:6BM19XowxNevKpUryFheKQ
+2023-02-05 15:01:55.0434|DEBUG|com.barraider.spotify|8|[8] SpotifyQuery: Total Playback Requests: 19200
+2023-02-05 15:03:36.3394|INFO|com.barraider.spotify|20|Fetched song info: The Last Cherry Blossom
+2023-02-05 15:03:37.1832|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 15:03:37.2804|INFO|com.barraider.spotify|7|IsUserTrack is False for spotify:track:6jUIdbS9JKg3wRHhNSfzkC
+2023-02-05 15:05:38.4943|INFO|com.barraider.spotify|8|Fetched song info: Dezembro
+2023-02-05 15:05:38.9875|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 15:05:39.1112|INFO|com.barraider.spotify|13|IsUserTrack is False for spotify:track:6I9Aqxz31yHHUIZqsn40Mp
+2023-02-05 15:07:39.6491|INFO|com.barraider.spotify|8|Fetched song info: Jazzy
+2023-02-05 15:07:39.7782|INFO|com.barraider.spotify|1|UncacheLikedSong spotify:track:6AAIzRpfYHrgIA3R20FAFu
+2023-02-05 15:07:39.7782|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 15:07:39.8775|INFO|com.barraider.spotify|19|IsUserTrack is True for spotify:track:6AAIzRpfYHrgIA3R20FAFu
+2023-02-05 15:10:40.9001|INFO|com.barraider.spotify|20|Fetched song info: sly cooper
+2023-02-05 15:10:41.0921|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 15:10:41.1983|INFO|com.barraider.spotify|15|IsUserTrack is False for spotify:track:2CL7XmDf0iv8iLczThE7jc
+2023-02-05 15:11:54.9750|INFO|com.barraider.spotify|26|Fetched song info: Feblu
+2023-02-05 15:11:55.6208|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 15:11:55.7181|INFO|com.barraider.spotify|27|IsUserTrack is False for spotify:track:6EHGGXkOd5APGB3bxEqekX
+2023-02-05 15:11:55.8367|DEBUG|com.barraider.spotify|26|[26] SpotifyQuery: Total Playback Requests: 19800
+2023-02-05 15:13:29.0988|INFO|com.barraider.spotify|26|Fetched song info: Nefertiti chills
+2023-02-05 15:13:29.3596|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 15:13:29.4569|INFO|com.barraider.spotify|16|IsUserTrack is False for spotify:track:14HAn2qcFAqR7pMvLKqWdP
+2023-02-05 15:14:35.1959|INFO|com.barraider.spotify|22|Fetched song info: butts
+2023-02-05 15:14:35.9076|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 15:14:36.0168|INFO|com.barraider.spotify|19|IsUserTrack is False for spotify:track:0MXAocWHmObGMnkFQjl0dn
+2023-02-05 15:15:47.3267|INFO|com.barraider.spotify|17|Fetched song info: Saturday Chillin'
+2023-02-05 15:15:48.2946|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 15:15:48.3978|INFO|com.barraider.spotify|15|IsUserTrack is False for spotify:track:01vstq2EU9Zs1RhLWwglhq
+2023-02-05 15:17:32.4895|INFO|com.barraider.spotify|12|Fetched song info: Nothing
+2023-02-05 15:17:33.1164|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 15:17:33.2116|INFO|com.barraider.spotify|15|IsUserTrack is False for spotify:track:1fv4O6jHo7ut4dzfcSQn6e
+2023-02-05 15:19:43.6494|INFO|com.barraider.spotify|19|Fetched song info: flux 45
+2023-02-05 15:19:44.1616|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 15:19:44.2613|INFO|com.barraider.spotify|8|IsUserTrack is False for spotify:track:70T753MSkpeYPnJ8uiN3fr
+2023-02-05 15:21:08.7458|INFO|com.barraider.spotify|12|Fetched song info: Solitude
+2023-02-05 15:21:08.8096|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 15:21:08.9113|INFO|com.barraider.spotify|15|IsUserTrack is False for spotify:track:6trLPOBjf8nWjMtl5PibbV
+2023-02-05 15:21:56.6501|DEBUG|com.barraider.spotify|13|[13] SpotifyQuery: Total Playback Requests: 20400
+2023-02-05 15:22:28.7691|WARN|com.barraider.spotify|7|[7] SpotifyQueryInternal returned with StatusCode: Unauthorized. Token: [BQA-CcP]
+2023-02-05 15:22:28.7691|INFO|com.barraider.spotify|7|[7] RefreshTokens Called
+2023-02-05 15:22:28.9741|INFO|com.barraider.spotify|6|[6] GetSpotifyToken Succeeded!
+2023-02-05 15:22:28.9741|INFO|com.barraider.spotify|6|[6] Initializing Tokens
+2023-02-05 15:22:28.9741|INFO|com.barraider.spotify|6|GlobalSettingsManager::SetGlobalSettings called
+2023-02-05 15:22:28.9741|INFO|com.barraider.spotify|6|[6] New token saved [BQA5mb-]. Last refresh date was: Token: 2023-02-05 3:22:28 PM Auth: 0001-01-01 12:00:00 AM
+2023-02-05 15:22:28.9741|INFO|com.barraider.spotify|6|BarRaider.Spotify.OAuthTokenListener Listener stopped
+2023-02-05 15:22:29.2803|INFO|com.barraider.spotify|10|GlobalSettingsManager::GetGlobalSettingsAsync triggered
+2023-02-05 15:22:29.2803|INFO|com.barraider.spotify|7|[7] LoadAuth called
+2023-02-05 15:22:29.2803|INFO|com.barraider.spotify|7|In SetAPIAuth
+2023-02-05 15:22:29.2803|INFO|com.barraider.spotify|7|[7] Token initialized [BQA5mb-]. Last refresh date was: 2023-02-05 3:22:28 PM
+2023-02-05 15:22:29.2803|INFO|com.barraider.spotify|7|[7] Initializing Tokens
+2023-02-05 15:22:29.2803|INFO|com.barraider.spotify|7|BarRaider.Spotify.OAuthTokenListener Listener stopped
+2023-02-05 15:22:33.9884|INFO|com.barraider.spotify|10|BarRaider.Spotify.TokenManager CheckVersion in cooldown.
+2023-02-05 15:22:59.9288|INFO|com.barraider.spotify|12|Fetched song info: Mental Acupuncture
+2023-02-05 15:23:00.6843|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 15:23:00.7790|INFO|com.barraider.spotify|12|IsUserTrack is False for spotify:track:2Cpw9KXDlq4jKGMhL3hmkL
+2023-02-05 15:25:32.1487|INFO|com.barraider.spotify|16|Fetched song info: French Groove
+2023-02-05 15:25:32.5860|INFO|com.barraider.spotify|1|UncacheLikedSong spotify:track:6szTs9ZUPrsLZ6WLwEP6eg
+2023-02-05 15:25:32.5860|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 15:25:32.6838|INFO|com.barraider.spotify|18|IsUserTrack is False for spotify:track:6szTs9ZUPrsLZ6WLwEP6eg
+2023-02-05 15:27:39.2793|INFO|com.barraider.spotify|7|Fetched song info: Stay Gold
+2023-02-05 15:27:39.7490|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 15:27:39.8508|INFO|com.barraider.spotify|16|IsUserTrack is False for spotify:track:2RsvSghCUxszV8CRCIQWTD
+2023-02-05 15:29:28.4228|INFO|com.barraider.spotify|7|Fetched song info: If Only
+2023-02-05 15:29:28.6817|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 15:29:28.7844|INFO|com.barraider.spotify|16|IsUserTrack is False for spotify:track:4ICxE6P3ltlOMP9JhnUBRr
+2023-02-05 15:31:33.6079|INFO|com.barraider.spotify|15|Fetched song info: Trailerpark Sunset
+2023-02-05 15:31:34.4667|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 15:31:34.5709|INFO|com.barraider.spotify|19|IsUserTrack is False for spotify:track:4ZzypNExa5L4Z8NB43nUU8
+2023-02-05 15:31:57.4788|DEBUG|com.barraider.spotify|18|[18] SpotifyQuery: Total Playback Requests: 21000
+2023-02-05 15:33:49.7888|INFO|com.barraider.spotify|6|Fetched song info: Strings-N-Flutes
+2023-02-05 15:33:50.7134|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 15:33:50.8116|INFO|com.barraider.spotify|7|IsUserTrack is False for spotify:track:1sq290yhBIaPtczFeOOWHK
+2023-02-05 15:33:54.4425|INFO|com.barraider.spotify|7|Action Loaded: Spotify.Actions.ChangePlaybackDeviceAction
+2023-02-05 15:33:54.4425|INFO|com.barraider.spotify|7|Devices MS: 2431751.9593
+2023-02-05 15:33:54.4425|DEBUG|com.barraider.spotify|7|[7] SpotifyQuery: me/player/devices
+2023-02-05 15:33:54.4425|INFO|com.barraider.spotify|7|Action Loaded: Spotify.Actions.PreviousSongAction
+2023-02-05 15:33:54.4425|INFO|com.barraider.spotify|7|Action Loaded: Spotify.Actions.PlayPauseToggleAction
+2023-02-05 15:33:54.4425|INFO|com.barraider.spotify|7|Action Loaded: Spotify.Actions.NextSongAction
+2023-02-05 15:33:54.4425|INFO|com.barraider.spotify|7|Action Loaded: Spotify.Actions.LikeSongAction
+2023-02-05 15:33:54.5408|INFO|com.barraider.spotify|7|Received 3 devices
+2023-02-05 15:33:54.5408|INFO|com.barraider.spotify|4|SpotifyGetDevices returning cached version
+2023-02-05 15:35:14.9184|INFO|com.barraider.spotify|13|Fetched song info: Nostalgia
+2023-02-05 15:35:15.0226|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 15:35:15.0416|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 15:35:15.1194|INFO|com.barraider.spotify|15|IsUserTrack is False for spotify:track:4iLL181gl7s9FELLkSUmEK
+2023-02-05 15:35:15.1413|WARN|com.barraider.spotify|6|BarRaider.Spotify.CacheManager IsUserTrack failed to uncache Track: spotify:track:4iLL181gl7s9FELLkSUmEK
+2023-02-05 15:35:15.1413|WARN|com.barraider.spotify|6|BarRaider.Spotify.CacheManager IsUserTrack spotify:track:4iLL181gl7s9FELLkSUmEK is in cache for 2023-02-05 3:35:15 PM
+2023-02-05 15:35:15.1413|INFO|com.barraider.spotify|6|IsUserTrack is False for spotify:track:4iLL181gl7s9FELLkSUmEK
+2023-02-05 15:36:31.9907|INFO|com.barraider.spotify|15|Fetched song info: Der Dritte
+2023-02-05 15:36:32.2725|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 15:36:32.2934|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 15:36:32.3677|INFO|com.barraider.spotify|7|IsUserTrack is False for spotify:track:4rCzoJztCW9Hr3M7UtM8aq
+2023-02-05 15:36:32.3907|WARN|com.barraider.spotify|8|BarRaider.Spotify.CacheManager IsUserTrack failed to uncache Track: spotify:track:4rCzoJztCW9Hr3M7UtM8aq
+2023-02-05 15:36:32.3907|WARN|com.barraider.spotify|8|BarRaider.Spotify.CacheManager IsUserTrack spotify:track:4rCzoJztCW9Hr3M7UtM8aq is in cache for 2023-02-05 3:36:32 PM
+2023-02-05 15:36:32.3907|INFO|com.barraider.spotify|8|IsUserTrack is False for spotify:track:4rCzoJztCW9Hr3M7UtM8aq
+2023-02-05 15:37:43.1314|INFO|com.barraider.spotify|12|Fetched song info: Everyday Is Sunday
+2023-02-05 15:37:43.5183|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 15:37:43.5323|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 15:37:43.6131|INFO|com.barraider.spotify|13|IsUserTrack is False for spotify:track:2uszN6H6j1mMQYmw3h4oM6
+2023-02-05 15:37:43.6295|WARN|com.barraider.spotify|6|BarRaider.Spotify.CacheManager IsUserTrack failed to uncache Track: spotify:track:2uszN6H6j1mMQYmw3h4oM6
+2023-02-05 15:37:43.6295|WARN|com.barraider.spotify|6|BarRaider.Spotify.CacheManager IsUserTrack spotify:track:2uszN6H6j1mMQYmw3h4oM6 is in cache for 2023-02-05 3:37:43 PM
+2023-02-05 15:37:43.6295|INFO|com.barraider.spotify|6|IsUserTrack is False for spotify:track:2uszN6H6j1mMQYmw3h4oM6
+2023-02-05 15:38:40.2056|INFO|com.barraider.spotify|15|Fetched song info: Dark Knight
+2023-02-05 15:38:40.3736|INFO|com.barraider.spotify|1|UncacheLikedSong spotify:track:4xYR3YFxSaI4ZTPARC6c31
+2023-02-05 15:38:40.3736|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 15:38:40.3906|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 15:38:40.4879|INFO|com.barraider.spotify|17|IsUserTrack is False for spotify:track:4xYR3YFxSaI4ZTPARC6c31
+2023-02-05 15:38:40.5003|WARN|com.barraider.spotify|7|BarRaider.Spotify.CacheManager IsUserTrack failed to uncache Track: spotify:track:4xYR3YFxSaI4ZTPARC6c31
+2023-02-05 15:38:40.5003|WARN|com.barraider.spotify|7|BarRaider.Spotify.CacheManager IsUserTrack spotify:track:4xYR3YFxSaI4ZTPARC6c31 is in cache for 2023-02-05 3:38:40 PM
+2023-02-05 15:38:40.5003|INFO|com.barraider.spotify|7|IsUserTrack is False for spotify:track:4xYR3YFxSaI4ZTPARC6c31
+2023-02-05 15:39:09.6682|INFO|com.barraider.spotify|17|Destructor Called
+2023-02-05 15:39:09.6692|INFO|com.barraider.spotify|17|Destructor Called
+2023-02-05 15:39:09.6692|INFO|com.barraider.spotify|17|Destructor Called
+2023-02-05 15:39:09.6692|INFO|com.barraider.spotify|17|Destructor Called
+2023-02-05 15:39:09.6692|INFO|com.barraider.spotify|17|Destructor Called
+2023-02-05 15:40:41.3913|INFO|com.barraider.spotify|13|Fetched song info: Going Home
+2023-02-05 15:40:41.7793|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 15:40:41.8800|INFO|com.barraider.spotify|15|IsUserTrack is False for spotify:track:4AB5Afr9Xm9HsKcSlU5K06
+2023-02-05 15:41:58.3311|DEBUG|com.barraider.spotify|7|[7] SpotifyQuery: Total Playback Requests: 21600
+2023-02-05 15:42:40.5472|INFO|com.barraider.spotify|23|Fetched song info: Moony
+2023-02-05 15:42:41.5262|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 15:42:41.6199|INFO|com.barraider.spotify|22|IsUserTrack is False for spotify:track:7rHhwCevtVtvhhYWkETBxj
+2023-02-05 15:44:47.7067|INFO|com.barraider.spotify|7|Fetched song info: P a z
+2023-02-05 15:44:48.5665|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 15:44:48.6623|INFO|com.barraider.spotify|8|IsUserTrack is False for spotify:track:1iOui2AZhEphqH5Yk1ktNz
+2023-02-05 15:45:33.0835|INFO|com.barraider.spotify|8|Action Loaded: Spotify.Actions.ChangePlaybackDeviceAction
+2023-02-05 15:45:33.0835|INFO|com.barraider.spotify|8|Devices MS: 698542.7227
+2023-02-05 15:45:33.0835|DEBUG|com.barraider.spotify|8|[8] SpotifyQuery: me/player/devices
+2023-02-05 15:45:33.0835|INFO|com.barraider.spotify|8|Action Loaded: Spotify.Actions.PreviousSongAction
+2023-02-05 15:45:33.0835|INFO|com.barraider.spotify|8|Action Loaded: Spotify.Actions.PlayPauseToggleAction
+2023-02-05 15:45:33.0835|INFO|com.barraider.spotify|8|Action Loaded: Spotify.Actions.NextSongAction
+2023-02-05 15:45:33.0835|INFO|com.barraider.spotify|8|Action Loaded: Spotify.Actions.LikeSongAction
+2023-02-05 15:45:33.1847|INFO|com.barraider.spotify|8|Received 3 devices
+2023-02-05 15:45:33.1847|INFO|com.barraider.spotify|4|SpotifyGetDevices returning cached version
+2023-02-05 15:46:38.8373|INFO|com.barraider.spotify|16|Fetched song info: LACool
+2023-02-05 15:46:39.0542|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 15:46:39.0542|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 15:46:39.1525|INFO|com.barraider.spotify|15|IsUserTrack is False for spotify:track:5eT4dKiJoD7dmMChKPsTfS
+2023-02-05 15:46:39.1565|WARN|com.barraider.spotify|8|BarRaider.Spotify.CacheManager IsUserTrack failed to uncache Track: spotify:track:5eT4dKiJoD7dmMChKPsTfS
+2023-02-05 15:46:39.1565|WARN|com.barraider.spotify|8|BarRaider.Spotify.CacheManager IsUserTrack spotify:track:5eT4dKiJoD7dmMChKPsTfS is in cache for 2023-02-05 3:46:39 PM
+2023-02-05 15:46:39.1565|INFO|com.barraider.spotify|8|IsUserTrack is False for spotify:track:5eT4dKiJoD7dmMChKPsTfS
+2023-02-05 15:48:55.0049|INFO|com.barraider.spotify|16|Fetched song info: Linda Lawson
+2023-02-05 15:48:55.1949|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 15:48:55.1949|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 15:48:55.2922|INFO|com.barraider.spotify|13|IsUserTrack is False for spotify:track:24K3QpMnUl1XNTpjV96KMk
+2023-02-05 15:48:55.3062|WARN|com.barraider.spotify|17|BarRaider.Spotify.CacheManager IsUserTrack failed to uncache Track: spotify:track:24K3QpMnUl1XNTpjV96KMk
+2023-02-05 15:48:55.3062|WARN|com.barraider.spotify|17|BarRaider.Spotify.CacheManager IsUserTrack spotify:track:24K3QpMnUl1XNTpjV96KMk is in cache for 2023-02-05 3:48:55 PM
+2023-02-05 15:48:55.3062|INFO|com.barraider.spotify|17|IsUserTrack is False for spotify:track:24K3QpMnUl1XNTpjV96KMk
+2023-02-05 15:50:41.1493|INFO|com.barraider.spotify|18|Fetched song info: So They Say
+2023-02-05 15:50:41.9153|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 15:50:41.9153|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 15:50:42.0151|INFO|com.barraider.spotify|18|IsUserTrack is False for spotify:track:0GSKfSgXpt1T8hbLk7ZMId
+2023-02-05 15:50:42.0151|WARN|com.barraider.spotify|12|BarRaider.Spotify.CacheManager IsUserTrack failed to uncache Track: spotify:track:0GSKfSgXpt1T8hbLk7ZMId
+2023-02-05 15:50:42.0151|WARN|com.barraider.spotify|12|BarRaider.Spotify.CacheManager IsUserTrack spotify:track:0GSKfSgXpt1T8hbLk7ZMId is in cache for 2023-02-05 3:50:42 PM
+2023-02-05 15:50:42.0151|INFO|com.barraider.spotify|12|IsUserTrack is False for spotify:track:0GSKfSgXpt1T8hbLk7ZMId
+2023-02-05 15:51:59.0858|DEBUG|com.barraider.spotify|16|[16] SpotifyQuery: Total Playback Requests: 22200
+2023-02-05 15:52:25.0535|INFO|com.barraider.spotify|18|Destructor Called
+2023-02-05 15:52:25.0535|INFO|com.barraider.spotify|18|Destructor Called
+2023-02-05 15:52:25.0535|INFO|com.barraider.spotify|18|Destructor Called
+2023-02-05 15:52:25.0535|INFO|com.barraider.spotify|18|Destructor Called
+2023-02-05 15:52:25.0535|INFO|com.barraider.spotify|18|Destructor Called
+2023-02-05 15:52:59.3768|INFO|com.barraider.spotify|17|Fetched song info: Tribe Called Blue
+2023-02-05 15:52:59.6495|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 15:52:59.7518|INFO|com.barraider.spotify|7|IsUserTrack is False for spotify:track:0SWov6pw2cNs6fJUZQPhV7
+2023-02-05 15:55:01.4707|INFO|com.barraider.spotify|7|Fetched song info: Bboy Blue
+2023-02-05 15:55:01.6642|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 15:55:01.7609|INFO|com.barraider.spotify|17|IsUserTrack is False for spotify:track:6KH2UXO3DsSYiVZd4odhj4
+2023-02-05 15:57:31.6772|INFO|com.barraider.spotify|8|Fetched song info: Two Sides
+2023-02-05 15:57:32.5679|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 15:57:32.6891|INFO|com.barraider.spotify|13|IsUserTrack is False for spotify:track:5mqYctAJjWHMWTknWwe1OL
+2023-02-05 15:59:14.8737|INFO|com.barraider.spotify|6|Fetched song info: Dulce
+2023-02-05 15:59:15.5155|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 15:59:15.6178|INFO|com.barraider.spotify|7|IsUserTrack is False for spotify:track:5aSrXN3rZZ0PIBedIARf6r
+2023-02-05 16:01:27.0364|INFO|com.barraider.spotify|15|Fetched song info: Diario
+2023-02-05 16:01:27.3686|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 16:01:27.4693|INFO|com.barraider.spotify|21|IsUserTrack is False for spotify:track:5MRDSu29drIYP7MJ09PWBQ
+2023-02-05 16:01:59.9098|DEBUG|com.barraider.spotify|15|[15] SpotifyQuery: Total Playback Requests: 22800
+2023-02-05 16:03:12.2415|INFO|com.barraider.spotify|18|Fetched song info: That 'just got home from work' type of beat
+2023-02-05 16:03:13.1198|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 16:03:13.2369|INFO|com.barraider.spotify|17|IsUserTrack is False for spotify:track:3it8W4QSi0pV25g5PdLPzV
+2023-02-05 16:05:15.3364|INFO|com.barraider.spotify|17|Fetched song info: high tide
+2023-02-05 16:05:16.0066|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 16:05:16.1084|INFO|com.barraider.spotify|12|IsUserTrack is False for spotify:track:2u53haO9MX571QZlKvbzmJ
+2023-02-05 16:06:23.5248|INFO|com.barraider.spotify|17|Action Loaded: Spotify.Actions.ChangePlaybackDeviceAction
+2023-02-05 16:06:23.5248|INFO|com.barraider.spotify|17|Devices MS: 1250341.0279
+2023-02-05 16:06:23.5248|DEBUG|com.barraider.spotify|17|[17] SpotifyQuery: me/player/devices
+2023-02-05 16:06:23.5248|INFO|com.barraider.spotify|17|Action Loaded: Spotify.Actions.PreviousSongAction
+2023-02-05 16:06:23.5278|INFO|com.barraider.spotify|17|Action Loaded: Spotify.Actions.PlayPauseToggleAction
+2023-02-05 16:06:23.5278|INFO|com.barraider.spotify|17|Action Loaded: Spotify.Actions.NextSongAction
+2023-02-05 16:06:23.5278|INFO|com.barraider.spotify|17|Action Loaded: Spotify.Actions.LikeSongAction
+2023-02-05 16:06:23.7013|INFO|com.barraider.spotify|17|Received 3 devices
+2023-02-05 16:06:23.7013|INFO|com.barraider.spotify|4|SpotifyGetDevices returning cached version
+2023-02-05 16:06:36.4434|INFO|com.barraider.spotify|7|Fetched song info: drip'n
+2023-02-05 16:06:36.8823|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 16:06:36.8963|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 16:06:37.0025|INFO|com.barraider.spotify|6|IsUserTrack is False for spotify:track:7r3r567oVsRnojDzvLuPUd
+2023-02-05 16:06:37.0025|WARN|com.barraider.spotify|18|BarRaider.Spotify.CacheManager IsUserTrack failed to uncache Track: spotify:track:7r3r567oVsRnojDzvLuPUd
+2023-02-05 16:06:37.0025|WARN|com.barraider.spotify|18|BarRaider.Spotify.CacheManager IsUserTrack spotify:track:7r3r567oVsRnojDzvLuPUd is in cache for 2023-02-05 4:06:37 PM
+2023-02-05 16:06:37.0025|INFO|com.barraider.spotify|18|IsUserTrack is False for spotify:track:7r3r567oVsRnojDzvLuPUd
+2023-02-05 16:06:43.3764|INFO|com.barraider.spotify|18|Destructor Called
+2023-02-05 16:06:43.3764|INFO|com.barraider.spotify|18|Destructor Called
+2023-02-05 16:06:43.3764|INFO|com.barraider.spotify|18|Destructor Called
+2023-02-05 16:06:43.3764|INFO|com.barraider.spotify|18|Destructor Called
+2023-02-05 16:06:43.3764|INFO|com.barraider.spotify|18|Destructor Called
+2023-02-05 16:07:01.0224|INFO|com.barraider.spotify|6|Action Loaded: Spotify.Actions.ChangePlaybackDeviceAction
+2023-02-05 16:07:01.0224|INFO|com.barraider.spotify|6|SpotifyGetDevices returning cached version
+2023-02-05 16:07:01.0224|INFO|com.barraider.spotify|6|Action Loaded: Spotify.Actions.PreviousSongAction
+2023-02-05 16:07:01.0224|INFO|com.barraider.spotify|6|Action Loaded: Spotify.Actions.PlayPauseToggleAction
+2023-02-05 16:07:01.0224|INFO|com.barraider.spotify|6|SpotifyGetDevices returning cached version
+2023-02-05 16:07:01.0224|INFO|com.barraider.spotify|6|Action Loaded: Spotify.Actions.NextSongAction
+2023-02-05 16:07:01.0224|INFO|com.barraider.spotify|6|Action Loaded: Spotify.Actions.LikeSongAction
+2023-02-05 16:07:36.9788|INFO|com.barraider.spotify|15|Destructor Called
+2023-02-05 16:07:36.9788|INFO|com.barraider.spotify|15|Destructor Called
+2023-02-05 16:07:36.9788|INFO|com.barraider.spotify|15|Destructor Called
+2023-02-05 16:07:36.9788|INFO|com.barraider.spotify|15|Destructor Called
+2023-02-05 16:07:36.9788|INFO|com.barraider.spotify|15|Destructor Called
+2023-02-05 16:08:32.6342|INFO|com.barraider.spotify|18|Fetched song info: Gin & Tonic
+2023-02-05 16:08:33.1345|INFO|com.barraider.spotify|1|UncacheLikedSong spotify:track:6hkn4caiC0Oj5s3hzDQy8a
+2023-02-05 16:08:33.1345|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 16:08:33.2352|INFO|com.barraider.spotify|12|IsUserTrack is False for spotify:track:6hkn4caiC0Oj5s3hzDQy8a
+2023-02-05 16:10:55.8293|INFO|com.barraider.spotify|12|Fetched song info: french inhale
+2023-02-05 16:10:56.2906|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 16:10:56.3903|INFO|com.barraider.spotify|6|IsUserTrack is False for spotify:track:0zNEiQuUejW9MZTY5bSDvx
+2023-02-05 16:12:00.7453|DEBUG|com.barraider.spotify|16|[16] SpotifyQuery: Total Playback Requests: 23400
+2023-02-05 16:12:45.0013|INFO|com.barraider.spotify|17|Fetched song info: Cold Outside
+2023-02-05 16:12:45.1549|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 16:12:45.2481|INFO|com.barraider.spotify|8|IsUserTrack is False for spotify:track:5JMh3qclElhwCM3zUFcMtB
+2023-02-05 16:13:49.0296|INFO|com.barraider.spotify|8|Fetched song info: Thursday Morning 5/4/2017
+2023-02-05 16:13:49.6619|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 16:13:49.7646|INFO|com.barraider.spotify|7|IsUserTrack is False for spotify:track:4RggARFd7DYVIjO23eGSzN
+2023-02-05 16:15:37.2058|INFO|com.barraider.spotify|18|Fetched song info: lifesabitch
+2023-02-05 16:15:37.5350|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 16:15:37.6387|INFO|com.barraider.spotify|16|IsUserTrack is False for spotify:track:5JFmRA6MjifxppYXKFTtGS
+2023-02-05 16:17:28.3596|INFO|com.barraider.spotify|8|Fetched song info: Summer Tape
+2023-02-05 16:17:29.2507|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 16:17:29.3520|INFO|com.barraider.spotify|8|IsUserTrack is False for spotify:track:33PwTxfVSWTN3fd91q4Wsj
+2023-02-05 16:19:21.5171|INFO|com.barraider.spotify|18|Fetched song info: Wine Ground
+2023-02-05 16:19:22.1534|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 16:19:22.2511|INFO|com.barraider.spotify|13|IsUserTrack is False for spotify:track:40qOGBHdBA7QlxWqmDUiA9
+2023-02-05 16:21:43.7092|INFO|com.barraider.spotify|6|Fetched song info: outside.
+2023-02-05 16:21:44.3644|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 16:21:44.4622|INFO|com.barraider.spotify|7|IsUserTrack is False for spotify:track:6iE8Mne9kzmNn7trv23hG7
+2023-02-05 16:22:01.5774|DEBUG|com.barraider.spotify|6|[6] SpotifyQuery: Total Playback Requests: 24000
+2023-02-05 16:22:29.7114|WARN|com.barraider.spotify|16|[16] SpotifyQueryInternal returned with StatusCode: Unauthorized. Token: [BQA5mb-]
+2023-02-05 16:22:29.7114|INFO|com.barraider.spotify|16|[16] RefreshTokens Called
+2023-02-05 16:22:29.8834|INFO|com.barraider.spotify|12|[12] GetSpotifyToken Succeeded!
+2023-02-05 16:22:29.8834|INFO|com.barraider.spotify|12|[12] Initializing Tokens
+2023-02-05 16:22:29.8834|INFO|com.barraider.spotify|12|GlobalSettingsManager::SetGlobalSettings called
+2023-02-05 16:22:29.8834|INFO|com.barraider.spotify|12|[12] New token saved [BQD69iC]. Last refresh date was: Token: 2023-02-05 4:22:29 PM Auth: 0001-01-01 12:00:00 AM
+2023-02-05 16:22:29.8834|INFO|com.barraider.spotify|12|BarRaider.Spotify.OAuthTokenListener Listener stopped
+2023-02-05 16:22:30.1861|INFO|com.barraider.spotify|11|GlobalSettingsManager::GetGlobalSettingsAsync triggered
+2023-02-05 16:22:30.1861|INFO|com.barraider.spotify|12|[12] LoadAuth called
+2023-02-05 16:22:30.1861|INFO|com.barraider.spotify|12|In SetAPIAuth
+2023-02-05 16:22:30.1861|INFO|com.barraider.spotify|12|[12] Token initialized [BQD69iC]. Last refresh date was: 2023-02-05 4:22:29 PM
+2023-02-05 16:22:30.1861|INFO|com.barraider.spotify|12|[12] Initializing Tokens
+2023-02-05 16:22:30.1861|INFO|com.barraider.spotify|12|BarRaider.Spotify.OAuthTokenListener Listener stopped
+2023-02-05 16:22:35.9224|INFO|com.barraider.spotify|7|[7] Plugin version is up to date
+2023-02-05 16:23:13.8421|INFO|com.barraider.spotify|13|Fetched song info: NoSlaps
+2023-02-05 16:23:14.0889|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 16:23:14.1862|INFO|com.barraider.spotify|7|IsUserTrack is False for spotify:track:2ij07NOeUSz1bbZtlclZlk
+2023-02-05 16:25:37.0750|INFO|com.barraider.spotify|15|Fetched song info: Paradise
+2023-02-05 16:25:37.2301|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 16:25:37.3363|INFO|com.barraider.spotify|18|IsUserTrack is False for spotify:track:3S9i92rB3Axp0tQEcRlNfz
+2023-02-05 16:28:02.2851|INFO|com.barraider.spotify|13|Fetched song info: The Life
+2023-02-05 16:28:03.2371|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 16:28:03.3404|INFO|com.barraider.spotify|8|IsUserTrack is False for spotify:track:5M5cpWqKdqccSuZht2aFrD
+2023-02-05 16:30:00.4500|INFO|com.barraider.spotify|8|Fetched song info: Open Air
+2023-02-05 16:30:01.1802|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 16:30:01.3248|INFO|com.barraider.spotify|8|IsUserTrack is False for spotify:track:0SeFw2lit87jTvnBzdEFjq
+2023-02-05 16:31:32.5420|INFO|com.barraider.spotify|19|Fetched song info: Autumn Chills
+2023-02-05 16:31:32.9788|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 16:31:33.0761|INFO|com.barraider.spotify|16|IsUserTrack is False for spotify:track:1Mg5n0Gvx8PphL8ZpJVKyT
+2023-02-05 16:32:02.4342|DEBUG|com.barraider.spotify|8|[8] SpotifyQuery: Total Playback Requests: 24600
+2023-02-05 16:33:27.7062|INFO|com.barraider.spotify|21|Fetched song info: Back In The Rome
+2023-02-05 16:33:27.9725|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 16:33:28.0708|INFO|com.barraider.spotify|13|IsUserTrack is False for spotify:track:3HVYknioCo51UwiVL5VDFW
+2023-02-05 16:35:28.8796|INFO|com.barraider.spotify|8|Fetched song info: Glossy
+2023-02-05 16:35:29.0985|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 16:35:29.1967|INFO|com.barraider.spotify|17|IsUserTrack is False for spotify:track:1mm20goSGgYAQQgLMbpVmI
+2023-02-05 16:37:31.0346|INFO|com.barraider.spotify|6|Fetched song info: Sergio
+2023-02-05 16:37:31.1348|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 16:37:31.2335|INFO|com.barraider.spotify|21|IsUserTrack is False for spotify:track:3PKFqBWmvV5MeT07ix3RLP
+2023-02-05 16:38:57.1566|INFO|com.barraider.spotify|21|Fetched song info: fountain
+2023-02-05 16:38:57.8123|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 16:38:57.9081|INFO|com.barraider.spotify|17|IsUserTrack is False for spotify:track:35D1qs5m12ATl5WhkiunHT
+2023-02-05 16:40:51.3164|INFO|com.barraider.spotify|21|Fetched song info: O-hashi 3
+2023-02-05 16:40:51.7273|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 16:40:51.8231|INFO|com.barraider.spotify|19|IsUserTrack is False for spotify:track:4uNsqdEMrhCWM4SjOIZyru
+2023-02-05 16:42:03.2443|DEBUG|com.barraider.spotify|7|[7] SpotifyQuery: Total Playback Requests: 25200
+2023-02-05 16:42:30.4641|INFO|com.barraider.spotify|15|Fetched song info: Jades House
+2023-02-05 16:42:31.4341|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 16:42:31.5473|INFO|com.barraider.spotify|24|IsUserTrack is False for spotify:track:7nL69bur20NjqmU1ArOepu
+2023-02-05 16:44:14.6614|INFO|com.barraider.spotify|27|Fetched song info: 93.
+2023-02-05 16:44:15.1954|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 16:44:15.2972|INFO|com.barraider.spotify|20|IsUserTrack is False for spotify:track:3wB5zknP24ao7UU7RcLxgB
+2023-02-05 16:45:40.6941|INFO|com.barraider.spotify|17|Fetched song info: Low Maintenance
+2023-02-05 16:45:40.8382|INFO|com.barraider.spotify|1|UncacheLikedSong spotify:track:7lygM4NWdvujY9DkU5uYsX
+2023-02-05 16:45:40.8382|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 16:45:40.9360|INFO|com.barraider.spotify|6|IsUserTrack is False for spotify:track:7lygM4NWdvujY9DkU5uYsX
+2023-02-05 16:48:52.9814|INFO|com.barraider.spotify|13|Fetched song info: Straight Ahead
+2023-02-05 16:48:53.2317|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 16:48:53.3325|INFO|com.barraider.spotify|6|IsUserTrack is False for spotify:track:0h8dis9M67jUMGY4Rv1PgI
+2023-02-05 16:51:12.2338|INFO|com.barraider.spotify|16|Fetched song info: Lila Delphin
+2023-02-05 16:51:12.4028|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 16:51:12.5006|INFO|com.barraider.spotify|12|IsUserTrack is False for spotify:track:2HcCZD05HwVcrq5bQOBIpd
+2023-02-05 16:52:04.0945|DEBUG|com.barraider.spotify|8|[8] SpotifyQuery: Total Playback Requests: 25800
+2023-02-05 16:52:46.3006|INFO|com.barraider.spotify|13|Fetched song info: O-hashi 2
+2023-02-05 16:52:47.1698|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 16:52:47.2645|INFO|com.barraider.spotify|17|IsUserTrack is False for spotify:track:403SoB5RK59MkWQpeMRJLR
+2023-02-05 16:54:09.4466|INFO|com.barraider.spotify|23|Fetched song info: Peach Garden
+2023-02-05 16:54:09.7363|INFO|com.barraider.spotify|1|UncacheLikedSong spotify:track:1Vo7VWSYDp9ntpMNSDSD2P
+2023-02-05 16:54:09.7363|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 16:54:09.8346|INFO|com.barraider.spotify|8|IsUserTrack is False for spotify:track:1Vo7VWSYDp9ntpMNSDSD2P
+2023-02-05 16:56:00.5728|INFO|com.barraider.spotify|20|Fetched song info: chillfool chillusion
+2023-02-05 16:56:01.5551|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 16:56:01.6454|INFO|com.barraider.spotify|18|IsUserTrack is False for spotify:track:3OPsLMEq6cKpPawK3z3nfv
+2023-02-05 16:56:59.6356|INFO|com.barraider.spotify|6|Fetched song info: Mos Eisley Cantina
+2023-02-05 16:57:00.0615|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 16:57:00.1563|INFO|com.barraider.spotify|13|IsUserTrack is False for spotify:track:74tGPYTdua0Ct27av0TzjG
+2023-02-05 16:58:48.7627|INFO|com.barraider.spotify|17|Fetched song info: Valley Girls
+2023-02-05 16:58:48.9802|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 16:58:49.0809|INFO|com.barraider.spotify|8|IsUserTrack is False for spotify:track:3ZqT1S23Cg4wooz8DqIXzf
+2023-02-05 17:00:40.9230|INFO|com.barraider.spotify|13|Fetched song info: Red
+2023-02-05 17:00:41.9163|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 17:00:42.0251|INFO|com.barraider.spotify|12|IsUserTrack is False for spotify:track:7ArMoFJr4mO3LOvp9lqEHd
+2023-02-05 17:02:04.8685|DEBUG|com.barraider.spotify|12|[12] SpotifyQuery: Total Playback Requests: 26400
+2023-02-05 17:02:59.0894|INFO|com.barraider.spotify|16|Fetched song info: Hylla
+2023-02-05 17:03:00.0289|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 17:03:00.1271|INFO|com.barraider.spotify|8|IsUserTrack is False for spotify:track:28Msxf0WPfvmfSZqHs9899
+2023-02-05 17:05:10.2769|INFO|com.barraider.spotify|8|Fetched song info: marsriegel
+2023-02-05 17:05:11.0080|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 17:05:11.1007|INFO|com.barraider.spotify|12|IsUserTrack is False for spotify:track:3Wfi6gQ7WiDSMze6fSOqO2
+2023-02-05 17:07:22.4794|INFO|com.barraider.spotify|6|Fetched song info: tonight
+2023-02-05 17:07:23.0225|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 17:07:23.1133|INFO|com.barraider.spotify|7|IsUserTrack is False for spotify:track:6Y1skSfIA0sNjfabUNtYOT
+2023-02-05 17:08:51.5880|INFO|com.barraider.spotify|16|Fetched song info: Classy
+2023-02-05 17:08:51.7117|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 17:08:51.8139|INFO|com.barraider.spotify|6|IsUserTrack is False for spotify:track:1l6zgAHRxjfW33orBXs8kI
+2023-02-05 17:10:23.7767|INFO|com.barraider.spotify|6|Fetched song info: Interludio De Medicamento
+2023-02-05 17:10:24.3751|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 17:10:24.4758|INFO|com.barraider.spotify|23|IsUserTrack is False for spotify:track:2d4jDuvS8cx04oorjIheLH
+2023-02-05 17:11:27.8819|INFO|com.barraider.spotify|16|Fetched song info: lazy days - Intro
+2023-02-05 17:11:28.7875|INFO|com.barraider.spotify|1|UncacheLikedSong spotify:track:01eMO2rWQPnLUCocE1xYwi
+2023-02-05 17:11:28.7875|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 17:11:28.8837|INFO|com.barraider.spotify|8|IsUserTrack is False for spotify:track:01eMO2rWQPnLUCocE1xYwi
+2023-02-05 17:12:05.7532|DEBUG|com.barraider.spotify|15|[15] SpotifyQuery: Total Playback Requests: 27000
+2023-02-05 17:12:50.9935|INFO|com.barraider.spotify|22|Fetched song info: Hyper Dub Machine
+2023-02-05 17:12:51.3216|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 17:12:51.4213|INFO|com.barraider.spotify|8|IsUserTrack is False for spotify:track:5F801XnG2uEPhKowwYFTrD
+2023-02-05 17:14:56.1773|INFO|com.barraider.spotify|17|Fetched song info: luvin'
+2023-02-05 17:14:56.3932|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 17:14:56.4890|INFO|com.barraider.spotify|15|IsUserTrack is False for spotify:track:2Sps0l4MicKu2x1yq5K7Df
+2023-02-05 17:16:20.2874|INFO|com.barraider.spotify|21|Fetched song info: tequila
+2023-02-05 17:16:21.0249|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 17:16:21.1252|INFO|com.barraider.spotify|23|IsUserTrack is False for spotify:track:0diOcYSPXO1jhT1XxGKfS3
+2023-02-05 17:17:32.3771|INFO|com.barraider.spotify|12|Fetched song info: Lifelines
+2023-02-05 17:17:32.5432|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 17:17:32.6380|INFO|com.barraider.spotify|16|IsUserTrack is False for spotify:track:7uh5rZUUzG97AZVcckx66d
+2023-02-05 17:19:26.5531|INFO|com.barraider.spotify|16|Fetched song info: oliver
+2023-02-05 17:19:27.5117|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 17:19:27.6099|INFO|com.barraider.spotify|18|IsUserTrack is False for spotify:track:6YP5uCHX5n6iTvleUiZLdU
+2023-02-05 17:20:53.6624|INFO|com.barraider.spotify|16|Fetched song info: Refreshing
+2023-02-05 17:20:54.1102|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 17:20:54.2119|INFO|com.barraider.spotify|8|IsUserTrack is False for spotify:track:0BGyW0DIAkPHoIyjHc6exn
+2023-02-05 17:22:04.7943|INFO|com.barraider.spotify|26|Fetched song info: Clear Skies
+2023-02-05 17:22:05.5967|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 17:22:05.7064|INFO|com.barraider.spotify|24|IsUserTrack is False for spotify:track:5M0kP9IcBxctdsxSTMMwpE
+2023-02-05 17:22:06.5965|DEBUG|com.barraider.spotify|25|[25] SpotifyQuery: Total Playback Requests: 27600
+2023-02-05 17:22:30.7050|WARN|com.barraider.spotify|28|[28] SpotifyQueryInternal returned with StatusCode: Unauthorized. Token: [BQD69iC]
+2023-02-05 17:22:30.7050|INFO|com.barraider.spotify|28|[28] RefreshTokens Called
+2023-02-05 17:22:30.8970|INFO|com.barraider.spotify|25|[25] GetSpotifyToken Succeeded!
+2023-02-05 17:22:30.8970|INFO|com.barraider.spotify|25|[25] Initializing Tokens
+2023-02-05 17:22:30.8970|INFO|com.barraider.spotify|25|GlobalSettingsManager::SetGlobalSettings called
+2023-02-05 17:22:30.8970|INFO|com.barraider.spotify|25|[25] New token saved [BQD2gc8]. Last refresh date was: Token: 2023-02-05 5:22:30 PM Auth: 0001-01-01 12:00:00 AM
+2023-02-05 17:22:30.8970|INFO|com.barraider.spotify|25|BarRaider.Spotify.OAuthTokenListener Listener stopped
+2023-02-05 17:22:31.2027|INFO|com.barraider.spotify|11|GlobalSettingsManager::GetGlobalSettingsAsync triggered
+2023-02-05 17:22:31.2027|INFO|com.barraider.spotify|25|[25] LoadAuth called
+2023-02-05 17:22:31.2027|INFO|com.barraider.spotify|25|In SetAPIAuth
+2023-02-05 17:22:31.2027|INFO|com.barraider.spotify|25|[25] Token initialized [BQD2gc8]. Last refresh date was: 2023-02-05 5:22:30 PM
+2023-02-05 17:22:31.2027|INFO|com.barraider.spotify|25|[25] Initializing Tokens
+2023-02-05 17:22:31.2027|INFO|com.barraider.spotify|25|BarRaider.Spotify.OAuthTokenListener Listener stopped
+2023-02-05 17:22:35.9069|INFO|com.barraider.spotify|4|BarRaider.Spotify.TokenManager CheckVersion in cooldown.
+2023-02-05 17:24:12.9466|INFO|com.barraider.spotify|29|Fetched song info: Neon Sky
+2023-02-05 17:24:13.4049|INFO|com.barraider.spotify|1|UncacheLikedSong spotify:track:7eB9yCVsp1IpaE6zc2mCHf
+2023-02-05 17:24:13.4049|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 17:24:13.5016|INFO|com.barraider.spotify|27|IsUserTrack is False for spotify:track:7eB9yCVsp1IpaE6zc2mCHf
+2023-02-05 17:26:08.0836|INFO|com.barraider.spotify|23|Fetched song info: Along the Way
+2023-02-05 17:26:08.3324|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 17:26:08.4257|INFO|com.barraider.spotify|31|IsUserTrack is False for spotify:track:1nEK9jVeKEptqRFyxkMiVi
+2023-02-05 17:28:41.2844|INFO|com.barraider.spotify|28|Fetched song info: Sure Enough
+2023-02-05 17:28:42.2942|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 17:28:42.3875|INFO|com.barraider.spotify|29|IsUserTrack is False for spotify:track:235xpxJ8w9aBnsPTW6rsbN
+2023-02-05 17:30:02.3784|INFO|com.barraider.spotify|24|Fetched song info: over it
+2023-02-05 17:30:02.9673|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 17:30:03.0725|INFO|com.barraider.spotify|23|IsUserTrack is False for spotify:track:6BEURpMSVlYp3e4BIPJwVt
+2023-02-05 17:31:04.4710|INFO|com.barraider.spotify|30|Fetched song info: Wii
+2023-02-05 17:31:05.3900|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 17:31:05.4973|INFO|com.barraider.spotify|15|IsUserTrack is False for spotify:track:1xggTptnZLvgIP6sGzLLmH
+2023-02-05 17:32:07.3866|DEBUG|com.barraider.spotify|19|[19] SpotifyQuery: Total Playback Requests: 28200
+2023-02-05 17:32:17.5613|INFO|com.barraider.spotify|19|Fetched song info: Old Roots New Trees
+2023-02-05 17:32:18.0101|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 17:32:18.1118|INFO|com.barraider.spotify|26|IsUserTrack is False for spotify:track:0zQSTVlzIQXOvMTix1R98b
+2023-02-05 17:33:49.6718|INFO|com.barraider.spotify|6|Fetched song info: seat back.
+2023-02-05 17:33:49.7810|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 17:33:49.8728|INFO|com.barraider.spotify|19|IsUserTrack is False for spotify:track:2jy4stlMktn8pj9Iov3dEH
+2023-02-05 17:35:26.8128|INFO|com.barraider.spotify|16|Fetched song info: Fainting of Rejection
+2023-02-05 17:35:27.6282|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 17:35:27.7274|INFO|com.barraider.spotify|16|IsUserTrack is False for spotify:track:0dbanQMUm9Aw8suPcOJYWP
+2023-02-05 17:37:24.0216|INFO|com.barraider.spotify|6|Fetched song info: Solstice
+2023-02-05 17:37:24.6151|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 17:37:24.7138|INFO|com.barraider.spotify|15|IsUserTrack is False for spotify:track:1gdTYX9XdkrdLUHdS6oJna
+2023-02-05 17:38:10.2387|INFO|com.barraider.spotify|8|Action Loaded: Spotify.Actions.ChangePlaybackDeviceAction
+2023-02-05 17:38:10.2387|INFO|com.barraider.spotify|8|Devices MS: 5506537.4024
+2023-02-05 17:38:10.2387|DEBUG|com.barraider.spotify|8|[8] SpotifyQuery: me/player/devices
+2023-02-05 17:38:10.2387|INFO|com.barraider.spotify|8|Action Loaded: Spotify.Actions.PreviousSongAction
+2023-02-05 17:38:10.2387|INFO|com.barraider.spotify|8|Action Loaded: Spotify.Actions.PlayPauseToggleAction
+2023-02-05 17:38:10.2387|INFO|com.barraider.spotify|8|Action Loaded: Spotify.Actions.NextSongAction
+2023-02-05 17:38:10.2387|INFO|com.barraider.spotify|8|Action Loaded: Spotify.Actions.LikeSongAction
+2023-02-05 17:38:10.3479|INFO|com.barraider.spotify|15|Received 3 devices
+2023-02-05 17:38:10.3479|INFO|com.barraider.spotify|4|SpotifyGetDevices returning cached version
+2023-02-05 17:38:30.0676|INFO|com.barraider.spotify|15|Destructor Called
+2023-02-05 17:38:30.0676|INFO|com.barraider.spotify|15|Destructor Called
+2023-02-05 17:38:30.0676|INFO|com.barraider.spotify|15|Destructor Called
+2023-02-05 17:38:30.0676|INFO|com.barraider.spotify|15|Destructor Called
+2023-02-05 17:38:30.0676|INFO|com.barraider.spotify|15|Destructor Called
+2023-02-05 17:39:17.1422|INFO|com.barraider.spotify|15|Fetched song info: lauanta
+2023-02-05 17:39:17.2354|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 17:39:17.3307|INFO|com.barraider.spotify|19|IsUserTrack is False for spotify:track:6KMg4ZI5ScAt0qWvHtE32D
+2023-02-05 17:41:07.3124|INFO|com.barraider.spotify|16|Fetched song info: Morning Dew
+2023-02-05 17:41:08.0918|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 17:41:08.1986|INFO|com.barraider.spotify|16|IsUserTrack is False for spotify:track:0SlsHLlmuZVIuMrQyjurF0
+2023-02-05 17:42:08.2077|DEBUG|com.barraider.spotify|12|[12] SpotifyQuery: Total Playback Requests: 28800
+2023-02-05 17:42:18.3834|INFO|com.barraider.spotify|19|Fetched song info: Arabica
+2023-02-05 17:42:18.6762|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 17:42:18.7734|INFO|com.barraider.spotify|12|IsUserTrack is False for spotify:track:38PSMqHWGOMcysKHRXM16x
+2023-02-05 17:44:28.5294|INFO|com.barraider.spotify|24|Fetched song info: Ninetyfour
+2023-02-05 17:44:29.4684|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 17:44:29.5741|INFO|com.barraider.spotify|23|IsUserTrack is False for spotify:track:2NFVwZTWMfuKQED00jeg6e
+2023-02-05 17:46:24.7461|INFO|com.barraider.spotify|16|Fetched song info: scape.
+2023-02-05 17:46:25.3056|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 17:46:25.4053|INFO|com.barraider.spotify|23|IsUserTrack is False for spotify:track:26Ks4G6m0S2nJgUJcvrbYs
+2023-02-05 17:47:58.9942|INFO|com.barraider.spotify|16|Fetched song info: Snow
+2023-02-05 17:47:59.0241|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 17:47:59.1213|INFO|com.barraider.spotify|23|IsUserTrack is False for spotify:track:5aHTDUgjCL9HRjkgX8bj6Y
+2023-02-05 17:49:01.9730|INFO|com.barraider.spotify|20|Fetched song info: Sundress & Tattoos
+2023-02-05 17:49:02.5769|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 17:49:02.6951|INFO|com.barraider.spotify|18|IsUserTrack is False for spotify:track:4L0aj6GxRyDoPuCZq7qsIc
+2023-02-05 17:50:38.0592|INFO|com.barraider.spotify|7|Fetched song info: East Healey Street
+2023-02-05 17:50:38.4153|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 17:50:38.5100|INFO|com.barraider.spotify|13|IsUserTrack is False for spotify:track:5rhK2aI1xZQWQ8sMocI6y2
+2023-02-05 17:52:08.9888|DEBUG|com.barraider.spotify|19|[19] SpotifyQuery: Total Playback Requests: 29400
+2023-02-05 17:53:25.2320|INFO|com.barraider.spotify|16|Fetched song info: Morning
+2023-02-05 17:53:25.6110|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 17:53:25.7067|INFO|com.barraider.spotify|12|IsUserTrack is False for spotify:track:5LWPoN6kTetRM7t6jYVaEO
+2023-02-05 17:54:50.3385|INFO|com.barraider.spotify|23|Fetched song info: TasteMakers
+2023-02-05 17:54:51.1439|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 17:54:51.2531|INFO|com.barraider.spotify|23|IsUserTrack is False for spotify:track:6RtsrqwafFOoALZc2bquZB
+2023-02-05 17:56:15.4579|INFO|com.barraider.spotify|22|Fetched song info: tautte.
+2023-02-05 17:56:15.9591|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 17:56:16.0603|INFO|com.barraider.spotify|18|IsUserTrack is False for spotify:track:1s4hyabSNBaPZGEgBY8acm
+2023-02-05 17:57:48.5897|INFO|com.barraider.spotify|15|Fetched song info: homeward
+2023-02-05 17:57:48.6765|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 17:57:48.7847|INFO|com.barraider.spotify|6|IsUserTrack is False for spotify:track:71qRAfK99FiT0mYFGco4k4
+2023-02-05 17:59:33.7181|INFO|com.barraider.spotify|7|Fetched song info: Owls
+2023-02-05 17:59:34.4861|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 17:59:34.5803|INFO|com.barraider.spotify|6|IsUserTrack is False for spotify:track:1juG58681Ju98UcXFD1Y5y
+2023-02-05 18:00:49.8590|INFO|com.barraider.spotify|13|Fetched song info: emb
+2023-02-05 18:00:50.1707|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 18:00:50.2744|INFO|com.barraider.spotify|8|IsUserTrack is False for spotify:track:5OVWJGU7foJew6iQGyozFu
+2023-02-05 18:02:02.9703|INFO|com.barraider.spotify|8|Fetched song info: boulevard nights
+2023-02-05 18:02:03.7971|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 18:02:03.8894|INFO|com.barraider.spotify|6|IsUserTrack is False for spotify:track:74hnNbwxe0YyRcs5K676bj
+2023-02-05 18:02:09.7776|DEBUG|com.barraider.spotify|12|[12] SpotifyQuery: Total Playback Requests: 30000
+2023-02-05 18:03:31.0764|INFO|com.barraider.spotify|18|Fetched song info: pure imagination
+2023-02-05 18:03:31.5462|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 18:03:31.6454|INFO|com.barraider.spotify|8|IsUserTrack is False for spotify:track:2Hdm6UGkZyY0wilfOCo6w5
+2023-02-05 18:04:46.2014|INFO|com.barraider.spotify|6|Fetched song info: Bubble.
+2023-02-05 18:04:46.2183|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 18:04:46.3151|INFO|com.barraider.spotify|19|IsUserTrack is False for spotify:track:7ktxOhn4b9QXmYlpXpmqh9
+2023-02-05 18:06:36.2881|INFO|com.barraider.spotify|17|Fetched song info: la donna e la chitarra
+2023-02-05 18:06:37.0900|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 18:06:37.1937|INFO|com.barraider.spotify|17|IsUserTrack is False for spotify:track:2e94pHYImdJE6wgMLHaA9l
+2023-02-05 18:08:22.4327|INFO|com.barraider.spotify|18|Fetched song info: Welcome
+2023-02-05 18:08:23.0591|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 18:08:23.1578|INFO|com.barraider.spotify|13|IsUserTrack is False for spotify:track:3db4mupJEGH0wfu0IxMT3h
+2023-02-05 18:09:54.5596|INFO|com.barraider.spotify|8|Fetched song info: Lazy Café
+2023-02-05 18:09:54.7047|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 18:09:54.8080|INFO|com.barraider.spotify|13|IsUserTrack is False for spotify:track:7jagwJQLzpvwV8WstNJgST
+2023-02-05 18:12:10.5741|DEBUG|com.barraider.spotify|6|[6] SpotifyQuery: Total Playback Requests: 30600
+2023-02-05 18:12:19.7419|INFO|com.barraider.spotify|18|Fetched song info: Kalalou
+2023-02-05 18:12:19.8796|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 18:12:19.9763|INFO|com.barraider.spotify|15|IsUserTrack is False for spotify:track:2EBpAxOT7i5e6NeCm1qrYK
+2023-02-05 18:14:08.9034|INFO|com.barraider.spotify|16|Fetched song info: Flowers
+2023-02-05 18:14:09.8285|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 18:14:09.9287|INFO|com.barraider.spotify|7|IsUserTrack is False for spotify:track:7kmSXEy61w4tOGRJxULeVr
+2023-02-05 18:15:57.0641|INFO|com.barraider.spotify|18|Fetched song info: Please Chill
+2023-02-05 18:15:57.7403|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 18:15:57.8385|INFO|com.barraider.spotify|17|IsUserTrack is False for spotify:track:1ndEnRNcXCZWJIz8x6YEQH
+2023-02-05 18:18:02.2214|INFO|com.barraider.spotify|13|Fetched song info: how it feels to love you
+2023-02-05 18:18:02.6820|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 18:18:02.7793|INFO|com.barraider.spotify|15|IsUserTrack is False for spotify:track:63tQUUyMfFNt0ANWF8FFn5
+2023-02-05 18:19:19.3278|INFO|com.barraider.spotify|20|Fetched song info: Withy Nights
+2023-02-05 18:19:20.2354|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 18:19:20.3302|INFO|com.barraider.spotify|12|IsUserTrack is False for spotify:track:3qp05xJvcD0LgUuZL2vMBO
+2023-02-05 18:21:30.5381|INFO|com.barraider.spotify|7|Fetched song info: Goa
+2023-02-05 18:21:31.2397|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 18:21:31.3394|INFO|com.barraider.spotify|20|IsUserTrack is False for spotify:track:09s2y2wa2iTTXj5HOb5jQm
+2023-02-05 18:22:11.4427|DEBUG|com.barraider.spotify|18|[18] SpotifyQuery: Total Playback Requests: 31200
+2023-02-05 18:22:31.5466|WARN|com.barraider.spotify|18|[18] SpotifyQueryInternal returned with StatusCode: Unauthorized. Token: [BQD2gc8]
+2023-02-05 18:22:31.5466|INFO|com.barraider.spotify|18|[18] RefreshTokens Called
+2023-02-05 18:22:31.7082|INFO|com.barraider.spotify|13|[13] GetSpotifyToken Succeeded!
+2023-02-05 18:22:31.7082|INFO|com.barraider.spotify|13|[13] Initializing Tokens
+2023-02-05 18:22:31.7082|INFO|com.barraider.spotify|13|GlobalSettingsManager::SetGlobalSettings called
+2023-02-05 18:22:31.7082|INFO|com.barraider.spotify|13|[13] New token saved [BQDZuvw]. Last refresh date was: Token: 2023-02-05 6:22:31 PM Auth: 0001-01-01 12:00:00 AM
+2023-02-05 18:22:31.7082|INFO|com.barraider.spotify|13|BarRaider.Spotify.OAuthTokenListener Listener stopped
+2023-02-05 18:22:32.0144|INFO|com.barraider.spotify|10|GlobalSettingsManager::GetGlobalSettingsAsync triggered
+2023-02-05 18:22:32.0144|INFO|com.barraider.spotify|13|[13] LoadAuth called
+2023-02-05 18:22:32.0144|INFO|com.barraider.spotify|13|In SetAPIAuth
+2023-02-05 18:22:32.0144|INFO|com.barraider.spotify|13|[13] Token initialized [BQDZuvw]. Last refresh date was: 2023-02-05 6:22:31 PM
+2023-02-05 18:22:32.0144|INFO|com.barraider.spotify|13|[13] Initializing Tokens
+2023-02-05 18:22:32.0144|INFO|com.barraider.spotify|13|BarRaider.Spotify.OAuthTokenListener Listener stopped
+2023-02-05 18:22:36.7210|INFO|com.barraider.spotify|11|BarRaider.Spotify.TokenManager CheckVersion in cooldown.
+2023-02-05 18:22:53.6893|INFO|com.barraider.spotify|8|Fetched song info: Stars.Falling
+2023-02-05 18:22:53.9446|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-05 18:22:54.0429|INFO|com.barraider.spotify|7|IsUserTrack is False for spotify:track:6uSA76szYAUK6uVWjyNWqp
