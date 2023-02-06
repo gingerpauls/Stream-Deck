@@ -308,3 +308,489 @@
 2023-02-05 12:06:23.4987|INFO|com.barraider.windowsmover|44|Destructor called
 2023-02-05 12:06:23.4987|INFO|com.barraider.windowsmover|34|Destructor called
 2023-02-05 12:06:23.4987|INFO|com.barraider.windowsmover|34|Destructor called
+2023-02-05 13:26:17.2560|INFO|com.barraider.windowsmover|49|Populated 88 applications
+2023-02-05 13:26:17.3797|INFO|com.barraider.windowsmover|49|WMI returned 2 monitors
+2023-02-05 13:26:17.3797|INFO|com.barraider.windowsmover|49|QueryDisplay returned 2 paths and 4 modes
+2023-02-05 13:26:17.3797|INFO|com.barraider.windowsmover|49|QueryDisplay returned 2 monitors
+2023-02-05 13:26:17.3797|INFO|com.barraider.windowsmover|49|GetAggregatedMonitorInfo returned 2 aggregated monitors
+2023-02-05 13:26:17.3797|INFO|com.barraider.windowsmover|49|Populated 2 screens
+2023-02-05 13:26:17.3797|INFO|com.barraider.windowsmover|49|Populated 89 applications
+2023-02-05 13:26:17.3797|INFO|com.barraider.windowsmover|49|Populated 2 screens
+2023-02-05 13:26:17.3797|INFO|com.barraider.windowsmover|49|Populated 89 applications
+2023-02-05 13:26:17.3797|INFO|com.barraider.windowsmover|49|Populated 2 screens
+2023-02-05 13:26:17.3797|INFO|com.barraider.windowsmover|49|Populated 89 applications
+2023-02-05 13:26:17.3797|INFO|com.barraider.windowsmover|49|Populated 2 screens
+2023-02-05 13:26:17.3886|INFO|com.barraider.windowsmover|23|Populated 89 applications
+2023-02-05 13:26:17.3886|INFO|com.barraider.windowsmover|23|Populated 2 screens
+2023-02-05 13:26:17.3886|INFO|com.barraider.windowsmover|23|Populated 89 applications
+2023-02-05 13:26:17.3886|INFO|com.barraider.windowsmover|23|Populated 2 screens
+2023-02-05 13:26:26.5224|INFO|com.barraider.windowsmover|23|Destructor called
+2023-02-05 13:26:26.5224|INFO|com.barraider.windowsmover|23|Destructor called
+2023-02-05 13:26:26.5224|INFO|com.barraider.windowsmover|23|Destructor called
+2023-02-05 13:26:26.5224|INFO|com.barraider.windowsmover|49|Destructor called
+2023-02-05 13:26:26.5224|INFO|com.barraider.windowsmover|49|Destructor called
+2023-02-05 13:26:26.5224|INFO|com.barraider.windowsmover|49|Destructor called
+2023-02-05 13:26:27.4839|INFO|com.barraider.windowsmover|23|Populated 89 applications
+2023-02-05 13:26:27.4839|INFO|com.barraider.windowsmover|23|Populated 2 screens
+2023-02-05 13:26:27.4839|INFO|com.barraider.windowsmover|23|Populated 89 applications
+2023-02-05 13:26:27.4839|INFO|com.barraider.windowsmover|23|Populated 2 screens
+2023-02-05 13:26:27.4839|INFO|com.barraider.windowsmover|23|Populated 89 applications
+2023-02-05 13:26:27.4839|INFO|com.barraider.windowsmover|23|Populated 2 screens
+2023-02-05 13:26:27.4839|INFO|com.barraider.windowsmover|49|Populated 89 applications
+2023-02-05 13:26:27.4839|INFO|com.barraider.windowsmover|49|Populated 2 screens
+2023-02-05 13:26:27.4969|INFO|com.barraider.windowsmover|49|Populated 89 applications
+2023-02-05 13:26:27.4969|INFO|com.barraider.windowsmover|49|Populated 2 screens
+2023-02-05 13:26:27.4969|INFO|com.barraider.windowsmover|49|Populated 89 applications
+2023-02-05 13:26:27.4969|INFO|com.barraider.windowsmover|49|Populated 2 screens
+2023-02-05 13:26:27.9028|INFO|com.barraider.windowsmover|49|Destructor called
+2023-02-05 13:26:27.9028|INFO|com.barraider.windowsmover|49|Destructor called
+2023-02-05 13:26:27.9028|INFO|com.barraider.windowsmover|49|Destructor called
+2023-02-05 13:26:27.9028|INFO|com.barraider.windowsmover|23|Destructor called
+2023-02-05 13:26:27.9028|INFO|com.barraider.windowsmover|23|Destructor called
+2023-02-05 13:26:27.9028|INFO|com.barraider.windowsmover|23|Destructor called
+2023-02-05 13:26:28.9450|INFO|com.barraider.windowsmover|23|Populated 87 applications
+2023-02-05 13:26:28.9450|INFO|com.barraider.windowsmover|23|Populated 2 screens
+2023-02-05 13:26:28.9450|INFO|com.barraider.windowsmover|23|Populated 87 applications
+2023-02-05 13:26:28.9450|INFO|com.barraider.windowsmover|23|Populated 2 screens
+2023-02-05 13:26:28.9520|INFO|com.barraider.windowsmover|23|Populated 87 applications
+2023-02-05 13:26:28.9520|INFO|com.barraider.windowsmover|23|Populated 2 screens
+2023-02-05 13:26:28.9520|INFO|com.barraider.windowsmover|48|Populated 87 applications
+2023-02-05 13:26:28.9520|INFO|com.barraider.windowsmover|48|Populated 2 screens
+2023-02-05 13:26:28.9520|INFO|com.barraider.windowsmover|48|Populated 87 applications
+2023-02-05 13:26:28.9520|INFO|com.barraider.windowsmover|48|Populated 2 screens
+2023-02-05 13:26:28.9520|INFO|com.barraider.windowsmover|48|Populated 87 applications
+2023-02-05 13:26:28.9520|INFO|com.barraider.windowsmover|48|Populated 2 screens
+2023-02-05 13:26:29.4013|INFO|com.barraider.windowsmover|48|Destructor called
+2023-02-05 13:26:29.4013|INFO|com.barraider.windowsmover|48|Destructor called
+2023-02-05 13:26:29.4033|INFO|com.barraider.windowsmover|48|Destructor called
+2023-02-05 13:26:29.4033|INFO|com.barraider.windowsmover|48|Destructor called
+2023-02-05 13:26:29.4033|INFO|com.barraider.windowsmover|46|Destructor called
+2023-02-05 13:26:29.4033|INFO|com.barraider.windowsmover|46|Destructor called
+2023-02-05 13:26:29.8187|INFO|com.barraider.windowsmover|46|Populated 87 applications
+2023-02-05 13:26:29.8187|INFO|com.barraider.windowsmover|46|Populated 2 screens
+2023-02-05 13:26:29.8252|INFO|com.barraider.windowsmover|46|Populated 87 applications
+2023-02-05 13:26:29.8252|INFO|com.barraider.windowsmover|46|Populated 2 screens
+2023-02-05 13:26:29.8252|INFO|com.barraider.windowsmover|46|Populated 87 applications
+2023-02-05 13:26:29.8252|INFO|com.barraider.windowsmover|46|Populated 2 screens
+2023-02-05 13:26:29.8252|INFO|com.barraider.windowsmover|46|Populated 87 applications
+2023-02-05 13:26:29.8252|INFO|com.barraider.windowsmover|46|Populated 2 screens
+2023-02-05 13:26:29.8252|INFO|com.barraider.windowsmover|48|Populated 87 applications
+2023-02-05 13:26:29.8252|INFO|com.barraider.windowsmover|48|Populated 2 screens
+2023-02-05 13:26:29.8252|INFO|com.barraider.windowsmover|48|Populated 87 applications
+2023-02-05 13:26:29.8252|INFO|com.barraider.windowsmover|48|Populated 2 screens
+2023-02-05 13:26:30.1508|INFO|com.barraider.windowsmover|48|Destructor called
+2023-02-05 13:26:30.1508|INFO|com.barraider.windowsmover|48|Destructor called
+2023-02-05 13:26:30.1508|INFO|com.barraider.windowsmover|48|Destructor called
+2023-02-05 13:26:30.1508|INFO|com.barraider.windowsmover|48|Destructor called
+2023-02-05 13:26:30.1558|INFO|com.barraider.windowsmover|46|Destructor called
+2023-02-05 13:26:30.1558|INFO|com.barraider.windowsmover|46|Destructor called
+2023-02-05 13:26:30.3992|INFO|com.barraider.windowsmover|48|Populated 87 applications
+2023-02-05 13:26:30.3992|INFO|com.barraider.windowsmover|48|Populated 2 screens
+2023-02-05 13:26:30.3992|INFO|com.barraider.windowsmover|48|Populated 87 applications
+2023-02-05 13:26:30.3992|INFO|com.barraider.windowsmover|48|Populated 2 screens
+2023-02-05 13:26:30.4042|INFO|com.barraider.windowsmover|48|Populated 87 applications
+2023-02-05 13:26:30.4042|INFO|com.barraider.windowsmover|48|Populated 2 screens
+2023-02-05 13:26:30.4042|INFO|com.barraider.windowsmover|48|Populated 87 applications
+2023-02-05 13:26:30.4042|INFO|com.barraider.windowsmover|48|Populated 2 screens
+2023-02-05 13:26:30.4042|INFO|com.barraider.windowsmover|49|Populated 87 applications
+2023-02-05 13:26:30.4042|INFO|com.barraider.windowsmover|49|Populated 2 screens
+2023-02-05 13:26:30.4042|INFO|com.barraider.windowsmover|49|Populated 87 applications
+2023-02-05 13:26:30.4042|INFO|com.barraider.windowsmover|49|Populated 2 screens
+2023-02-05 13:26:30.9617|INFO|com.barraider.windowsmover|49|Destructor called
+2023-02-05 13:26:30.9617|INFO|com.barraider.windowsmover|49|Destructor called
+2023-02-05 13:26:30.9617|INFO|com.barraider.windowsmover|49|Destructor called
+2023-02-05 13:26:30.9617|INFO|com.barraider.windowsmover|49|Destructor called
+2023-02-05 13:26:30.9617|INFO|com.barraider.windowsmover|46|Destructor called
+2023-02-05 13:26:30.9657|INFO|com.barraider.windowsmover|46|Destructor called
+2023-02-05 13:26:31.2664|INFO|com.barraider.windowsmover|46|Populated 87 applications
+2023-02-05 13:26:31.2664|INFO|com.barraider.windowsmover|46|Populated 2 screens
+2023-02-05 13:26:31.2664|INFO|com.barraider.windowsmover|46|Populated 87 applications
+2023-02-05 13:26:31.2664|INFO|com.barraider.windowsmover|46|Populated 2 screens
+2023-02-05 13:26:31.2664|INFO|com.barraider.windowsmover|46|Populated 87 applications
+2023-02-05 13:26:31.2664|INFO|com.barraider.windowsmover|46|Populated 2 screens
+2023-02-05 13:26:31.2783|INFO|com.barraider.windowsmover|46|Populated 87 applications
+2023-02-05 13:26:31.2783|INFO|com.barraider.windowsmover|46|Populated 2 screens
+2023-02-05 13:26:31.2783|INFO|com.barraider.windowsmover|49|Populated 87 applications
+2023-02-05 13:26:31.2783|INFO|com.barraider.windowsmover|49|Populated 2 screens
+2023-02-05 13:26:31.2783|INFO|com.barraider.windowsmover|49|Populated 87 applications
+2023-02-05 13:26:31.2783|INFO|com.barraider.windowsmover|49|Populated 2 screens
+2023-02-05 13:26:31.6010|INFO|com.barraider.windowsmover|49|Destructor called
+2023-02-05 13:26:31.6010|INFO|com.barraider.windowsmover|49|Destructor called
+2023-02-05 13:26:31.6010|INFO|com.barraider.windowsmover|49|Destructor called
+2023-02-05 13:26:31.6010|INFO|com.barraider.windowsmover|49|Destructor called
+2023-02-05 13:26:31.6010|INFO|com.barraider.windowsmover|46|Destructor called
+2023-02-05 13:26:31.6010|INFO|com.barraider.windowsmover|46|Destructor called
+2023-02-05 13:26:31.8418|INFO|com.barraider.windowsmover|46|Populated 87 applications
+2023-02-05 13:26:31.8418|INFO|com.barraider.windowsmover|46|Populated 2 screens
+2023-02-05 13:26:31.8418|INFO|com.barraider.windowsmover|46|Populated 87 applications
+2023-02-05 13:26:31.8418|INFO|com.barraider.windowsmover|46|Populated 2 screens
+2023-02-05 13:26:31.8418|INFO|com.barraider.windowsmover|46|Populated 87 applications
+2023-02-05 13:26:31.8418|INFO|com.barraider.windowsmover|46|Populated 2 screens
+2023-02-05 13:26:31.8418|INFO|com.barraider.windowsmover|46|Populated 87 applications
+2023-02-05 13:26:31.8418|INFO|com.barraider.windowsmover|46|Populated 2 screens
+2023-02-05 13:26:31.8418|INFO|com.barraider.windowsmover|48|Populated 87 applications
+2023-02-05 13:26:31.8418|INFO|com.barraider.windowsmover|48|Populated 2 screens
+2023-02-05 13:26:31.8418|INFO|com.barraider.windowsmover|48|Populated 87 applications
+2023-02-05 13:26:31.8418|INFO|com.barraider.windowsmover|48|Populated 2 screens
+2023-02-05 13:26:32.1495|INFO|com.barraider.windowsmover|48|Destructor called
+2023-02-05 13:26:32.1495|INFO|com.barraider.windowsmover|48|Destructor called
+2023-02-05 13:26:32.1495|INFO|com.barraider.windowsmover|48|Destructor called
+2023-02-05 13:26:32.1495|INFO|com.barraider.windowsmover|48|Destructor called
+2023-02-05 13:26:32.1495|INFO|com.barraider.windowsmover|49|Destructor called
+2023-02-05 13:26:32.1495|INFO|com.barraider.windowsmover|49|Destructor called
+2023-02-05 13:26:32.4627|INFO|com.barraider.windowsmover|48|Populated 87 applications
+2023-02-05 13:26:32.4627|INFO|com.barraider.windowsmover|48|Populated 2 screens
+2023-02-05 13:26:32.4657|INFO|com.barraider.windowsmover|48|Populated 87 applications
+2023-02-05 13:26:32.4657|INFO|com.barraider.windowsmover|48|Populated 2 screens
+2023-02-05 13:26:32.4657|INFO|com.barraider.windowsmover|48|Populated 87 applications
+2023-02-05 13:26:32.4657|INFO|com.barraider.windowsmover|48|Populated 2 screens
+2023-02-05 13:26:32.4657|INFO|com.barraider.windowsmover|48|Populated 87 applications
+2023-02-05 13:26:32.4657|INFO|com.barraider.windowsmover|48|Populated 2 screens
+2023-02-05 13:26:32.4657|INFO|com.barraider.windowsmover|46|Populated 87 applications
+2023-02-05 13:26:32.4657|INFO|com.barraider.windowsmover|46|Populated 2 screens
+2023-02-05 13:26:32.4657|INFO|com.barraider.windowsmover|46|Populated 87 applications
+2023-02-05 13:26:32.4657|INFO|com.barraider.windowsmover|46|Populated 2 screens
+2023-02-05 13:26:32.7808|INFO|com.barraider.windowsmover|46|Destructor called
+2023-02-05 13:26:32.7808|INFO|com.barraider.windowsmover|46|Destructor called
+2023-02-05 13:26:32.7808|INFO|com.barraider.windowsmover|46|Destructor called
+2023-02-05 13:26:32.7808|INFO|com.barraider.windowsmover|46|Destructor called
+2023-02-05 13:26:32.7808|INFO|com.barraider.windowsmover|48|Destructor called
+2023-02-05 13:26:32.7808|INFO|com.barraider.windowsmover|48|Destructor called
+2023-02-05 13:26:32.9723|INFO|com.barraider.windowsmover|48|Populated 87 applications
+2023-02-05 13:26:32.9723|INFO|com.barraider.windowsmover|48|Populated 2 screens
+2023-02-05 13:26:32.9723|INFO|com.barraider.windowsmover|48|Populated 87 applications
+2023-02-05 13:26:32.9723|INFO|com.barraider.windowsmover|48|Populated 2 screens
+2023-02-05 13:26:32.9723|INFO|com.barraider.windowsmover|48|Populated 87 applications
+2023-02-05 13:26:32.9723|INFO|com.barraider.windowsmover|48|Populated 2 screens
+2023-02-05 13:26:32.9813|INFO|com.barraider.windowsmover|48|Populated 87 applications
+2023-02-05 13:26:32.9813|INFO|com.barraider.windowsmover|48|Populated 2 screens
+2023-02-05 13:26:32.9813|INFO|com.barraider.windowsmover|46|Populated 87 applications
+2023-02-05 13:26:32.9813|INFO|com.barraider.windowsmover|46|Populated 2 screens
+2023-02-05 13:26:32.9813|INFO|com.barraider.windowsmover|46|Populated 87 applications
+2023-02-05 13:26:32.9813|INFO|com.barraider.windowsmover|46|Populated 2 screens
+2023-02-05 13:26:33.2257|INFO|com.barraider.windowsmover|46|Destructor called
+2023-02-05 13:26:33.2257|INFO|com.barraider.windowsmover|46|Destructor called
+2023-02-05 13:26:33.2257|INFO|com.barraider.windowsmover|46|Destructor called
+2023-02-05 13:26:33.2257|INFO|com.barraider.windowsmover|46|Destructor called
+2023-02-05 13:26:33.2257|INFO|com.barraider.windowsmover|48|Destructor called
+2023-02-05 13:26:33.2257|INFO|com.barraider.windowsmover|48|Destructor called
+2023-02-05 13:26:33.5438|INFO|com.barraider.windowsmover|48|Populated 87 applications
+2023-02-05 13:26:33.5438|INFO|com.barraider.windowsmover|48|Populated 2 screens
+2023-02-05 13:26:33.5438|INFO|com.barraider.windowsmover|48|Populated 87 applications
+2023-02-05 13:26:33.5438|INFO|com.barraider.windowsmover|48|Populated 2 screens
+2023-02-05 13:26:33.5438|INFO|com.barraider.windowsmover|48|Populated 87 applications
+2023-02-05 13:26:33.5438|INFO|com.barraider.windowsmover|48|Populated 2 screens
+2023-02-05 13:26:33.5438|INFO|com.barraider.windowsmover|48|Populated 87 applications
+2023-02-05 13:26:33.5438|INFO|com.barraider.windowsmover|48|Populated 2 screens
+2023-02-05 13:26:33.5438|INFO|com.barraider.windowsmover|49|Populated 87 applications
+2023-02-05 13:26:33.5438|INFO|com.barraider.windowsmover|49|Populated 2 screens
+2023-02-05 13:26:33.5438|INFO|com.barraider.windowsmover|49|Populated 87 applications
+2023-02-05 13:26:33.5438|INFO|com.barraider.windowsmover|49|Populated 2 screens
+2023-02-05 13:26:34.6314|INFO|com.barraider.windowsmover|46|Destructor called
+2023-02-05 13:26:34.6314|INFO|com.barraider.windowsmover|46|Destructor called
+2023-02-05 13:26:34.6314|INFO|com.barraider.windowsmover|46|Destructor called
+2023-02-05 13:26:34.6314|INFO|com.barraider.windowsmover|46|Destructor called
+2023-02-05 13:26:34.6314|INFO|com.barraider.windowsmover|49|Destructor called
+2023-02-05 13:26:34.6314|INFO|com.barraider.windowsmover|49|Destructor called
+2023-02-05 14:53:22.5928|INFO|com.barraider.windowsmover|41|Populated 88 applications
+2023-02-05 14:53:22.7155|INFO|com.barraider.windowsmover|41|WMI returned 2 monitors
+2023-02-05 14:53:22.7155|INFO|com.barraider.windowsmover|41|QueryDisplay returned 2 paths and 4 modes
+2023-02-05 14:53:22.7155|INFO|com.barraider.windowsmover|41|QueryDisplay returned 2 monitors
+2023-02-05 14:53:22.7155|INFO|com.barraider.windowsmover|41|GetAggregatedMonitorInfo returned 2 aggregated monitors
+2023-02-05 14:53:22.7155|INFO|com.barraider.windowsmover|41|Populated 2 screens
+2023-02-05 14:53:22.7155|INFO|com.barraider.windowsmover|41|Populated 89 applications
+2023-02-05 14:53:22.7155|INFO|com.barraider.windowsmover|41|Populated 2 screens
+2023-02-05 14:53:22.7155|INFO|com.barraider.windowsmover|41|Populated 89 applications
+2023-02-05 14:53:22.7155|INFO|com.barraider.windowsmover|41|Populated 2 screens
+2023-02-05 14:53:22.7155|INFO|com.barraider.windowsmover|41|Populated 89 applications
+2023-02-05 14:53:22.7155|INFO|com.barraider.windowsmover|41|Populated 2 screens
+2023-02-05 14:53:22.7155|INFO|com.barraider.windowsmover|56|Populated 89 applications
+2023-02-05 14:53:22.7155|INFO|com.barraider.windowsmover|56|Populated 2 screens
+2023-02-05 14:53:22.7155|INFO|com.barraider.windowsmover|56|Populated 89 applications
+2023-02-05 14:53:22.7315|INFO|com.barraider.windowsmover|56|Populated 2 screens
+2023-02-05 14:55:51.9868|INFO|com.barraider.windowsmover|55|Destructor called
+2023-02-05 14:55:51.9868|INFO|com.barraider.windowsmover|55|Destructor called
+2023-02-05 14:55:51.9868|INFO|com.barraider.windowsmover|55|Destructor called
+2023-02-05 14:55:51.9868|INFO|com.barraider.windowsmover|32|Destructor called
+2023-02-05 14:55:51.9868|INFO|com.barraider.windowsmover|32|Destructor called
+2023-02-05 14:55:51.9868|INFO|com.barraider.windowsmover|32|Destructor called
+2023-02-05 15:33:54.4465|INFO|com.barraider.windowsmover|52|Populated 86 applications
+2023-02-05 15:33:54.5717|INFO|com.barraider.windowsmover|52|WMI returned 2 monitors
+2023-02-05 15:33:54.5717|INFO|com.barraider.windowsmover|52|QueryDisplay returned 2 paths and 4 modes
+2023-02-05 15:33:54.5717|INFO|com.barraider.windowsmover|52|QueryDisplay returned 2 monitors
+2023-02-05 15:33:54.5717|INFO|com.barraider.windowsmover|52|GetAggregatedMonitorInfo returned 2 aggregated monitors
+2023-02-05 15:33:54.5717|INFO|com.barraider.windowsmover|52|Populated 2 screens
+2023-02-05 15:33:54.5757|INFO|com.barraider.windowsmover|52|Populated 86 applications
+2023-02-05 15:33:54.5757|INFO|com.barraider.windowsmover|52|Populated 2 screens
+2023-02-05 15:33:54.5757|INFO|com.barraider.windowsmover|52|Populated 86 applications
+2023-02-05 15:33:54.5757|INFO|com.barraider.windowsmover|52|Populated 2 screens
+2023-02-05 15:33:54.5757|INFO|com.barraider.windowsmover|55|Populated 86 applications
+2023-02-05 15:33:54.5757|INFO|com.barraider.windowsmover|55|Populated 2 screens
+2023-02-05 15:33:54.5757|INFO|com.barraider.windowsmover|55|Populated 86 applications
+2023-02-05 15:33:54.5757|INFO|com.barraider.windowsmover|55|Populated 2 screens
+2023-02-05 15:33:54.5757|INFO|com.barraider.windowsmover|55|Populated 86 applications
+2023-02-05 15:33:54.5757|INFO|com.barraider.windowsmover|55|Populated 2 screens
+2023-02-05 15:39:09.6682|INFO|com.barraider.windowsmover|7|Destructor called
+2023-02-05 15:39:09.6692|INFO|com.barraider.windowsmover|7|Destructor called
+2023-02-05 15:39:09.6692|INFO|com.barraider.windowsmover|7|Destructor called
+2023-02-05 15:39:09.6692|INFO|com.barraider.windowsmover|7|Destructor called
+2023-02-05 15:39:09.6692|INFO|com.barraider.windowsmover|27|Destructor called
+2023-02-05 15:39:09.6692|INFO|com.barraider.windowsmover|27|Destructor called
+2023-02-05 15:45:33.0865|INFO|com.barraider.windowsmover|36|Populated 88 applications
+2023-02-05 15:45:33.2067|INFO|com.barraider.windowsmover|36|WMI returned 2 monitors
+2023-02-05 15:45:33.2067|INFO|com.barraider.windowsmover|36|QueryDisplay returned 2 paths and 4 modes
+2023-02-05 15:45:33.2067|INFO|com.barraider.windowsmover|36|QueryDisplay returned 2 monitors
+2023-02-05 15:45:33.2067|INFO|com.barraider.windowsmover|36|GetAggregatedMonitorInfo returned 2 aggregated monitors
+2023-02-05 15:45:33.2067|INFO|com.barraider.windowsmover|36|Populated 2 screens
+2023-02-05 15:45:33.2067|INFO|com.barraider.windowsmover|36|Populated 88 applications
+2023-02-05 15:45:33.2067|INFO|com.barraider.windowsmover|36|Populated 2 screens
+2023-02-05 15:45:33.2067|INFO|com.barraider.windowsmover|36|Populated 88 applications
+2023-02-05 15:45:33.2067|INFO|com.barraider.windowsmover|36|Populated 2 screens
+2023-02-05 15:45:33.2177|INFO|com.barraider.windowsmover|36|Populated 88 applications
+2023-02-05 15:45:33.2177|INFO|com.barraider.windowsmover|36|Populated 2 screens
+2023-02-05 15:45:33.2177|INFO|com.barraider.windowsmover|22|Populated 88 applications
+2023-02-05 15:45:33.2177|INFO|com.barraider.windowsmover|22|Populated 2 screens
+2023-02-05 15:45:33.2177|INFO|com.barraider.windowsmover|22|Populated 88 applications
+2023-02-05 15:45:33.2177|INFO|com.barraider.windowsmover|22|Populated 2 screens
+2023-02-05 15:52:25.0545|INFO|com.barraider.windowsmover|25|Destructor called
+2023-02-05 15:52:25.0545|INFO|com.barraider.windowsmover|25|Destructor called
+2023-02-05 15:52:25.0545|INFO|com.barraider.windowsmover|25|Destructor called
+2023-02-05 15:52:25.0545|INFO|com.barraider.windowsmover|25|Destructor called
+2023-02-05 15:52:25.0545|INFO|com.barraider.windowsmover|54|Destructor called
+2023-02-05 15:52:25.0545|INFO|com.barraider.windowsmover|54|Destructor called
+2023-02-05 16:06:23.5318|INFO|com.barraider.windowsmover|38|Populated 89 applications
+2023-02-05 16:06:23.6534|INFO|com.barraider.windowsmover|38|WMI returned 2 monitors
+2023-02-05 16:06:23.6534|INFO|com.barraider.windowsmover|38|QueryDisplay returned 1 paths and 2 modes
+2023-02-05 16:06:23.6534|INFO|com.barraider.windowsmover|38|QueryDisplay returned 1 monitors
+2023-02-05 16:06:23.6534|INFO|com.barraider.windowsmover|38|GetAggregatedMonitorInfo returned 1 aggregated monitors
+2023-02-05 16:06:23.6534|INFO|com.barraider.windowsmover|38|Populated 1 screens
+2023-02-05 16:06:23.6534|INFO|com.barraider.windowsmover|38|Populated 89 applications
+2023-02-05 16:06:23.6534|INFO|com.barraider.windowsmover|38|Populated 1 screens
+2023-02-05 16:06:23.6534|INFO|com.barraider.windowsmover|38|Populated 89 applications
+2023-02-05 16:06:23.6534|INFO|com.barraider.windowsmover|38|Populated 1 screens
+2023-02-05 16:06:23.6534|INFO|com.barraider.windowsmover|38|Populated 89 applications
+2023-02-05 16:06:23.6534|INFO|com.barraider.windowsmover|38|Populated 1 screens
+2023-02-05 16:06:23.6534|INFO|com.barraider.windowsmover|47|Populated 89 applications
+2023-02-05 16:06:23.6534|INFO|com.barraider.windowsmover|47|Populated 1 screens
+2023-02-05 16:06:23.6694|INFO|com.barraider.windowsmover|47|Populated 89 applications
+2023-02-05 16:06:23.6694|INFO|com.barraider.windowsmover|47|Populated 1 screens
+2023-02-05 16:06:26.9283|INFO|com.barraider.windowsmover|38|Key Pressed
+2023-02-05 16:06:26.9283|INFO|com.barraider.windowsmover|38|Found monitor based on unique friendly name
+2023-02-05 16:06:26.9283|INFO|com.barraider.windowsmover|38|Changing window position for: ForegroundHandle: 0 ProcessName: Spotify DestinationScreen: \\.\DISPLAY5 Position: -1920,0 Resize: ResizeWindow Height: 1040 Width: 960 TopMost: True LocationFilter:  TitleFilter: 
+2023-02-05 16:06:26.9343|INFO|com.barraider.windowsmover|38|Found Spotify with handle 66524
+2023-02-05 16:06:26.9343|INFO|com.barraider.windowsmover|38|Iterated through 6 processes, moved 1
+2023-02-05 16:06:27.1333|INFO|com.barraider.windowsmover|38|Key Pressed
+2023-02-05 16:06:27.1333|INFO|com.barraider.windowsmover|38|Found monitor based on unique friendly name
+2023-02-05 16:06:27.1333|INFO|com.barraider.windowsmover|38|Changing window position for: ForegroundHandle: 0 ProcessName: GoXLR App DestinationScreen: \\.\DISPLAY5 Position: -960,0 Resize: ResizeWindow Height: 1040 Width: 960 TopMost: True LocationFilter:  TitleFilter: 
+2023-02-05 16:06:27.1333|INFO|com.barraider.windowsmover|38|Found GoXLR App with handle 197598
+2023-02-05 16:06:27.1393|INFO|com.barraider.windowsmover|38|Iterated through 1 processes, moved 1
+2023-02-05 16:06:27.3333|INFO|com.barraider.windowsmover|47|Key Pressed
+2023-02-05 16:06:27.3333|WARN|com.barraider.windowsmover|47|Failed to find screen based on uniqueValue: M32QC|21490B004096|DISPLAY\GBT3205\5&23fd3394&0&UID4353_0
+2023-02-05 16:06:27.3333|ERROR|com.barraider.windowsmover|47|Could not find screen M32QC|21490B004096|DISPLAY\GBT3205\5&23fd3394&0&UID4353_0
+2023-02-05 16:06:27.5378|INFO|com.barraider.windowsmover|47|Key Pressed
+2023-02-05 16:06:27.5378|WARN|com.barraider.windowsmover|47|Failed to find screen based on uniqueValue: M32QC|21490B004096|DISPLAY\GBT3205\5&23fd3394&0&UID4353_0
+2023-02-05 16:06:27.5378|ERROR|com.barraider.windowsmover|47|Could not find screen M32QC|21490B004096|DISPLAY\GBT3205\5&23fd3394&0&UID4353_0
+2023-02-05 16:06:43.3774|INFO|com.barraider.windowsmover|27|Destructor called
+2023-02-05 16:06:43.3774|INFO|com.barraider.windowsmover|27|Destructor called
+2023-02-05 16:06:43.3774|INFO|com.barraider.windowsmover|27|Destructor called
+2023-02-05 16:06:43.3774|INFO|com.barraider.windowsmover|27|Destructor called
+2023-02-05 16:06:43.3774|INFO|com.barraider.windowsmover|38|Destructor called
+2023-02-05 16:06:43.3774|INFO|com.barraider.windowsmover|38|Destructor called
+2023-02-05 16:07:01.0274|INFO|com.barraider.windowsmover|57|Populated 89 applications
+2023-02-05 16:07:01.0274|INFO|com.barraider.windowsmover|57|Populated 1 screens
+2023-02-05 16:07:01.0314|INFO|com.barraider.windowsmover|57|Populated 89 applications
+2023-02-05 16:07:01.0314|INFO|com.barraider.windowsmover|57|Populated 1 screens
+2023-02-05 16:07:01.0314|INFO|com.barraider.windowsmover|57|Populated 89 applications
+2023-02-05 16:07:01.0314|INFO|com.barraider.windowsmover|57|Populated 1 screens
+2023-02-05 16:07:01.0314|INFO|com.barraider.windowsmover|57|Populated 89 applications
+2023-02-05 16:07:01.0314|INFO|com.barraider.windowsmover|57|Populated 1 screens
+2023-02-05 16:07:01.0314|INFO|com.barraider.windowsmover|27|Populated 89 applications
+2023-02-05 16:07:01.0314|INFO|com.barraider.windowsmover|27|Populated 1 screens
+2023-02-05 16:07:01.0464|INFO|com.barraider.windowsmover|27|Populated 89 applications
+2023-02-05 16:07:01.0464|INFO|com.barraider.windowsmover|27|Populated 1 screens
+2023-02-05 16:07:04.7246|INFO|com.barraider.windowsmover|57|Key Pressed
+2023-02-05 16:07:04.7246|INFO|com.barraider.windowsmover|57|Found monitor based on unique friendly name
+2023-02-05 16:07:04.7246|INFO|com.barraider.windowsmover|57|Changing window position for: ForegroundHandle: 0 ProcessName: Spotify DestinationScreen: \\.\DISPLAY5 Position: -1920,0 Resize: ResizeWindow Height: 1040 Width: 960 TopMost: True LocationFilter:  TitleFilter: 
+2023-02-05 16:07:04.7246|INFO|com.barraider.windowsmover|57|Found Spotify with handle 66524
+2023-02-05 16:07:04.7316|INFO|com.barraider.windowsmover|57|Iterated through 6 processes, moved 1
+2023-02-05 16:07:04.9316|INFO|com.barraider.windowsmover|57|Key Pressed
+2023-02-05 16:07:04.9316|INFO|com.barraider.windowsmover|57|Found monitor based on unique friendly name
+2023-02-05 16:07:04.9316|INFO|com.barraider.windowsmover|57|Changing window position for: ForegroundHandle: 0 ProcessName: GoXLR App DestinationScreen: \\.\DISPLAY5 Position: -960,0 Resize: ResizeWindow Height: 1040 Width: 960 TopMost: True LocationFilter:  TitleFilter: 
+2023-02-05 16:07:04.9316|INFO|com.barraider.windowsmover|57|Found GoXLR App with handle 197598
+2023-02-05 16:07:04.9645|INFO|com.barraider.windowsmover|57|Iterated through 1 processes, moved 1
+2023-02-05 16:07:05.1340|INFO|com.barraider.windowsmover|57|Key Pressed
+2023-02-05 16:07:05.1340|WARN|com.barraider.windowsmover|57|Failed to find screen based on uniqueValue: M32QC|21490B004096|DISPLAY\GBT3205\5&23fd3394&0&UID4353_0
+2023-02-05 16:07:05.1340|ERROR|com.barraider.windowsmover|57|Could not find screen M32QC|21490B004096|DISPLAY\GBT3205\5&23fd3394&0&UID4353_0
+2023-02-05 16:07:05.3395|INFO|com.barraider.windowsmover|57|Key Pressed
+2023-02-05 16:07:05.3395|WARN|com.barraider.windowsmover|57|Failed to find screen based on uniqueValue: M32QC|21490B004096|DISPLAY\GBT3205\5&23fd3394&0&UID4353_0
+2023-02-05 16:07:05.3395|ERROR|com.barraider.windowsmover|57|Could not find screen M32QC|21490B004096|DISPLAY\GBT3205\5&23fd3394&0&UID4353_0
+2023-02-05 16:07:36.9798|INFO|com.barraider.windowsmover|57|Destructor called
+2023-02-05 16:07:36.9798|INFO|com.barraider.windowsmover|57|Destructor called
+2023-02-05 16:07:36.9798|INFO|com.barraider.windowsmover|57|Destructor called
+2023-02-05 16:07:36.9798|INFO|com.barraider.windowsmover|57|Destructor called
+2023-02-05 16:07:36.9798|INFO|com.barraider.windowsmover|25|Destructor called
+2023-02-05 16:07:36.9798|INFO|com.barraider.windowsmover|25|Destructor called
+2023-02-05 17:38:10.2417|INFO|com.barraider.windowsmover|39|Populated 89 applications
+2023-02-05 17:38:10.3649|INFO|com.barraider.windowsmover|39|WMI returned 2 monitors
+2023-02-05 17:38:10.3649|INFO|com.barraider.windowsmover|39|QueryDisplay returned 2 paths and 4 modes
+2023-02-05 17:38:10.3649|INFO|com.barraider.windowsmover|39|QueryDisplay returned 2 monitors
+2023-02-05 17:38:10.3649|INFO|com.barraider.windowsmover|39|GetAggregatedMonitorInfo returned 2 aggregated monitors
+2023-02-05 17:38:10.3649|INFO|com.barraider.windowsmover|39|Populated 2 screens
+2023-02-05 17:38:10.3649|INFO|com.barraider.windowsmover|39|Populated 89 applications
+2023-02-05 17:38:10.3649|INFO|com.barraider.windowsmover|39|Populated 2 screens
+2023-02-05 17:38:10.3649|INFO|com.barraider.windowsmover|39|Populated 89 applications
+2023-02-05 17:38:10.3649|INFO|com.barraider.windowsmover|39|Populated 2 screens
+2023-02-05 17:38:10.3748|INFO|com.barraider.windowsmover|39|Populated 89 applications
+2023-02-05 17:38:10.3748|INFO|com.barraider.windowsmover|39|Populated 2 screens
+2023-02-05 17:38:10.3748|INFO|com.barraider.windowsmover|31|Populated 89 applications
+2023-02-05 17:38:10.3748|INFO|com.barraider.windowsmover|31|Populated 2 screens
+2023-02-05 17:38:10.3748|INFO|com.barraider.windowsmover|31|Populated 89 applications
+2023-02-05 17:38:10.3748|INFO|com.barraider.windowsmover|31|Populated 2 screens
+2023-02-05 17:38:30.0676|INFO|com.barraider.windowsmover|23|Destructor called
+2023-02-05 17:38:30.0676|INFO|com.barraider.windowsmover|23|Destructor called
+2023-02-05 17:38:30.0676|INFO|com.barraider.windowsmover|23|Destructor called
+2023-02-05 17:38:30.0676|INFO|com.barraider.windowsmover|23|Destructor called
+2023-02-05 17:38:30.0676|INFO|com.barraider.windowsmover|39|Destructor called
+2023-02-05 17:38:30.0676|INFO|com.barraider.windowsmover|39|Destructor called
+2023-02-05 18:50:13.1175|INFO|com.barraider.windowsmover|48|Populated 82 applications
+2023-02-05 18:50:13.2422|INFO|com.barraider.windowsmover|48|WMI returned 2 monitors
+2023-02-05 18:50:13.2422|INFO|com.barraider.windowsmover|48|QueryDisplay returned 2 paths and 4 modes
+2023-02-05 18:50:13.2422|INFO|com.barraider.windowsmover|48|QueryDisplay returned 2 monitors
+2023-02-05 18:50:13.2422|INFO|com.barraider.windowsmover|48|GetAggregatedMonitorInfo returned 2 aggregated monitors
+2023-02-05 18:50:13.2422|INFO|com.barraider.windowsmover|48|Populated 2 screens
+2023-02-05 18:50:13.2422|INFO|com.barraider.windowsmover|48|Populated 82 applications
+2023-02-05 18:50:13.2422|INFO|com.barraider.windowsmover|48|Populated 2 screens
+2023-02-05 18:50:13.2492|INFO|com.barraider.windowsmover|48|Populated 82 applications
+2023-02-05 18:50:13.2492|INFO|com.barraider.windowsmover|48|Populated 2 screens
+2023-02-05 18:50:13.2492|INFO|com.barraider.windowsmover|48|Populated 82 applications
+2023-02-05 18:50:13.2492|INFO|com.barraider.windowsmover|48|Populated 2 screens
+2023-02-05 18:50:13.2492|INFO|com.barraider.windowsmover|55|Populated 82 applications
+2023-02-05 18:50:13.2492|INFO|com.barraider.windowsmover|55|Populated 2 screens
+2023-02-05 18:50:13.2492|INFO|com.barraider.windowsmover|55|Populated 82 applications
+2023-02-05 18:50:13.2492|INFO|com.barraider.windowsmover|55|Populated 2 screens
+2023-02-05 19:19:27.2662|INFO|com.barraider.windowsmover|65|Destructor called
+2023-02-05 19:19:27.2662|INFO|com.barraider.windowsmover|65|Destructor called
+2023-02-05 19:19:27.2662|INFO|com.barraider.windowsmover|65|Destructor called
+2023-02-05 19:19:27.2662|INFO|com.barraider.windowsmover|65|Destructor called
+2023-02-05 19:19:27.2662|INFO|com.barraider.windowsmover|24|Destructor called
+2023-02-05 19:19:27.2662|INFO|com.barraider.windowsmover|24|Destructor called
+2023-02-05 19:27:06.0088|INFO|com.barraider.windowsmover|46|Populated 85 applications
+2023-02-05 19:27:06.1520|INFO|com.barraider.windowsmover|46|WMI returned 2 monitors
+2023-02-05 19:27:06.1520|INFO|com.barraider.windowsmover|46|QueryDisplay returned 1 paths and 2 modes
+2023-02-05 19:27:06.1520|INFO|com.barraider.windowsmover|46|QueryDisplay returned 1 monitors
+2023-02-05 19:27:06.1520|INFO|com.barraider.windowsmover|46|GetAggregatedMonitorInfo returned 1 aggregated monitors
+2023-02-05 19:27:06.1520|INFO|com.barraider.windowsmover|46|Populated 1 screens
+2023-02-05 19:27:06.1520|INFO|com.barraider.windowsmover|46|Populated 85 applications
+2023-02-05 19:27:06.1520|INFO|com.barraider.windowsmover|46|Populated 1 screens
+2023-02-05 19:27:06.1520|INFO|com.barraider.windowsmover|46|Populated 85 applications
+2023-02-05 19:27:06.1520|INFO|com.barraider.windowsmover|46|Populated 1 screens
+2023-02-05 19:27:06.1520|INFO|com.barraider.windowsmover|46|Populated 85 applications
+2023-02-05 19:27:06.1520|INFO|com.barraider.windowsmover|46|Populated 1 screens
+2023-02-05 19:27:06.1520|INFO|com.barraider.windowsmover|26|Populated 85 applications
+2023-02-05 19:27:06.1520|INFO|com.barraider.windowsmover|26|Populated 1 screens
+2023-02-05 19:27:06.1520|INFO|com.barraider.windowsmover|26|Populated 85 applications
+2023-02-05 19:27:06.1520|INFO|com.barraider.windowsmover|26|Populated 1 screens
+2023-02-05 20:01:42.7259|INFO|com.barraider.windowsmover|38|Key Pressed
+2023-02-05 20:01:42.8783|INFO|com.barraider.windowsmover|38|WMI returned 2 monitors
+2023-02-05 20:01:42.8783|INFO|com.barraider.windowsmover|38|QueryDisplay returned 1 paths and 2 modes
+2023-02-05 20:01:42.8783|INFO|com.barraider.windowsmover|38|QueryDisplay returned 1 monitors
+2023-02-05 20:01:42.8783|INFO|com.barraider.windowsmover|38|GetAggregatedMonitorInfo returned 1 aggregated monitors
+2023-02-05 20:01:42.8783|INFO|com.barraider.windowsmover|38|Found monitor based on unique friendly name
+2023-02-05 20:01:42.8783|INFO|com.barraider.windowsmover|38|Changing window position for: ForegroundHandle: 0 ProcessName: Discord DestinationScreen: \\.\DISPLAY5 Position: 960,0 Resize: ResizeWindow Height: 1040 Width: 960 TopMost: True LocationFilter:  TitleFilter: 
+2023-02-05 20:01:42.8783|INFO|com.barraider.windowsmover|38|Found Discord with handle 263038
+2023-02-05 20:01:42.8969|INFO|com.barraider.windowsmover|38|Iterated through 6 processes, moved 1
+2023-02-05 20:01:42.9308|INFO|com.barraider.windowsmover|38|Key Pressed
+2023-02-05 20:01:42.9308|INFO|com.barraider.windowsmover|38|Found monitor based on unique friendly name
+2023-02-05 20:01:42.9308|INFO|com.barraider.windowsmover|38|Changing window position for: ForegroundHandle: 0 ProcessName: Spotify DestinationScreen: \\.\DISPLAY5 Position: 0,0 Resize: ResizeWindow Height: 1040 Width: 960 TopMost: True LocationFilter:  TitleFilter: 
+2023-02-05 20:01:42.9378|INFO|com.barraider.windowsmover|38|Found Spotify with handle 66524
+2023-02-05 20:01:42.9488|INFO|com.barraider.windowsmover|38|Iterated through 6 processes, moved 1
+2023-02-05 21:01:31.4251|INFO|com.barraider.windowsmover|3|Destructor called
+2023-02-05 21:01:31.4251|INFO|com.barraider.windowsmover|3|Destructor called
+2023-02-05 21:01:31.4251|INFO|com.barraider.windowsmover|3|Destructor called
+2023-02-05 21:01:31.4251|INFO|com.barraider.windowsmover|3|Destructor called
+2023-02-05 21:01:31.4251|INFO|com.barraider.windowsmover|27|Destructor called
+2023-02-05 21:01:31.4251|INFO|com.barraider.windowsmover|27|Destructor called
+2023-02-05 21:02:48.5368|INFO|com.barraider.windowsmover|58|Populated 85 applications
+2023-02-05 21:02:48.6764|INFO|com.barraider.windowsmover|58|WMI returned 2 monitors
+2023-02-05 21:02:48.6764|INFO|com.barraider.windowsmover|58|QueryDisplay returned 2 paths and 4 modes
+2023-02-05 21:02:48.6764|INFO|com.barraider.windowsmover|58|QueryDisplay returned 2 monitors
+2023-02-05 21:02:48.6764|INFO|com.barraider.windowsmover|58|GetAggregatedMonitorInfo returned 2 aggregated monitors
+2023-02-05 21:02:48.6764|INFO|com.barraider.windowsmover|58|Populated 2 screens
+2023-02-05 21:02:48.6764|INFO|com.barraider.windowsmover|58|Populated 85 applications
+2023-02-05 21:02:48.6764|INFO|com.barraider.windowsmover|58|Populated 2 screens
+2023-02-05 21:02:48.6824|INFO|com.barraider.windowsmover|58|Populated 85 applications
+2023-02-05 21:02:48.6824|INFO|com.barraider.windowsmover|58|Populated 2 screens
+2023-02-05 21:02:48.6824|INFO|com.barraider.windowsmover|58|Populated 85 applications
+2023-02-05 21:02:48.6824|INFO|com.barraider.windowsmover|58|Populated 2 screens
+2023-02-05 21:02:48.6824|INFO|com.barraider.windowsmover|53|Populated 85 applications
+2023-02-05 21:02:48.6824|INFO|com.barraider.windowsmover|53|Populated 2 screens
+2023-02-05 21:02:48.6824|INFO|com.barraider.windowsmover|53|Populated 85 applications
+2023-02-05 21:02:48.6824|INFO|com.barraider.windowsmover|53|Populated 2 screens
+2023-02-05 21:02:51.4268|INFO|com.barraider.windowsmover|58|Key Pressed
+2023-02-05 21:02:51.4268|INFO|com.barraider.windowsmover|58|Found monitor based on unique friendly name
+2023-02-05 21:02:51.4268|INFO|com.barraider.windowsmover|58|Changing window position for: ForegroundHandle: 0 ProcessName: Spotify DestinationScreen: \\.\DISPLAY5 Position: -1920,0 Resize: ResizeWindow Height: 1040 Width: 960 TopMost: True LocationFilter:  TitleFilter: 
+2023-02-05 21:02:51.4268|INFO|com.barraider.windowsmover|58|Found Spotify with handle 66524
+2023-02-05 21:02:51.4417|INFO|com.barraider.windowsmover|58|Iterated through 6 processes, moved 1
+2023-02-05 21:02:51.6287|INFO|com.barraider.windowsmover|53|Key Pressed
+2023-02-05 21:02:51.6287|INFO|com.barraider.windowsmover|53|Found monitor based on unique friendly name
+2023-02-05 21:02:51.6287|INFO|com.barraider.windowsmover|53|Changing window position for: ForegroundHandle: 0 ProcessName: GoXLR App DestinationScreen: \\.\DISPLAY5 Position: -960,0 Resize: ResizeWindow Height: 1040 Width: 960 TopMost: True LocationFilter:  TitleFilter: 
+2023-02-05 21:02:51.6287|INFO|com.barraider.windowsmover|53|Found GoXLR App with handle 197598
+2023-02-05 21:02:51.7001|INFO|com.barraider.windowsmover|53|Iterated through 1 processes, moved 1
+2023-02-05 21:02:51.8357|INFO|com.barraider.windowsmover|53|Key Pressed
+2023-02-05 21:02:51.8357|INFO|com.barraider.windowsmover|53|Found monitor based on unique friendly name
+2023-02-05 21:02:51.8357|INFO|com.barraider.windowsmover|53|Changing window position for: ForegroundHandle: 0 ProcessName: Discord DestinationScreen: \\.\DISPLAY1 Position: 1280,0 Resize: ResizeWindow Height: 1400 Width: 1280 TopMost: True LocationFilter:  TitleFilter: 
+2023-02-05 21:02:51.8387|INFO|com.barraider.windowsmover|53|Found Discord with handle 263038
+2023-02-05 21:02:51.8387|INFO|com.barraider.windowsmover|53|Iterated through 6 processes, moved 1
+2023-02-05 21:02:52.0387|INFO|com.barraider.windowsmover|53|Key Pressed
+2023-02-05 21:02:52.0387|INFO|com.barraider.windowsmover|53|Found monitor based on unique friendly name
+2023-02-05 21:02:52.0387|INFO|com.barraider.windowsmover|53|Changing window position for: ForegroundHandle: 0 ProcessName: Teams DestinationScreen: \\.\DISPLAY1 Position: 1260,517 Resize: ResizeWindow Height: 536 Width: 336 TopMost: True LocationFilter:  TitleFilter: 
+2023-02-05 21:02:52.0387|INFO|com.barraider.windowsmover|53|Iterated through 0 processes, moved 0
+2023-02-05 21:02:57.0413|INFO|com.barraider.windowsmover|14|Found monitor based on unique friendly name
+2023-02-05 21:02:57.0413|INFO|com.barraider.windowsmover|14|Changing window position for: ForegroundHandle: 0 ProcessName: Teams DestinationScreen: \\.\DISPLAY1 Position: 1260,517 Resize: ResizeWindow Height: 536 Width: 336 TopMost: True LocationFilter:  TitleFilter: 
+2023-02-05 21:02:57.0413|INFO|com.barraider.windowsmover|14|Iterated through 0 processes, moved 0
+2023-02-05 21:03:02.0420|INFO|com.barraider.windowsmover|12|Found monitor based on unique friendly name
+2023-02-05 21:03:02.0420|INFO|com.barraider.windowsmover|12|Changing window position for: ForegroundHandle: 0 ProcessName: Teams DestinationScreen: \\.\DISPLAY1 Position: 1260,517 Resize: ResizeWindow Height: 536 Width: 336 TopMost: True LocationFilter:  TitleFilter: 
+2023-02-05 21:03:02.0420|INFO|com.barraider.windowsmover|12|Iterated through 0 processes, moved 0
+2023-02-05 21:03:07.0420|INFO|com.barraider.windowsmover|12|Found monitor based on unique friendly name
+2023-02-05 21:03:07.0420|INFO|com.barraider.windowsmover|12|Changing window position for: ForegroundHandle: 0 ProcessName: Teams DestinationScreen: \\.\DISPLAY1 Position: 1260,517 Resize: ResizeWindow Height: 536 Width: 336 TopMost: True LocationFilter:  TitleFilter: 
+2023-02-05 21:03:07.0420|INFO|com.barraider.windowsmover|12|Iterated through 0 processes, moved 0
+2023-02-05 21:03:22.4470|DEBUG|com.barraider.windowsmover|1|Logger Initialized
+2023-02-05 21:03:22.5248|INFO|com.barraider.windowsmover|1|Plugin [com.barraider.windowsmover] Loading - 3 Actions Found
+2023-02-05 21:03:23.0542|INFO|com.barraider.windowsmover|1|Plugin version: 2.5
+2023-02-05 21:03:23.0542|INFO|com.barraider.windowsmover|1|Connecting to Stream Deck
+2023-02-05 21:03:25.1307|INFO|com.barraider.windowsmover|1|Connected to Stream Deck
+2023-02-05 21:03:25.1307|INFO|com.barraider.windowsmover|1|GlobalSettingsManager initialized
+2023-02-05 21:03:25.2194|INFO|com.barraider.windowsmover|6|Populated 72 applications
+2023-02-05 21:03:25.2733|INFO|com.barraider.windowsmover|6|WMI returned 2 monitors
+2023-02-05 21:03:25.2763|INFO|com.barraider.windowsmover|6|QueryDisplay returned 2 paths and 4 modes
+2023-02-05 21:03:25.2763|INFO|com.barraider.windowsmover|6|QueryDisplay returned 2 monitors
+2023-02-05 21:03:25.2763|INFO|com.barraider.windowsmover|6|GetAggregatedMonitorInfo returned 2 aggregated monitors
+2023-02-05 21:03:25.2763|INFO|com.barraider.windowsmover|6|Populated 2 screens
+2023-02-05 21:03:25.3122|INFO|com.barraider.windowsmover|6|Populated 71 applications
+2023-02-05 21:03:25.3122|INFO|com.barraider.windowsmover|6|Populated 2 screens
+2023-02-05 21:03:25.3122|INFO|com.barraider.windowsmover|6|Populated 71 applications
+2023-02-05 21:03:25.3122|INFO|com.barraider.windowsmover|6|Populated 2 screens
+2023-02-05 21:03:25.3122|INFO|com.barraider.windowsmover|11|Populated 71 applications
+2023-02-05 21:03:25.3122|INFO|com.barraider.windowsmover|11|Populated 2 screens
+2023-02-05 21:03:25.3251|INFO|com.barraider.windowsmover|11|Populated 71 applications
+2023-02-05 21:03:25.3251|INFO|com.barraider.windowsmover|11|Populated 2 screens
+2023-02-05 21:03:25.3251|INFO|com.barraider.windowsmover|11|Populated 71 applications
+2023-02-05 21:03:25.3251|INFO|com.barraider.windowsmover|11|Populated 2 screens
+2023-02-05 21:03:25.3401|INFO|com.barraider.windowsmover|11|Populated 71 applications
+2023-02-05 21:03:25.3401|INFO|com.barraider.windowsmover|11|Populated 2 screens
+2023-02-05 21:03:25.3401|INFO|com.barraider.windowsmover|11|Populated 71 applications
+2023-02-05 21:03:25.3401|INFO|com.barraider.windowsmover|11|Populated 2 screens
+2023-02-05 21:03:25.3401|INFO|com.barraider.windowsmover|3|Populated 71 applications
+2023-02-05 21:03:25.3401|INFO|com.barraider.windowsmover|3|Populated 2 screens
+2023-02-05 21:03:25.3401|INFO|com.barraider.windowsmover|3|Populated 71 applications
+2023-02-05 21:03:25.3401|INFO|com.barraider.windowsmover|3|Populated 2 screens
+2023-02-05 21:03:25.3401|INFO|com.barraider.windowsmover|3|Populated 71 applications
+2023-02-05 21:03:25.3401|INFO|com.barraider.windowsmover|3|Populated 2 screens
+2023-02-05 21:03:25.3561|INFO|com.barraider.windowsmover|3|Populated 71 applications
+2023-02-05 21:03:25.3561|INFO|com.barraider.windowsmover|3|Populated 2 screens
+2023-02-05 21:08:39.3216|INFO|com.barraider.windowsmover|16|Destructor called
+2023-02-05 21:08:39.3236|INFO|com.barraider.windowsmover|16|Destructor called
+2023-02-05 21:08:39.3236|INFO|com.barraider.windowsmover|16|Destructor called
+2023-02-05 21:08:39.3236|INFO|com.barraider.windowsmover|16|Destructor called
+2023-02-05 21:08:39.3236|INFO|com.barraider.windowsmover|18|Destructor called
+2023-02-05 21:08:39.3236|INFO|com.barraider.windowsmover|18|Destructor called

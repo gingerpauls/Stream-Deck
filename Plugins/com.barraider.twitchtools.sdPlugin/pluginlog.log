@@ -46,3 +46,20 @@ PluginInfo: Version: 3.1
 2023-02-05 09:41:26.1112|INFO|com.barraider.twitchtools|1|Connecting to Stream Deck...
 2023-02-05 09:41:28.1827|INFO|com.barraider.twitchtools|1|Connected to Stream Deck
 2023-02-05 09:41:28.1827|INFO|com.barraider.twitchtools|1|GlobalSettingsManager initialized
+2023-02-05 13:26:26.5474|INFO|com.barraider.twitchtools|121|GlobalSettingsManager::RequestGlobalSettings called
+2023-02-05 13:26:26.8566|INFO|com.barraider.twitchtools|117|GlobalSettingsManager::GetGlobalSettingsAsync triggered
+2023-02-05 13:26:26.8785|INFO|com.barraider.twitchtools|121|Token initialized. Last refresh date was: 2022-12-17 11:05:25 AM Token Size: 30
+2023-02-05 13:26:26.8785|INFO|com.barraider.twitchtools|121|TwitchTokenManager raising new token change. Token Size: 30
+2023-02-05 13:26:26.8785|INFO|com.barraider.twitchtools|121|ChatPager.Backend.OAuthTokenListener Listener stopped
+2023-02-05 21:03:22.3792|DEBUG|com.barraider.twitchtools|1|Logger Initialized
+2023-02-05 21:03:22.4381|INFO|com.barraider.twitchtools|1|Plugin [com.barraider.twitchtools] Loading - 16 Actions Found
+2023-02-05 21:03:22.9803|DEBUG|com.barraider.twitchtools|1|Plugin Loaded: UUID: D25F0CF557FB4C03DB78E4D860D17D2F Device Info: Devices:
+[Id: 5D1785726AB2B0A13A5822E62443FB74 Type: StreamDeckClassic Size: Rows: 3 Columns: 5]
+[Id: 689AA4D1892962FC46356E9F4E6954E2 Type: StreamDeckMobile Size: Rows: 3 Columns: 5]
+ApplicationInfo: Language: en Platform: windows Version: 6.0.2.17735
+PluginInfo: Version: 3.1
+
+2023-02-05 21:03:22.9803|INFO|com.barraider.twitchtools|1|Plugin version: 3.1
+2023-02-05 21:03:22.9803|INFO|com.barraider.twitchtools|1|Connecting to Stream Deck...
+2023-02-05 21:03:25.0609|INFO|com.barraider.twitchtools|1|Connected to Stream Deck
+2023-02-05 21:03:25.0609|INFO|com.barraider.twitchtools|1|GlobalSettingsManager initialized

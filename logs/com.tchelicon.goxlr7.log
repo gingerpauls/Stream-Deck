@@ -1,2 +1,2 @@
-08:31:34.041 OnMessage {"event":"applicationDidLaunch","payload":{"application":"GoXLR App.exe"}}
-08:43:30.605 OnMessage {"event":"systemDidWakeUp"}
+18:06:29.109 OnMessage {"event":"applicationDidLaunch","payload":{"application":"GoXLR App.exe"}}
+18:08:25.842 OnMessage {"event":"systemDidWakeUp"}

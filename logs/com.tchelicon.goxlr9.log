@@ -1,3 +1,5 @@
-10:07:48.151 OnMessage {"event":"applicationDidLaunch","payload":{"application":"GoXLR App.exe"}}
-10:19:17.473 OnMessage {"event":"systemDidWakeUp"}
-10:19:48.793 OnMessage {"device":"689AA4D1892962FC46356E9F4E6954E2","deviceInfo":{"name":"Paul’s iPad","size":{"columns":5,"rows":3},"type":3},"event":"deviceDidConnect"}
+18:10:50.080 OnMessage {"event":"applicationDidLaunch","payload":{"application":"GoXLR App.exe"}}
+18:22:48.809 OnMessage {"event":"systemDidWakeUp"}
+18:49:20.897 OnMessage {"device":"689AA4D1892962FC46356E9F4E6954E2","deviceInfo":{"name":"Paul’s iPad","size":{"columns":5,"rows":3},"type":3},"event":"deviceDidConnect"}
+23:44:11.311 OnMessage {"device":"689AA4D1892962FC46356E9F4E6954E2","event":"deviceDidDisconnect"}
+00:06:48.681 OnMessage {"event":"applicationDidTerminate","payload":{"application":"GoXLR App.exe"}}
