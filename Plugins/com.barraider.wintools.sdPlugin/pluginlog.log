@@ -1,24 +1,39 @@
-2023-02-05 09:22:16.7683|DEBUG|com.barraider.wintools|1|Logger Initialized
-2023-02-05 09:22:16.8740|INFO|com.barraider.wintools|1|Plugin [com.barraider.wintools] Loading - 31 Actions Found
-2023-02-05 09:22:17.4824|INFO|com.barraider.wintools|1|Plugin version: 1.8
-2023-02-05 09:22:17.4824|INFO|com.barraider.wintools|1|Connecting to Stream Deck
-2023-02-05 09:22:19.5505|INFO|com.barraider.wintools|1|Connected to Stream Deck
-2023-02-05 09:22:19.5505|INFO|com.barraider.wintools|1|GlobalSettingsManager initialized
-2023-02-05 09:31:40.8732|DEBUG|com.barraider.wintools|1|Logger Initialized
-2023-02-05 09:31:40.9206|INFO|com.barraider.wintools|1|Plugin [com.barraider.wintools] Loading - 31 Actions Found
-2023-02-05 09:31:41.4128|INFO|com.barraider.wintools|1|Plugin version: 1.8
-2023-02-05 09:31:41.4128|INFO|com.barraider.wintools|1|Connecting to Stream Deck
-2023-02-05 09:31:43.5581|INFO|com.barraider.wintools|1|Connected to Stream Deck
-2023-02-05 09:31:43.5591|INFO|com.barraider.wintools|1|GlobalSettingsManager initialized
-2023-02-05 09:38:31.9371|DEBUG|com.barraider.wintools|1|Logger Initialized
-2023-02-05 09:38:31.9809|INFO|com.barraider.wintools|1|Plugin [com.barraider.wintools] Loading - 31 Actions Found
-2023-02-05 09:38:32.4392|INFO|com.barraider.wintools|1|Plugin version: 1.8
-2023-02-05 09:38:32.4392|INFO|com.barraider.wintools|1|Connecting to Stream Deck
-2023-02-05 09:38:34.6110|INFO|com.barraider.wintools|1|Connected to Stream Deck
-2023-02-05 09:38:34.6110|INFO|com.barraider.wintools|1|GlobalSettingsManager initialized
-2023-02-05 09:41:25.6648|DEBUG|com.barraider.wintools|1|Logger Initialized
-2023-02-05 09:41:25.7082|INFO|com.barraider.wintools|1|Plugin [com.barraider.wintools] Loading - 31 Actions Found
-2023-02-05 09:41:26.1511|INFO|com.barraider.wintools|1|Plugin version: 1.8
-2023-02-05 09:41:26.1511|INFO|com.barraider.wintools|1|Connecting to Stream Deck
-2023-02-05 09:41:28.2246|INFO|com.barraider.wintools|1|Connected to Stream Deck
-2023-02-05 09:41:28.2246|INFO|com.barraider.wintools|1|GlobalSettingsManager initialized
+2023-02-12 00:05:56.9680|INFO|com.barraider.wintools|95|Disconnect event received
+2023-02-12 00:05:57.0114|INFO|com.barraider.wintools|1|Plugin Disconnected - Exiting
+2023-02-12 08:52:09.6301|DEBUG|com.barraider.wintools|1|Logger Initialized
+2023-02-12 08:52:09.8006|INFO|com.barraider.wintools|1|Plugin [com.barraider.wintools] Loading - 31 Actions Found
+2023-02-12 08:52:10.0943|INFO|com.barraider.wintools|1|Plugin version: 1.8
+2023-02-12 08:52:10.0943|INFO|com.barraider.wintools|1|Connecting to Stream Deck
+2023-02-12 08:52:12.2340|INFO|com.barraider.wintools|1|Connected to Stream Deck
+2023-02-12 08:52:12.2350|INFO|com.barraider.wintools|1|GlobalSettingsManager initialized
+2023-02-12 09:46:28.0513|INFO|com.barraider.wintools|24|WinTools.Actions.AppPlaybackDeviceAction FetchPlaybackDevices returned 9 playback devices
+2023-02-12 09:46:28.1041|INFO|com.barraider.wintools|27|WinTools.Actions.AppPlaybackDeviceAction FetchApplication returned 6 volume apps
+2023-02-12 09:46:28.1759|INFO|com.barraider.wintools|24|WinTools.Actions.AppPlaybackDeviceAction FetchApplication returned 6 volume apps
+2023-02-12 09:46:28.1919|INFO|com.barraider.wintools|21|WinTools.Actions.AppPlaybackDeviceAction FetchPlaybackDevices returned 9 playback devices
+2023-02-12 09:47:01.5223|INFO|com.barraider.wintools|19|WinTools.Actions.AppPlaybackDeviceAction FetchPlaybackDevices returned 9 playback devices
+2023-02-12 09:47:01.5602|INFO|com.barraider.wintools|22|WinTools.Actions.AppPlaybackDeviceAction FetchApplication returned 6 volume apps
+2023-02-12 09:47:04.3398|INFO|com.barraider.wintools|19|WinTools.Actions.AppPlaybackDeviceAction FetchPlaybackDevices returned 9 playback devices
+2023-02-12 09:47:04.3887|INFO|com.barraider.wintools|17|WinTools.Actions.AppPlaybackDeviceAction FetchApplication returned 6 volume apps
+2023-02-12 09:58:27.3561|INFO|com.barraider.wintools|56|WinTools.Actions.AppAudioMixerAction Key Pressed
+2023-02-12 09:58:27.3710|INFO|com.barraider.wintools|55|RegisterUIHandler was called starting WinTools.Backend.AudioMixerManager
+2023-02-12 09:58:27.4129|INFO|com.barraider.wintools|56|WinTools.Actions.AppAudioMixerAction Destructor called
+2023-02-12 09:58:27.4129|INFO|com.barraider.wintools|56|WinTools.Actions.AppPlaybackDeviceAction Destructor called
+2023-02-12 09:58:30.1916|INFO|com.barraider.wintools|62|NotifyKeyPressed: Row: 1 Column: 0
+2023-02-12 09:58:33.1343|INFO|com.barraider.wintools|54|NotifyKeyPressed: Row: 2 Column: 0
+2023-02-12 09:58:36.4370|INFO|com.barraider.wintools|62|NotifyKeyPressed: Row: 0 Column: 0
+2023-02-12 09:58:36.9472|INFO|com.barraider.wintools|58|WinTools.Actions.AppPlaybackDeviceAction FetchPlaybackDevices returned 9 playback devices
+2023-02-12 09:58:36.9871|INFO|com.barraider.wintools|55|WinTools.Actions.AppPlaybackDeviceAction FetchApplication returned 6 volume apps
+2023-02-12 09:58:46.4090|INFO|com.barraider.wintools|62|WinTools.Actions.AppAudioMixerAction Destructor called
+2023-02-12 09:59:24.4310|INFO|com.barraider.wintools|48|WMI returned 2 monitors
+2023-02-12 09:59:24.4310|INFO|com.barraider.wintools|48|QueryDisplay returned 2 paths and 4 modes
+2023-02-12 09:59:24.4310|INFO|com.barraider.wintools|48|QueryDisplay returned 2 monitors
+2023-02-12 09:59:24.4310|INFO|com.barraider.wintools|48|GetAggregatedMonitorInfo returned 2 aggregated monitors
+2023-02-12 09:59:24.4310|INFO|com.barraider.wintools|48|Populated 2 screens
+2023-02-12 09:59:33.1947|INFO|com.barraider.wintools|47|Destructor called
+2023-02-12 09:59:46.9836|INFO|com.barraider.wintools|49|WinTools.Actions.DefaultAudioDeviceAction FetchPlaybackDevices returned 9 devices
+2023-02-12 09:59:59.8809|INFO|com.barraider.wintools|49|WinTools.Actions.DefaultAudioDeviceAction FetchPlaybackDevices returned 9 devices
+2023-02-12 10:00:00.3995|INFO|com.barraider.wintools|47|WinTools.Actions.DefaultAudioDeviceAction Destructor called
+2023-02-12 11:54:10.9277|INFO|com.barraider.wintools|95|WinTools.Actions.AppPlaybackDeviceAction Destructor called
+2023-02-12 12:14:07.3316|INFO|com.barraider.wintools|141|WinTools.Actions.AppPlaybackDeviceAction FetchPlaybackDevices returned 8 playback devices
+2023-02-12 12:14:07.3521|INFO|com.barraider.wintools|140|WinTools.Actions.AppPlaybackDeviceAction FetchApplication returned 6 volume apps
+2023-02-12 15:40:29.4126|INFO|com.barraider.wintools|141|WinTools.Actions.AppPlaybackDeviceAction Destructor called

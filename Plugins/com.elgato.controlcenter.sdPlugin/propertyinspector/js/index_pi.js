@@ -587,7 +587,8 @@ function getTemplate(obj) {
 
                 if(obj.device) {
                     const l = obj.device.lights;
-                    const percnt = 1 - Utils.rangeToPercent(l.temperature, l.temperatureMin, l.temperatureMax);
+                    // const percnt = 1 - Utils.rangeToPercent(l.temperature, l.temperatureMin, l.temperatureMax);
+                    const percnt = 1 - Utils.rangeToPercent(l.temperature, 2907, 6993);
                     const bgColor = Utils.lerpColor('94d0ec', 'ffb165', percnt);
                     const n = Utils.injectStyle(
                         `input[type="range"][data-styleId="${stylId}"]::-webkit-slider-runnable-track {background-color: ${bgColor};}`,

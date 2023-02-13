@@ -55,7 +55,7 @@
         "Tooltip": "将灯的场景设置为预定值",
         "Encoder": {
             "TriggerDescription": {
-                "Rotate": "调整场景",
+                "Rotate": "调节场景/亮度",
                 "Touch": "打开/关闭灯光"
             }
         }

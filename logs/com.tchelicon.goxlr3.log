@@ -1,3 +1,2 @@
-09:31:41.024 OnMessage {"device":"5D1785726AB2B0A13A5822E62443FB74","deviceInfo":{"name":"Stream Deck 1","size":{"columns":5,"rows":3},"type":0},"event":"deviceDidConnect"}
-09:31:45.033 OnMessage {"event":"systemDidWakeUp"}
-09:31:50.488 OnMessage {"event":"applicationDidLaunch","payload":{"application":"GoXLR App.exe"}}
+20:50:31.483 OnMessage {"event":"applicationDidLaunch","payload":{"application":"GoXLR App.exe"}}
+20:51:28.567 OnMessage {"device":"689AA4D1892962FC46356E9F4E6954E2","deviceInfo":{"name":"Paul’s iPad","size":{"columns":5,"rows":3},"type":3},"event":"deviceDidConnect"}

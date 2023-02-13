@@ -1,117 +1,103 @@
-18:06:17.990                     epl                               dbgcommand():                                   using log file 'C:\Users\hutch\AppData\Roaming\Elgato\StreamDeck\logs\StreamDeck0.log'
-18:06:17.991                     StreamDeck                        main():                                         Using preferences from \HKEY_CURRENT_USER\Software\Elgato Systems GmbH\StreamDeck
-18:06:17.991                     StreamDeck                        main():                                         Arguments:
-18:06:17.991                     StreamDeck                        main():                                         C:\Program Files\Elgato\StreamDeck\StreamDeck.exe
-18:06:17.992                     StreamDeck                        main():                                         --runinbk
-18:06:18.246                     StreamDeck                        EGQTTranslationManager::LoadLocalizations():    Could not load the 'en_CA' localization
-18:06:18.254                     StreamDeck                        main():                                         Compiled with Qt 6.3.1 ; SSL: OpenSSL 1.1.1m  14 Dec 2021
-18:06:18.254                     StreamDeck                        main():                                         Runtime SSL Supported: 1
-18:06:18.254                     StreamDeck                        main():                                         Runtime SSL version used: OpenSSL 1.1.1q  5 Jul 2022
-18:06:18.254                     StreamDeck                        main():                                         Start Stream Deck App -> Version: 6.0.2.17735
-18:06:18.471                     StreamDeck                        ESDVSDServer::init():                           ### [SERVER] init
-18:06:18.472                     StreamDeck                        ESDCUEHub::init():                              ### [CUESDK] init
-18:06:18.479                     StreamDeck                        ESDCustomPluginCommunication::start():          Using port 28196 to communicate with plugins
-18:06:18.480                     StreamDeck                        ESDPluginManager::LoadPluginsFromCore():        Load plugins from core...
-18:06:18.487                     StreamDeck                        AccountMgr::InitializeAccountMgr():             AccountMgr initialized
-18:06:18.487                     StreamDeck                        AccountMgr::ReloadAllAccountsFromPreferences(): Reload all accounts
-18:06:18.502                     StreamDeck                        AccountMgr::RecreateServiceInstancesForType():  Recreate service instances for Twitter
-18:06:18.502                     StreamDeck                        AccountMgr::RecreateServiceInstancesForType():  Recreate service instances for YouTube
-18:06:18.502                     StreamDeck                        AccountMgr::RecreateServiceInstancesForType():  Recreate service instances for Streamlabs
-18:06:18.539                     StreamDeck                        AccountMgr::RecreateServiceInstancesForType():  Recreate service instances for Twitch
-18:06:18.547                     StreamDeck                        AccountMgr::RecreateServiceInstancesForType():  Recreate service instances for Facebook
-18:06:25.787                     epl                               dbgcommand():                                   using log file 'C:\Users\hutch\AppData\Roaming\Elgato\StreamDeck\logs\StreamDeck0.log'
-18:06:25.787                     StreamDeck                        main():                                         Using preferences from \HKEY_CURRENT_USER\Software\Elgato Systems GmbH\StreamDeck
-18:06:25.879                     StreamDeck                        EGQTTranslationManager::LoadLocalizations():    Could not load the 'en_CA' localization
-18:06:25.886                     StreamDeck                        main():                                         Compiled with Qt 6.3.1 ; SSL: OpenSSL 1.1.1m  14 Dec 2021
-18:06:25.886                     StreamDeck                        main():                                         Runtime SSL Supported: 1
-18:06:25.886                     StreamDeck                        main():                                         Runtime SSL version used: OpenSSL 1.1.1q  5 Jul 2022
-18:06:25.886                     StreamDeck                        main():                                         Another Stream Deck instance is running. Quit!
-18:06:25.886                     StreamDeck                        ESDSharedFileServer::ESDSharedFileServer():     mapfile location C:\ProgramData\Elgato\StreamDeck\STREAMDECKINTERNALSHM
-18:06:25.901                     StreamDeck                        ESDSharedFileServer::close():                   Close SharedFile
-18:06:27.431                     StreamDeck                        MainWindow::MainWindow():                       Running in high dpi mode: 1.00
-18:06:27.926                     StreamDeck                        ESDVSDServer::resume():                         ### [SERVER] resuming
-18:06:27.927                     StreamDeck                        ESDVSDServer::resume():                         ### [SERVER] port 28197 is available; starting Bonjour
-18:06:27.927                     StreamDeck                        ESDVSDServer::refreshAllAddresses():            ### [SERVER] refreshing addresses
-18:06:27.935                     StreamDeck                        ESDVSDServer::resume():                         ### [SERVER] resumed
-18:06:28.191                     StreamDeck                        ESDAppController::bootstrap():                  All object init done!
-18:06:29.041                     StreamDeck                        ESDSharedFileServer::ESDSharedFileServer():     mapfile location C:\ProgramData\Elgato\StreamDeck\STREAMDECKINTERNALSHM
-18:06:29.060                     StreamDeck                        ESDVSDServer::onServicePublished():             ### [SERVER] Bonjour published
-18:06:29.063                     StreamDeck                        ESDCustomPluginCommunication::onMessageReceived(): Plugin 42F4BAD56817F9CE58E2267EB503A233 is now connected
-18:06:29.074                     StreamDeck                        ESDCustomPluginCommunication::onMessageReceived(): Plugin 3949F60B20AD5904C30C4007D3AE70FA is now connected
-18:06:29.107                     StreamDeck                        ESDCustomPluginCommunication::onMessageReceived(): Plugin 1D1EDB1E1E4F7A36E55B0D698E731315 is now connected
-18:06:29.511                     StreamDeck                        ESDCustomPluginCommunication::onMessageReceived(): Plugin AD58C3A0DE2FEC3F874B9418A99FD38C is now connected
-18:06:29.512                     StreamDeck                        EGQTCredentialStore::GetPasswordWithServerAndUserName(): CredRead() - GetLastError() 1168
-18:06:29.513                     StreamDeck                        EGQTCredentialStore::GetPasswordWithServerAndUserName(): CredRead() - GetLastError() 1168
-18:06:29.525                     StreamDeck                        ESDCustomPluginCommunication::onMessageReceived(): Plugin 5FC5AC0D29F448E4F6BFFF99F755F390 is now connected
-18:06:29.540                     StreamDeck                        ESDCustomPluginCommunication::onMessageReceived(): Plugin 9CC5E66BD2526E0F424BA41947915990 is now connected
-18:06:29.541                     StreamDeck                        EGQTCredentialStore::GetPasswordWithServerAndUserName(): CredRead() - GetLastError() 1168
-18:06:29.542                     StreamDeck                        EGQTCredentialStore::GetPasswordWithServerAndUserName(): CredRead() - GetLastError() 1168
-18:06:29.567                     StreamDeck                        ESDDiscoveryService::onServiceRequestFinished(): discovery posted successfully
-18:06:29.569                     StreamDeck                        ESDCustomPluginCommunication::onMessageReceived(): Plugin 0E6BD47F711B6D2993FCA144E15EB842 is now connected
-18:06:30.564                     StreamDeck                        ESDCustomPluginCommunication::onMessageReceived(): Plugin 589ADE9CE16D0353C04C2940BEA786D6 is now connected
-18:06:30.631                     StreamDeck                        ESDCustomPluginCommunication::onMessageReceived(): Plugin 3FCD3CF631BF615B9694E28EED1A100D is now connected
-18:06:30.864                     StreamDeck                        ESDCustomPluginCommunication::onMessageReceived(): Plugin C263534DF8AAD8D0E3E44EF444FEA154 is now connected
-18:06:30.954                     StreamDeck                        ESDCustomPluginCommunication::onMessageReceived(): Plugin AE1BBC45890B6B59010EF2F8717038A8 is now connected
-18:06:31.049                     StreamDeck                        ESDCustomPluginCommunication::onMessageReceived(): Plugin 1186B495A5E6B602D9AB98A6E00108D7 is now connected
-18:06:31.112                     StreamDeck                        ESDCustomPluginCommunication::onMessageReceived(): Plugin 7C86CD30AF8983F17CE7C43710BC0281 is now connected
-18:06:31.205                     StreamDeck                        ESDCustomPluginCommunication::onMessageReceived(): Plugin 6BE5264797AD88E2441D3DCD8CF21248 is now connected
-18:06:31.231                     StreamDeck                        ESDCustomPluginCommunication::onMessageReceived(): Plugin 1A343E7B9940F4B162356AAC8405D4DE is now connected
-18:06:31.307                     StreamDeck                        ESDCustomPluginCommunication::onMessageReceived(): Plugin B0C334D3568AD4CE1FF3288430DCBC31 is now connected
-18:06:31.965                     StreamDeck                        ESDObsConnectionManager::CreateSocket::<lambda_2aa1c9d242cae83e7007c40c4c7db86a>::operator ()(): SLOBS returned error Connection refused
-18:06:32.733                     StreamDeck                        ESDAppStoreManager::UpdateAppStorePlugins():    Check for Plugin Store updates
-18:06:32.733                     StreamDeck                        ESDAppStoreManager::UpdateAppStoreIconPacks():  Check for icon pack Store updates
-18:06:32.938                     StreamDeck                        EGQTSWUpdateDialog::checkForUpdate():           Check for update 2: https://gc-updates.elgato.com/windows/sd-update/final/app-version-check.json
-18:06:32.938                     StreamDeck                        EGQTSWUpdateDownloader::startDownload():        Download task name: Update File, file URL: https://gc-updates.elgato.com/windows/sd-update/final/app-version-check.json
-18:06:33.244                     StreamDeck                        EGQTSWUpdateDialog::shouldUpdate():             current SW Ver: 6.0.2.17735, remote SW Ver: 5.3.3.15214
-18:06:33.244                     StreamDeck                        EGQTSWUpdateDialog::handleUpdateFileDownloaded(): No update available
-18:06:40.965                     StreamDeck                        ESDObsConnectionManager::CreateSocket::<lambda_2aa1c9d242cae83e7007c40c4c7db86a>::operator ()(): SLOBS returned error Connection refused
-18:06:49.963                     StreamDeck                        ESDObsConnectionManager::CreateSocket::<lambda_2aa1c9d242cae83e7007c40c4c7db86a>::operator ()(): SLOBS returned error Connection refused
-18:06:58.958                     StreamDeck                        ESDObsConnectionManager::CreateSocket::<lambda_2aa1c9d242cae83e7007c40c4c7db86a>::operator ()(): SLOBS returned error Connection refused
-18:07:18.547                     StreamDeck                        ESDStreamlabs::onRequestFinished():             Streamlabs reported an error 4: 
-18:07:18.547                     StreamDeck                        AccountMgr::onAccountLinkingFailed():           Failed to link account
-18:07:18.558                     StreamDeck                        ESDTwitch::onRequestFinished():                 Twitch reported an error 4: 
-18:07:18.558                     StreamDeck                        AccountMgr::onAccountLinkingFailed():           Failed to link account
-18:08:22.835                     StreamDeck                        ESDWinSessionStateFilter::nativeEventFilter():  SESSION STATE CHANGED - SESSION STARTED
-18:08:25.841                     StreamDeck                        ESDVSDServer::resume():                         ### [SERVER] resuming
-18:08:25.841                     StreamDeck                        ESDVSDServer::resume():                         ### [SERVER] resumed
-18:08:26.181                     StreamDeck                        ESDDiscoveryService::onServiceRequestFinished(): discovery posted successfully
-18:51:22.860                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
-18:51:28.253                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
-18:51:54.393                     StreamDeck                        ESDCUEHub::shutdown():                          ### [CUESDK] shutdown
-18:51:54.393                     StreamDeck                        ESDVSDServer::shutdown():                       ### [SERVER] shutdown
-18:51:54.393                     StreamDeck                        ESDVSDServer::suspend():                        ### [SERVER] suspending
-18:51:54.405                     StreamDeck                        ESDVSDServer::init():                           ### [SERVER] init
-18:51:54.405                     StreamDeck                        ESDCUEHub::init():                              ### [CUESDK] init
-18:51:54.413                     StreamDeck                        ESDVSDServer::resume():                         ### [SERVER] resuming
-18:51:54.415                     StreamDeck                        ESDVSDServer::resume():                         ### [SERVER] port 28197 is available; starting Bonjour
-18:51:54.415                     StreamDeck                        ESDVSDServer::refreshAllAddresses():            ### [SERVER] refreshing addresses
-18:51:54.421                     StreamDeck                        ESDVSDServer::resume():                         ### [SERVER] resumed
-18:51:54.670                     StreamDeck                        ESDVSDServer::onServicePublished():             ### [SERVER] Bonjour published
-18:52:12.683                     StreamDeck                        ESDCUEHub::shutdown():                          ### [CUESDK] shutdown
-18:52:12.683                     StreamDeck                        ESDVSDServer::shutdown():                       ### [SERVER] shutdown
-18:52:12.683                     StreamDeck                        ESDVSDServer::suspend():                        ### [SERVER] suspending
-18:52:12.701                     StreamDeck                        ESDVSDServer::init():                           ### [SERVER] init
-18:52:12.702                     StreamDeck                        ESDCUEHub::init():                              ### [CUESDK] init
-18:52:12.714                     StreamDeck                        ESDVSDServer::resume():                         ### [SERVER] resuming
-18:52:12.714                     StreamDeck                        ESDVSDServer::resume():                         ### [SERVER] port 28197 is available; starting Bonjour
-18:52:12.714                     StreamDeck                        ESDVSDServer::refreshAllAddresses():            ### [SERVER] refreshing addresses
-18:52:12.725                     StreamDeck                        ESDVSDServer::resume():                         ### [SERVER] resumed
-18:52:12.878                     StreamDeck                        ESDVSDServer::onServicePublished():             ### [SERVER] Bonjour published
-18:54:46.019                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
-18:57:08.705                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
-18:57:28.439                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
-19:04:57.516                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
-19:19:13.358                     StreamDeck                        ESDObsConnectionManager::CreateSocket::<lambda_2aa1c9d242cae83e7007c40c4c7db86a>::operator ()(): SLOBS returned error The remote host closed the connection
-19:19:22.370                     StreamDeck                        ESDObsConnectionManager::CreateSocket::<lambda_2aa1c9d242cae83e7007c40c4c7db86a>::operator ()(): SLOBS returned error Connection refused
-19:19:31.381                     StreamDeck                        ESDObsConnectionManager::CreateSocket::<lambda_2aa1c9d242cae83e7007c40c4c7db86a>::operator ()(): SLOBS returned error Connection refused
-19:19:40.379                     StreamDeck                        ESDObsConnectionManager::CreateSocket::<lambda_2aa1c9d242cae83e7007c40c4c7db86a>::operator ()(): SLOBS returned error Connection refused
-23:53:45.716                     StreamDeck                        ESDQueryEndSessionFilter::nativeEventFilter():  WM_QUERYENDSESSION - shutdown requested.
-23:53:45.716                     StreamDeck                        ESDStreamDeckApplication::cleanQuit():          Application should quit
-23:53:45.940                     StreamDeck                        ESDStreamDeckApplication::cleanQuit():          Waiting for custom plugins to quit
-23:53:46.901                     StreamDeck                        main():                                         Application is quitting
-23:53:46.901                     StreamDeck                        ESDCUEHub::shutdown():                          ### [CUESDK] shutdown
-23:53:46.901                     StreamDeck                        ESDVSDServer::shutdown():                       ### [SERVER] shutdown
-23:53:46.901                     StreamDeck                        ESDVSDServer::suspend():                        ### [SERVER] suspending
-23:53:46.917                     StreamDeck                        AccountMgr::~AccountMgr():                      Deleting AccountMgr
-23:53:46.918                     StreamDeck                        ESDSharedFileServer::close():                   Close SharedFile
-23:53:46.918                     StreamDeck                        main():                                         Application quit
+07:18:37.165                     epl                               dbgcommand():                                   using log file 'C:\Users\hutch\AppData\Roaming\Elgato\StreamDeck\logs\StreamDeck0.log'
+07:18:37.167                     StreamDeck                        main():                                         Using preferences from \HKEY_CURRENT_USER\Software\Elgato Systems GmbH\StreamDeck
+07:18:37.167                     StreamDeck                        main():                                         Arguments:
+07:18:37.167                     StreamDeck                        main():                                         C:\Program Files\Elgato\StreamDeck\StreamDeck.exe
+07:18:37.167                     StreamDeck                        main():                                         --runinbk
+07:18:37.412                     StreamDeck                        EGQTTranslationManager::LoadLocalizations():    Could not load the 'en_CA' localization
+07:18:37.502                     StreamDeck                        main():                                         Compiled with Qt 6.3.1 ; SSL: OpenSSL 1.1.1m  14 Dec 2021
+07:18:37.502                     StreamDeck                        main():                                         Runtime SSL Supported: 1
+07:18:37.502                     StreamDeck                        main():                                         Runtime SSL version used: OpenSSL 1.1.1q  5 Jul 2022
+07:18:37.503                     StreamDeck                        main():                                         Start Stream Deck App -> Version: 6.0.2.17735
+07:18:37.947                     StreamDeck                        ESDVSDServer::init():                           ### [SERVER] init
+07:18:37.948                     StreamDeck                        ESDCUEHub::init():                              ### [CUESDK] init
+07:18:37.956                     StreamDeck                        ESDCustomPluginCommunication::start():          Using port 28196 to communicate with plugins
+07:18:37.956                     StreamDeck                        ESDPluginManager::LoadPluginsFromCore():        Load plugins from core...
+07:18:37.961                     StreamDeck                        AccountMgr::InitializeAccountMgr():             AccountMgr initialized
+07:18:37.961                     StreamDeck                        AccountMgr::ReloadAllAccountsFromPreferences(): Reload all accounts
+07:18:37.976                     StreamDeck                        AccountMgr::RecreateServiceInstancesForType():  Recreate service instances for Twitter
+07:18:37.976                     StreamDeck                        AccountMgr::RecreateServiceInstancesForType():  Recreate service instances for YouTube
+07:18:37.976                     StreamDeck                        AccountMgr::RecreateServiceInstancesForType():  Recreate service instances for Streamlabs
+07:18:38.012                     StreamDeck                        AccountMgr::RecreateServiceInstancesForType():  Recreate service instances for Twitch
+07:18:38.018                     StreamDeck                        AccountMgr::RecreateServiceInstancesForType():  Recreate service instances for Facebook
+07:18:39.030                     StreamDeck                        MainWindow::MainWindow():                       Running in high dpi mode: 1.00
+07:18:39.425                     StreamDeck                        ESDVSDServer::resume():                         ### [SERVER] resuming
+07:18:39.426                     StreamDeck                        ESDVSDServer::resume():                         ### [SERVER] port 28197 is available; starting Bonjour
+07:18:39.426                     StreamDeck                        ESDVSDServer::refreshAllAddresses():            ### [SERVER] refreshing addresses
+07:18:39.924                     StreamDeck                        ESDVSDServer::resume():                         ### [SERVER] resumed
+07:18:40.272                     StreamDeck                        ESDAppController::bootstrap():                  All object init done!
+07:18:40.550                     StreamDeck                        ESDSharedFileServer::ESDSharedFileServer():     mapfile location C:\ProgramData\Elgato\StreamDeck\STREAMDECKINTERNALSHM
+07:18:40.572                     StreamDeck                        ESDCustomPluginCommunication::onMessageReceived(): Plugin 2CCF7A01997BB372705562243AFAC11B is now connected
+07:18:40.598                     StreamDeck                        ESDCustomPluginCommunication::onMessageReceived(): Plugin 5942E6A84E4799B3B88E35A6D6FAEBFF is now connected
+07:18:40.599                     StreamDeck                        ESDCustomPluginCommunication::onMessageReceived(): Plugin 0F5317CB61FF9226A4860954BC08AA3E is now connected
+07:18:40.638                     StreamDeck                        AccountMgr::onAccountLinkingSucceeded():        Twitch Account linked successfully
+07:18:40.639                     StreamDeck                        AccountMgrMainThreadHelper::notifyAccountChanged(): Notify Twitch account changed (648894062) (0)
+07:18:40.650                     StreamDeck                        EGQTCredentialStore::GetPasswordWithServerAndUserName(): CredRead() - GetLastError() 1168
+07:18:40.738                     StreamDeck                        AccountMgr::onAccountLinkingSucceeded():        Streamlabs Account linked successfully
+07:18:40.738                     StreamDeck                        AccountMgrMainThreadHelper::notifyAccountChanged(): Notify Streamlabs account changed (40723168) (0)
+07:18:40.747                     StreamDeck                        EGQTCredentialStore::GetPasswordWithServerAndUserName(): CredRead() - GetLastError() 1168
+07:18:40.880                     StreamDeck                        ESDVSDServer::onServicePublished():             ### [SERVER] Bonjour published
+07:18:41.088                     StreamDeck                        ESDDiscoveryService::onServiceRequestFinished(): discovery posted successfully
+07:18:41.210                     StreamDeck                        ESDCustomPluginCommunication::onMessageReceived(): Plugin 73B86875A20BD48A8B0463069E8DAB30 is now connected
+07:18:41.211                     StreamDeck                        EGQTCredentialStore::GetPasswordWithServerAndUserName(): CredRead() - GetLastError() 1168
+07:18:41.212                     StreamDeck                        EGQTCredentialStore::GetPasswordWithServerAndUserName(): CredRead() - GetLastError() 1168
+07:18:41.284                     StreamDeck                        ESDCustomPluginCommunication::onMessageReceived(): Plugin 2F12593B627DB26A207657777040C310 is now connected
+07:18:41.285                     StreamDeck                        EGQTCredentialStore::GetPasswordWithServerAndUserName(): CredRead() - GetLastError() 1168
+07:18:41.285                     StreamDeck                        EGQTCredentialStore::GetPasswordWithServerAndUserName(): CredRead() - GetLastError() 1168
+07:18:41.387                     StreamDeck                        ESDCustomPluginCommunication::onMessageReceived(): Plugin B56A4E20A7DC9FF1ACAEFA45E18961EE is now connected
+07:18:41.409                     StreamDeck                        ESDCustomPluginCommunication::onMessageReceived(): Plugin 28D766A34D43E81B96CE8A769D9CAA34 is now connected
+07:18:42.349                     StreamDeck                        ESDCustomPluginCommunication::onMessageReceived(): Plugin 1D3DA5CEACFDD6A9D6491DF552265B27 is now connected
+07:18:42.395                     StreamDeck                        ESDCustomPluginCommunication::onMessageReceived(): Plugin F6AE4256400F153139039C282DF46314 is now connected
+07:18:42.809                     StreamDeck                        ESDCustomPluginCommunication::onMessageReceived(): Plugin 541F69A9A67811B42363E65DC2DD3477 is now connected
+07:18:43.232                     StreamDeck                        ESDCustomPluginCommunication::onMessageReceived(): Plugin A0BE3CECF4E9E2CD077D4315A74761CE is now connected
+07:18:43.233                     StreamDeck                        ESDCustomPluginCommunication::onMessageReceived(): Plugin 528B3E2C7762044D339A2A256393224C is now connected
+07:18:43.234                     StreamDeck                        ESDCustomPluginCommunication::onMessageReceived(): Plugin C8174893566C269FEE9F766299E27435 is now connected
+07:18:43.241                     StreamDeck                        ESDCustomPluginCommunication::onMessageReceived(): Plugin A54A949C59F02CF5436551E94060876E is now connected
+07:18:43.242                     StreamDeck                        ESDCustomPluginCommunication::onMessageReceived(): Plugin A63E02B66F8E61EB11D2B5617543FBD5 is now connected
+07:18:43.397                     StreamDeck                        ESDCustomPluginCommunication::onMessageReceived(): Plugin 60CCA186DB2A00226C89785A331B035D is now connected
+07:18:43.958                     StreamDeck                        ESDObsConnectionManager::CreateSocket::<lambda_2aa1c9d242cae83e7007c40c4c7db86a>::operator ()(): SLOBS returned error Connection refused
+07:18:44.142                     StreamDeck                        ESDAppStoreManager::UpdateAppStorePlugins():    Check for Plugin Store updates
+07:18:44.142                     StreamDeck                        ESDAppStoreManager::UpdateAppStoreIconPacks():  Check for icon pack Store updates
+07:18:44.954                     StreamDeck                        EGQTSWUpdateDialog::checkForUpdate():           Check for update 2: https://gc-updates.elgato.com/windows/sd-update/final/app-version-check.json
+07:18:44.954                     StreamDeck                        EGQTSWUpdateDownloader::startDownload():        Download task name: Update File, file URL: https://gc-updates.elgato.com/windows/sd-update/final/app-version-check.json
+07:18:45.368                     StreamDeck                        EGQTSWUpdateDialog::shouldUpdate():             current SW Ver: 6.0.2.17735, remote SW Ver: 5.3.3.15214
+07:18:45.368                     StreamDeck                        EGQTSWUpdateDialog::handleUpdateFileDownloaded(): No update available
+07:18:48.776                     epl                               dbgcommand():                                   using log file 'C:\Users\hutch\AppData\Roaming\Elgato\StreamDeck\logs\StreamDeck0.log'
+07:18:48.777                     StreamDeck                        main():                                         Using preferences from \HKEY_CURRENT_USER\Software\Elgato Systems GmbH\StreamDeck
+07:18:48.874                     StreamDeck                        EGQTTranslationManager::LoadLocalizations():    Could not load the 'en_CA' localization
+07:18:48.879                     StreamDeck                        main():                                         Compiled with Qt 6.3.1 ; SSL: OpenSSL 1.1.1m  14 Dec 2021
+07:18:48.879                     StreamDeck                        main():                                         Runtime SSL Supported: 1
+07:18:48.879                     StreamDeck                        main():                                         Runtime SSL version used: OpenSSL 1.1.1q  5 Jul 2022
+07:18:48.879                     StreamDeck                        main():                                         Another Stream Deck instance is running. Quit!
+07:18:48.879                     StreamDeck                        ESDSharedFileServer::ESDSharedFileServer():     mapfile location C:\ProgramData\Elgato\StreamDeck\STREAMDECKINTERNALSHM
+07:18:48.887                     StreamDeck                        ESDSharedFileServer::close():                   Close SharedFile
+07:18:48.975                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+07:18:53.066                     StreamDeck                        ESDObsConnectionManager::CreateSocket::<lambda_2aa1c9d242cae83e7007c40c4c7db86a>::operator ()(): SLOBS returned error Connection refused
+07:18:54.114                     StreamDeck                        ESDWinSessionStateFilter::nativeEventFilter():  SESSION STATE CHANGED - SESSION STARTED
+07:18:57.119                     StreamDeck                        ESDVSDServer::resume():                         ### [SERVER] resuming
+07:18:57.119                     StreamDeck                        ESDVSDServer::resume():                         ### [SERVER] resumed
+07:18:57.493                     StreamDeck                        ESDDiscoveryService::onServiceRequestFinished(): discovery posted successfully
+07:19:02.068                     StreamDeck                        ESDObsConnectionManager::CreateSocket::<lambda_2aa1c9d242cae83e7007c40c4c7db86a>::operator ()(): SLOBS returned error Connection refused
+07:19:11.066                     StreamDeck                        ESDObsConnectionManager::CreateSocket::<lambda_2aa1c9d242cae83e7007c40c4c7db86a>::operator ()(): SLOBS returned error Connection refused
+07:22:17.478                     StreamDeck                        ESDVSDServer::incomingConnection():             ### [SERVER] incoming connection
+07:22:17.490                     StreamDeck                        ESDVSDServer::onRemoteInquiredCtrl():           ### [SERVER] incoming ctrl inquire -- creating session
+07:22:17.514                     StreamDeck                        ESDVSDServer::incomingConnection():             ### [SERVER] incoming connection
+07:22:17.517                     StreamDeck                        ESDVSDServer::onRemoteInquiredData():           ### [SERVER] incoming data inquire -- creating data channel
+07:22:17.517                     StreamDeck                        ESDVSDServer::onRemoteEstablishedSession():     ### [SERVER] remote established session
+07:22:17.518                     StreamDeck                        ESDAppController::onDeviceStatusChanged():      Device connected, id: @(8)[613635ff-8066-4bb3-81dd-9258ae380cd0], serial number: 613635ff-8066-4bb3-81dd-9258ae380cd0, firmware version: 1.3.0.54
+07:22:17.549                     StreamDeck                        ESDPreferenceTabGeneral::DeviceStateChangedNotification(): Serial No: 613635ff-8066-4bb3-81dd-9258ae380cd0
+07:22:18.372                     StreamDeck                        ESDVSDServer::incomingConnection():             ### [SERVER] incoming connection
+07:22:25.137                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/System32/WindowsPowerShell/v1.0/powershell.exe
+07:23:28.221                     StreamDeck                        KA_Execute::execute():                          Invalid key press: failed to execute: 
+07:26:35.754                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/System32/WindowsPowerShell/v1.0/powershell.exe
+07:27:28.208                     StreamDeck                        KA_Execute::execute():                          Invalid key press: failed to execute: 
+07:59:19.395                     StreamDeck                        ESDQueryEndSessionFilter::nativeEventFilter():  WM_QUERYENDSESSION - shutdown requested.
+07:59:19.401                     StreamDeck                        ESDStreamDeckApplication::cleanQuit():          Application should quit
+07:59:19.639                     StreamDeck                        ESDStreamDeckApplication::cleanQuit():          Waiting for custom plugins to quit
+07:59:20.283                     StreamDeck                        ESDCustomPlugin::SendJSON():                    Could not send json because the plugin is not registered
+07:59:20.642                     StreamDeck                        main():                                         Application is quitting
+07:59:20.654                     StreamDeck                        ESDCUEHub::shutdown():                          ### [CUESDK] shutdown
+07:59:20.654                     StreamDeck                        ESDVSDServer::shutdown():                       ### [SERVER] shutdown
+07:59:20.654                     StreamDeck                        ESDVSDServer::suspend():                        ### [SERVER] suspending
+07:59:20.670                     StreamDeck                        AccountMgr::~AccountMgr():                      Deleting AccountMgr
+07:59:20.671                     StreamDeck                        ESDSharedFileServer::close():                   Close SharedFile
+07:59:20.672                     StreamDeck                        main():                                         Application quit

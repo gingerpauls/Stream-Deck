@@ -1,0 +1,647 @@
+[
+    {
+        "path": "80saAdZenithssbm.gif",
+        "name": "Run Ad",
+        "tags": [
+            "stream"
+        ]
+    },
+    {
+        "path": "80sAudioAdjustZenithssbm.gif",
+        "name": "Mix Audio",
+        "tags": [
+            "audio"
+        ]
+    },
+    {
+        "path": "80sBackZenithssbm.gif",
+        "name": "Return",
+        "tags": [
+            "function"
+        ]
+    },
+    {
+        "path": "80sBlankZenithssbm.gif",
+        "name": "Blank",
+        "tags": [
+            "organization"
+        ]
+    },
+    {
+        "path": "80sBrightnessOffZenithssbm.gif",
+        "name": "Dim Brightness",
+        "tags": [
+            "light"
+        ]
+    },
+    {
+        "path": "80sBrightnessOnZenithssbm.gif",
+        "name": "Increase Brightness",
+        "tags": [
+            "light"
+        ]
+    },
+    {
+        "path": "80sCameraZenithssbm.gif",
+        "name": "Screenshot",
+        "tags": [
+            "capture"
+        ]
+    },
+    {
+        "path": "80sClearZenithssbm.gif",
+        "name": "Clear Chat",
+        "tags": [
+            "stream"
+        ]
+    },
+    {
+        "path": "80sClipZenithssbm.gif",
+        "name": "Clip",
+        "tags": [
+            "stream",
+            "capture"
+        ]
+    },
+    {
+        "path": "80sCreateClipZenithssbm.gif",
+        "name": "Create Clip",
+        "tags": [
+            "stream",
+            "capture"
+        ]
+    },
+    {
+        "path": "80sCreditsZenithssbm.gif",
+        "name": "Credits",
+        "tags": [
+            "travel",
+            "sport"
+        ]
+    },
+    {
+        "path": "80sDisplayNameZenithssbm.gif",
+        "name": "Display Name",
+        "tags": [
+            "text"
+        ]
+    },
+    {
+        "path": "80sDoubleBulbZenithsbbm.gif",
+        "name": "Bulb Group",
+        "tags": [
+            "light"
+        ]
+    },
+    {
+        "path": "80sElgatoZenithssbm.gif",
+        "name": "Elgato",
+        "tags": [
+            "application"
+        ]
+    },
+    {
+        "path": "80sEmoteChatZenithssbm.gif",
+        "name": "Emote Chat",
+        "tags": [
+            "stream"
+        ]
+    },
+    {
+        "path": "80sEmptyJarZenithssbm.gif",
+        "name": "Empty Jar",
+        "tags": [
+            "stream"
+        ]
+    },
+    {
+        "path": "80sFastForwardZenithssbm.gif",
+        "name": "Next Track",
+        "tags": [
+            "media"
+        ]
+    },
+    {
+        "path": "80sFlashbackZenithssbm.gif",
+        "name": "Flashback Record",
+        "tags": [
+            "capture"
+        ]
+    },
+    {
+        "path": "80sFolderZenithssbm.gif",
+        "name": "Bike",
+        "tags": [
+            "organization"
+        ]
+    },
+    {
+        "path": "80sFollowerChatZenithssbm.gif",
+        "name": "Follower Chat",
+        "tags": [
+            "stream"
+        ]
+    },
+    {
+        "path": "80sHalfSettingZenithssbm.gif",
+        "name": "Contrast",
+        "tags": [
+            "lighting"
+        ]
+    },
+    {
+        "path": "80sHotkeyZenithssbm.gif",
+        "name": "Hotkey",
+        "tags": [
+            "function"
+        ]
+    },
+    {
+        "path": "80sHue2Zenithssbm.gif",
+        "name": "Hue",
+        "tags": [
+            "light"
+        ]
+    },
+    {
+        "path": "80sHue3Zenithssbm.gif",
+        "name": "Hue",
+        "tags": [
+            "light"
+        ]
+    },
+    {
+        "path": "80sHueZenithssbm.gif",
+        "name": "Hue",
+        "tags": [
+            "light"
+        ]
+    },
+    {
+        "path": "80sICUEZenithssbm.gif",
+        "name": "iCUE",
+        "tags": [
+            "iCUE",
+            "lighting"
+        ]
+    },
+    {
+        "path": "80sLightBulbZenithssbm.gif",
+        "name": "Lamp",
+        "tags": [
+            "lighting"
+        ]
+    },
+    {
+        "path": "80sLightDownZenithssbm.gif",
+        "name": "Decrease Brightness",
+        "tags": [
+            "lighting"
+        ]
+    },
+    {
+        "path": "80sLightSetZenithssbm.gif",
+        "name": "Set Brightness",
+        "tags": [
+            "lighting"
+        ]
+    },
+    {
+        "path": "80sLightTempZenithssbm.gif",
+        "name": "Lighting Temperature",
+        "tags": [
+            "lighting"
+        ]
+    },
+    {
+        "path": "80sLightUpZenithssbm.gif",
+        "name": "Increase Brightness",
+        "tags": [
+            "lighting"
+        ]
+    },
+    {
+        "path": "80sLiveOfflineZenithssbm.gif",
+        "name": "Stream Offline",
+        "tags": [
+            "stream"
+        ]
+    },
+    {
+        "path": "80sLiveOnline2Zenithssbm.gif",
+        "name": "Stream Online",
+        "tags": [
+            "stream"
+        ]
+    },
+    {
+        "path": "80sLiveOnline3Zenithssbm.gif",
+        "name": "Stream Online",
+        "tags": [
+            "stream"
+        ]
+    },
+    {
+        "path": "80sLiveOnlineZenithssbm.gif",
+        "name": "Stream Online",
+        "tags": [
+            "stream"
+        ]
+    },
+    {
+        "path": "80sMediaHideZenithssbm.gif",
+        "name": "Hide Media Source",
+        "tags": [
+            "streaming",
+            "recording"
+        ]
+    },
+    {
+        "path": "80sMediaSourceZenithssbm.gif",
+        "name": "Toggle Media Source",
+        "tags": [
+            "streaming",
+            "recording"
+        ]
+    },
+    {
+        "path": "80sMessageZenithssbm.gif",
+        "name": "Post Message",
+        "tags": [
+            "streaming",
+            "social"
+        ]
+    },
+    {
+        "path": "80sMinusZenithssbm.gif",
+        "name": "Minus",
+        "tags": [
+            "control"
+        ]
+    },
+    {
+        "path": "80sMultiactionZenithssbm.gif",
+        "name": "Multiaction",
+        "tags": [
+            "streamdeck",
+            "control"
+        ]
+    },
+    {
+        "path": "80sMusicZenithssbm.gif",
+        "name": "Music",
+        "tags": [
+            "music"
+        ]
+    },
+    {
+        "path": "80sMuteMicZenithssbm.gif",
+        "name": "Mute Mic - Muted",
+        "tags": [
+            "sound"
+        ]
+    },
+    {
+        "path": "80sMuteZenithssbm.gif",
+        "name": "Mute Sound",
+        "tags": [
+            "sound"
+        ]
+    },
+    {
+        "path": "80sNvidiaZenithssbm.gif",
+        "name": "Nvidia",
+        "tags": [
+            "app"
+        ]
+    },
+    {
+        "path": "80sObsSceneZenithssbm.gif",
+        "name": "OBS Scene",
+        "tags": [
+            "app"
+        ]
+    },
+    {
+        "path": "80sObsToggleZenithssbm.gif",
+        "name": "OBS Toggle",
+        "tags": [
+            "app"
+        ]
+    },
+    {
+        "path": "80sObsZenithssbm.gif",
+        "name": "OBS",
+        "tags": [
+            "app"
+        ]
+    },
+    {
+        "path": "80sOffSwitchZenithssbm.gif",
+        "name": "Switch - Off",
+        "tags": [
+            "control"
+        ]
+    },
+    {
+        "path": "80sOnSwitchZenithssbm.gif",
+        "name": "Switch - On",
+        "tags": [
+            "control"
+        ]
+    },
+    {
+        "path": "80sPausePlayZenithssbm.gif",
+        "name": "Pause / Play",
+        "tags": [
+            "sounds"
+        ]
+    },
+    {
+        "path": "80sPlayButtonZenithssbm.gif",
+        "name": "Play Sound",
+        "tags": [
+            "sounds"
+        ]
+    },
+    {
+        "path": "80sPlusZenithssbm.gif",
+        "name": "Plus",
+        "tags": [
+            "control"
+        ]
+    },
+    {
+        "path": "80sPower2Zenithssbm.gif",
+        "name": "Power - On",
+        "tags": [
+            "control"
+        ]
+    },
+    {
+        "path": "80sPowerZenithssbm.gif",
+        "name": "Power - Off",
+        "tags": [
+            "control"
+        ]
+    },
+    {
+        "path": "80sRecOn3Zenithssbm.gif",
+        "name": "Recording",
+        "tags": [
+            "capture"
+        ]
+    },
+    {
+        "path": "80sRecordOn1Zenithssbm.gif",
+        "name": "Recording",
+        "tags": [
+            "capture"
+        ]
+    },
+    {
+        "path": "80sRecordOn2Zenithssbm.gif",
+        "name": "Recording",
+        "tags": [
+            "capture"
+        ]
+    },
+    {
+        "path": "80sRecordZenithssbm.gif",
+        "name": "Record",
+        "tags": [
+            "capture"
+        ]
+    },
+    {
+        "path": "80sRepeat2Zenithssbm.gif",
+        "name": "Repeat Playlist",
+        "tags": [
+            "sound",
+            "control"
+        ]
+    },
+    {
+        "path": "80sRepeat3Zenithssbm.gif",
+        "name": "Repeat Song",
+        "tags": [
+            "sound",
+            "control"
+        ]
+    },
+    {
+        "path": "80sRepeatZenithssbm.gif",
+        "name": "Repeat",
+        "tags": [
+            "sound",
+            "control"
+        ]
+    },
+    {
+        "path": "80sRewindZenithssbm.gif",
+        "name": "Previous Track",
+        "tags": [
+            "sound",
+            "control"
+        ]
+    },
+    {
+        "path": "80sRgbLightZenithssbm.gif",
+        "name": "Color Bulb",
+        "tags": [
+            "light"
+        ]
+    },
+    {
+        "path": "80sRocketZenithssbm.gif",
+        "name": "System Launch",
+        "tags": [
+            "control"
+        ]
+    },
+    {
+        "path": "80sSceneElementZenithssbm.gif",
+        "name": "Scene Element",
+        "tags": [
+            "stream",
+            "record"
+        ]
+    },
+    {
+        "path": "80sSearchZenithssbm.gif",
+        "name": "Search",
+        "tags": [
+            "action"
+        ]
+    },
+    {
+        "path": "80sShowMediaZenithssbm.gif",
+        "name": "Show Media",
+        "tags": [
+            "control"
+        ]
+    },
+    {
+        "path": "80sShuffleZenithssbm.gif",
+        "name": "Shuffle",
+        "tags": [
+            "sound"
+        ]
+    },
+    {
+        "path": "80sSkipZenithssbm.gif",
+        "name": "Skip",
+        "tags": [
+            "control"
+        ]
+    },
+    {
+        "path": "80sSleepZenithssbm.gif",
+        "name": "Sleep",
+        "tags": [
+            "action"
+        ]
+    },
+    {
+        "path": "80sSlobsZenithssbm.gif",
+        "name": "Streamlabs OBS",
+        "tags": [
+            "app"
+        ]
+    },
+    {
+        "path": "80sSlowChatZenithssbm.gif",
+        "name": "Slow Chat",
+        "tags": [
+            "stream"
+        ]
+    },
+    {
+        "path": "80sSpeakerZenithssbm.gif",
+        "name": "Audio Output",
+        "tags": [
+            "hardware"
+        ]
+    },
+    {
+        "path": "80sSpotifyZenithssbm.gif",
+        "name": "Spotify",
+        "tags": [
+            "app"
+        ]
+    },
+    {
+        "path": "80sStocksZenithssbm.gif",
+        "name": "Stocks",
+        "tags": [
+            "app"
+        ]
+    },
+    {
+        "path": "80sStopButtonZenithssbm.gif",
+        "name": "Stop Sound",
+        "tags": [
+            "control"
+        ]
+    },
+    {
+        "path": "80sStopZenithssbm.gif",
+        "name": "Stop",
+        "tags": [
+            "sounds",
+            "control"
+        ]
+    },
+    {
+        "path": "80sSubchatZenithssbm.gif",
+        "name": "Subscriber Chat",
+        "tags": [
+            "stream"
+        ]
+    },
+    {
+        "path": "80sSwitchProfileZenithssbm.gif",
+        "name": "Switch Profile",
+        "tags": [
+            "control",
+            "recording"
+        ]
+    },
+    {
+        "path": "80sTextZenithssbm.gif",
+        "name": "Text",
+        "tags": [
+            "stream deck"
+        ]
+    },
+    {
+        "path": "80sTimerZenithssbm.gif",
+        "name": "Timer",
+        "tags": [
+            "app"
+        ]
+    },
+    {
+        "path": "80sTwitchZenithssbm.gif",
+        "name": "Twitch",
+        "tags": [
+            "app"
+        ]
+    },
+    {
+        "path": "80sTwitterZenithssbm.gif",
+        "name": "Twitter",
+        "tags": [
+            "app"
+        ]
+    },
+    {
+        "path": "80sUnmuteZenithssbm.gif",
+        "name": "Mute Mic - Unmuted",
+        "tags": [
+            "sounds"
+        ]
+    },
+    {
+        "path": "80sUploadClipZenithssbm.gif",
+        "name": "Upload Clip",
+        "tags": [
+            "capture"
+        ]
+    },
+    {
+        "path": "80sViewerZenithssbm.gif",
+        "name": "Viewer",
+        "tags": [
+            "stream"
+        ]
+    },
+    {
+        "path": "80sVolDownZenithssbm.gif",
+        "name": "Volume Down",
+        "tags": [
+            "sounds"
+        ]
+    },
+    {
+        "path": "80sVolUpZenithssbm.gif",
+        "name": "Volume Up",
+        "tags": [
+            "sounds"
+        ]
+    },
+    {
+        "path": "80sWebsiteZenithssbm.gif",
+        "name": "Open Website",
+        "tags": [
+            "control"
+        ]
+    },
+    {
+        "path": "80sXsplitZenithssbm.gif",
+        "name": "XSplit",
+        "tags": [
+            "app"
+        ]
+    }
+]

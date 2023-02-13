@@ -156,17 +156,17 @@ const temperatureSlider = {
                 minLabel: (me, device) => {
                     // const v = me.utils.getProp(device, 'lights.temperatureMax', 7000);
                     // return Math.ceil(v / 50) * 50;
-                    return 7000;
+                    return 6993;
                 },
                 max: (me, device) => {
                     // const v = me.utils.getProp(device, 'lights.temperatureMin', 2900);
                     // return Math.floor(Utils.kelvinToMired(v));
-                    return Math.floor(Utils.kelvinToMired(2900));
+                    return Math.floor(Utils.kelvinToMired(2907));
                 },
                 min: (me, device) => {
                     // const v = me.utils.getProp(device, 'lights.temperatureMax', 7000);
                     // return Math.ceil(Utils.kelvinToMired(v));
-                    return Math.ceil(Utils.kelvinToMired(7000));
+                    return Math.ceil(Utils.kelvinToMired(6993));
                 },
                 value: (me, device) => {
                     const v = me.utils.getProp(device, 'lights.temperature', 4700);

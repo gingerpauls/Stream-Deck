@@ -1,4 +1,2 @@
-08:58:58.364 OnMessage {"event":"applicationDidLaunch","payload":{"application":"GoXLR App.exe"}}
-08:59:01.820 OnMessage {"event":"applicationDidLaunch","payload":{"application":"GoXLR App.exe"}}
-08:59:08.974 OnMessage {"event":"systemDidWakeUp"}
-10:25:26.040 OnMessage {"device":"5D1785726AB2B0A13A5822E62443FB74","deviceInfo":{"name":"Stream Deck 1","size":{"columns":5,"rows":3},"type":0},"event":"deviceDidConnect"}
+18:47:44.939 OnMessage {"event":"applicationDidLaunch","payload":{"application":"GoXLR App.exe"}}
+18:50:46.208 OnMessage {"event":"systemDidWakeUp"}

@@ -1,3 +1,10 @@
-21:03:22.638 OnMessage {"device":"5D1785726AB2B0A13A5822E62443FB74","deviceInfo":{"name":"Stream Deck 1","size":{"columns":5,"rows":3},"type":0},"event":"deviceDidConnect"}
-21:03:22.638 OnMessage {"device":"5D1785726AB2B0A13A5822E62443FB74","deviceInfo":{"name":"Stream Deck 1","size":{"columns":5,"rows":3},"type":0},"event":"deviceDidConnect"}
-21:03:27.058 OnMessage {"event":"applicationDidLaunch","payload":{"application":"GoXLR App.exe"}}
+08:52:10.038 OnMessage {"event":"applicationDidLaunch","payload":{"application":"GoXLR App.exe"}}
+08:52:13.941 OnMessage {"event":"applicationDidLaunch","payload":{"application":"GoXLR App.exe"}}
+08:52:30.741 OnMessage {"event":"systemDidWakeUp"}
+09:07:24.536 OnMessage {"device":"689AA4D1892962FC46356E9F4E6954E2","deviceInfo":{"name":"Paul’s iPad","size":{"columns":5,"rows":3},"type":3},"event":"deviceDidConnect"}
+10:21:48.828 OnMessage {"device":"689AA4D1892962FC46356E9F4E6954E2","event":"deviceDidDisconnect"}
+10:22:37.853 OnMessage {"device":"689AA4D1892962FC46356E9F4E6954E2","deviceInfo":{"name":"Paul’s iPad","size":{"columns":5,"rows":3},"type":3},"event":"deviceDidConnect"}
+12:14:46.123 OnMessage {"event":"applicationDidTerminate","payload":{"application":"GoXLR App.exe"}}
+12:14:46.124 OnMessage {"event":"applicationDidLaunch","payload":{"application":"GoXLR App.exe"}}
+12:34:31.315 OnMessage {"device":"689AA4D1892962FC46356E9F4E6954E2","event":"deviceDidDisconnect"}
+12:35:19.072 OnMessage {"device":"689AA4D1892962FC46356E9F4E6954E2","deviceInfo":{"name":"Paul’s iPad","size":{"columns":5,"rows":3},"type":3},"event":"deviceDidConnect"}

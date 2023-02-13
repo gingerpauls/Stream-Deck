@@ -112,6 +112,30 @@
             ],
             "Tooltip": "Show battery status",
             "UUID": "com.elgato.controlcenter.battery"
+        },
+        {
+            "Icon": "action/images/sidebar/scene",
+            "Name": "Scene",
+            "States": [
+                {
+                    "Image": "action/images/scene",
+                    "Name": "Scene",
+                    "TitleColor": "#FFFFFF"
+                }
+            ],
+            "Controllers": [
+                "Keypad",
+                "Encoder"
+            ],
+            "Encoder": {
+                "layout": "$B1",
+                "TriggerDescription": {
+                    "Rotate": "Adjust Scene/Brightness",
+                    "Touch": "Toggle Light on/off"
+                }
+            },
+            "Tooltip": "Switch the scene of a light",
+            "UUID": "com.elgato.controlcenter.scene"
         }
     ],
     "SDKVersion": 2,
@@ -128,7 +152,7 @@
         744
     ],
     "URL": "https://www.elgato.com/en/gaming/stream-deck",
-    "Version": "1.9.2.267",
+    "Version": "1.9.2.270",
     "OS": [
         {
             "Platform": "mac",

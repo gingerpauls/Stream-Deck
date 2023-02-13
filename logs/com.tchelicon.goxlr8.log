@@ -1,2 +1,2 @@
-08:31:34.041 OnMessage {"event":"applicationDidLaunch","payload":{"application":"GoXLR App.exe"}}
-08:43:30.605 OnMessage {"event":"systemDidWakeUp"}
+18:32:21.794 OnMessage {"event":"applicationDidLaunch","payload":{"application":"GoXLR App.exe"}}
+18:32:31.166 OnMessage {"device":"689AA4D1892962FC46356E9F4E6954E2","deviceInfo":{"name":"Paul’s iPad","size":{"columns":5,"rows":3},"type":3},"event":"deviceDidConnect"}

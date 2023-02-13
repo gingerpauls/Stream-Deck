@@ -1,43 +1,6 @@
-2023-02-05 09:22:16.5130|DEBUG|com.barraider.streamcounter|1|Logger Initialized
-2023-02-05 09:22:16.5728|INFO|com.barraider.streamcounter|1|Plugin [com.barraider.streamcounter] Loading - 1 Actions Found
-2023-02-05 09:22:17.1562|INFO|com.barraider.streamcounter|1|Plugin version: 1.8
-2023-02-05 09:22:17.1562|INFO|com.barraider.streamcounter|1|Connecting to Stream Deck
-2023-02-05 09:22:19.2278|INFO|com.barraider.streamcounter|1|Connected to Stream Deck
-2023-02-05 09:22:19.2278|INFO|com.barraider.streamcounter|1|GlobalSettingsManager initialized
-2023-02-05 09:31:41.0058|DEBUG|com.barraider.streamcounter|1|Logger Initialized
-2023-02-05 09:31:41.0417|INFO|com.barraider.streamcounter|1|Plugin [com.barraider.streamcounter] Loading - 1 Actions Found
-2023-02-05 09:31:41.4547|INFO|com.barraider.streamcounter|1|Plugin version: 1.8
-2023-02-05 09:31:41.4547|INFO|com.barraider.streamcounter|1|Connecting to Stream Deck
-2023-02-05 09:31:43.5830|INFO|com.barraider.streamcounter|1|Connected to Stream Deck
-2023-02-05 09:31:43.5830|INFO|com.barraider.streamcounter|1|GlobalSettingsManager initialized
-2023-02-05 09:38:32.0188|DEBUG|com.barraider.streamcounter|1|Logger Initialized
-2023-02-05 09:38:32.0573|INFO|com.barraider.streamcounter|1|Plugin [com.barraider.streamcounter] Loading - 1 Actions Found
-2023-02-05 09:38:32.4492|INFO|com.barraider.streamcounter|1|Plugin version: 1.8
-2023-02-05 09:38:32.4502|INFO|com.barraider.streamcounter|1|Connecting to Stream Deck
-2023-02-05 09:38:34.5910|INFO|com.barraider.streamcounter|1|Connected to Stream Deck
-2023-02-05 09:38:34.5910|INFO|com.barraider.streamcounter|1|GlobalSettingsManager initialized
-2023-02-05 09:41:25.5910|DEBUG|com.barraider.streamcounter|1|Logger Initialized
-2023-02-05 09:41:25.6189|INFO|com.barraider.streamcounter|1|Plugin [com.barraider.streamcounter] Loading - 1 Actions Found
-2023-02-05 09:41:25.9591|INFO|com.barraider.streamcounter|1|Plugin version: 1.8
-2023-02-05 09:41:25.9591|INFO|com.barraider.streamcounter|1|Connecting to Stream Deck
-2023-02-05 09:41:28.0171|INFO|com.barraider.streamcounter|1|Connected to Stream Deck
-2023-02-05 09:41:28.0171|INFO|com.barraider.streamcounter|1|GlobalSettingsManager initialized
-2023-02-05 13:26:26.5384|INFO|com.barraider.streamcounter|112|Loading counter file: 
-2023-02-05 13:26:27.1727|INFO|com.barraider.streamcounter|1|Loading counter file: 
-2023-02-05 13:26:27.4839|INFO|com.barraider.streamcounter|112|Destructor called
-2023-02-05 13:26:29.4003|INFO|com.barraider.streamcounter|112|Loading counter file: 
-2023-02-05 13:26:29.8157|INFO|com.barraider.streamcounter|112|Destructor called
-2023-02-05 13:26:30.9607|INFO|com.barraider.streamcounter|112|Loading counter file: 
-2023-02-05 13:26:31.1781|INFO|com.barraider.streamcounter|1|Loading counter file: 
-2023-02-05 13:26:31.2634|INFO|com.barraider.streamcounter|112|Destructor called
-2023-02-05 13:26:32.1495|INFO|com.barraider.streamcounter|112|Loading counter file: 
-2023-02-05 13:26:32.1785|INFO|com.barraider.streamcounter|1|Loading counter file: 
-2023-02-05 13:26:32.4557|INFO|com.barraider.streamcounter|112|Destructor called
-2023-02-05 13:26:33.2247|INFO|com.barraider.streamcounter|112|Loading counter file: 
-2023-02-05 13:26:33.5418|INFO|com.barraider.streamcounter|112|Destructor called
-2023-02-05 21:03:22.3732|DEBUG|com.barraider.streamcounter|1|Logger Initialized
-2023-02-05 21:03:22.4161|INFO|com.barraider.streamcounter|1|Plugin [com.barraider.streamcounter] Loading - 1 Actions Found
-2023-02-05 21:03:22.7982|INFO|com.barraider.streamcounter|1|Plugin version: 1.8
-2023-02-05 21:03:22.7982|INFO|com.barraider.streamcounter|1|Connecting to Stream Deck
-2023-02-05 21:03:24.8714|INFO|com.barraider.streamcounter|1|Connected to Stream Deck
-2023-02-05 21:03:24.8714|INFO|com.barraider.streamcounter|1|GlobalSettingsManager initialized
+2023-02-12 08:52:09.4499|DEBUG|com.barraider.streamcounter|1|Logger Initialized
+2023-02-12 08:52:09.5772|INFO|com.barraider.streamcounter|1|Plugin [com.barraider.streamcounter] Loading - 1 Actions Found
+2023-02-12 08:52:10.0684|INFO|com.barraider.streamcounter|1|Plugin version: 1.8
+2023-02-12 08:52:10.0684|INFO|com.barraider.streamcounter|1|Connecting to Stream Deck
+2023-02-12 08:52:12.2180|INFO|com.barraider.streamcounter|1|Connected to Stream Deck
+2023-02-12 08:52:12.2195|INFO|com.barraider.streamcounter|1|GlobalSettingsManager initialized

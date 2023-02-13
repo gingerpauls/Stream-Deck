@@ -55,7 +55,7 @@
         "Tooltip": "Set the scene of your light to a predefined value",
         "Encoder": {
             "TriggerDescription": {
-                "Rotate": "Adjust Scene",
+                "Rotate": "Adjust Scene/Brightness",
                 "Touch": "Toggle Lights on/off"
             }
         }

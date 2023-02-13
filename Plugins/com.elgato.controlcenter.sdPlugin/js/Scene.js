@@ -4,8 +4,6 @@ const DIALMODES = {
     switchScenes: 'switchScenes',
 };
 
-DIALMODES.switchScenes = 'switchScenes';
-
 var Scene = function(jsn, options, clr) {
     options.allowedDeviceTypes = [DEVICETYPES.LIGHTSTRIP];
     ControlCenterKeyLight.call(this, jsn, options, clr);
@@ -77,7 +75,7 @@ var Scene = function(jsn, options, clr) {
     this.dbg('initializing', this.options.property, {currentProperty, currentPropertySettings, settings: this.settings, device});
 
     if(currentPropertySettings === -1 && currentProperty !== -1) {
-        console.log(`--------- saving ${currentProperty} to ${this.options.property}`);
+        // console.log(`--------- saving ${currentProperty} to ${this.options.property}`);
         this.utils.setProp(this.settings, this.options.property, currentProperty);
         this.setSettings();
     }
@@ -267,9 +265,9 @@ Scene.prototype.updateKey = function(deviceP, jsn) {
         const brightness = this.utils.minmax(Number(device?.lights?.brightness), this.clippedMin, 100);
         let opacity = device?.lights?.on ? 1 : CONFIG.DIALACTIONOFF_OPACITY;
         let bgColor = '#FFFFFF';
-        let __sceneid_device = null;
-        let _sceneid = null;
         if(device) {
+            // console.log('updateKey', device?.deviceID, device?.lights?.sceneId, {scene, lights: device?.lights});
+            // const sceneElements = scene?.sceneElements || this.getSceneElements(device);
             const sceneElements = this.getSceneElements(device);
             const colorObj = sceneElements.length ? {lights: sceneElements[0]} : device?.lights;
 
@@ -379,6 +377,14 @@ Scene.prototype.getPIData = function() {
 
     if(this.isEncoder) {
         const prefix = this.isEncoder ? '' : '+';
+        const dialModeKeys = Object.keys(DIALMODES);
+        const hasSetting = Object.keys(this.settings).some(e => dialModeKeys.includes(e));
+        // Force to switchScenes mode if no setting is found
+        if(!hasSetting) {
+            this.settings[DIALMODES.switchScenes] = true;
+            this.switchScenes = true;
+            this.setSettings();
+        }
         const rotateDialToSwitchScenes = this.settings?.[DIALMODES.switchScenes];
         const selectedStep = Number(this.settings.step);
         const dialModes = ['change-brightness', 'rotate-scenes'];
@@ -400,12 +406,12 @@ Scene.prototype.getPIData = function() {
             <div class="sdpi-item-label">${'Dial Action'.lox()}</div>
             <div class="sdpi-item-value ">
                 <div class="sdpi-item-child">
-                    <input id="_callback-rdio1" type="radio" name="rdio" value="changebrightness" onchange="swapClassesCallback(event, '.scenemodeselect', '${dialModes[0]}', '${dialModes[1]}')" ${!rotateDialToSwitchScenes ? 'checked' : ''}>
-                    <label for="_callback-rdio1" class="sdpi-item-label"><span></span>${'Brightness'.lox()}</label>
-                </div>
-                <div class="sdpi-item-child">
                     <input id="_callback-rdio2" type="radio" value="${DIALMODES.switchScenes}" name="rdio" onchange="swapClassesCallback(event, '.scenemodeselect', '${dialModes[1]}', '${dialModes[0]}')" ${rotateDialToSwitchScenes ? 'checked' : ''}>
                     <label for="_callback-rdio2" class="sdpi-item-label"><span></span>${'Switch Scenes'.lox()}</label>
+                </div>
+                <div class="sdpi-item-child">
+                    <input id="_callback-rdio1" type="radio" name="rdio" value="changebrightness" onchange="swapClassesCallback(event, '.scenemodeselect', '${dialModes[0]}', '${dialModes[1]}')" ${!rotateDialToSwitchScenes ? 'checked' : ''}>
+                    <label for="_callback-rdio1" class="sdpi-item-label"><span></span>${'Brightness'.lox()}</label>
                 </div>
             </div>
         </div>

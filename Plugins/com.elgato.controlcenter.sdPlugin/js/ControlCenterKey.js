@@ -869,7 +869,7 @@ ControlCenterKey.prototype.findFirstAvailableDevice = function() {
         }
         return false;
     });
-    console.log("findFirstAvailableDevice:dvc", dvc);
+    // console.log("findFirstAvailableDevice:dvc", dvc);
     return dvc;
     // return this.cc.devices.find(d => this.allowedDeviceTypes.includes(d.type));
 };

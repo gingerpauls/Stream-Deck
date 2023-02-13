@@ -55,7 +55,7 @@
         "Tooltip": "Stelle die Szene des Lichts auf einen vordefinierten Wert ein",
         "Encoder": {
             "TriggerDescription": {
-                "Rotate": "Szene anpassen",
+                "Rotate": "Szene/Helligkeit anpassen",
                 "Touch": "Licht ein/aus"
             }
         }

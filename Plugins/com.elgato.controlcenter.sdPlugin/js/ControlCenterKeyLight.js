@@ -68,10 +68,19 @@ ControlCenterKeyLight.prototype.getValue = function(device) {
 
 ControlCenterKeyLight.prototype.getSceneElements = function(inDevice) {
     let device = inDevice || this.findDeviceById(this.settings['deviceID']);
+    if(!device) {
+        // console.warn('No device found for deviceID', this.settings['deviceID']);
+        return [];
+    }
     let sceneElements = [];
-    if(device?.lights?.hasOwnProperty('sceneId')) { // light has a color-scene set
+    if(device.lights?.hasOwnProperty('sceneId')) { // light has a color-scene set
         const favoritePropertyArray = device.favoriteScenes || [];  // try to get all favoriteScenes
         sceneElements = favoritePropertyArray?.find(s => s.id === device.lights.sceneId)?.sceneElements ?? [];
+        if(sceneElements.length === 0) {
+            console.info('No sceneElement found in device.favoriteScenes', device?.deviceID, device?.name, device, device.favoriteScenes)
+        }
+    } else {
+        console.warn('No sceneId found for device', device?.deviceID, device?.name, device);
     }
     return sceneElements;
 };

@@ -55,7 +55,7 @@
         "Tooltip": "Réglez la scène de votre lumière sur une valeur prédéfinie",
         "Encoder": {
             "TriggerDescription": {
-                "Rotate": "Régler la scène",
+                "Rotate": "Régler la scène/luminosité",
                 "Touch": "Allumer ou éteindre les lumières"
             }
         }

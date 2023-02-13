@@ -1,65 +1,12 @@
-2023-02-05 09:22:16.4800|DEBUG|com.barraider.twitchtools|1|Logger Initialized
-2023-02-05 09:22:16.5997|INFO|com.barraider.twitchtools|1|Plugin [com.barraider.twitchtools] Loading - 16 Actions Found
-2023-02-05 09:22:17.2540|DEBUG|com.barraider.twitchtools|1|Plugin Loaded: UUID: 7254328261E632E7B552A8E7A59F1213 Device Info: Devices:
+2023-02-12 08:52:09.4068|DEBUG|com.barraider.twitchtools|1|Logger Initialized
+2023-02-12 08:52:09.4868|INFO|com.barraider.twitchtools|1|Plugin [com.barraider.twitchtools] Loading - 16 Actions Found
+2023-02-12 08:52:10.0774|DEBUG|com.barraider.twitchtools|1|Plugin Loaded: UUID: 26A1ADA9A1180F886526FF65A3605284 Device Info: Devices:
 [Id: 5D1785726AB2B0A13A5822E62443FB74 Type: StreamDeckClassic Size: Rows: 3 Columns: 5]
 [Id: 689AA4D1892962FC46356E9F4E6954E2 Type: StreamDeckMobile Size: Rows: 3 Columns: 5]
 ApplicationInfo: Language: en Platform: windows Version: 6.0.2.17735
 PluginInfo: Version: 3.1
 
-2023-02-05 09:22:17.2540|INFO|com.barraider.twitchtools|1|Plugin version: 3.1
-2023-02-05 09:22:17.2540|INFO|com.barraider.twitchtools|1|Connecting to Stream Deck...
-2023-02-05 09:22:19.3345|INFO|com.barraider.twitchtools|1|Connected to Stream Deck
-2023-02-05 09:22:19.3345|INFO|com.barraider.twitchtools|1|GlobalSettingsManager initialized
-2023-02-05 09:31:40.8303|DEBUG|com.barraider.twitchtools|1|Logger Initialized
-2023-02-05 09:31:40.8802|INFO|com.barraider.twitchtools|1|Plugin [com.barraider.twitchtools] Loading - 16 Actions Found
-2023-02-05 09:31:41.4158|DEBUG|com.barraider.twitchtools|1|Plugin Loaded: UUID: F8237403F04A4EA9657AE6F8F6971275 Device Info: Devices:
-[Id: 5D1785726AB2B0A13A5822E62443FB74 Type: StreamDeckClassic Size: Rows: 3 Columns: 5]
-[Id: 689AA4D1892962FC46356E9F4E6954E2 Type: StreamDeckMobile Size: Rows: 3 Columns: 5]
-ApplicationInfo: Language: en Platform: windows Version: 6.0.2.17735
-PluginInfo: Version: 3.1
-
-2023-02-05 09:31:41.4158|INFO|com.barraider.twitchtools|1|Plugin version: 3.1
-2023-02-05 09:31:41.4158|INFO|com.barraider.twitchtools|1|Connecting to Stream Deck...
-2023-02-05 09:31:43.5491|INFO|com.barraider.twitchtools|1|Connected to Stream Deck
-2023-02-05 09:31:43.5491|INFO|com.barraider.twitchtools|1|GlobalSettingsManager initialized
-2023-02-05 09:38:31.8687|DEBUG|com.barraider.twitchtools|1|Logger Initialized
-2023-02-05 09:38:31.9146|INFO|com.barraider.twitchtools|1|Plugin [com.barraider.twitchtools] Loading - 16 Actions Found
-2023-02-05 09:38:32.4412|DEBUG|com.barraider.twitchtools|1|Plugin Loaded: UUID: 578FEECF8B72AB9B9EA0B7599A945130 Device Info: Devices:
-[Id: 5D1785726AB2B0A13A5822E62443FB74 Type: StreamDeckClassic Size: Rows: 3 Columns: 5]
-[Id: 689AA4D1892962FC46356E9F4E6954E2 Type: StreamDeckMobile Size: Rows: 3 Columns: 5]
-ApplicationInfo: Language: en Platform: windows Version: 6.0.2.17735
-PluginInfo: Version: 3.1
-
-2023-02-05 09:38:32.4412|INFO|com.barraider.twitchtools|1|Plugin version: 3.1
-2023-02-05 09:38:32.4412|INFO|com.barraider.twitchtools|1|Connecting to Stream Deck...
-2023-02-05 09:38:34.6429|INFO|com.barraider.twitchtools|1|Connected to Stream Deck
-2023-02-05 09:38:34.6429|INFO|com.barraider.twitchtools|1|GlobalSettingsManager initialized
-2023-02-05 09:41:25.6309|DEBUG|com.barraider.twitchtools|1|Logger Initialized
-2023-02-05 09:41:25.6758|INFO|com.barraider.twitchtools|1|Plugin [com.barraider.twitchtools] Loading - 16 Actions Found
-2023-02-05 09:41:26.1112|DEBUG|com.barraider.twitchtools|1|Plugin Loaded: UUID: E1C9621E3C3DDA3C99ADDC1191915F6B Device Info: Devices:
-[Id: 5D1785726AB2B0A13A5822E62443FB74 Type: StreamDeckClassic Size: Rows: 3 Columns: 5]
-[Id: 689AA4D1892962FC46356E9F4E6954E2 Type: StreamDeckMobile Size: Rows: 3 Columns: 5]
-ApplicationInfo: Language: en Platform: windows Version: 6.0.2.17735
-PluginInfo: Version: 3.1
-
-2023-02-05 09:41:26.1112|INFO|com.barraider.twitchtools|1|Plugin version: 3.1
-2023-02-05 09:41:26.1112|INFO|com.barraider.twitchtools|1|Connecting to Stream Deck...
-2023-02-05 09:41:28.1827|INFO|com.barraider.twitchtools|1|Connected to Stream Deck
-2023-02-05 09:41:28.1827|INFO|com.barraider.twitchtools|1|GlobalSettingsManager initialized
-2023-02-05 13:26:26.5474|INFO|com.barraider.twitchtools|121|GlobalSettingsManager::RequestGlobalSettings called
-2023-02-05 13:26:26.8566|INFO|com.barraider.twitchtools|117|GlobalSettingsManager::GetGlobalSettingsAsync triggered
-2023-02-05 13:26:26.8785|INFO|com.barraider.twitchtools|121|Token initialized. Last refresh date was: 2022-12-17 11:05:25 AM Token Size: 30
-2023-02-05 13:26:26.8785|INFO|com.barraider.twitchtools|121|TwitchTokenManager raising new token change. Token Size: 30
-2023-02-05 13:26:26.8785|INFO|com.barraider.twitchtools|121|ChatPager.Backend.OAuthTokenListener Listener stopped
-2023-02-05 21:03:22.3792|DEBUG|com.barraider.twitchtools|1|Logger Initialized
-2023-02-05 21:03:22.4381|INFO|com.barraider.twitchtools|1|Plugin [com.barraider.twitchtools] Loading - 16 Actions Found
-2023-02-05 21:03:22.9803|DEBUG|com.barraider.twitchtools|1|Plugin Loaded: UUID: D25F0CF557FB4C03DB78E4D860D17D2F Device Info: Devices:
-[Id: 5D1785726AB2B0A13A5822E62443FB74 Type: StreamDeckClassic Size: Rows: 3 Columns: 5]
-[Id: 689AA4D1892962FC46356E9F4E6954E2 Type: StreamDeckMobile Size: Rows: 3 Columns: 5]
-ApplicationInfo: Language: en Platform: windows Version: 6.0.2.17735
-PluginInfo: Version: 3.1
-
-2023-02-05 21:03:22.9803|INFO|com.barraider.twitchtools|1|Plugin version: 3.1
-2023-02-05 21:03:22.9803|INFO|com.barraider.twitchtools|1|Connecting to Stream Deck...
-2023-02-05 21:03:25.0609|INFO|com.barraider.twitchtools|1|Connected to Stream Deck
-2023-02-05 21:03:25.0609|INFO|com.barraider.twitchtools|1|GlobalSettingsManager initialized
+2023-02-12 08:52:10.0794|INFO|com.barraider.twitchtools|1|Plugin version: 3.1
+2023-02-12 08:52:10.0794|INFO|com.barraider.twitchtools|1|Connecting to Stream Deck...
+2023-02-12 08:52:12.2250|INFO|com.barraider.twitchtools|1|Connected to Stream Deck
+2023-02-12 08:52:12.2250|INFO|com.barraider.twitchtools|1|GlobalSettingsManager initialized

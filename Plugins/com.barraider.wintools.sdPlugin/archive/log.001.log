@@ -1,12 +1,20 @@
-2023-02-03 08:31:29.7186|DEBUG|com.barraider.wintools|1|Logger Initialized
-2023-02-03 08:31:29.7984|INFO|com.barraider.wintools|1|Plugin [com.barraider.wintools] Loading - 31 Actions Found
-2023-02-03 08:31:30.2198|INFO|com.barraider.wintools|1|Plugin version: 1.8
-2023-02-03 08:31:30.2198|INFO|com.barraider.wintools|1|Connecting to Stream Deck
-2023-02-03 08:31:32.3022|INFO|com.barraider.wintools|1|Connected to Stream Deck
-2023-02-03 08:31:32.3022|INFO|com.barraider.wintools|1|GlobalSettingsManager initialized
-2023-02-03 18:06:28.7371|DEBUG|com.barraider.wintools|1|Logger Initialized
-2023-02-03 18:06:28.7949|INFO|com.barraider.wintools|1|Plugin [com.barraider.wintools] Loading - 31 Actions Found
-2023-02-03 18:06:29.2527|INFO|com.barraider.wintools|1|Plugin version: 1.8
-2023-02-03 18:06:29.2527|INFO|com.barraider.wintools|1|Connecting to Stream Deck
-2023-02-03 18:06:31.3073|INFO|com.barraider.wintools|1|Connected to Stream Deck
-2023-02-03 18:06:31.3073|INFO|com.barraider.wintools|1|GlobalSettingsManager initialized
+2023-02-10 07:18:40.7181|DEBUG|com.barraider.wintools|1|Logger Initialized
+2023-02-10 07:18:40.7874|INFO|com.barraider.wintools|1|Plugin [com.barraider.wintools] Loading - 31 Actions Found
+2023-02-10 07:18:41.2831|INFO|com.barraider.wintools|1|Plugin version: 1.8
+2023-02-10 07:18:41.2831|INFO|com.barraider.wintools|1|Connecting to Stream Deck
+2023-02-10 07:18:43.3976|INFO|com.barraider.wintools|1|Connected to Stream Deck
+2023-02-10 07:18:43.3976|INFO|com.barraider.wintools|1|GlobalSettingsManager initialized
+2023-02-10 18:47:44.2881|DEBUG|com.barraider.wintools|1|Logger Initialized
+2023-02-10 18:47:44.3371|INFO|com.barraider.wintools|1|Plugin [com.barraider.wintools] Loading - 31 Actions Found
+2023-02-10 18:47:44.9102|INFO|com.barraider.wintools|1|Plugin version: 1.8
+2023-02-10 18:47:44.9102|INFO|com.barraider.wintools|1|Connecting to Stream Deck
+2023-02-10 18:47:47.1122|INFO|com.barraider.wintools|1|Connected to Stream Deck
+2023-02-10 18:47:47.1122|INFO|com.barraider.wintools|1|GlobalSettingsManager initialized
+2023-02-10 18:54:38.3848|INFO|com.barraider.wintools|37|Disconnect event received
+2023-02-10 18:54:38.3848|INFO|com.barraider.wintools|1|Plugin Disconnected - Exiting
+2023-02-10 18:54:50.2237|DEBUG|com.barraider.wintools|1|Logger Initialized
+2023-02-10 18:54:50.2817|INFO|com.barraider.wintools|1|Plugin [com.barraider.wintools] Loading - 31 Actions Found
+2023-02-10 18:54:50.8623|INFO|com.barraider.wintools|1|Plugin version: 1.8
+2023-02-10 18:54:50.8623|INFO|com.barraider.wintools|1|Connecting to Stream Deck
+2023-02-10 18:54:52.9154|INFO|com.barraider.wintools|1|Connected to Stream Deck
+2023-02-10 18:54:52.9154|INFO|com.barraider.wintools|1|GlobalSettingsManager initialized

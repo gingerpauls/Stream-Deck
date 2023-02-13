@@ -55,7 +55,7 @@
         "Tooltip": "조명의 장면을 사용자 맞춤값으로 조절합니다",
         "Encoder": {
             "TriggerDescription": {
-                "Rotate": "장면 조정",
+                "Rotate": "장면/밝기 조절",
                 "Touch": "조명 켬/끔"
             }
         }

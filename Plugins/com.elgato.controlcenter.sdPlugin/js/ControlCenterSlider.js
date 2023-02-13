@@ -164,7 +164,9 @@ ControlCenterSlider.prototype.updateIcon = function(prcnt_dec, curVal) {
                 base = 'coldest';
             }
             const overrideColor = {};
-             const percnt = 1 - Utils.rangeToPercent(this.settings.lights.temperature, device.lights.temperatureMin, device.lights.temperatureMax);
+            //  const percnt = 1 - Utils.rangeToPercent(this.settings.lights.temperature, device.lights.temperatureMin, device.lights.temperatureMax);
+            const percnt = 1 - Utils.rangeToPercent(this.settings.lights.temperature, 2907, 6993);
+            // console.log('percnt', percnt, this.settings.lights.temperature, device.lights.temperatureMin, device.lights.temperatureMax);
             // overrideColor.startColor = Utils.lerpColor(MDefaultColors.coolColor, MDefaultColors.warmColor, prcnt_dec);
             overrideColor.startColor = Utils.lerpColor(MDefaultColors.coolColor, MDefaultColors.warmColor, percnt);
             overrideColor.blendColor = '#FFFFFF';

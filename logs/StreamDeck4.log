@@ -1,91 +1,777 @@
-09:22:12.797                     epl                               dbgcommand():                                   using log file 'C:\Users\hutch\AppData\Roaming\Elgato\StreamDeck\logs\StreamDeck0.log'
-09:22:12.798                     StreamDeck                        main():                                         Using preferences from \HKEY_CURRENT_USER\Software\Elgato Systems GmbH\StreamDeck
-09:22:12.798                     StreamDeck                        main():                                         Arguments:
-09:22:12.798                     StreamDeck                        main():                                         C:\Program Files\Elgato\StreamDeck\StreamDeck.exe
-09:22:12.798                     StreamDeck                        main():                                         --runinbk
-09:22:13.030                     StreamDeck                        EGQTTranslationManager::LoadLocalizations():    Could not load the 'en_CA' localization
-09:22:13.094                     StreamDeck                        main():                                         Compiled with Qt 6.3.1 ; SSL: OpenSSL 1.1.1m  14 Dec 2021
-09:22:13.094                     StreamDeck                        main():                                         Runtime SSL Supported: 1
-09:22:13.095                     StreamDeck                        main():                                         Runtime SSL version used: OpenSSL 1.1.1q  5 Jul 2022
-09:22:13.095                     StreamDeck                        main():                                         Start Stream Deck App -> Version: 6.0.2.17735
-09:22:13.505                     StreamDeck                        ESDVSDServer::init():                           ### [SERVER] init
-09:22:13.506                     StreamDeck                        ESDCUEHub::init():                              ### [CUESDK] init
-09:22:13.512                     StreamDeck                        ESDCustomPluginCommunication::start():          Using port 28196 to communicate with plugins
-09:22:13.512                     StreamDeck                        ESDPluginManager::LoadPluginsFromCore():        Load plugins from core...
-09:22:13.519                     StreamDeck                        AccountMgr::InitializeAccountMgr():             AccountMgr initialized
-09:22:13.520                     StreamDeck                        AccountMgr::ReloadAllAccountsFromPreferences(): Reload all accounts
-09:22:13.533                     StreamDeck                        AccountMgr::RecreateServiceInstancesForType():  Recreate service instances for Twitter
-09:22:13.533                     StreamDeck                        AccountMgr::RecreateServiceInstancesForType():  Recreate service instances for YouTube
-09:22:13.533                     StreamDeck                        AccountMgr::RecreateServiceInstancesForType():  Recreate service instances for Streamlabs
-09:22:13.573                     StreamDeck                        AccountMgr::RecreateServiceInstancesForType():  Recreate service instances for Twitch
-09:22:13.582                     StreamDeck                        AccountMgr::RecreateServiceInstancesForType():  Recreate service instances for Facebook
-09:22:15.229                     StreamDeck                        MainWindow::MainWindow():                       Running in high dpi mode: 1.00
-09:22:15.741                     StreamDeck                        ESDVSDServer::resume():                         ### [SERVER] resuming
-09:22:15.741                     StreamDeck                        ESDVSDServer::resume():                         ### [SERVER] port 28197 is available; starting Bonjour
-09:22:15.741                     StreamDeck                        ESDVSDServer::refreshAllAddresses():            ### [SERVER] refreshing addresses
-09:22:15.748                     StreamDeck                        ESDVSDServer::resume():                         ### [SERVER] resumed
-09:22:16.105                     StreamDeck                        ESDAppController::bootstrap():                  All object init done!
-09:22:17.280                     StreamDeck                        ESDSharedFileServer::ESDSharedFileServer():     mapfile location C:\ProgramData\Elgato\StreamDeck\STREAMDECKINTERNALSHM
-09:22:17.319                     StreamDeck                        ESDVSDServer::onServicePublished():             ### [SERVER] Bonjour published
-09:22:17.319                     StreamDeck                        ESDAppController::onDeviceStatusChanged():      Device connected, id: @(1)[4057/96/AL01H1A03428], serial number: AL01H1A03428, firmware version: 1.0.191203
-09:22:17.337                     StreamDeck                        ESDPreferenceTabGeneral::DeviceStateChangedNotification(): Dev FW ver: 1.0.191203.0, Embed FW ver: 1.0.191203.0
-09:22:17.338                     StreamDeck                        ESDPreferenceTabGeneral::DeviceStateChangedNotification(): show update fw button: no
-09:22:17.338                     StreamDeck                        ESDPreferenceTabGeneral::DeviceStateChangedNotification(): Serial No: AL01H1A03428
-09:22:17.342                     StreamDeck                        ESDCustomPluginCommunication::onMessageReceived(): Plugin 922D757DD1DBBBCF176D2F052A306253 is now connected
-09:22:17.353                     StreamDeck                        ESDCustomPluginCommunication::onMessageReceived(): Plugin 3ED0DBEB18B4BD5161817D402F9E841A is now connected
-09:22:17.355                     StreamDeck                        ESDCustomPluginCommunication::onMessageReceived(): Plugin 0027BB5B5897F46C82B45C0E0C8A1E10 is now connected
-09:22:17.423                     StreamDeck                        AccountMgr::onAccountLinkingSucceeded():        Twitch Account linked successfully
-09:22:17.425                     StreamDeck                        AccountMgrMainThreadHelper::notifyAccountChanged(): Notify Twitch account changed (648894062) (0)
-09:22:17.436                     StreamDeck                        EGQTCredentialStore::GetPasswordWithServerAndUserName(): CredRead() - GetLastError() 1168
-09:22:17.501                     StreamDeck                        AccountMgr::onAccountLinkingSucceeded():        Streamlabs Account linked successfully
-09:22:17.501                     StreamDeck                        AccountMgrMainThreadHelper::notifyAccountChanged(): Notify Streamlabs account changed (40723168) (0)
-09:22:17.510                     StreamDeck                        EGQTCredentialStore::GetPasswordWithServerAndUserName(): CredRead() - GetLastError() 1168
-09:22:17.773                     StreamDeck                        ESDCustomPluginCommunication::onMessageReceived(): Plugin 776FD41A73A89218FA90261742AD7FA9 is now connected
-09:22:17.774                     StreamDeck                        EGQTCredentialStore::GetPasswordWithServerAndUserName(): CredRead() - GetLastError() 1168
-09:22:17.774                     StreamDeck                        EGQTCredentialStore::GetPasswordWithServerAndUserName(): CredRead() - GetLastError() 1168
-09:22:17.799                     StreamDeck                        ESDCustomPluginCommunication::onMessageReceived(): Plugin 05158D0C8728F797A84167A9E7774589 is now connected
-09:22:17.799                     StreamDeck                        EGQTCredentialStore::GetPasswordWithServerAndUserName(): CredRead() - GetLastError() 1168
-09:22:17.800                     StreamDeck                        EGQTCredentialStore::GetPasswordWithServerAndUserName(): CredRead() - GetLastError() 1168
-09:22:17.807                     StreamDeck                        ESDDiscoveryService::onServiceRequestFinished(): discovery posted successfully
-09:22:17.811                     StreamDeck                        ESDCustomPluginCommunication::onMessageReceived(): Plugin BD2D3E725745A2CCA47406A7D9D1A525 is now connected
-09:22:17.825                     StreamDeck                        ESDCustomPluginCommunication::onMessageReceived(): Plugin 652CA33220734C822C657D4520223D43 is now connected
-09:22:18.421                     StreamDeck                        ESDCustomPluginCommunication::onMessageReceived(): Plugin 10AE95A24465109AB8B275234A430240 is now connected
-09:22:18.733                     StreamDeck                        ESDCustomPluginCommunication::onMessageReceived(): Plugin 3A11C0DE139AAC544532452D74375A0A is now connected
-09:22:18.796                     StreamDeck                        ESDCustomPluginCommunication::onMessageReceived(): Plugin E455A61F8DF41D6EA37FCAA572E8289F is now connected
-09:22:19.177                     StreamDeck                        ESDCustomPluginCommunication::onMessageReceived(): Plugin B65060621EE264FD1D8DF029BA7E4034 is now connected
-09:22:19.227                     StreamDeck                        ESDCustomPluginCommunication::onMessageReceived(): Plugin 125DAA3F37F5975BBDA63165C6EFAC39 is now connected
-09:22:19.332                     StreamDeck                        ESDCustomPluginCommunication::onMessageReceived(): Plugin 7254328261E632E7B552A8E7A59F1213 is now connected
-09:22:19.382                     StreamDeck                        ESDCustomPluginCommunication::onMessageReceived(): Plugin D07FC7B6F6426677E065EB08BF2648BF is now connected
-09:22:19.469                     StreamDeck                        ESDCustomPluginCommunication::onMessageReceived(): Plugin B8C7CF96CD5318067482F240B49B2BF0 is now connected
-09:22:19.549                     StreamDeck                        ESDCustomPluginCommunication::onMessageReceived(): Plugin 99BA94CA6C5D4DF9E40E93A56C5B5A83 is now connected
-09:22:19.950                     StreamDeck                        ESDObsConnectionManager::CreateSocket::<lambda_2aa1c9d242cae83e7007c40c4c7db86a>::operator ()(): SLOBS returned error Connection refused
-09:22:20.450                     StreamDeck                        ESDAppStoreManager::UpdateAppStorePlugins():    Check for Plugin Store updates
-09:22:20.450                     StreamDeck                        ESDAppStoreManager::UpdateAppStoreIconPacks():  Check for icon pack Store updates
-09:22:20.750                     StreamDeck                        EGQTSWUpdateDialog::checkForUpdate():           Check for update 2: https://gc-updates.elgato.com/windows/sd-update/final/app-version-check.json
-09:22:20.750                     StreamDeck                        EGQTSWUpdateDownloader::startDownload():        Download task name: Update File, file URL: https://gc-updates.elgato.com/windows/sd-update/final/app-version-check.json
-09:22:21.107                     StreamDeck                        EGQTSWUpdateDialog::shouldUpdate():             current SW Ver: 6.0.2.17735, remote SW Ver: 5.3.3.15214
-09:22:21.107                     StreamDeck                        EGQTSWUpdateDialog::handleUpdateFileDownloaded(): No update available
-09:22:23.339                     epl                               dbgcommand():                                   using log file 'C:\Users\hutch\AppData\Roaming\Elgato\StreamDeck\logs\StreamDeck0.log'
-09:22:23.339                     StreamDeck                        main():                                         Using preferences from \HKEY_CURRENT_USER\Software\Elgato Systems GmbH\StreamDeck
-09:22:23.446                     StreamDeck                        EGQTTranslationManager::LoadLocalizations():    Could not load the 'en_CA' localization
-09:22:23.452                     StreamDeck                        main():                                         Compiled with Qt 6.3.1 ; SSL: OpenSSL 1.1.1m  14 Dec 2021
-09:22:23.452                     StreamDeck                        main():                                         Runtime SSL Supported: 1
-09:22:23.452                     StreamDeck                        main():                                         Runtime SSL version used: OpenSSL 1.1.1q  5 Jul 2022
-09:22:23.452                     StreamDeck                        main():                                         Another Stream Deck instance is running. Quit!
-09:22:23.452                     StreamDeck                        ESDSharedFileServer::ESDSharedFileServer():     mapfile location C:\ProgramData\Elgato\StreamDeck\STREAMDECKINTERNALSHM
-09:22:23.453                     StreamDeck                        ESDSharedFileServer::close():                   Close SharedFile
-09:22:23.605                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
-09:22:28.963                     StreamDeck                        ESDObsConnectionManager::CreateSocket::<lambda_2aa1c9d242cae83e7007c40c4c7db86a>::operator ()(): SLOBS returned error Connection refused
-09:22:37.961                     StreamDeck                        ESDObsConnectionManager::CreateSocket::<lambda_2aa1c9d242cae83e7007c40c4c7db86a>::operator ()(): SLOBS returned error Connection refused
-09:22:46.958                     StreamDeck                        ESDObsConnectionManager::CreateSocket::<lambda_2aa1c9d242cae83e7007c40c4c7db86a>::operator ()(): SLOBS returned error Connection refused
-09:30:33.393                     StreamDeck                        ESDWinSessionStateFilter::nativeEventFilter():  SESSION STATE CHANGED - SESSION STARTED
-09:30:36.397                     StreamDeck                        ESDVSDServer::resume():                         ### [SERVER] resuming
-09:30:36.397                     StreamDeck                        ESDVSDServer::resume():                         ### [SERVER] resumed
-09:30:37.108                     StreamDeck                        ESDDiscoveryService::onServiceRequestFinished(): discovery posted successfully
-09:31:02.257                     StreamDeck                        ESDQueryEndSessionFilter::nativeEventFilter():  WM_QUERYENDSESSION - shutdown requested.
-09:31:02.257                     StreamDeck                        ESDStreamDeckApplication::cleanQuit():          Application should quit
-09:31:02.447                     StreamDeck                        ESDStreamDeckApplication::cleanQuit():          Waiting for custom plugins to quit
-09:31:03.441                     StreamDeck                        main():                                         Application is quitting
-09:31:03.453                     StreamDeck                        ESDCUEHub::shutdown():                          ### [CUESDK] shutdown
-09:31:03.453                     StreamDeck                        ESDVSDServer::shutdown():                       ### [SERVER] shutdown
-09:31:03.453                     StreamDeck                        ESDVSDServer::suspend():                        ### [SERVER] suspending
+07:47:37.864                     epl                               dbgcommand():                                   using log file 'C:\Users\hutch\AppData\Roaming\Elgato\StreamDeck\logs\StreamDeck0.log'
+07:47:37.865                     StreamDeck                        main():                                         Using preferences from \HKEY_CURRENT_USER\Software\Elgato Systems GmbH\StreamDeck
+07:47:37.865                     StreamDeck                        main():                                         Arguments:
+07:47:37.865                     StreamDeck                        main():                                         C:\Program Files\Elgato\StreamDeck\StreamDeck.exe
+07:47:37.865                     StreamDeck                        main():                                         --runinbk
+07:47:38.072                     StreamDeck                        EGQTTranslationManager::LoadLocalizations():    Could not load the 'en_CA' localization
+07:47:38.141                     StreamDeck                        main():                                         Compiled with Qt 6.3.1 ; SSL: OpenSSL 1.1.1m  14 Dec 2021
+07:47:38.141                     StreamDeck                        main():                                         Runtime SSL Supported: 1
+07:47:38.141                     StreamDeck                        main():                                         Runtime SSL version used: OpenSSL 1.1.1q  5 Jul 2022
+07:47:38.141                     StreamDeck                        main():                                         Start Stream Deck App -> Version: 6.0.2.17735
+07:47:38.506                     StreamDeck                        ESDVSDServer::init():                           ### [SERVER] init
+07:47:38.508                     StreamDeck                        ESDCUEHub::init():                              ### [CUESDK] init
+07:47:38.514                     StreamDeck                        ESDCustomPluginCommunication::start():          Using port 28196 to communicate with plugins
+07:47:38.514                     StreamDeck                        ESDPluginManager::LoadPluginsFromCore():        Load plugins from core...
+07:47:38.520                     StreamDeck                        AccountMgr::InitializeAccountMgr():             AccountMgr initialized
+07:47:38.520                     StreamDeck                        AccountMgr::ReloadAllAccountsFromPreferences(): Reload all accounts
+07:47:38.530                     StreamDeck                        AccountMgr::RecreateServiceInstancesForType():  Recreate service instances for Twitter
+07:47:38.530                     StreamDeck                        AccountMgr::RecreateServiceInstancesForType():  Recreate service instances for YouTube
+07:47:38.530                     StreamDeck                        AccountMgr::RecreateServiceInstancesForType():  Recreate service instances for Streamlabs
+07:47:38.567                     StreamDeck                        AccountMgr::RecreateServiceInstancesForType():  Recreate service instances for Twitch
+07:47:38.574                     StreamDeck                        AccountMgr::RecreateServiceInstancesForType():  Recreate service instances for Facebook
+07:47:39.615                     StreamDeck                        MainWindow::MainWindow():                       Running in high dpi mode: 1.00
+07:47:40.097                     StreamDeck                        ESDVSDServer::resume():                         ### [SERVER] resuming
+07:47:40.097                     StreamDeck                        ESDVSDServer::resume():                         ### [SERVER] port 28197 is available; starting Bonjour
+07:47:40.097                     StreamDeck                        ESDVSDServer::refreshAllAddresses():            ### [SERVER] refreshing addresses
+07:47:40.103                     StreamDeck                        ESDVSDServer::resume():                         ### [SERVER] resumed
+07:47:40.397                     StreamDeck                        ESDAppController::bootstrap():                  All object init done!
+07:47:40.740                     StreamDeck                        ESDSharedFileServer::ESDSharedFileServer():     mapfile location C:\ProgramData\Elgato\StreamDeck\STREAMDECKINTERNALSHM
+07:47:40.765                     StreamDeck                        ESDCustomPluginCommunication::onMessageReceived(): Plugin 8E8B3F5A0E73F70CDAB2BADF4048C69F is now connected
+07:47:40.774                     StreamDeck                        ESDCustomPluginCommunication::onMessageReceived(): Plugin 386C33D14A32C4AC829B8D801AC52C30 is now connected
+07:47:40.802                     StreamDeck                        ESDCustomPluginCommunication::onMessageReceived(): Plugin 9496654B0E6E2E007D34F555559353F5 is now connected
+07:47:40.844                     StreamDeck                        AccountMgr::onAccountLinkingSucceeded():        Twitch Account linked successfully
+07:47:40.844                     StreamDeck                        AccountMgrMainThreadHelper::notifyAccountChanged(): Notify Twitch account changed (648894062) (0)
+07:47:40.855                     StreamDeck                        EGQTCredentialStore::GetPasswordWithServerAndUserName(): CredRead() - GetLastError() 1168
+07:47:40.884                     StreamDeck                        ESDVSDServer::onServicePublished():             ### [SERVER] Bonjour published
+07:47:40.934                     StreamDeck                        AccountMgr::onAccountLinkingSucceeded():        Streamlabs Account linked successfully
+07:47:40.934                     StreamDeck                        AccountMgrMainThreadHelper::notifyAccountChanged(): Notify Streamlabs account changed (40723168) (0)
+07:47:40.943                     StreamDeck                        EGQTCredentialStore::GetPasswordWithServerAndUserName(): CredRead() - GetLastError() 1168
+07:47:41.243                     StreamDeck                        ESDCustomPluginCommunication::onMessageReceived(): Plugin 0BC78B3ACFBDED49B07D14465BF6A609 is now connected
+07:47:41.243                     StreamDeck                        EGQTCredentialStore::GetPasswordWithServerAndUserName(): CredRead() - GetLastError() 1168
+07:47:41.244                     StreamDeck                        EGQTCredentialStore::GetPasswordWithServerAndUserName(): CredRead() - GetLastError() 1168
+07:47:41.264                     StreamDeck                        ESDCustomPluginCommunication::onMessageReceived(): Plugin BA47F1F4806A90241EFAC3B20EEA0EFA is now connected
+07:47:41.265                     StreamDeck                        EGQTCredentialStore::GetPasswordWithServerAndUserName(): CredRead() - GetLastError() 1168
+07:47:41.265                     StreamDeck                        EGQTCredentialStore::GetPasswordWithServerAndUserName(): CredRead() - GetLastError() 1168
+07:47:41.279                     StreamDeck                        ESDCustomPluginCommunication::onMessageReceived(): Plugin 4F47F47018F2BF44C9CC597656B13CF5 is now connected
+07:47:41.355                     StreamDeck                        ESDCustomPluginCommunication::onMessageReceived(): Plugin 8DF5FF93FE434EBE626B032A4436F8A3 is now connected
+07:47:42.559                     StreamDeck                        ESDCustomPluginCommunication::onMessageReceived(): Plugin ADACE2FDE808E1715BACF38C8A738737 is now connected
+07:47:42.579                     StreamDeck                        ESDCustomPluginCommunication::onMessageReceived(): Plugin 06CD6DD21B92CC62E65DA81FAAFD3E73 is now connected
+07:47:42.663                     StreamDeck                        ESDCustomPluginCommunication::onMessageReceived(): Plugin 28CCC02E501C7C91644C1F0E670D0C34 is now connected
+07:47:43.064                     StreamDeck                        ESDCustomPluginCommunication::onMessageReceived(): Plugin E5967B0F47674A07D2DE2780D9D62F30 is now connected
+07:47:43.065                     StreamDeck                        ESDCustomPluginCommunication::onMessageReceived(): Plugin F265629EE0538C9F71F2CBBAF1CC2245 is now connected
+07:47:43.274                     StreamDeck                        ESDCustomPluginCommunication::onMessageReceived(): Plugin 88824B0298C7FFDA24A445D6B992C960 is now connected
+07:47:43.303                     StreamDeck                        ESDCustomPluginCommunication::onMessageReceived(): Plugin F2A6E7FCB37A5ED880D15010721D34C1 is now connected
+07:47:43.330                     StreamDeck                        ESDCustomPluginCommunication::onMessageReceived(): Plugin B1991803CBF9DF17330DAFC5D4348CCB is now connected
+07:47:43.395                     StreamDeck                        ESDCustomPluginCommunication::onMessageReceived(): Plugin F00A64C7ED0A376FE2F77DEF7CCCF30C is now connected
+07:47:44.113                     StreamDeck                        ESDObsConnectionManager::CreateSocket::<lambda_2aa1c9d242cae83e7007c40c4c7db86a>::operator ()(): SLOBS returned error Connection refused
+07:47:44.732                     StreamDeck                        ESDAppStoreManager::UpdateAppStorePlugins():    Check for Plugin Store updates
+07:47:44.732                     StreamDeck                        ESDAppStoreManager::UpdateAppStoreIconPacks():  Check for icon pack Store updates
+07:47:45.096                     StreamDeck                        EGQTSWUpdateDialog::checkForUpdate():           Check for update 2: https://gc-updates.elgato.com/windows/sd-update/final/app-version-check.json
+07:47:45.096                     StreamDeck                        EGQTSWUpdateDownloader::startDownload():        Download task name: Update File, file URL: https://gc-updates.elgato.com/windows/sd-update/final/app-version-check.json
+07:47:45.493                     StreamDeck                        EGQTSWUpdateDialog::shouldUpdate():             current SW Ver: 6.0.2.17735, remote SW Ver: 5.3.3.15214
+07:47:45.493                     StreamDeck                        EGQTSWUpdateDialog::handleUpdateFileDownloaded(): No update available
+07:47:50.379                     epl                               dbgcommand():                                   using log file 'C:\Users\hutch\AppData\Roaming\Elgato\StreamDeck\logs\StreamDeck0.log'
+07:47:50.380                     StreamDeck                        main():                                         Using preferences from \HKEY_CURRENT_USER\Software\Elgato Systems GmbH\StreamDeck
+07:47:50.469                     StreamDeck                        EGQTTranslationManager::LoadLocalizations():    Could not load the 'en_CA' localization
+07:47:50.475                     StreamDeck                        main():                                         Compiled with Qt 6.3.1 ; SSL: OpenSSL 1.1.1m  14 Dec 2021
+07:47:50.475                     StreamDeck                        main():                                         Runtime SSL Supported: 1
+07:47:50.475                     StreamDeck                        main():                                         Runtime SSL version used: OpenSSL 1.1.1q  5 Jul 2022
+07:47:50.475                     StreamDeck                        main():                                         Another Stream Deck instance is running. Quit!
+07:47:50.475                     StreamDeck                        ESDSharedFileServer::ESDSharedFileServer():     mapfile location C:\ProgramData\Elgato\StreamDeck\STREAMDECKINTERNALSHM
+07:47:50.476                     StreamDeck                        ESDSharedFileServer::close():                   Close SharedFile
+07:47:50.587                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+07:47:53.118                     StreamDeck                        ESDObsConnectionManager::CreateSocket::<lambda_2aa1c9d242cae83e7007c40c4c7db86a>::operator ()(): SLOBS returned error Connection refused
+07:48:02.118                     StreamDeck                        ESDObsConnectionManager::CreateSocket::<lambda_2aa1c9d242cae83e7007c40c4c7db86a>::operator ()(): SLOBS returned error Connection refused
+07:48:11.118                     StreamDeck                        ESDObsConnectionManager::CreateSocket::<lambda_2aa1c9d242cae83e7007c40c4c7db86a>::operator ()(): SLOBS returned error Connection refused
+07:49:08.754                     StreamDeck                        ESDWinSessionStateFilter::nativeEventFilter():  SESSION STATE CHANGED - SESSION STARTED
+07:49:11.756                     StreamDeck                        ESDVSDServer::resume():                         ### [SERVER] resuming
+07:49:11.756                     StreamDeck                        ESDVSDServer::resume():                         ### [SERVER] resumed
+07:49:12.143                     StreamDeck                        ESDDiscoveryService::onServiceRequestFinished(): discovery posted successfully
+07:49:13.218                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+07:49:25.504                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+07:49:45.859                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+07:50:01.910                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+07:50:14.058                     StreamDeck                        ESDVSDServer::incomingConnection():             ### [SERVER] incoming connection
+07:50:14.075                     StreamDeck                        ESDVSDServer::onRemoteInquiredCtrl():           ### [SERVER] incoming ctrl inquire -- creating session
+07:50:14.082                     StreamDeck                        ESDVSDServer::incomingConnection():             ### [SERVER] incoming connection
+07:50:14.085                     StreamDeck                        ESDVSDServer::onRemoteInquiredData():           ### [SERVER] incoming data inquire -- creating data channel
+07:50:14.085                     StreamDeck                        ESDVSDServer::onRemoteEstablishedSession():     ### [SERVER] remote established session
+07:50:14.086                     StreamDeck                        ESDAppController::onDeviceStatusChanged():      Device connected, id: @(8)[613635ff-8066-4bb3-81dd-9258ae380cd0], serial number: 613635ff-8066-4bb3-81dd-9258ae380cd0, firmware version: 1.3.0.54
+07:50:14.122                     StreamDeck                        ESDPreferenceTabGeneral::DeviceStateChangedNotification(): Serial No: 613635ff-8066-4bb3-81dd-9258ae380cd0
+07:50:14.621                     StreamDeck                        ESDVSDServer::incomingConnection():             ### [SERVER] incoming connection
+07:50:21.507                     StreamDeck                        KA_Execute::execute():                          Invalid key press: failed to execute: 
+07:58:42.117                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/System32/WindowsPowerShell/v1.0/powershell.exe
+07:58:53.938                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+07:59:13.375                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+07:59:13.438                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+07:59:33.630                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+08:01:41.826                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+08:01:47.050                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+08:03:51.167                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+08:03:58.877                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+08:04:00.653                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+08:04:17.860                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+08:04:18.067                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+08:04:22.262                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+08:05:18.800                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+08:05:59.482                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+08:05:59.692                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+08:06:02.033                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+08:06:04.291                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+08:06:06.777                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+08:06:08.198                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+08:06:10.075                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+08:06:12.764                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+08:06:14.235                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+08:06:16.377                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+08:06:16.581                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+08:06:20.947                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+08:06:22.414                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+08:06:22.630                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+08:06:25.041                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+08:07:15.776                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+08:07:18.820                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+08:07:19.785                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+08:07:20.598                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+08:07:21.460                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+08:07:22.424                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+08:07:23.541                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+08:07:31.302                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+08:07:34.144                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+08:07:40.385                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+08:07:46.025                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+08:07:46.237                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+08:07:50.328                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+08:08:19.849                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+08:08:52.121                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+08:09:42.346                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+08:10:04.977                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+08:10:57.792                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+08:11:08.293                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+08:11:09.359                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+08:11:14.291                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+08:11:14.502                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+08:11:15.712                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+08:11:15.922                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+08:11:28.841                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+08:26:35.471                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+08:26:44.045                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+08:26:45.466                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+08:27:05.608                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+08:27:06.927                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+08:27:17.998                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+08:27:18.203                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+08:29:16.654                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+08:29:48.915                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+08:29:53.125                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+08:29:54.143                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+08:30:04.858                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+08:30:05.062                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+08:44:42.220                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+08:47:50.409                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+08:47:53.504                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+08:49:04.123                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+08:49:23.044                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+08:49:30.348                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+08:49:47.548                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+08:55:48.770                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+08:55:59.789                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+08:56:30.699                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+08:59:56.265                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+09:00:10.824                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+09:01:27.379                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+09:01:46.862                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+09:01:48.485                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+09:01:54.116                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+09:01:55.385                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+09:02:09.803                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+09:02:10.015                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+09:02:11.366                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+09:02:23.322                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+09:02:44.950                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+09:02:46.382                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+09:02:46.593                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+09:02:47.335                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+09:03:14.305                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+09:03:16.571                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+09:03:16.786                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+09:03:18.185                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+09:04:11.912                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+09:04:14.448                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+09:04:25.561                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+09:05:05.445                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+09:05:05.657                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+09:06:28.486                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+09:06:42.290                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+09:06:42.899                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+09:06:43.913                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+09:06:53.006                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+09:06:53.223                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+09:07:13.033                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+09:09:19.265                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+09:10:01.171                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+09:10:13.604                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+09:11:19.000                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+09:12:32.515                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+09:12:37.943                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+09:12:59.205                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+09:13:54.759                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+09:15:31.964                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+09:29:58.922                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+09:30:01.611                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+09:30:34.589                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+09:31:35.413                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+09:31:42.773                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+09:31:45.370                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+09:31:45.582                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+09:31:46.274                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+09:31:53.116                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+09:31:55.914                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+09:31:56.727                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+09:32:17.491                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+09:32:17.702                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+09:32:24.936                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+09:32:37.178                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+09:33:36.574                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+09:34:21.682                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+10:34:30.947                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+10:34:43.375                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+10:35:43.640                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+10:36:11.541                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+10:36:35.078                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+10:36:52.986                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+10:38:14.662                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+10:38:16.690                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+10:38:27.890                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+10:38:28.097                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+10:38:29.401                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+10:38:46.101                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+10:38:46.311                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+10:38:56.384                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+10:41:30.216                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+10:41:34.833                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+10:41:45.942                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+10:42:17.845                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+10:42:22.451                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+10:42:57.864                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+10:43:09.290                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+10:44:56.938                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+10:44:57.140                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+10:45:32.000                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+10:46:22.123                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+10:46:24.152                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+10:46:24.358                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+10:52:14.416                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+10:52:27.537                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:24:57.786                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:25:00.880                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:25:01.945                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:31:36.785                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:31:40.489                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:31:44.852                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:31:45.920                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:31:52.471                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:31:53.285                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:31:53.691                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:31:54.045                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:31:54.299                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:31:54.504                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:31:54.656                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:31:55.012                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:31:55.114                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:31:55.367                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:31:55.571                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:31:55.775                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:31:56.078                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:31:56.180                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:31:56.282                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:33:03.640                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:33:04.606                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:33:07.297                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:33:07.807                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:33:08.314                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:33:32.900                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:33:34.118                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:33:34.525                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:33:34.831                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:33:35.085                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:33:35.288                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:33:35.592                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:33:35.848                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:33:36.253                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:33:38.944                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:33:40.367                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:33:41.953                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:33:44.034                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:33:44.240                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:34:30.884                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:34:37.428                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:34:43.218                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:34:55.699                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:35:04.787                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:35:11.079                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:35:11.740                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:35:12.552                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:35:13.060                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:35:13.162                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:35:13.468                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:35:13.620                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:35:13.823                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:35:48.831                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:35:49.490                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:35:49.897                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:35:50.354                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:35:50.811                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:35:55.025                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:35:55.483                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:35:56.044                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:36:09.047                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:36:09.708                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:36:12.502                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:36:12.808                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:36:13.212                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:36:13.417                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:36:13.620                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:37:07.364                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:37:08.379                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:37:08.938                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:37:10.473                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:37:10.691                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:37:12.138                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:37:12.647                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:37:13.105                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:38:30.179                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:38:30.942                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:38:31.155                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:38:46.738                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:38:49.075                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:38:49.281                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:39:41.227                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:41:55.321                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:41:55.676                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:41:55.777                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:41:55.880                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:41:56.082                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:41:56.192                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:41:56.343                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:41:56.646                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:41:56.748                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:41:56.850                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:41:57.059                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:42:01.534                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:42:02.041                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:42:02.253                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:42:32.353                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:42:32.455                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:42:32.558                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:42:32.709                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:42:32.812                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:42:33.014                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:42:33.370                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:42:33.472                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:42:33.574                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:42:33.676                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:42:33.878                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:42:34.031                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:42:34.337                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:42:39.428                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:42:39.733                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:42:39.939                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:43:03.198                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:43:03.401                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:43:03.756                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:43:03.861                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:43:03.961                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:43:04.162                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:43:04.315                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:43:21.077                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:43:24.852                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:43:25.063                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:43:25.259                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:43:40.842                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:43:41.046                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:43:41.504                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:43:41.606                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:43:41.810                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:43:42.010                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:43:42.265                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:43:42.621                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:43:42.925                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:43:43.129                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:43:43.332                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:43:45.667                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:43:45.871                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:43:46.075                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:43:46.328                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:43:46.480                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:43:46.785                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:43:46.886                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:43:47.143                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:44:02.539                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:44:02.749                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:44:02.947                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:47:06.220                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:47:26.464                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:47:30.432                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:47:42.995                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:47:46.149                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:47:48.884                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:52:59.236                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:53:11.856                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+11:54:50.686                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:55:15.934                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:55:31.345                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:55:38.313                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:55:47.723                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:55:58.659                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:56:09.696                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:56:11.578                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:56:12.596                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:56:33.487                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:57:05.539                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:57:15.457                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:57:19.474                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+11:57:28.767                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+12:00:39.169                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+12:02:11.774                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+12:07:28.300                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+12:07:53.038                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+12:08:05.130                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+12:08:25.651                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+12:08:41.659                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+12:09:58.212                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+12:10:24.322                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+12:11:03.641                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+12:11:22.206                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+12:11:27.546                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+12:11:32.224                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+12:30:39.338                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+12:35:25.126                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+12:35:40.741                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+12:38:43.615                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+12:39:02.156                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+12:39:09.329                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+12:39:10.447                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+12:39:10.657                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+12:50:24.263                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+16:35:04.496                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+16:35:29.200                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+16:35:35.660                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+16:35:41.001                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+16:35:48.223                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+16:35:56.474                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+16:35:59.984                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+16:36:00.190                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+16:36:36.628                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+16:36:44.727                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+16:37:17.012                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+16:38:00.358                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+16:38:17.155                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+16:38:26.919                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+16:38:33.519                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+16:38:48.893                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+16:38:55.245                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+16:38:56.624                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+16:39:08.128                     StreamDeck                        KA_Execute::execute():                          Invalid key press: failed to execute: 
+16:40:29.836                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+16:40:32.072                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+16:40:36.269                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+16:43:03.088                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+16:43:20.776                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+16:43:45.947                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+16:44:03.952                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+16:44:42.914                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+16:51:24.380                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+16:51:31.450                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+16:52:47.848                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+16:52:48.662                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+16:53:42.323                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+16:53:43.493                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+16:54:28.441                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+16:54:35.171                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+16:54:36.646                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+16:54:46.677                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+16:54:47.593                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+16:54:47.798                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+16:54:49.312                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+16:54:56.685                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+16:54:58.072                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+16:54:58.280                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+16:55:00.147                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+16:55:06.373                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+16:55:48.925                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+16:55:50.654                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+16:56:26.055                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+16:56:27.381                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+16:58:10.126                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+16:58:19.078                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+16:58:40.034                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+16:59:06.789                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+16:59:13.045                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+16:59:14.317                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+16:59:21.743                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+16:59:22.658                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+16:59:31.469                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+16:59:33.696                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+16:59:38.997                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+16:59:39.207                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+16:59:40.206                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+16:59:47.131                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+17:00:02.293                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:00:02.505                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:00:03.911                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:00:11.933                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+17:00:12.327                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+17:00:12.935                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+17:00:13.169                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+17:00:13.381                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+17:00:13.623                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+17:00:13.847                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+17:00:14.092                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+17:00:14.346                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+17:00:14.565                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+17:01:02.823                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:01:18.483                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+17:01:45.243                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:01:48.131                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:01:53.370                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:01:55.049                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:02:00.502                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:02:00.707                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:02:01.611                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:02:41.449                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:03:12.618                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:03:20.044                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:03:21.671                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:03:29.566                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:03:46.962                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:03:53.116                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:04:01.967                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:04:09.698                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:04:09.907                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:04:32.282                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:05:04.111                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:05:17.398                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:05:47.916                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:05:55.088                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:06:00.429                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:06:36.714                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+17:06:54.285                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:07:23.532                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:07:43.064                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:07:44.144                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:07:46.534                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:07:53.553                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:08:32.871                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:08:56.523                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:08:58.874                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:12:49.582                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:13:03.213                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:13:28.746                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:14:04.199                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:14:43.415                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:15:07.067                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:15:23.801                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:15:35.857                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:15:47.402                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:15:55.540                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:16:04.136                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:16:13.088                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:16:26.720                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:16:47.116                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:16:57.594                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:17:23.586                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:17:44.491                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:18:41.916                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:23:31.283                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:24:24.385                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:24:40.712                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:24:51.902                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:25:15.554                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:25:50.294                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:25:55.849                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:26:00.114                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:26:36.340                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:26:37.906                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:27:01.812                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:27:23.124                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:27:34.975                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:29:05.513                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:29:19.806                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:29:30.335                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:30:22.725                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:30:47.190                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:30:56.549                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:33:36.618                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:34:03.220                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:36:57.989                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:37:16.402                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:41:13.174                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:41:25.228                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:42:14.872                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:43:04.820                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:43:29.489                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:43:40.934                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:43:58.278                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:44:49.651                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:45:31.970                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:45:44.889                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:45:57.198                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:47:05.916                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:48:15.243                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:48:57.257                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:49:25.944                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:49:39.779                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:49:49.037                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:50:03.584                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:51:19.778                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:51:25.424                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:51:59.808                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:52:08.862                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:52:20.103                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:53:22.512                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:53:56.642                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:54:36.672                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:56:03.864                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:56:17.701                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:56:43.592                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:56:58.292                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:58:00.131                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:58:30.141                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:58:58.269                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:59:04.576                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:59:06.712                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:59:43.487                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:59:45.572                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:59:48.584                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+17:59:52.388                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+18:00:25.907                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+18:00:29.468                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+18:00:30.434                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+18:00:34.769                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+18:00:36.691                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+18:00:44.687                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+18:00:44.889                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+18:00:46.407                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+18:01:01.626                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+18:01:17.546                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+18:01:22.938                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+18:01:23.144                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+18:01:24.973                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+18:02:00.170                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+18:02:11.717                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+18:02:11.923                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+18:02:21.533                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+18:09:10.622                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+18:09:14.182                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+18:09:16.624                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+18:09:20.602                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+18:09:40.277                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+18:09:42.109                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+18:09:43.837                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+18:09:45.516                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+18:09:47.652                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+18:09:54.072                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+18:09:54.283                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+18:09:59.667                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+18:10:36.482                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+18:10:39.448                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+18:10:39.660                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+18:10:40.048                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+18:20:00.783                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+18:21:38.907                     StreamDeck                        ESDCustomPluginCommunication::onMessageReceived(): Icon Editor B551BD6890FB2501B3076FACC6F392DD is now connected
+18:21:39.439                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+18:21:44.327                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+18:22:29.081                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+18:22:34.222                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+18:22:36.884                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+18:22:37.985                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+18:22:39.619                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+18:22:41.071                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+18:22:42.388                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+18:22:43.690                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+18:22:44.890                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+18:22:56.056                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/System32/WindowsPowerShell/v1.0/powershell.exe
+18:23:18.536                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+18:23:23.786                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+18:23:23.999                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+18:23:25.301                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+18:24:05.641                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+18:24:50.872                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+18:25:09.286                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+18:25:20.412                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+18:25:40.761                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+18:26:04.019                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+18:26:05.120                     StreamDeck                        ESDCustomPluginCommunication::onMessageReceived(): PI 41696A9BC078274E0116336C08610CDD is now connected
+18:26:39.576                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+18:27:33.117                     StreamDeck                        ESDAppStoreManager::UpdateAppStorePlugins():    Check for Plugin Store updates
+18:27:33.119                     StreamDeck                        ESDAppStoreManager::UpdateAppStoreIconPacks():  Check for icon pack Store updates
+18:29:20.636                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+18:29:31.365                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+18:30:34.807                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+18:30:37.557                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+18:30:48.935                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+18:30:51.796                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+18:30:55.173                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+18:31:01.115                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+18:31:03.645                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+18:31:04.027                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+18:31:07.649                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+18:31:09.701                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+18:31:22.728                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+18:31:43.080                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+18:31:44.946                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+18:31:55.278                     StreamDeck                        ESDVSDServer::incomingConnection():             ### [SERVER] incoming connection
+18:32:10.905                     StreamDeck                        ESDVSDServer::onRemoteDroppedSession():         ### [SERVER] remote dropped session
+18:32:10.916                     StreamDeck                        ESDVSDServer::onRemoteDroppedSession():         ### [SERVER] remote dropped session
+18:32:10.916                     StreamDeck                        ESDAppController::onDeviceStatusChanged():      Device disconnected, id: @(8)[613635ff-8066-4bb3-81dd-9258ae380cd0]
+18:32:30.879                     StreamDeck                        ESDVSDServer::incomingConnection():             ### [SERVER] incoming connection
+18:32:31.414                     StreamDeck                        ESDVSDServer::incomingConnection():             ### [SERVER] incoming connection
+18:32:31.441                     StreamDeck                        ESDVSDServer::onRemoteInquiredCtrl():           ### [SERVER] incoming ctrl inquire -- creating session
+18:32:31.451                     StreamDeck                        ESDVSDServer::incomingConnection():             ### [SERVER] incoming connection
+18:32:31.454                     StreamDeck                        ESDVSDServer::onRemoteInquiredData():           ### [SERVER] incoming data inquire -- creating data channel
+18:32:31.454                     StreamDeck                        ESDVSDServer::onRemoteEstablishedSession():     ### [SERVER] remote established session
+18:32:31.457                     StreamDeck                        ESDAppController::onDeviceStatusChanged():      Device connected, id: @(8)[613635ff-8066-4bb3-81dd-9258ae380cd0], serial number: 613635ff-8066-4bb3-81dd-9258ae380cd0, firmware version: 1.3.0.54
+18:32:31.643                     StreamDeck                        ESDPreferenceTabGeneral::DeviceStateChangedNotification(): Serial No: 613635ff-8066-4bb3-81dd-9258ae380cd0
+18:34:08.590                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+19:29:12.201                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+19:29:12.405                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+19:29:13.698                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+20:10:57.227                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+20:11:16.502                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+20:11:47.340                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+20:11:59.802                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+20:14:43.473                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+20:14:56.080                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+20:28:13.539                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+20:45:30.563                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+20:45:35.247                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+20:45:37.360                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+20:45:40.307                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+20:45:40.520                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+20:45:41.577                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+20:45:45.476                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+20:46:06.638                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+20:46:10.782                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+20:46:12.293                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+20:46:26.715                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+20:46:39.457                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+20:47:05.689                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+20:47:12.501                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+20:47:18.943                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+20:47:21.917                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+20:47:31.916                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+20:47:35.623                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+20:47:39.708                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+20:47:43.626                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+20:48:08.680                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+20:48:08.808                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+20:48:10.125                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+20:48:11.628                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+20:49:32.031                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+20:49:40.870                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+20:50:03.288                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+20:50:16.713                     StreamDeck                        KA_Execute::execute():                          execute C:/Windows/system32/cmd.exe
+20:50:18.590                     StreamDeck                        MainWindow::event():                            Wake up keypad(s).
+20:50:21.251                     StreamDeck                        ESDStreamDeckApplication::askQuitApplication(): User quit Stream Deck application.
+20:50:21.251                     StreamDeck                        ESDStreamDeckApplication::cleanQuit():          Application should quit
+20:50:21.337                     StreamDeck                        ESDStreamDeckApplication::cleanQuit():          Waiting for custom plugins to quit
+20:50:22.327                     StreamDeck                        ESDCustomPlugin::QuitPlugin():                  Plugin 'Discord Volume Mixer' is still alive after closing the websocket. Quit it.
+20:50:24.330                     StreamDeck                        ESDCustomPlugin::QuitPlugin():                  Plugin 'Discord Volume Mixer' is still alive after quitting it. Force quit it.
+20:50:24.330                     StreamDeck                        main():                                         Application is quitting
+20:50:24.341                     StreamDeck                        ESDCUEHub::shutdown():                          ### [CUESDK] shutdown
+20:50:24.341                     StreamDeck                        ESDVSDServer::shutdown():                       ### [SERVER] shutdown
+20:50:24.341                     StreamDeck                        ESDVSDServer::suspend():                        ### [SERVER] suspending
+20:50:24.386                     StreamDeck                        AccountMgr::~AccountMgr():                      Deleting AccountMgr
+20:50:24.387                     StreamDeck                        ESDSharedFileServer::close():                   Close SharedFile
+20:50:24.388                     StreamDeck                        main():                                         Application quit

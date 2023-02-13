@@ -55,7 +55,7 @@
         "Tooltip": "照明のシーンを事前設定した値に設定",
         "Encoder": {
             "TriggerDescription": {
-                "Rotate": "シーンを調整",
+                "Rotate": "シーン/明るさを調整",
                 "Touch": "照明のオン/オフを切り替え"
             }
         }

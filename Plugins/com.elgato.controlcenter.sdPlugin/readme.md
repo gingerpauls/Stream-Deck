@@ -1,12 +1,36 @@
-# Changes
+
+
+2023-01-11 (269)
+
+# Changes:
+-----------
+- fixed a problem where `sceneId` was not set correctly in Windows 
+
+2023-01-05 (268)
+
+# Changes:
+-----------
+- flipped `Set Scene` and `Brightness` actions in the PI (as the `Set Scene` action is more important)
+- force `Set Scene` action to switch scenes as default behaviour
+- added final touches to the `Scene` feature
+- fixed another issue where `temperatureMin` and `temperatureMax` were flipped (please note: this is a bug in CC.exe)
+- fixed an issue, where the icon of a `KeyLight Air` showed a wrong background color
+
+# Known issues:
+---------------
+- `Adjust scene/brightness` string is not yet localized
+
+
+2022-12-30 (267) - Hotfix
+
+# Changes:
+-----------
+- compatibility fixes for Control Center Windows (range-slider couldn't be moved)
+- fixes some minor issues found since the last release
+- adds latest localizations
+
+
 2022-12-12 (263)
-
-Here's a new version (1.9.2.264) of the ControlCenter-plugin. 
-
-Big thanks to @Kevyn R and @Lars Inger for testing and reporting issues and help improving the scene handling.
-If no issues are found, this version is considered a release candidate.
-So please report any issues you find asap.
-
 # Changes:
 -----------
 - fixed scene without name (or without scene.id) to show 'Untitled' instead of 'undefined'
@@ -25,10 +49,6 @@ So please report any issues you find asap.
 - removed lots of encoding for svgs to reduce traffic & cpu
 - enhanced svg-caching
 - enhanced device-communication (to potentially help with random disconnects)
-
-Please report any issues here.
-
-
 
 
 2022-12-10 (262)
