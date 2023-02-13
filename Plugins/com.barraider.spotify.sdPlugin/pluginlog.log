@@ -691,3 +691,112 @@
 2023-02-12 16:06:22.5976|WARN|com.barraider.spotify|27|BarRaider.Spotify.CacheManager IsUserTrack failed to uncache Track: spotify:track:0oDD1ecHpEmbwdezCU6WDT
 2023-02-12 16:06:22.5976|WARN|com.barraider.spotify|27|BarRaider.Spotify.CacheManager IsUserTrack spotify:track:0oDD1ecHpEmbwdezCU6WDT is in cache for 2023-02-12 4:06:22 PM
 2023-02-12 16:06:22.5976|INFO|com.barraider.spotify|27|IsUserTrack is False for spotify:track:0oDD1ecHpEmbwdezCU6WDT
+2023-02-12 16:07:33.3768|INFO|com.barraider.spotify|6|Fetched song info: Total 90
+2023-02-12 16:07:33.6740|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-12 16:07:33.6750|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-12 16:07:33.7807|INFO|com.barraider.spotify|28|IsUserTrack is False for spotify:track:0wt9XdllRuII1YlWz0sPrR
+2023-02-12 16:07:33.7877|WARN|com.barraider.spotify|22|BarRaider.Spotify.CacheManager IsUserTrack failed to uncache Track: spotify:track:0wt9XdllRuII1YlWz0sPrR
+2023-02-12 16:07:33.7877|WARN|com.barraider.spotify|22|BarRaider.Spotify.CacheManager IsUserTrack spotify:track:0wt9XdllRuII1YlWz0sPrR is in cache for 2023-02-12 4:07:33 PM
+2023-02-12 16:07:33.7877|INFO|com.barraider.spotify|22|IsUserTrack is False for spotify:track:0wt9XdllRuII1YlWz0sPrR
+2023-02-12 16:10:17.5777|INFO|com.barraider.spotify|21|Fetched song info: GIVE UP YOUR LIFE
+2023-02-12 16:10:18.4320|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-12 16:10:18.4320|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-12 16:10:18.5342|INFO|com.barraider.spotify|22|IsUserTrack is False for spotify:track:5kp0IBox4sKt7WFOF1EEi7
+2023-02-12 16:10:18.5342|WARN|com.barraider.spotify|27|BarRaider.Spotify.CacheManager IsUserTrack failed to uncache Track: spotify:track:5kp0IBox4sKt7WFOF1EEi7
+2023-02-12 16:10:18.5342|WARN|com.barraider.spotify|27|BarRaider.Spotify.CacheManager IsUserTrack spotify:track:5kp0IBox4sKt7WFOF1EEi7 is in cache for 2023-02-12 4:10:18 PM
+2023-02-12 16:10:18.5342|INFO|com.barraider.spotify|27|IsUserTrack is False for spotify:track:5kp0IBox4sKt7WFOF1EEi7
+2023-02-12 16:12:56.6684|DEBUG|com.barraider.spotify|6|[6] SpotifyQuery: Total Playback Requests: 26400
+2023-02-12 16:13:12.8419|INFO|com.barraider.spotify|35|Fetched song info: Time Unsubsidized
+2023-02-12 16:13:13.2493|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-12 16:13:13.2493|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-12 16:13:13.3471|INFO|com.barraider.spotify|21|IsUserTrack is False for spotify:track:6gMc9GPAttsyW68GVb0FHb
+2023-02-12 16:13:13.3471|WARN|com.barraider.spotify|28|BarRaider.Spotify.CacheManager IsUserTrack failed to uncache Track: spotify:track:6gMc9GPAttsyW68GVb0FHb
+2023-02-12 16:13:13.3471|WARN|com.barraider.spotify|28|BarRaider.Spotify.CacheManager IsUserTrack spotify:track:6gMc9GPAttsyW68GVb0FHb is in cache for 2023-02-12 4:13:13 PM
+2023-02-12 16:13:13.3471|INFO|com.barraider.spotify|28|IsUserTrack is False for spotify:track:6gMc9GPAttsyW68GVb0FHb
+2023-02-12 16:15:24.0078|INFO|com.barraider.spotify|26|Fetched song info: Four Wheel Drive
+2023-02-12 16:15:24.3109|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-12 16:15:24.3109|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-12 16:15:24.4067|INFO|com.barraider.spotify|6|IsUserTrack is False for spotify:track:17TtXWJsfYiRy3FUvdJWAT
+2023-02-12 16:15:24.4107|WARN|com.barraider.spotify|35|BarRaider.Spotify.CacheManager IsUserTrack failed to uncache Track: spotify:track:17TtXWJsfYiRy3FUvdJWAT
+2023-02-12 16:15:24.4107|WARN|com.barraider.spotify|35|BarRaider.Spotify.CacheManager IsUserTrack spotify:track:17TtXWJsfYiRy3FUvdJWAT is in cache for 2023-02-12 4:15:24 PM
+2023-02-12 16:15:24.4107|INFO|com.barraider.spotify|35|IsUserTrack is False for spotify:track:17TtXWJsfYiRy3FUvdJWAT
+2023-02-12 16:19:13.3278|INFO|com.barraider.spotify|28|Fetched song info: Mine
+2023-02-12 16:19:14.0918|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-12 16:19:14.0918|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-12 16:19:14.1905|INFO|com.barraider.spotify|36|IsUserTrack is False for spotify:track:29ClX24YF8rSU268eNz6Bu
+2023-02-12 16:19:14.1905|WARN|com.barraider.spotify|34|BarRaider.Spotify.CacheManager IsUserTrack failed to uncache Track: spotify:track:29ClX24YF8rSU268eNz6Bu
+2023-02-12 16:19:14.1905|WARN|com.barraider.spotify|34|BarRaider.Spotify.CacheManager IsUserTrack spotify:track:29ClX24YF8rSU268eNz6Bu is in cache for 2023-02-12 4:19:14 PM
+2023-02-12 16:19:14.1905|INFO|com.barraider.spotify|34|IsUserTrack is False for spotify:track:29ClX24YF8rSU268eNz6Bu
+2023-02-12 16:21:41.5353|INFO|com.barraider.spotify|36|Fetched song info: Lagoon
+2023-02-12 16:21:41.8524|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-12 16:21:41.8524|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-12 16:21:41.9452|INFO|com.barraider.spotify|29|IsUserTrack is False for spotify:track:4PbeZrAqLw0kcQKc61PuBD
+2023-02-12 16:21:41.9452|WARN|com.barraider.spotify|34|BarRaider.Spotify.CacheManager IsUserTrack failed to uncache Track: spotify:track:4PbeZrAqLw0kcQKc61PuBD
+2023-02-12 16:21:41.9452|WARN|com.barraider.spotify|34|BarRaider.Spotify.CacheManager IsUserTrack spotify:track:4PbeZrAqLw0kcQKc61PuBD is in cache for 2023-02-12 4:21:41 PM
+2023-02-12 16:21:41.9452|INFO|com.barraider.spotify|34|IsUserTrack is False for spotify:track:4PbeZrAqLw0kcQKc61PuBD
+2023-02-12 16:22:57.5163|DEBUG|com.barraider.spotify|6|[6] SpotifyQuery: Total Playback Requests: 27000
+2023-02-12 16:25:18.9310|INFO|com.barraider.spotify|25|Fetched song info: Resolution Square
+2023-02-12 16:25:19.1794|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-12 16:25:19.1794|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-12 16:25:19.2761|INFO|com.barraider.spotify|21|IsUserTrack is False for spotify:track:6BAACQgyHYZiyHzKqvtVi6
+2023-02-12 16:25:19.2761|WARN|com.barraider.spotify|11|BarRaider.Spotify.CacheManager IsUserTrack failed to uncache Track: spotify:track:6BAACQgyHYZiyHzKqvtVi6
+2023-02-12 16:25:19.2761|WARN|com.barraider.spotify|11|BarRaider.Spotify.CacheManager IsUserTrack spotify:track:6BAACQgyHYZiyHzKqvtVi6 is in cache for 2023-02-12 4:25:19 PM
+2023-02-12 16:25:19.2761|INFO|com.barraider.spotify|11|IsUserTrack is False for spotify:track:6BAACQgyHYZiyHzKqvtVi6
+2023-02-12 16:25:59.9036|INFO|com.barraider.spotify|6|Fetched song info: The Devil in His Youth
+2023-02-12 16:26:00.9150|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-12 16:26:00.9150|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-12 16:26:01.0117|INFO|com.barraider.spotify|33|IsUserTrack is False for spotify:track:7erB0WqRa33hTQvrSMRYeB
+2023-02-12 16:26:01.0117|WARN|com.barraider.spotify|32|BarRaider.Spotify.CacheManager IsUserTrack failed to uncache Track: spotify:track:7erB0WqRa33hTQvrSMRYeB
+2023-02-12 16:26:01.0117|WARN|com.barraider.spotify|32|BarRaider.Spotify.CacheManager IsUserTrack spotify:track:7erB0WqRa33hTQvrSMRYeB is in cache for 2023-02-12 4:26:01 PM
+2023-02-12 16:26:01.0117|INFO|com.barraider.spotify|32|IsUserTrack is False for spotify:track:7erB0WqRa33hTQvrSMRYeB
+2023-02-12 16:28:38.1227|INFO|com.barraider.spotify|29|Fetched song info: THE SERVER IS IMMERSED
+2023-02-12 16:28:38.5257|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-12 16:28:38.5257|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-12 16:28:38.6204|INFO|com.barraider.spotify|21|IsUserTrack is False for spotify:track:2SyXDYjhUaC5hBg7M20AXo
+2023-02-12 16:28:38.6204|WARN|com.barraider.spotify|34|BarRaider.Spotify.CacheManager IsUserTrack failed to uncache Track: spotify:track:2SyXDYjhUaC5hBg7M20AXo
+2023-02-12 16:28:38.6204|WARN|com.barraider.spotify|34|BarRaider.Spotify.CacheManager IsUserTrack spotify:track:2SyXDYjhUaC5hBg7M20AXo is in cache for 2023-02-12 4:28:38 PM
+2023-02-12 16:28:38.6204|INFO|com.barraider.spotify|34|IsUserTrack is False for spotify:track:2SyXDYjhUaC5hBg7M20AXo
+2023-02-12 16:31:27.4085|INFO|com.barraider.spotify|25|Fetched song info: A Reason to Celebrate
+2023-02-12 16:31:28.0439|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-12 16:31:28.0439|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-12 16:31:28.1386|INFO|com.barraider.spotify|6|IsUserTrack is False for spotify:track:17j8RpXtHCRUZmKExDimjI
+2023-02-12 16:31:28.1496|WARN|com.barraider.spotify|27|BarRaider.Spotify.CacheManager IsUserTrack failed to uncache Track: spotify:track:17j8RpXtHCRUZmKExDimjI
+2023-02-12 16:31:28.1496|WARN|com.barraider.spotify|27|BarRaider.Spotify.CacheManager IsUserTrack spotify:track:17j8RpXtHCRUZmKExDimjI is in cache for 2023-02-12 4:31:28 PM
+2023-02-12 16:31:28.1496|INFO|com.barraider.spotify|27|IsUserTrack is False for spotify:track:17j8RpXtHCRUZmKExDimjI
+2023-02-12 16:32:58.3882|DEBUG|com.barraider.spotify|26|[26] SpotifyQuery: Total Playback Requests: 27600
+2023-02-12 16:35:13.7176|INFO|com.barraider.spotify|26|Fetched song info: Dreary Nonsense
+2023-02-12 16:35:13.9809|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-12 16:35:13.9809|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-12 16:35:14.0801|INFO|com.barraider.spotify|20|IsUserTrack is False for spotify:track:7g62KqGWTwHUbZU04tdLA0
+2023-02-12 16:35:14.0811|WARN|com.barraider.spotify|23|BarRaider.Spotify.CacheManager IsUserTrack failed to uncache Track: spotify:track:7g62KqGWTwHUbZU04tdLA0
+2023-02-12 16:35:14.0811|WARN|com.barraider.spotify|23|BarRaider.Spotify.CacheManager IsUserTrack spotify:track:7g62KqGWTwHUbZU04tdLA0 is in cache for 2023-02-12 4:35:14 PM
+2023-02-12 16:35:14.0811|INFO|com.barraider.spotify|23|IsUserTrack is False for spotify:track:7g62KqGWTwHUbZU04tdLA0
+2023-02-12 16:36:48.8560|INFO|com.barraider.spotify|26|Fetched song info: Cigarette Packet
+2023-02-12 16:36:49.4036|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-12 16:36:49.4036|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-12 16:36:49.4983|INFO|com.barraider.spotify|7|IsUserTrack is False for spotify:track:76Rcr2dx6DsPORncOuLDF5
+2023-02-12 16:36:49.5113|WARN|com.barraider.spotify|10|BarRaider.Spotify.CacheManager IsUserTrack failed to uncache Track: spotify:track:76Rcr2dx6DsPORncOuLDF5
+2023-02-12 16:36:49.5113|WARN|com.barraider.spotify|10|BarRaider.Spotify.CacheManager IsUserTrack spotify:track:76Rcr2dx6DsPORncOuLDF5 is in cache for 2023-02-12 4:36:49 PM
+2023-02-12 16:36:49.5113|INFO|com.barraider.spotify|10|IsUserTrack is False for spotify:track:76Rcr2dx6DsPORncOuLDF5
+2023-02-12 16:39:07.0445|INFO|com.barraider.spotify|22|Fetched song info: Favour Your Fortune
+2023-02-12 16:39:07.5965|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-12 16:39:07.5965|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-12 16:39:07.6933|INFO|com.barraider.spotify|31|IsUserTrack is False for spotify:track:3KHVeeFAltDFP6buIChVP7
+2023-02-12 16:39:07.6933|WARN|com.barraider.spotify|19|BarRaider.Spotify.CacheManager IsUserTrack failed to uncache Track: spotify:track:3KHVeeFAltDFP6buIChVP7
+2023-02-12 16:39:07.6933|WARN|com.barraider.spotify|19|BarRaider.Spotify.CacheManager IsUserTrack spotify:track:3KHVeeFAltDFP6buIChVP7 is in cache for 2023-02-12 4:39:07 PM
+2023-02-12 16:39:07.6933|INFO|com.barraider.spotify|19|IsUserTrack is False for spotify:track:3KHVeeFAltDFP6buIChVP7
+2023-02-12 16:41:15.2287|INFO|com.barraider.spotify|8|Fetched song info: What Would the Odd Do?
+2023-02-12 16:41:15.5623|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-12 16:41:15.5623|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-12 16:41:15.6635|INFO|com.barraider.spotify|22|IsUserTrack is False for spotify:track:70AcaUU2VhfLfZhijlw3lG
+2023-02-12 16:41:15.6815|WARN|com.barraider.spotify|31|BarRaider.Spotify.CacheManager IsUserTrack failed to uncache Track: spotify:track:70AcaUU2VhfLfZhijlw3lG
+2023-02-12 16:41:15.6815|WARN|com.barraider.spotify|31|BarRaider.Spotify.CacheManager IsUserTrack spotify:track:70AcaUU2VhfLfZhijlw3lG is in cache for 2023-02-12 4:41:15 PM
+2023-02-12 16:41:15.6815|INFO|com.barraider.spotify|31|IsUserTrack is False for spotify:track:70AcaUU2VhfLfZhijlw3lG
+2023-02-12 16:42:59.2428|DEBUG|com.barraider.spotify|26|[26] SpotifyQuery: Total Playback Requests: 28200
+2023-02-12 16:43:40.4227|INFO|com.barraider.spotify|20|Fetched song info: City of Police
+2023-02-12 16:43:40.9478|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-12 16:43:40.9478|DEBUG|com.barraider.spotify|1|[1] SpotifyQuery: me/tracks/contains
+2023-02-12 16:43:41.0461|INFO|com.barraider.spotify|10|IsUserTrack is False for spotify:track:623XKzRODeq58bQExoku67
+2023-02-12 16:43:41.0461|WARN|com.barraider.spotify|8|BarRaider.Spotify.CacheManager IsUserTrack failed to uncache Track: spotify:track:623XKzRODeq58bQExoku67
+2023-02-12 16:43:41.0461|WARN|com.barraider.spotify|8|BarRaider.Spotify.CacheManager IsUserTrack spotify:track:623XKzRODeq58bQExoku67 is in cache for 2023-02-12 4:43:41 PM
+2023-02-12 16:43:41.0461|INFO|com.barraider.spotify|8|IsUserTrack is False for spotify:track:623XKzRODeq58bQExoku67
